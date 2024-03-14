@@ -4,50 +4,31 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <>
-      <div className="navbar">
-        <div className="navbar_logo">
-          <img src={logo} alt="" />
-        </div>
+    <div className="navbar">
+      <div className="nav_left">
+        <img src={logo} alt="" />
+      </div>
 
+      <div className="nav_right">
 
-        <div className="navbar_links">
-          <Link to='/' className='link_nav'>
-          Home
-          
-          </Link>
-
-          <Link to='/category' className='link_nav'>
-           Categories
-          </Link>
-
-
-         
-          <Link to='/about' className='link_nav'>
-           about
-          </Link>
-
-
-        
-              
-          <Link to='/contact' className='link_nav'>
-           Contact us
-          </Link>
-
-
-
-        </div>
-
-
+          < Link to='/' className='nav_link'> home </Link>
+          < Link to='/ourJourney' className='nav_link'> our journey </Link>
+          < Link to='/category' className='nav_link'> Category</Link>
+          < Link to='/researchDev' className='nav_link'> R & D </Link>
+          < Link to='/career' className='nav_link'> career </Link>
+          < Link to='/contact' className='nav_link'> Contact us</Link>
 
 
       </div>
 
 
-
-
-
-
-
+    </div>
+    
+    
+    
+    
+    
+    
     </>
   )
 }
