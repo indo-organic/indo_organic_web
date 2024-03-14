@@ -8,8 +8,13 @@
   align-items: center;
   position: sticky;
   top: 0;
+  border-bottom: 1px solid transparent; /* Set initial border bottom */
+  box-shadow: 0 10px 5px rgba(0, 0, 0, 0.1); /* Add shadow effect */
   .nav_left{
     width: 30%;
+    display: flex;
+    justify-content: center;
+    
    
   }
   .nav_right{
