@@ -1,0 +1,49 @@
+.social {
+    width: 100%;
+    height: 50vh;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .social_text {
+        padding: 2rem;
+        font-size: 2rem;
+        color: green;
+    }
+    .social_p {
+        padding: 1rem;
+        font-size: 2rem;
+    }
+
+    .social_icons {
+        width: 60%;
+        height: 10%;
+        font-size: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2.8rem;
+        margin-top: 3rem;
+
+        .yt {
+            color: red;
+        }
+        .linkedin {
+            color: blue;
+        }
+        .fb {
+            color: blue;
+        }
+        .twitter {
+            color: black;
+        }
+        .yt,
+        .linkedin,
+        .fb,
+        .twitter {
+            &:hover {
+                color: rgb(21, 54, 89);
+            }
+        }
+    }
+}

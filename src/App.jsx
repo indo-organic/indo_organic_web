@@ -1,0 +1,30 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Footer from './footer/Footer'
+import Navbar from './header/Navbar'
+import Home from './pages/Home'
+import About from './pages/About'
+import Category from './pages/Category'
+import Contact from './pages/Contact'
+
+
+const App = () => {
+  return (
+    <>
+          <Router>
+        <Navbar/>
+       <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/About' element={<About/>}/>
+        <Route path='/category' element={<Category/>}/>
+        <Route path='/contact' element={<Contact/>}/>
+       </Routes>
+       <Footer/>
+      </Router>
+
+    
+    
+    </>
+  )
+}
+
+export default App
