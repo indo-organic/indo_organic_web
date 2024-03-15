@@ -1,5 +1,5 @@
 import '../styles/ResearchDev.scss'
-import research_img from '../assets/slide2.jpg'
+import research_img from '../assets/research_t_img.png'
 import Accordion from '../components/Accordion'
 const ResearchDev = () => {
   return (
