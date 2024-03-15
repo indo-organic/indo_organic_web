@@ -1,0 +1,29 @@
+.visionMission{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ 
+    .vision, .mission{
+        width: 50%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        img{
+            width: 60%;
+        }
+        .vision_t , .mission_t{
+            font-size: 3rem;
+        }
+        .v_m_t{
+           
+            font-weight: 400;
+            padding:0 1.9rem;
+            font-size: 1.2rem;
+        }
+    }
+
+}

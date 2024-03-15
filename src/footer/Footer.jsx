@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/Footer.scss'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -22,26 +23,26 @@ const Footer = () => {
                 <div className="footer_2">
                     <p className='footer_2_about'> about Us</p>
 
-                    <p>Our Journey</p>
-                    <p>Vision and Mission</p>
-                    <p>Board of directors</p>
+                    <Link to='/journey' className='footer_links_tag'>Our journey</Link>
+                    <Link to='/visionNMission'  className='footer_links_tag'>Vision and Mission</Link>
+                    <Link to='/BoardOfDirector'  className='footer_links_tag'>Board of directors</Link>
 
                 </div>
                 <div className="footer_3">
                     <p className='footer_3_quick_links'>Quick Links</p>
-                    <p>News</p>
-                    <p>Career</p>
-                    <p>terms & conditions</p>
-                    <p>privacy policy</p>
-                    <p>return policy</p>
+                    <Link to='/news'  className='footer_links_tag'>news</Link>
+                    <Link to='/career'  className='footer_links_tag'>career</Link>
+                    <Link to='/termsCondition'  className='footer_links_tag'>terms $ conditions</Link>
+                    <Link to='/privacyPolicy'  className='footer_links_tag'>privacy policy</Link>
+                    <Link to='/returnPolicy'  className='footer_links_tag'>return policy</Link>
 
+                   
                 </div>
                 <div className="footer_4">
                     <p className='footer_4_our_business'>our business</p>
-                    <p>R&D</p>
-                    <p>Domestic</p>
-                    <p>International</p>
-
+                    <Link to='/researchDev'  className='footer_links_tag'>R & D</Link>
+                    <Link to='/Domestic'  className='footer_links_tag'>Domestic</Link>
+                    <Link to='/International'  className='footer_links_tag'>International</Link>
                 </div>
 
             </div>
