@@ -33,7 +33,7 @@ const OurStory = () => {
           
 
 
-          <Link to='/ourJourney' className='our_learn_more'>
+          <Link to='/aboutUs' className='our_learn_more'>
 
             learn more
             <FaAngleDoubleRight />

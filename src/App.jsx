@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Footer from './footer/Footer'
 import Navbar from './header/Navbar'
 import Home from './pages/Home'
-import OurJourney from './pages/OurJourney'
 import Category from './pages/Category'
 import Contact from './pages/Contact'
 import ResearchDev from './pages/ResearchDev'
@@ -17,6 +16,7 @@ import ReturnPolicy from './footer/ReturnPolicy'
 import Domestic from './footer/Domestic'
 import International from './footer/International'
 import Top from './components/Top'
+import AboutUs from './pages/AboutUs'
 const App = () => {
   return (
     <>
@@ -25,7 +25,7 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/ourJourney' element={<OurJourney />} />
+          <Route path='/aboutUs' element={<AboutUs />} />
           <Route path='/category' element={<Category />} />
           <Route path='/researchDev' element={<ResearchDev />} />
           <Route path='/career' element={<Career />} />

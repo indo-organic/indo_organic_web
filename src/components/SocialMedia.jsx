@@ -25,7 +25,7 @@ const SocialMedia = () => {
                 </a>
                   
                   
-                <a href="" className="linkedin">
+                <a href="https://www.linkedin.com/company/indo-organics-pvt-ltd_find_us_here/"  target="_blank" className="linkedin">
                     <FaLinkedin/>
                 </a>
 

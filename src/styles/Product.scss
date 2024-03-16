@@ -1,57 +1,47 @@
-.product {
+.product{
     width: 100%;
-    height: 60vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    .product_title {
-        font-size: 2rem;
-        font-weight: 300;
-    }
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding: 2rem 10rem;
+    gap: 3rem;
 
-    .product_4 {
-        height: 50vh;
+    .product_text{
+        padding: 0 4rem;
+      font-size: 2rem;
+      font-weight: 500;
+      color: green;
+    }
+   
+       .product_box{
+        
+        height: 60vh;
+      
         display: flex;
-        gap: 5rem;
         align-items: center;
         justify-content: center;
+        justify-content: space-around;
 
-        .crop_enhancement,
-        .fungicide,
-        .herbicide,
-        .insecticide {
-            width: 20%;
-            height: 40vh;
+        .product_box_1, .product_box_2{
+
+            width: 40%;
+            height: 50vh;
+         
             display: flex;
             align-items: center;
+            justify-content: center;
             flex-direction: column;
-            gap: 1rem;
 
-
-            .crop_en_img, .fungicide_img, .herbicide_img, .insecticide_img {
-                width: 200px; 
-                height: 200px; 
-                border: 4px solid black;
-                border-radius: 50%;
-                overflow: hidden;
-                position: relative;
-                cursor: pointer;
-                img{
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
-                    transition: transform 0.3s ease;
-                    &:hover{
-                        transform: scale(1.1); // Zoom effect on hover
-                      }
-                }
+            img{
+                width: 100%;
             }
-
-            .product_4_text{
-                font-size: 1.3rem;
-                font-weight: 600;
-                text-transform: capitalize;
+            .p_b_t{
+                font-size: 2rem;
             }
         }
-    }
+       }
+
+
 }

@@ -28,7 +28,7 @@ const Navbar = () => {
       </div>
       <ul className="nav_right">
         < Link to='/' className='nav_link'> home </Link>
-        < Link to='/ourJourney' className='nav_link'> our journey </Link>
+        < Link to='/aboutUs' className='nav_link'> About us </Link>
         < Link to='/category' className='nav_link'> Category</Link>
         < Link to='/researchDev' className='nav_link'> R & D </Link>
         < Link to='/career' className='nav_link'> career </Link>
