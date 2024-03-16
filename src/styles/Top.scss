@@ -1,34 +1,58 @@
+
 .top {
     width: 100%;
     height: 4vh;
-   background-color: rgb(23, 136, 55);
-   color: black;
+    background-color: rgb(23, 136, 55);
+    color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
   
     .top_right {
-        width: 50%;
-    
+      width: 50%;
+      text-align: right; // Align content to the right for responsiveness
     }
-
+  
     .top_left {
+      display: flex;
+      width: 50%;
+      justify-content: center;
+      align-items: center; // Align items vertically for responsiveness
+      font-size: 1rem;
+      gap: 2rem; // Reduce the gap for smaller screens
+      padding-left: 1rem; // Reduce left padding for smaller screens
+      cursor: pointer;
+      color: white;
+  
+      .top_left_no,
+      .top_left_email {
         display: flex;
-        width: 50%;
-        justify-content: center;
-        font-size: 1rem;
-        gap: 4rem;
-        padding-left: 20rem;
-        cursor: pointer;
-        color: white;
-
-        .top_left_no {
-            display: flex;
-            gap: 0.3rem;
-        }
-        .top_left_email {
-            display: flex;
-            gap: 0.3rem;
-        }
+        gap: 0.3rem;
+      }
     }
-}
+  }
+  
+  // Media query for smaller screens
+  @media screen and (max-width: 768px) {
+    .top {
+      flex-direction: column; // Stack items vertically
+      height: auto; // Allow height to adjust based on content
+      padding: 1rem; // Add padding for better spacing
+  
+      .top_left {
+        width: 100%; // Occupy full width
+        padding-left: 0; // Remove left padding
+        gap: 1rem; // Adjust gap for smaller screens
+      }
+  
+      .top_right {
+        width: 100%; // Occupy full width
+        text-align: center; // Center align content
+        margin-top: 1rem; // Add margin at the top for better spacing
+      }
+    }
+  }
+  
+
+
+

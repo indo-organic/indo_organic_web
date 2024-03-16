@@ -54,3 +54,21 @@
         gap: 4rem;
     }
 }
+
+
+
+
+ // Media query for smaller screens
+ @media screen and (max-width: 768px) {
+    .product {
+      padding: 2rem 1rem; // Further reduced padding for smaller screens
+    }
+  
+    .product_box {
+      .product_box_1,
+      .product_box_2 {
+        height: 30vh; // Further reduced height for smaller screens
+      }
+    }
+  }
+  
