@@ -1,6 +1,6 @@
 .footer {
     width: 100%;
-    min-height: 50ch; /* Change height to min-height for responsiveness */
+    min-height: 50vh; /* Change height to min-height for responsiveness */
     background: black;
     color: white;
     display: flex;
@@ -76,3 +76,13 @@
     }
  }
  
+
+
+ .footer_bottom{
+   height: 4vh;
+   display: flex;
+   justify-content: space-around;
+   background-color: black;
+   color: white;
+
+}

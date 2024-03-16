@@ -44,6 +44,14 @@ const Footer = () => {
                     <Link to='/Domestic'  className='footer_links_tag'>Domestic</Link>
                     <Link to='/International'  className='footer_links_tag'>International</Link>
                 </div>
+            </div>
+            <div className="footer_bottom">
+                <div className="f_b_l">
+                Copyright ©2016. Indo Organics Pvt. Ltd. All Rights Reserved
+                </div>
+                <div className="f_b_r">
+                    <p>FAQ'S</p>
+                </div>
 
             </div>
 

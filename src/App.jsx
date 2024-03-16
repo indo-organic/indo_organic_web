@@ -16,10 +16,12 @@ import PrivacyPolicy from './footer/PrivacyPolicy'
 import ReturnPolicy from './footer/ReturnPolicy'
 import Domestic from './footer/Domestic'
 import International from './footer/International'
+import Top from './components/Top'
 const App = () => {
   return (
     <>
       <Router>
+        <Top/>
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
