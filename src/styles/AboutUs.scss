@@ -1,5 +1,55 @@
 .aboutus{
     width: 100%;
-    height: 100vh;
-    background-color: red;
+    height: 300vh;
+    
+
+    .about_1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.6rem;
+        img{
+            width: 100%;
+            height: 40vh;
+            object-fit: cover;
+        }
+        .about_title{
+            font-size: 3rem;
+            font-weight: 100;
+            color: green;
+        }
+
+    }
+
+    .about_2{
+        display: flex;
+        // background-color: red;
+        justify-content: space-between;
+        padding-top: 2rem;
+
+        .about_2img{
+            display: flex;
+            width: 50%;
+            align-items: center;
+            justify-content: center;
+
+            img{
+                width: 40%;
+                border-radius: 2rem;
+            }
+            .about_img_position{
+                position: relative;
+                top: 30%;
+                right: 20%;
+
+            }
+        }
+
+
+       .about_2_text_1{
+        padding: 3rem;
+        font-size: 1.5rem;
+        width: 50%;
+       }
+    }
 }
