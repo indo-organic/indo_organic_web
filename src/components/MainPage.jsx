@@ -8,7 +8,7 @@ const MainPage = () => {
     <>
     {/* <OurStory/> */}
     {/* <Product/> */}
-    {/* <IntroVid/> */}
+    <IntroVid/>
     <SocialMedia/>
     
     
