@@ -7,7 +7,7 @@ const MainPage = () => {
   return (
     <>
     {/* <OurStory/> */}
-    {/* <Product/> */}
+    <Product/>
     <IntroVid/>
     <SocialMedia/>
     
