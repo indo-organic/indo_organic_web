@@ -39,7 +39,7 @@ const OurStory = () => {
             <FaAngleDoubleRight />
           </Link>
 
-        </div> 
+        </div>
 
       </div>
 
