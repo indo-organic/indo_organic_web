@@ -5,4 +5,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    .intro_title{
+        font-size: 2rem;
+        text-transform: capitalize;
+        color: green;
+    }
+  
 }

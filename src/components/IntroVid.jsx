@@ -3,18 +3,19 @@ import '../styles/IntroVid.scss'
 const IntroVid = () => {
   return (
     <>
-    <div className="introVid">
+      <div className="introVid">
+        <p className='intro_title'>introduction</p>
 
-           <div className="intro_box">
-           <iframe width="560" height="315" src="https://www.youtube.com/embed/AsEBJiA8jN4?si=Yi_N5SoU-SfQt1SR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-           </div>
+        <div className="intro_box">
+          <iframe className='intro_iframe' width="760" height="400" src="https://www.youtube.com/embed/AsEBJiA8jN4?si=Yi_N5SoU-SfQt1SR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
 
 
-    </div>
-    
-    
-    
-    
+      </div>
+
+
+
+
     </>
   )
 }

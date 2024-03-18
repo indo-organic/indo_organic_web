@@ -19,18 +19,18 @@ const OurStory = () => {
         <div className="ourstory_content">
           <p className='o_c_about'>about us</p>
           <div className="ourstory_content_box">
-          <p className='o_c_b_p'>Indoorganics Pvt Ltd. (IOL) is a leading manufacturer, marketer and exporter of agricultural inputs which includes a range of nonorganic pesticides (Agrochemicals) and a mix of organic products
-            particularly bio-stimulants, biological solutions, plant nutrients and
-            fertilizers. We have been serving the farming community through our
-            high-quality Crop Protection & Crop Nutrition products since many
-            years.</p>
+            <p className='o_c_b_p'>Indoorganics Pvt Ltd. (IOL) is a leading manufacturer, marketer and exporter of agricultural inputs which includes a range of nonorganic pesticides (Agrochemicals) and a mix of organic products
+              particularly bio-stimulants, biological solutions, plant nutrients and
+              fertilizers. We have been serving the farming community through our
+              high-quality Crop Protection & Crop Nutrition products since many
+              years.</p>
 
-            <img src={image}  alt="" />
+            <img src={image} alt="" />
 
 
 
           </div>
-          
+
 
 
           <Link to='/aboutUs' className='our_learn_more'>
@@ -39,7 +39,7 @@ const OurStory = () => {
             <FaAngleDoubleRight />
           </Link>
 
-        </div>
+        </div> 
 
       </div>
 

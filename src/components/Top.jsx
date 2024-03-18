@@ -5,21 +5,24 @@ import { MdEmail } from "react-icons/md";
 const Top = () => {
     const phoneNumber = ' 011 4550 0067'; // Replace with your actual phone number
 
-
+    const handlePhoneClick = () => {
+        window.location.href = `tel:${phoneNumber}`;
+    };
 
 
     const emailAddress = 'info@indoorganics.in';
 
     const handleEmailClick = () => {
-      window.location.href = `mailto:${emailAddress}`;
+        window.location.href = `mailto:${emailAddress}`;
     };
     return (
         <>
             <div className="top">
 
                 <div className="top_right">
-                   {/* right side content here */}
-                    
+                    {/* right side content here */}
+                    Latest update
+
                 </div>
                 <div className="top_left">
 
@@ -27,18 +30,18 @@ const Top = () => {
                         <div className="top_left_no_icon">
                             <IoIosCall />
                         </div>
-                        <div className="top_left_no_91" href={`tel:${phoneNumber}`}>
+                        <div className="top_left_no_91" onClick={handlePhoneClick}>
                             011 4550 0067
                         </div>
                     </div>
                     <div className="top_left_email">
 
                         <div className="top_left_email_icon">
-                        <MdEmail />
+                            <MdEmail />
 
                         </div>
                         <div className="top_left_email_e" onClick={handleEmailClick}>
-                        info@indoorganics.in
+                            info@indoorganics.in
                         </div>
 
                     </div>
