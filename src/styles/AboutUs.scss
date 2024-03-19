@@ -1,123 +1,142 @@
-
-
-.aboutus {
+.about {
     width: 100%;
-    min-height: 100vh; /* Set min-height for responsiveness */
-    overflow-x: hidden; /* Ensure content doesn't overflow horizontally */
+    height: 280vh;
 
     .about_1 {
+        height: 50vh;
+        border-bottom: 1px solid green;
+
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 1.6rem;
         img {
-            width: 100%;
             height: 40vh;
             object-fit: cover;
+            width: 100%;
         }
         .about_title {
-            font-size: 3rem;
-            font-weight: 100;
-            color: green;
+            font-size: 5rem;
+            font-weight: 700;
+            position: relative;
+            color: white;
+             top: -10rem;
         }
     }
-
     .about_2 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 2rem;
+    
+        height: 90vh;
 
-        .about_2img {
+        .about_2_title {
+            font-size: 3rem;
+            padding: 2rem 6rem;
+            text-transform: capitalize;
+            color: green;
+        }
+        .about_2_content {
             display: flex;
-            width: 30%; /* Adjust width for smaller screens */
             align-items: center;
             justify-content: center;
 
             img {
-                width: 100%; /* Adjust width for smaller screens */
-                border-radius: 2rem;
-            }
-           
-        }
-
-        .about_2_box {
-            width: 90%; /* Adjust width for smaller screens */
-            .about_2_title {
-                font-size: 2rem;
-                font-weight: 600;
-                padding: 0 2rem;
+                width: 20%;
             }
             .about_2_text {
-                padding: 2rem;
-                margin: 1rem;
+                width: 70%;
+                display: flex;
+                flex-direction: column;
+                padding: 0 4rem;
+                font-size: 1.4rem;
+                
+                p {
+                    padding: 1rem;
+                }
             }
         }
     }
-
     .about_3 {
-        min-height: 120vh; /* Set min-height for responsiveness */
         display: flex;
         flex-direction: column;
-
-        .our_commitment {
-            height: 40vh;
+        align-items: center;
+        height: 60vh;
+        .about_3_title {
+            font-size: 3rem;
+            padding: 2rem 6rem;
+            text-transform: capitalize;
+            color: green;
+        }
+        .about_3_text {
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            padding: 0 4rem;
+            font-size: 1.4rem;
+            p {
+                padding: 1rem;
+                text-align: center;
+            }
+        }
+    }
+    .about_4 {
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      
+        .philosophy{
+           
             display: flex;
             flex-direction: column;
             align-items: center;
-            .our_c_title {
+            gap: 1rem;
+
+            .p_title{
                 font-size: 3rem;
                 text-transform: capitalize;
                 color: green;
-                text-align: center;
-                padding: 1rem;
-                width: 90%; /* Adjust width for smaller screens */
             }
-            .our_commitment_content {
-                text-align: center;
-                font-size: 1.2rem;
+            .p_key{
+                font-size: 1.5rem;
+                font-weight: 600;
+            }
+            .p_text{
+                padding: 2rem;
             }
         }
-        .about_3_box{
-            min-height: 140vh; /* Set min-height for responsiveness */
+
+        .v_m{
             display: flex;
             flex-direction: column;
-            text-align: center;
-            gap: 2rem;
+            align-items: center;
 
-            .about_3_box_2part{
-                width: 100%; /* Adjust width for smaller screens */
-
-                .about_philosophy{
-                    height: 30vh;
-                    padding: 3rem;
-
-                    .philosophy_title{
-                        font-size: 2rem;
-                        padding: 1rem;
-                    }
-                }
-
-                .about_vision, .about_mission{
-                    display: flex;
-                    flex-direction: column;
-                    gap: 1.3rem;
-
-                    .a_v_title, .a_m_title{
-                        font-size: 2rem;
-                    }
+            .vision{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 1.7rem;
+                .v_title{
+                    font-size: 3rem;
+                    text-transform: capitalize;
+                    color: green;
                 }
             }
-
-            .about_3img{
-                width: 100%; /* Adjust width for smaller screens */
+            .mission{
                 display: flex;
+                flex-direction: column;
                 align-items: center;
-                justify-content: center;
-                img{
-                    width: 40%; /* Adjust width for smaller screens */
+                padding: 1.7rem;
+                .m_title{
+                    font-size: 3rem;
+                    text-transform: capitalize;
+                    color: green;
                 }
             }
         }
+
+       
+        
+    
     }
 }
