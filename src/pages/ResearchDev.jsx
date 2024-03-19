@@ -1,6 +1,6 @@
 import '../styles/ResearchDev.scss'
 import research_img from '../assets/research_t_img.png'
-import research_img_box from '../assets/slide2.jpg'
+import research2 from '../assets/research2.jpg'
 
 const ResearchDev = () => {
   return (
@@ -16,7 +16,7 @@ const ResearchDev = () => {
 
 
         <div className="research_box_content">
-          <img src={research_img_box} alt="" />
+        <img src={research2} alt="" />
           <div className="research_text_content">
             <p>Our R&D team is continuously working with highly
               qualified and experienced research scientists focusing on
@@ -31,7 +31,7 @@ const ResearchDev = () => {
               safety and wellness for the environment by accredited
               labs, our customers and consumers.</p>
           </div>
-          <img src={research_img_box} alt="" />
+          <img src={research2} alt="" />
             
 
         </div>
