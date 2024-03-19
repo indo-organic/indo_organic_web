@@ -1,6 +1,7 @@
 import '../styles/ResearchDev.scss'
 import research_img from '../assets/research_t_img.png'
-import Accordion from '../components/Accordion'
+import research_img_box from '../assets/slide2.jpg'
+
 const ResearchDev = () => {
   return (
     <>
@@ -14,18 +15,24 @@ const ResearchDev = () => {
 
 
 
-        <div className="reserach_box">
-          <Accordion title="Driving Innovation Through R&D" content="Our dedicated team of scientists, researchers, and agronomists works tirelessly to explore novel technologies, develop advanced formulations, and conduct rigorous field trials to address the evolving challenges faced by farmers worldwide. By leveraging the latest advancements in agricultural science, biotechnology, and chemistry, we endeavor to revolutionize crop protection, soil health, and plant nutrition, thus contributing to the global food security agenda." />
-          <Accordion title="State-of-the-Art R&D Facilities" content="At Indo Organics, we boast state-of-the-art R&D facilities equipped with cutting-edge laboratories, modern equipment, and specialized testing infrastructure. These facilities serve as incubators for innovation, fostering collaboration, experimentation, and discovery across various agricultural disciplines. Our commitment to excellence is reflected in our continuous investment in R&D infrastructure, ensuring that we remain at the forefront of agricultural innovation.
+        <div className="research_box_content">
+          <img src={research_img_box} alt="" />
+          <div className="research_text_content">
+            <p>Our R&D team is continuously working with highly
+              qualified and experienced research scientists focusing on
+              Bio-efficacy and toxicology studies.</p>
+            <p>We produce specialized formulations of crop nutritions,
+              biostimulants and soil improvers that meet the needs of
+              each physiological stage of the crop, offering suitable
+              products for each condition according to our customers
+              need. </p>
 
-" />
-          <Accordion title="Collaborative Partnerships" content="We recognize the value of collaboration and actively engage in strategic partnerships with leading academic institutions, research organizations, and industry stakeholders. By fostering an ecosystem of collaboration and knowledge sharing, we harness collective expertise and resources to tackle complex agricultural challenges, accelerate the pace of innovation, and deliver impactful solutions that benefit farmers and communities worldwide." />
-          <Accordion title="Sustainable Solutions for a Greener Tomorrow" content="At the heart of our R&D efforts lies a steadfast commitment to sustainability and environmental stewardship. We prioritize the development of eco-friendly agrochemicals, bio-based formulations, and precision agriculture technologies that minimize environmental impact, promote biodiversity, and safeguard natural resources for future generations. By integrating sustainability into our R&D agenda, we aim to create a more resilient and regenerative agricultural ecosystem that fosters long-term prosperity for farmers and the planet." />
-
-
-          <Accordion title="Empowering Farmers Through Innovation" content="Ultimately, our R&D initiatives are driven by a singular mission: to empower farmers with the tools, technologies, and knowledge they need to thrive in a rapidly changing world. By harnessing the power of innovation, we aim to unlock new opportunities, overcome agricultural challenges, and pave the way for a more sustainable, resilient, and prosperous future for agriculture.
-
-Join us on our journey of innovation as we continue to push the boundaries of agricultural R&D and chart a course towards a brighter, more sustainable future for farming communities worldwide." />
+            <p>All Our products are independently tested for efficacy,
+              safety and wellness for the environment by accredited
+              labs, our customers and consumers.</p>
+          </div>
+          <img src={research_img_box} alt="" />
+            
 
         </div>
 
