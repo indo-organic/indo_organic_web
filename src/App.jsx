@@ -17,6 +17,9 @@ import Domestic from './footer/Domestic'
 import International from './footer/International'
 import Top from './components/Top'
 import AboutUs from './pages/AboutUs'
+import Protection from './header/Protection'
+import Supplements from './header/Supplements'
+import Adjuvants from './header/Adjuvants'
 const App = () => {
   return (
     <>
@@ -25,6 +28,10 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/protection' element={<Protection />} />
+          <Route path='/supplements' element={<Supplements />} />
+          <Route path='/adjuvants' element={<Adjuvants />} />
+
           <Route path='/aboutUs' element={<AboutUs />} />
           <Route path='/category' element={<Category />} />
           <Route path='/researchDev' element={<ResearchDev />} />

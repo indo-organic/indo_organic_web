@@ -6,7 +6,7 @@ import IntroVid from "./IntroVid"
 const MainPage = () => {
   return (
     <>
-    <OurStory/>
+    {/* <OurStory/> */}
     <Product/>
     <IntroVid/>
     <SocialMedia/>

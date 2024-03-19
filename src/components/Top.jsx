@@ -21,7 +21,8 @@ const Top = () => {
 
                 <div className="top_right">
                     {/* right side content here */}
-                    Latest update
+                    
+                    News &  Insights
 
                 </div>
                 <div className="top_left">

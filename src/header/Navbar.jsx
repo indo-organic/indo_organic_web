@@ -1,45 +1,52 @@
-import { CiMenuFries } from "react-icons/ci";
-
-
-// Navbar.js
 import React, { useState } from 'react';
-import '../styles/Navbar.scss'
+import '../styles/Navbar.scss'; // Import your SCSS file
+import { Link } from 'react-router-dom';
 import logo from '../assets/logo.jpg'
-import { Link } from 'react-router-dom'
 
-const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+function Navbar() {
+  const [dropdown1Open, setDropdown1Open] = useState(false);
 
-  const toggleNavbar = () => {
-    setIsOpen(!isOpen);
+  const toggleDropdown1 = () => {
+    setDropdown1Open(!dropdown1Open);
   };
 
   return (
-    <nav className={`navbar ${isOpen ? 'open' : ''}`}>
-      
-      <div className="navbar-brand">
-        <Link to='/' className="nav_left">
+    <nav className="navbar">
+      <div className="nav_left">
+        <Link to='/' className=''>
           <img src={logo} alt="" />
-        </Link >
-        <button className="navbar-toggle" onClick={toggleNavbar}>
-        <CiMenuFries />
 
-        </button>
+        </Link>
       </div>
-      <ul className="nav_right">
-        < Link to='/' className='nav_link '> home </Link>
-        < Link to='/aboutUs' className='nav_link'> About us </Link>
-        < Link to='/category' className='nav_link'> Category</Link>
-        < Link to='/researchDev' className='nav_link'> R & D </Link>
-        < Link to='/career' className='nav_link'> career </Link>
-        < Link to='/contact' className='nav_link'> Contact us</Link>
+      <div className="nav_right">
 
-      </ul>
-     
+        <ul className="nav_link_box">
+          <Link to='/' className='nav_links'>
+            Home
+          </Link>
+          <Link to='/aboutUs' className='nav_links'>About</Link>
+          <Link className="dropdown">
+            <Link to='' onClick={toggleDropdown1} className='nav_links'>Product & Services</Link>
+            {dropdown1Open && (
+              <ul className="dropdown-menu">
+                <Link to='/protection' className='drop_links'>Protection </Link>
+                <Link to='/supplements' className='drop_links '>Supplements</Link>
+                <Link to='/adjuvants' className='drop_links'>adjuvants</Link>
+              </ul>
+            )}
+          </Link>
+          <Link to='/researchDev' className='nav_links'>Research & Development</Link>
+          <Link to='/career' className='nav_links'>Career</Link>
+          <Link to='/contact' className='nav_links'>Contact us</Link>
+        </ul>
+
+
+
+
+
+      </div>
     </nav>
-
-
   );
-};
+}
 
 export default Navbar;
