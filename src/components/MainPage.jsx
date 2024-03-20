@@ -14,8 +14,6 @@ const MainPage = () => {
     <SocialMedia/>
     
     
-    
-    
     </>
     
   )

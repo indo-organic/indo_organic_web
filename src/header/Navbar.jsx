@@ -29,7 +29,7 @@ function Navbar() {
             <Link to='' onClick={toggleDropdown1} className='nav_links'>Product & Services</Link>
             {dropdown1Open && (
               <ul className="dropdown-menu">
-                <Link to='/protection' className='drop_links'>Protection </Link>
+                <Link to='/agrochemical' className='drop_links'>Agrochemical</Link>
                 <Link to='/supplements' className='drop_links '>Supplements</Link>
                 <Link to='/adjuvants' className='drop_links'>adjuvants</Link>
               </ul>
