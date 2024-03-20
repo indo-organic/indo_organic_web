@@ -30,8 +30,9 @@ function Navbar() {
             {dropdown1Open && (
               <ul className="dropdown-menu">
                 <Link to='/agrochemical' className='drop_links'>Agrochemical</Link>
-                <Link to='/supplements' className='drop_links '>Supplements</Link>
                 <Link to='/adjuvants' className='drop_links'>adjuvants</Link>
+                <Link to='/organicRange' className='drop_links'>Organic Range</Link>
+                <Link to='/speciality' className='drop_links'>IOL speciality</Link>
               </ul>
             )}
           </Link>
