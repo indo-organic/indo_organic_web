@@ -146,7 +146,7 @@ const App = () => {
           <Route path='/proto50' element={<Proto50 />} />
           <Route path='/timeUp' element={<TimeUp />} />
 
-
+      
 
 
 

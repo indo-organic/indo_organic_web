@@ -33,6 +33,7 @@ const ResearchDev = () => {
               labs, our customers and consumers.</p>
           </div>
           <img src={research2} alt="" />
+         
         </div>
       </div>
     </>

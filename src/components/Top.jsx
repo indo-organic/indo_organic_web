@@ -39,24 +39,14 @@ const Top = () => {
 
                         <div className="top_left_email_icon">
                             <MdEmail />
-
                         </div>
                         <div className="top_left_email_e" onClick={handleEmailClick}>
                             info@indoorganics.in
                         </div>
 
                     </div>
-
-
-
-
-
                 </div>
             </div>
-
-
-
-
 
         </>
     )
