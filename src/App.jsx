@@ -17,7 +17,9 @@ import Domestic from './footer/Domestic'
 import International from './footer/International'
 import Top from './components/Top'
 import AboutUs from './pages/AboutUs'
-
+import Faqs from './footer/Faqs'
+import Testimonial from './footer/Testimonial'
+import TrialProduct from './footer/TrialProduct'
 
 import Adjuvants from './header/Adjuvants'
 import OrganicRange from './header/OrganicRange'
@@ -63,14 +65,13 @@ import Valino from './productPage/fungicide/Valino'
   import TimeUp from './productPage/herbicide/TimeUp'
   
 
-
-
 const App = () => {
   return (
     <>
       <Router>
         <Top />
         <Navbar />
+
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/agrochemical' element={<Agrochemical />} />
@@ -94,6 +95,11 @@ const App = () => {
           <Route path='/returnPolicy' element={<ReturnPolicy />} />
           <Route path='/Domestic' element={<Domestic />} />
           <Route path='/International' element={<International />} />
+          <Route path='/testimonial' element={<Testimonial />} />
+          <Route path='/trialProduct' element={<TrialProduct />} />
+          <Route path='/faqs' element={<Faqs />} />
+         
+
 
 
 

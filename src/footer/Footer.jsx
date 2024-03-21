@@ -26,6 +26,8 @@ const Footer = () => {
                     <Link to='/journey' className='footer_links_tag'>Our journey</Link>
                     <Link to='/visionNMission' className='footer_links_tag'>Vision and Mission</Link>
                     <Link to='/BoardOfDirector' className='footer_links_tag'>Board of directors</Link>
+                    <Link to='/testimonial' className='footer_links_tag'>Testimonials</Link>
+                    <Link to='/trialProduct' className='footer_links_tag'>Product Trials & Testing</Link>
 
                 </div>
                 <div className="footer_3">
@@ -50,7 +52,9 @@ const Footer = () => {
                     Copyright ©2016. Indo Organics Pvt. Ltd. All Rights Reserved
                 </div>
                 <div className="f_b_r">
-                    <p>FAQ'S</p>
+                    <Link to='/faqs'>
+                    FAQ's
+                    </Link>
                 </div>
 
             </div>

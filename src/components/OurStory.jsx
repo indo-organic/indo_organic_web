@@ -1,8 +1,9 @@
 import '../styles/OurStory.scss'
 import prodCat from '../assets/prodCat.png'
-import image from '../assets/image3.jpg'
+import ourStoryImg from '../assets/ourStoryImg.jpg'
+// import image from '../assets/image3.jpg'
 import { Link } from 'react-router-dom'
-import { FaAngleDoubleRight } from "react-icons/fa";
+// import { FaAngleDoubleRight } from "react-icons/fa";
 
 
 const OurStory = () => {
@@ -13,68 +14,26 @@ const OurStory = () => {
         <div className='ourStory_t_image_soil'>
           <p className='ourstory_p_leverage'> We leverage our rich heritage to tackle the challenges of the future</p>
           <img src={prodCat} alt="" />
-
         </div>
-
-        {/* <div className="ourstory_content">
-          <p className='o_c_about'>about us</p>
-          <div className="ourstory_content_box">
-            <p className='o_c_b_p'>Indoorganics Pvt Ltd. (IOL) is a leading manufacturer, marketer and exporter of agricultural inputs which includes a range of nonorganic pesticides (Agrochemicals) and a mix of organic products
-              particularly bio-stimulants, biological solutions, plant nutrients and
-              fertilizers. We have been serving the farming community through our
-              high-quality Crop Protection & Crop Nutrition products since many
-              years.</p>
-
-            <img src={image} alt="" />
-
-
-
-          </div>
-
-
-
-          <Link to='/aboutUs' className='our_learn_more'>
-
-            learn more
-            <FaAngleDoubleRight />
-          </Link>
-
-        </div> */}
-
-        <section class="text-gray-600 body-font bg-rgb(235, 237, 235)">
-          <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
-            <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
-              <h1 class="title-font font-medium text-3xl text-gray-900">Slow-carb next level shoindcgoitch ethical authentic, poko scenester</h1>
-              <p class="leading-relaxed mt-4">Indoorganics Pvt Ltd. (IOL) is a leading manufacturer, marketer and exporter of agricultural inputs which includes a range of nonorganic pesticides (Agrochemicals) and a mix of organic products
-                particularly bio-stimulants, biological solutions, plant nutrients and
-                fertilizers. We have been serving the farming community through our
-                high-quality Crop Protection & Crop Nutrition products since many
-                years.</p>
-            </div>
-            <div className="rounded-lg h-64 overflow-hidden">
-              <img alt="content" className="object-cover object-center h-full w-full" src={image} />
-            </div>
-
-
-
-          </div>
-          <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-
-            <Link to='/aboutUs' className='our_learn_more'>
-
-              learn more
-              <FaAngleDoubleRight />
-            </Link>
-
-          </button>
-
-        </section>
-
       </div>
 
+      <div class="bg-custom-F4F2F2 py-6 sm:py-8 lg:py-12">
+        <div class="mx-auto max-w-screen-xl px-4 md:px-8">
+          <div class="grid gap-8 md:grid-cols-2 lg:gap-12">
+            <div>
+              <div class=" flex text-center justify-center h-[70vh] overflow-hidden rounded-lg  shadow-lg md:h-auto">
+                <img src={ourStoryImg} loading="lazy" alt="Photo by Martin Sanchez" class="h-[50vh] w-[70%] object-cotain object-center" />
+              </div>
+            </div>
 
-
-
+            <div class="md:pt-8">
+              <h1 class="mb-4 text-center text-2xl font-bold text-gray-800 sm:text-3xl md:mb-6 md:text-left">About us</h1>
+              <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">Indoorganics Pvt Ltd. (IOL) is a leading manufacturer, marketer and exporter of agricultural inputs which includes a range of nonorganic pesticides (Agrochemicals) and a mix of organic products particularly bio-stimulants, biological solutions, plant nutrients and fertilizers. We have been serving the farming community through our high-quality Crop Protection & Crop Nutrition products since many years.</p>
+                <Link to='/aboutUs' className='border border-gray-300 hover:border-blue-500 p-3'>Learn more</Link>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
 
