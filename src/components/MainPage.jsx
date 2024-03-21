@@ -3,16 +3,18 @@ import Product from './Products'
 import OurStory from "./OurStory"
 import IntroVid from "./IntroVid"
 import NewUpdate from "./NewUpdate"
-import Team from "./Team"
+import Home_vision_mission from "./Home_vision_mission"
+// import Team from "./Team"
 
 const MainPage = () => {
   return (
     <>
     <OurStory/>
     <Product/>
+     <Home_vision_mission/>
     <IntroVid/>
     <NewUpdate/>
-    <Team/>
+    {/* <Team/> */}
     <SocialMedia/>
     
     
