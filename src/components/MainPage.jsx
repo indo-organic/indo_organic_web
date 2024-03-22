@@ -5,13 +5,19 @@ import OurStory from "./OurStory"
 import NewUpdate from "./NewUpdate"
 import Home_vision_mission from "./Home_vision_mission"
 import Indo_researchBox from "./Indo_researchBox"
+import Gallery from "./Gallery"
+import Trust from "./Trust"
+import Quality from "./Quality"
 // import Team from "./Team"
 
 const MainPage = () => {
   return (
     <>
     <OurStory/>
+    <Quality/>
     <Product/>
+    <Trust/>
+    <Gallery/>
      <Home_vision_mission/>
     {/* <IntroVid/> */}
     <Indo_researchBox/>

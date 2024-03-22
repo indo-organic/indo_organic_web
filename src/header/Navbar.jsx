@@ -25,6 +25,7 @@ function Navbar() {
             Home
           </Link>
           <Link to='/aboutUs' className='nav_links'>About</Link>
+
           <Link className="dropdown">
             <Link to='' onClick={toggleDropdown1} className='nav_links'>Product & Services</Link>
             {dropdown1Open && (
@@ -36,6 +37,7 @@ function Navbar() {
               </ul>
             )}
           </Link>
+
           <Link to='/researchDev' className='nav_links'>Research & Development</Link>
           <Link to='/career' className='nav_links'>Career</Link>
           <Link to='/contact' className='nav_links'>Contact us</Link>

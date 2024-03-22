@@ -11,7 +11,7 @@ export default {
           'F4F2F2': '#F4F2F2',
         },
       },
-
+      
     },
   },
   plugins: [],

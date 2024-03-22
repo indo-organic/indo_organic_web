@@ -6,9 +6,9 @@ import 'slick-carousel/slick/slick-theme.css';
 import '../styles/Carousel.scss'
 
 // Import your images
-import image1 from '../assets/slide1.jpg';
+import image1 from '../assets/dam2.png';
 import image2 from '../assets/slide2.jpg';
-import image3 from '../assets/slide3.jpg';
+import image3 from '../assets/dam.png';
 
 
 
@@ -38,13 +38,13 @@ const Carousel = () => {
 
       <div className="carousel-container">
         <div className="nav_carousel">
-            
+
         </div>
       <Slider {...settings} slickGoTo={currentSlide}>
         {slides.map((slide, index) => (
           <div key={index} className="slide">
             <img src={slide} alt={`Slide ${index + 1}`} />
-            
+
           </div>
         ))}
       </Slider>
@@ -53,3 +53,5 @@ const Carousel = () => {
 };
 
 export default Carousel;
+
+
