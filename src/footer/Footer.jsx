@@ -23,8 +23,9 @@ const Footer = () => {
                 <div className="footer_2">
                     <p className='footer_2_about'> about Us</p>
 
-                    <Link to='/journey' className='footer_links_tag'>Our journey</Link>
-                    <Link to='/visionNMission' className='footer_links_tag'>Vision and Mission</Link>
+                    <Link to='/aboutUs' className='footer_links_tag'>Our journey</Link>
+                    <Link to='/vision' className='footer_links_tag'>Vision</Link>
+                    <Link to='/mission' className='footer_links_tag'>Mission</Link>
                     <Link to='/BoardOfDirector' className='footer_links_tag'>Board of directors</Link>
                     <Link to='/testimonial' className='footer_links_tag'>Testimonials</Link>
                     <Link to='/trialProduct' className='footer_links_tag'>Product Trials & Testing</Link>
@@ -34,7 +35,7 @@ const Footer = () => {
                     <p className='footer_3_quick_links'>Quick Links</p>
                     <Link to='/news' className='footer_links_tag'>news</Link>
                     <Link to='/career' className='footer_links_tag'>career</Link>
-                    <Link to='/termsCondition' className='footer_links_tag'>terms $ conditions</Link>
+                    <Link to='/termsCondition' className='footer_links_tag'>terms & conditions</Link>
                     <Link to='/privacyPolicy' className='footer_links_tag'>privacy policy</Link>
                     <Link to='/returnPolicy' className='footer_links_tag'>return policy</Link>
 

@@ -7,7 +7,7 @@ import Contact from './pages/Contact'
 import ResearchDev from './pages/ResearchDev'
 import Career from './pages/Career'
 import Journey from './footer/Journey'
-import VisionNMission from './footer/VisionNMission'
+
 import BoardOfDirector from './footer/BoardOfDirector'
 import News from './footer/News'
 import TermsConditions from './footer/TermsConditions'
@@ -76,7 +76,7 @@ const App = () => {
   return (
     <>
       <Router>
-        <Top />
+        {/* <Top /> */}
         {/* <Navbar /> */}
 
         <Routes>
@@ -93,8 +93,9 @@ const App = () => {
           <Route path='/career' element={<Career />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/journey' element={<Journey />} />
-          <Route path='/VisionNMission' element={<VisionNMission />} />
           <Route path='/BoardOfDirector' element={<BoardOfDirector />} />
+          <Route path='/vision' element={<Vision />} />
+          <Route path='/mission' element={<Mission />} />
 
           <Route path='/news' element={<News />} />
           <Route path='/termsCondition' element={<TermsConditions />} />
@@ -158,8 +159,6 @@ const App = () => {
 
 
 
-          <Route path='/vision' element={<Vision />} />
-          <Route path='/mission' element={<Mission />} />
             
 
 
