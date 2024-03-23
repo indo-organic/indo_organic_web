@@ -8,6 +8,7 @@ import Indo_researchBox from "./Indo_researchBox"
 import Gallery from "./Gallery"
 import Trust from "./Trust"
 import Quality from "./Quality"
+import Static from "./Static"
 // import Team from "./Team"
 
 const MainPage = () => {
@@ -15,12 +16,13 @@ const MainPage = () => {
     <>
     <OurStory/>
     <Quality/>
+    <Static/>
     <Product/>
     <Trust/>
     <Gallery/>
      <Home_vision_mission/>
     {/* <IntroVid/> */}
-    <Indo_researchBox/>
+    {/* <Indo_researchBox/> */}
     <NewUpdate/>
     {/* <Team/> */}
     <SocialMedia/>

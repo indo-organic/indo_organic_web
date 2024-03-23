@@ -70,7 +70,7 @@ const App = () => {
     <>
       <Router>
         <Top />
-        <Navbar />
+        {/* <Navbar /> */}
 
         <Routes>
           <Route path='/' element={<Home />} />

@@ -24,7 +24,7 @@ const Gallery = () => {
         },
         {
           imageLink:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWlyGtJku536-T1uqfHtJijcQHK5yfwGr7OMrjoxg-mQ&shttps://images.unsplash.com/photo-1682407186023-12c70a4a35e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80",
+            "https://www.ucsf.edu/sites/default/files/2023-02/research-banner-v2%20%281%29.jpeg",
         },
        
       ];
