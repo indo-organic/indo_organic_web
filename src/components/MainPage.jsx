@@ -2,9 +2,9 @@ import SocialMedia from "./SocialMedia"
 import Product from './Products'
 import OurStory from "./OurStory"
 // import IntroVid from "./IntroVid"
-import NewUpdate from "./NewUpdate"
+// import NewUpdate from "./NewUpdate"
 import Home_vision_mission from "./Home_vision_mission"
-import Indo_researchBox from "./Indo_researchBox"
+// import Indo_researchBox from "./Indo_researchBox"
 import Gallery from "./Gallery"
 import Trust from "./Trust"
 import Quality from "./Quality"
@@ -18,12 +18,12 @@ const MainPage = () => {
     <Quality/>
     <Static/>
     <Product/>
-    <Trust/>
-    <Gallery/>
      <Home_vision_mission/>
+    <Gallery/>
+    <Trust/>
     {/* <IntroVid/> */}
     {/* <Indo_researchBox/> */}
-    <NewUpdate/>
+    {/* <NewUpdate/> */}
     {/* <Team/> */}
     <SocialMedia/>
     

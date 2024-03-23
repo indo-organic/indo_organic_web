@@ -2,9 +2,9 @@ import React from 'react'
 
 const Trust = () => {
   return (
-    <div class="container mx-auto max-w-5xl flex gap-12 flex-wrap items-start justify-center md:justify-between mb-[30vh]">
+    <div class="container mx-auto max-w-5xl flex gap-12 flex-wrap items-start justify-center md:justify-between m-[10vh] ">
     <div class="grid gap-4 justify-items-center text-center md:flex-1">
-        <div class=" rounded-full border-8 border-amber-400 p-4 ">
+        <div class=" rounded-full border-8 border-green-500 p-4 ">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="w-14 h-14">
                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -13,10 +13,10 @@ const Trust = () => {
             </svg>
         </div>
         <h3 class="text-3xl font-bold">Trustworthy</h3>
-        <p>Our products are secure and private out-of-the-box</p>
+        <p>Trustworthiness is our cornerstone. We prioritize transparency, reliability, and integrity in every aspect of our operations.</p>
     </div>
     <div class="grid gap-4 justify-items-center text-center md:flex-1">
-        <div class=" rounded-full border-8 border-amber-400 p-4 ">
+        <div class=" rounded-full border-8 border-green-500 p-4 ">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="w-14 h-14">
                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -24,10 +24,10 @@ const Trust = () => {
             </svg>
         </div>
         <h3 class="text-3xl font-bold">Genuine</h3>
-        <p>Feel good about your wallet and the environment</p>
+        <p>At Indo Organic, genuineness is at the heart of everything we do. From our products to our customer relationships, authenticity defines us.</p>
     </div>
     <div class="grid gap-4 justify-items-center text-center md:flex-1">
-        <div class=" rounded-full border-8 border-amber-400 p-4 ">
+        <div class=" rounded-full border-8 border-green-500 p-4 ">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="w-14 h-14">
                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -37,7 +37,7 @@ const Trust = () => {
 
         </div>
         <h3 class="text-3xl font-bold">Quality </h3>
-        <p>Leading the Smart Home world for 10 years</p>
+        <p> Quality is our hallmark. From seed to harvest, we uphold the highest standards to deliver superior agricultural solutions.</p>
     </div>
 </div>
   )

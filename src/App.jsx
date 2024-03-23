@@ -63,6 +63,13 @@ import Valino from './productPage/fungicide/Valino'
   import PitKit from './productPage/herbicide/PitKit'
   import Proto50 from './productPage/herbicide/Proto50'
   import TimeUp from './productPage/herbicide/TimeUp'
+
+
+
+
+
+import Vision from './components/Vision'
+import Mission from './components/Mission'
   
 
 const App = () => {
@@ -149,6 +156,11 @@ const App = () => {
       
 
 
+
+
+          <Route path='/vision' element={<Vision />} />
+          <Route path='/mission' element={<Mission />} />
+            
 
 
 
