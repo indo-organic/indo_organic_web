@@ -5,8 +5,33 @@ const Home = () => {
     <>
     <Carousel/>
     <MainPage/>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </>
   )
 }
 
 export default Home
+
+
+
