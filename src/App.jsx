@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Footer from './footer/Footer'
 import Navbar from './header/Navbar'
 import Home from './pages/Home'
-import Category from './pages/Category'
 import Contact from './pages/Contact'
 import ResearchDev from './pages/ResearchDev'
 import Career from './pages/Career'
@@ -20,6 +19,10 @@ import AboutUs from './pages/AboutUs'
 import Faqs from './footer/Faqs'
 import Testimonial from './footer/Testimonial'
 import TrialProduct from './footer/TrialProduct'
+
+
+import Vision from './components/Vision'
+import Mission from './components/Mission'
 
 import Adjuvants from './header/Adjuvants'
 import OrganicRange from './header/OrganicRange'
@@ -66,10 +69,8 @@ import Valino from './productPage/fungicide/Valino'
 
 
 
-
-
-import Vision from './components/Vision'
-import Mission from './components/Mission'
+      // Adjuvants
+      import Combo_b from './productPage/adjuvants/Combo_b'
   
 
 const App = () => {
@@ -77,7 +78,7 @@ const App = () => {
     <>
       <Router>
         {/* <Top /> */}
-        {/* <Navbar /> */}
+        <Navbar />
 
         <Routes>
           <Route path='/' element={<Home />} />
@@ -88,7 +89,6 @@ const App = () => {
           <Route path='/adjuvants' element={<Adjuvants />} />
 
           <Route path='/aboutUs' element={<AboutUs />} />
-          <Route path='/category' element={<Category />} />
           <Route path='/researchDev' element={<ResearchDev />} />
           <Route path='/career' element={<Career />} />
           <Route path='/contact' element={<Contact />} />
@@ -159,7 +159,9 @@ const App = () => {
 
 
 
-            
+            {/* adjuvants */}
+          <Route path='/comboB' element={<Combo_b />} />
+
 
 
 

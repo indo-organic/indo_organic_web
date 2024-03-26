@@ -1,25 +1,27 @@
-import { Carousel } from "@material-tailwind/react";
+
 
 const Testimonial = () => {
   return (
     <>
-     <Carousel transition={{ duration: 2 }} className="rounded-xl">
-      <img
-        src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
-        alt="image 1"
-        className="h-full w-full object-cover"
-      />
-      <img
-        src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
-        alt="image 2"
-        className="h-full w-full object-cover"
-      />
-      <img
-        src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
-        alt="image 3"
-        className="h-full w-full object-cover"
-      />
-    </Carousel>
+     <div className="max-w-lg mx-auto my-28">
+    <div className="relative">
+        <div
+            className="flex justify-center items-center h-64 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg overflow-hidden">
+            <div className="px-8">
+                <p className="text-lg font-medium text-white mb-2">"The best experience ever"</p>
+                <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce auctor nisi eget
+                    ornare ultrices. Proin laoreet ultrices nunc vel dapibus.</p>
+                <div className="mt-4 flex items-center">
+                    <img className="h-10 w-10 rounded-full mr-4" src="https://randomuser.me/api/portraits/women/68.jpg" alt="Avatar of person"/>
+                    <div>
+                        <p className="text-white font-medium">Mary Johnson</p>
+                        <p className="text-gray-200">CEO, Acme Inc.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
     
     
     </>

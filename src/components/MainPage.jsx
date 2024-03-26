@@ -15,10 +15,10 @@ const MainPage = () => {
   return (
     <>
     <OurStory/>
-    <Quality/>
     <Static/>
     <Product/>
      <Home_vision_mission/>
+     <Quality/>
     <Gallery/>
     <Trust/>
     {/* <IntroVid/> */}
