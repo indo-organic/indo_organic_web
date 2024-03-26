@@ -7,8 +7,10 @@ import Home_vision_mission from "./Home_vision_mission"
 // import Indo_researchBox from "./Indo_researchBox"
 import Gallery from "./Gallery"
 import Trust from "./Trust"
-import Quality from "./Quality"
+import Quality from './Quality'
 import Static from "./Static"
+import RnDforHome from "./RnDforHome"
+// import Hightlights from "./Hightlights"
 // import Team from "./Team"
 
 const MainPage = () => {
@@ -17,6 +19,8 @@ const MainPage = () => {
     <OurStory/>
     <Static/>
     <Product/>
+    <RnDforHome/>
+    {/* <Hightlights/> */}
      <Home_vision_mission/>
      <Quality/>
     <Gallery/>

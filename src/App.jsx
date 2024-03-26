@@ -98,7 +98,7 @@ const App = () => {
           <Route path='/mission' element={<Mission />} />
 
           <Route path='/news' element={<News />} />
-          <Route path='/termsCondition' element={<TermsConditions />} />
+          <Route path='/termsCondition'  element={<TermsConditions />} />
           <Route path='/privacyPolicy' element={<PrivacyPolicy />} />
           <Route path='/returnPolicy' element={<ReturnPolicy />} />
           <Route path='/Domestic' element={<Domestic />} />
@@ -108,11 +108,7 @@ const App = () => {
           <Route path='/faqs' element={<Faqs />} />
          
 
-
-
-
           {/* insecticide */}
-
 
           <Route path='/insecticide' element={< Insecticide />} />
 

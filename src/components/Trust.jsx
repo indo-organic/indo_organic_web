@@ -1,4 +1,3 @@
-import React from 'react'
 
 const Trust = () => {
     return (
@@ -38,8 +37,16 @@ const Trust = () => {
                 </div>
                 <h3 className="text-3xl font-bold">Quality </h3>
                 <p> Quality is our hallmark. From seed to harvest, we uphold the highest standards to deliver superior agricultural solutions.</p>
-            </div>
-        </div>
+             </div>
+         </div>
+
+
+
+
+
+
+
+
     )
 }
 
