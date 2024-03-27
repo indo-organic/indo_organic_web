@@ -39,7 +39,7 @@ const Vision = () => {
       </div>
 
       <div class="h-[460px] rounded-lg bg-gray-300 dark:bg-gray-700 mb-4">
-                    <img class="w-full h-full object-cover" src="https://static.wixstatic.com/media/508759_b8d332384b704ee19eddf0bc00d3b8aa~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/508759_b8d332384b704ee19eddf0bc00d3b8aa~mv2.jpg" alt="Product Image"/>
+                    <img className="w-full h-full object-cover" src="https://static.wixstatic.com/media/508759_b8d332384b704ee19eddf0bc00d3b8aa~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/508759_b8d332384b704ee19eddf0bc00d3b8aa~mv2.jpg" alt="Product Image"/>
                 </div>
       
     </div>

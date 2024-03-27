@@ -39,7 +39,7 @@ const Mission = () => {
               </div>
             </div>
              <div class="h-[460px] rounded-lg bg-gray-300 dark:bg-gray-700 mb-4">
-                    <img class="w-full h-full object-cover" src="https://media.licdn.com/dms/image/D4E12AQHgMxo-g7BYsw/article-cover_image-shrink_720_1280/0/1658422953944?e=2147483647&v=beta&t=cbUAMWH281ZrksBTR63LDIweFkMUqiWhVA7CobvLCwY" alt="Product Image"/>
+                    <img className="w-full h-full object-cover" src="https://media.licdn.com/dms/image/D4E12AQHgMxo-g7BYsw/article-cover_image-shrink_720_1280/0/1658422953944?e=2147483647&v=beta&t=cbUAMWH281ZrksBTR63LDIweFkMUqiWhVA7CobvLCwY" alt="Product Image"/>
                 </div>
 
 

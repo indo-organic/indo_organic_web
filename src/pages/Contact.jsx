@@ -18,27 +18,27 @@ const Contact = () => {
               </div>
               <div>
                 <div className="max-w-full mx-auto rounded-lg overflow-hidden flex gap-11 flex-col">
-                  <div classNameNameName="ml-6 grow ">
-                    <p classNameNameName="mb-2  font-bold dark:text-white">
+                  <div className="ml-6 grow ">
+                    <p className="mb-2  font-bold dark:text-white">
                       Address
                     </p>
-                    <p classNameNameName="text-neutral-500 dark:text-neutral-200">
+                    <p className="text-neutral-500 dark:text-neutral-200">
                       M3, Aradhana Bhawan, Commercial Complex, Azadpur, Delhi-110033
                     </p>
 
                   </div>
-                  <div classNameNameName="ml-6 grow">
-                    <p classNameNameName="mb-2 font-bold dark:text-white">
+                  <div className="ml-6 grow">
+                    <p className="mb-2 font-bold dark:text-white">
                       Telephone
                     </p>
-                    <p classNameNameName="text-neutral-500 dark:text-neutral-200">
+                    <p className="text-neutral-500 dark:text-neutral-200">
                       + 011-49059099/45500067
                     </p>
 
                   </div>
-                  <div classNameNameName="ml-6 grow">
-                    <p classNameNameName="mb-2 font-bold dark:text-white">Email </p>
-                    <p classNameNameName="text-neutral-500 dark:text-neutral-200">
+                  <div className="ml-6 grow">
+                    <p className="mb-2 font-bold dark:text-white">Email </p>
+                    <p className="text-neutral-500 dark:text-neutral-200">
 
                       info@indoorganics.in
                     </p>

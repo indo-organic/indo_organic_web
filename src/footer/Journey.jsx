@@ -1,9 +1,11 @@
 import '../styles/Journey.scss'
 const Journey = () => {
   return (
-    <div className="journey">
+ <>
+ <div className="journey"></div>
+ 
+ </>
 
-    </div>
   )
 }
 
