@@ -1,34 +1,41 @@
 import React from 'react'
-
+import comboBImg from './comboImg.jpg'
 const Combo_b = () => {
   return (
     <>
-    
-    <h1 className="text-3xl  text-red-700 py-6 px-4">Combo-B</h1>
+
+      <h1 className="text-3xl  text-red-700 py-6 px-4">Adjuvants</h1>
       <section className="text-gray-600 body-font overflow-hidden">
         <div className="container px-5 py-24 mx-auto">
           <div className="lg:w-4/5 mx-auto flex flex-wrap">
-            {/* <img alt="ecommerce" className="lg:w-1/2 w-full lg:h-auto h-64 sm:h-1 object-cover object-center rounded" src={alaskaImg} /> */}
+            <div class="h-[460px] rounded-lg bg-gray-300 dark:bg-gray-700 mb-4">
+              <img class="w-full h-full object-cover" src={comboBImg} alt="Product Image" />
+            </div>
+            {/* <img  className="lg:w-1/2 w-[30%] lg:h-auto  sm:h-1 object-cover object-center rounded" src={comboBImg} /> */}
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-              <h2 className="text-sm title-font text-gray-500 tracking-widest">Alaska<sup>TM</sup></h2>
-              <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">Profenofos 40% EC + Cypermethrin 4% EC</h1>
-              <p className="leading-relaxed">ALASKA is used to control Bollworms (pink and spotted), whitefly,
-                Stem Borer, Leaf Folder, Hispa, Green leaf hopper, Brown plant
-                hopper, White back plant hopper, Girdle beetle, Leaf miners, Shoot &
-                Fruit borer, Epilachna Beetle for Cotton, Rice, Soybean and Brinjal.</p>
+              <h2 className="text-sm title-font text-gray-500 tracking-widest">COMBO-B<sup>R</sup></h2>
+              <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">Organosilicone Based Spray Adjuvant</h1>
+              <p className="leading-relaxed">Combo-B is a non-ionic , super spreading spray adjuvant based on Trisiloxanealkoxylate which
+                improves spray coverage and maximize uptake and penetration of target surface. It is a wetting agent
+                for spray solutions that work at low concentrations. It enhances the efficacy of insecticides / fungicides /
+                bactericides / virucides and plant supplements.</p>
 
-              <h3 className="text-gray-900 text-2xl title-font font-medium m-3">Target  crops</h3>
-              <p className='leading-relaxed m-4'>Rice, Cotton, Soyabean, Brinjal etc.</p>
+              <h3 className="text-blue-900 text-2xl title-font font-medium m-3">Benefits</h3>
+              <p className='leading-relaxed ml-4'>- Non-iconic silicon based adjuvant.</p>
+              <p className='leading-relaxed ml-4'> - Super spreading property.</p>
+              <p className='leading-relaxed ml-4'>- Rain fasterner.</p>
+              <p className='leading-relaxed ml-4'>- Improves water/Spray quality.</p>
 
-              <h3 className="text-gray-900 text-2xl title-font font-medium m-3">Target pests & Diseases</h3>
-              <p className='leading-relaxed m-4'>Bollworm, White fly, Leaf folder, Stem
-                borer, Fruit borer, Thrips, pod borer,
-                Hispa, Green leaf hopper, Ground plant
-                hopper, White back plant hopper, Girdle
-                beetle, Leaf miners, Epilachna.</p>
+              <h3 className="text-blue-900 text-2xl title-font font-medium m-3">MODE OF ACTION</h3>
+              <p className='leading-relaxed m-4'>Reduces the surface tension of water to help the solution stick to the plant more
+                effectively</p>
 
-              <h3 className="text-gray-900 text-2xl title-font font-medium m-3">Dosage</h3>
-              <p className='leading-relaxed m-4'>3.5 ml/ltr. 500-600ml/acre</p>
+              <p className='leading-relaxed m-4'>Carry insecticide/Pesticide into inaccessible sites inhabited by pests.</p>
+              <p className='leading-relaxed m-4'>Sequester hard water ions</p>
+
+
+              <h3 className="text-blue-900 text-2xl title-font font-medium m-3">METHOD OF APPLICATION & DOSAGE</h3>
+              <p className='leading-relaxed m-4'>1ml per 2-3 ltr of water/spray solution. (75ml/acre)</p>
 
               <div className="">
                 <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-4">

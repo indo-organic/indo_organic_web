@@ -1,9 +1,24 @@
 import { Link } from "react-router-dom"
 
+
+import rukkaImg from '../prod_img/rukka.jpg'
+import alaskaImg from '../prod_img/alaskaImg.jpg'
+
+
+
+import indoPrimeImg from '../prod_img/indoPrimeImg.jpg'
+import tangoPlusImg from '../prod_img/tangoplusImg.jpg'
+import sulfieImg from '../prod_img/sulfieImg.jpg'
+
+
+
+import protoImg from '../prod_img/protoImg.jpg'
+import emoImg from '../prod_img/emo10Img.jpg'
+import timeupImg from '../prod_img/timeupImg.jpg'
 const Insecticide = () => {
   return (
     <>
-     <section className="text-gray-600 body-font">
+     {/* <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
         <p classNameName="text-2xl p-3 capitalize">insecticide</p>
           <div className="flex flex-wrap -m-4">
@@ -178,6 +193,53 @@ const Insecticide = () => {
 
           </div>
         </div>
+      </section> */}
+
+
+      
+<p classNameName="text-3xl  capitalize m-auto p-3  text-red-700">Insecticide</p>
+      <section id="Projects"
+        className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
+
+
+        <div className="w-72 h-90 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl text-center">
+          <Link to='/rukka'>
+            <img src={rukkaImg}
+              alt="Product" className="w-[84%] mt-3 mb-3 object-cover rounded-t-xl m-auto" />
+            <div className="px-4 py-3 w-72 bg-green-400">
+              <span className="text-gray-800 mr-3 uppercase text-xs">Service</span>
+              <p className="text-lg font-bold text-black truncate block capitalize">Rukka</p>
+            </div>
+          </Link>
+        </div>
+
+
+
+        <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl text-center">
+          <Link to='/alaska'>
+            <img src={alaskaImg}
+              alt="Product" className="w-[84%] mt-3 object-cover rounded-t-xl m-auto" />
+            <div className="px-4 py-3 w-72 bg-green-400">
+              <span className="text-gray-800 mr-3 uppercase text-xs">Service</span>
+              <p className="text-lg font-bold text-black truncate block capitalize">Alaska</p>
+            </div>
+          </Link>
+        </div>
+
+        <div className="w-72 h-90 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl text-center">
+          <Link to='/cyphones'>
+            <img src={timeupImg}
+              alt="Product" className="w-[89%] mt-3 mb-4 object-cover rounded-t-xl m-auto" />
+            <div className="px-4 py-3 w-72 bg-green-400">
+              <span className="text-gray-800 mr-3 uppercase text-xs">Service</span>
+              <p className="text-lg font-bold text-black truncate block capitalize">Cyphones</p>
+            </div>
+          </Link>
+        </div>
+
+
+
+
       </section>
     
     

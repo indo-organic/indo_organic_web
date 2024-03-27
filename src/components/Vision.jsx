@@ -38,9 +38,9 @@ const Vision = () => {
         </div>
       </div>
 
-      {/* <div  className="mt-10 lg:mt-0">
-        <img width="600" height="600" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.icsl.org.in%2Fpost%2Fvision-statements-of-schools&psig=AOvVaw3_dygY2kuzTeLOfcF9ZTcZ&ust=1711512706286000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJCPrOuHkYUDFQAAAAAdAAAAABAE" className="mx-auto rounded-lg shadow-lg dark-bg-gray-500" style=""/>
-      </div> */}
+      <div class="h-[460px] rounded-lg bg-gray-300 dark:bg-gray-700 mb-4">
+                    <img class="w-full h-full object-cover" src="https://static.wixstatic.com/media/508759_b8d332384b704ee19eddf0bc00d3b8aa~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/508759_b8d332384b704ee19eddf0bc00d3b8aa~mv2.jpg" alt="Product Image"/>
+                </div>
       
     </div>
   </div>
