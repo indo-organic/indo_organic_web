@@ -1,11 +1,11 @@
-
+import visionimg from '../assets/visionImg.jpg'
 const Vision = () => {
   return (
     <>
     <section className="">
   <div className="container max-w-xl p-6 mx-auto space-y-12 lg:px-8 lg:max-w-7xl mt-14">
-    <div>
-      <h2 className="text-3xl  text-center sm:text-5xl">VISION</h2>
+    <div className='h-[30vh] flex  justify-center items-center bg-gray-700'>
+      <h2 className=" text-white font-bold text-3xl  text-center sm:text-5xl">VISION</h2>
     </div>
     <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
       <div>
@@ -39,7 +39,7 @@ const Vision = () => {
       </div>
 
       <div class="h-[460px] rounded-lg bg-gray-300 dark:bg-gray-700 mb-4">
-                    <img className="w-full h-full object-cover" src="https://static.wixstatic.com/media/508759_b8d332384b704ee19eddf0bc00d3b8aa~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/508759_b8d332384b704ee19eddf0bc00d3b8aa~mv2.jpg" alt="Product Image"/>
+                    <img className="w-full h-full object-cover" src={visionimg} alt="Product Image"/>
                 </div>
       
     </div>

@@ -1,81 +1,60 @@
 // components/Carousel.js
 import React, { useState, useEffect } from 'react';
-// import Slider from 'react-slick';
+import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import '../styles/Carousel.scss'
 
 // Import your images
-import image1 from '../assets/dam2.png';
-import image2 from '../assets/slide2.jpg';
-import image3 from '../assets/dam.png';
+import image1 from '../assets/game1.jpg';
+import image2 from '../assets/game2.jpg';
+import image3 from '../assets/game3.jpg';
 
 
 
 const Carousel = () => {
-  // const [currentSlide, setCurrentSlide] = useState(0);
+  const [currentSlide, setCurrentSlide] = useState(0);
 
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setCurrentSlide((prevSlide) => (prevSlide + 1) % slides.length);
-  //   }, 3000);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentSlide((prevSlide) => (prevSlide + 1) % slides.length);
+    }, 3000);
 
-  //   return () => clearInterval(interval);
-  // }, []);
+    return () => clearInterval(interval);
+  }, []);
 
-  // const slides = [image1, image2, image3];
+  const slides = [image1, image2, image3];
 
-  // const settings = {
-  //   speed: 1000,
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1,
-  //   autoplaySpeed: 2000,
-  //   autoplay: true,
-  //   loop: true,
-  // }
+  const settings = {
+    speed: 1000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplaySpeed: 2000,
+    autoplay: true,
+    loop: true,
+  }
 
   return (
     <>
- <div id="carouselExampleControlsNoTouching" className="carousel slide" data-bs-touch="false">
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img src={image1} className="d-block w-100" alt="..."/>
-    </div>
-    <div className="carousel-item">
-      <img src={image2} className="d-block w-100" alt="..."/>
-    </div>
-    <div className="carousel-item">
-      <img src={image3} className="d-block w-100" alt="..."/>
-    </div>
-  </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Next</span>
-  </button>
-</div>
+ 
     
-    
+
+ 
+<div className="carousel-container">
+        <div className="nav_carousel">
+
+        </div>
+      <Slider {...settings} slickGoTo={currentSlide}>
+        {slides.map((slide, index) => (
+          <div key={index} className="slide">
+            <img src={slide} alt={`Slide ${index + 1}`} />
+
+          </div>
+        ))}
+      </Slider>
+    </div> 
+
     </>
-
-    //   <div className="carousel-container">
-    //     <div className="nav_carousel">
-
-    //     </div>
-    //   <Slider {...settings} slickGoTo={currentSlide}>
-    //     {slides.map((slide, index) => (
-    //       <div key={index} className="slide">
-    //         <img src={slide} alt={`Slide ${index + 1}`} />
-
-    //       </div>
-    //     ))}
-    //   </Slider>
-    // </div>
-
-
 
     
     

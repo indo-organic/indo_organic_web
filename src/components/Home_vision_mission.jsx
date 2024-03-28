@@ -4,7 +4,7 @@ const Home_vision_mission = () => {
     <>
 
 
-      <section className="text-gray-800 body-font ">
+      <section className="text-gray-800 body-font bg-green-200 ">
         <div className="container px-5 py-24 mx-auto flex flex-wrap">
           <div className="flex flex-wrap -m-4 text-center justify-center">
             <div className="p-4 lg:w-[35%] md:w-full">
@@ -40,7 +40,9 @@ const Home_vision_mission = () => {
       </section>
 
 
-      {/* <div className="relative flex min-h-screen  justify-center overflow-hidden bg-gray-500 py-6 sm:py-12 ">
+        
+      {/* <div className="relative flex h-[80vh]  justify-center overflow-hidden bg-gray-500 py-6 sm:py-12 ">
+
         <div className="group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
           <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-green-500 transition-all duration-300 group-hover:scale-[10]"></span>
           <div className="relative z-10 mx-auto max-w-md">
@@ -62,10 +64,13 @@ const Home_vision_mission = () => {
           </div>
         </div>
 
-
-        
-
       </div> */}
+
+
+
+
+
+
 
     </>
   )

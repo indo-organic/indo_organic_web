@@ -4,9 +4,9 @@ const Mission = () => {
     <>
       <section className="">
         <div className="container max-w-xl p-6 mx-auto space-y-12 lg:px-8 lg:max-w-7xl mt-14">
-          <div>
-            <h2 className="text-3xl  text-center sm:text-5xl">MISSION</h2>
-          </div>
+        <div className='h-[30vh] flex  justify-center items-center bg-gray-700'>
+      <h2 className=" text-white font-bold text-3xl  text-center sm:text-5xl">MISSION</h2>
+    </div>
           <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
             <div>
               <div className="mt-4 space-y-12">
@@ -39,7 +39,7 @@ const Mission = () => {
               </div>
             </div>
              <div class="h-[460px] rounded-lg bg-gray-300 dark:bg-gray-700 mb-4">
-                    <img className="w-full h-full object-cover" src="https://media.licdn.com/dms/image/D4E12AQHgMxo-g7BYsw/article-cover_image-shrink_720_1280/0/1658422953944?e=2147483647&v=beta&t=cbUAMWH281ZrksBTR63LDIweFkMUqiWhVA7CobvLCwY" alt="Product Image"/>
+                    <img className="w-full h-full object-cover" src="https://us.123rf.com/450wm/dizanna/dizanna2001/dizanna200100621/138620572-mission-word-cloud-collage-business-concept-background.jpg" alt="Product Image"/>
                 </div>
 
 

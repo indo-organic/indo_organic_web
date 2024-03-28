@@ -3,14 +3,29 @@ const OurStory = () => {
   return (
     <>
 
-      <section className=" body-font">
+      {/* <section className=" body-font">
         <div className="container px-5 py-[4%] mx-auto">
           <div className="lg:w-2/3 flex  text-center flex-col sm:flex-row sm:items-center items-start mx-auto">
             <h1 className="flex-grow sm:pr-16 text-3xl font-medium title-font "> We leverage our rich heritage to tackle the challenges of the future</h1>
           </div>
         </div>
-       </section>
-
+      </section> */}
+      <div class="h-[19vh] bg-gray-50 flex flex-col justify-center relative overflow-hidden ">
+    <div class="max-w-14xl mx-auto">
+        <div class="relative group cursor-pointer">
+            <div
+                class="absolute -inset-1 bg-gradient-to-r from-red-600 to-violet-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200">
+            </div>
+            <div
+                class="relative px-7 py-6 bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6">
+                <div class="space-y-2">
+                    <p class="text-slate-900">We leverage our rich heritage to tackle the challenges of the future</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        
 
 
       {/* <section className="">
@@ -34,9 +49,9 @@ const OurStory = () => {
       </section>  */}
 
 
-      
 
- <div className="flex justify-center">
+
+      <div className="flex justify-center">
       <div className="flex flex-col justify-center">
         <div className="flex flex-col md:flex-row max-w-7xl justify-center items-center">
           <div className="overflow-hidden w-full m-4 shadow-sm flex flex-col md:flex-row justify-center">
@@ -59,8 +74,8 @@ const OurStory = () => {
     </div> 
 
 
-    
-{/* <div className="min-h-screen flex flex-col p-8 sm:p-16 md:p-24 justify-center bg-white">
+
+       {/* <div className="min-h-screen flex flex-col p-8 sm:p-16 md:p-24 justify-center bg-white">
       
       <div data-theme="teal" className="mx-auto max-w-6xl">
         <h2 className="sr-only">Featured case study</h2>
@@ -86,13 +101,17 @@ const OurStory = () => {
           </div>
         </section>
       </div>
-    </div> */}
+    </div>  */}
 
 
 
-    
+
     </>
   )
 }
 
 export default OurStory
+
+
+
+  
