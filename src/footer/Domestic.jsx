@@ -1,9 +1,15 @@
-import React from 'react'
-
-const Domestic = () => {
+import React from 'react';
+import video from '../assets/caro.mp4'
+const BackgroundVideo = () => {
   return (
-    <div>Domestic</div>
-  )
-}
 
-export default Domestic
+    <div className="bg-gray-200">
+      <video src={video} autoPlay loop muted className=" w-[70%] h-[80vh] object-cover m-auto py-10" >
+
+      </video>
+    </div>
+
+  );
+};
+
+export default BackgroundVideo;

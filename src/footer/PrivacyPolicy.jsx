@@ -8,8 +8,8 @@ const PrivacyPolicy = () => {
 
 
 <div className="bg-gray-100 flex text-center">
-        <div className="container mx-auto px-4 py-8 my-12 ">
-          <h1 className="text-3xl font-bold mb-6">Privacy & Policy</h1>
+        <div className="container mx-auto px-4 py-8 my-9 ">
+          <h1 className="text-3xl font-bold mb-6  bg-gray-600 text-white p-16">Privacy & Policy</h1>
           <h2 className="text-2xl font-bold mb-2"> Understand Privacy Policy Requirements:</h2>
             
           <p className="mb-4 p-9">

@@ -4,8 +4,8 @@ const ReturnPolicy = () => {
     <>
 
 <div className="bg-gray-100 flex text-center flex-col">
-        <div className="container mx-auto px-4 py-8 my-12">
-          <h1 className="text-3xl font-bold mb-4">Return policy</h1>
+        <div className="container mx-auto px-4 py-8 my-9">
+          <h1 className="text-3xl font-bold mb-4  bg-gray-600 text-white p-16">Return policy</h1>
 
           <p className="mb-4 p-9">
             At Indo Organics, we strive to ensure your satisfaction with every purchase you make. However, we understand that there may be occasions when you need to return an item. We have outlined our return policy below to ensure a smooth and hassle-free experience for our valued customers.

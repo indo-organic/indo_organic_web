@@ -26,7 +26,7 @@
 //         display: flex;
 //         flex-direction: column;
 //         align-items: center;
-    
+
 //         height: 90vh;
 
 //         .about_2_title {
@@ -49,7 +49,7 @@
 //                 flex-direction: column;
 //                 padding: 0 4rem;
 //                 font-size: 1.4rem;
-                
+
 //                 p {
 //                     padding: 1rem;
 //                 }
@@ -84,9 +84,9 @@
 //         display: flex;
 //         flex-direction: column;
 //         align-items: center;
-      
+
 //         .philosophy{
-           
+
 //             display: flex;
 //             flex-direction: column;
 //             align-items: center;
@@ -135,27 +135,19 @@
 //             }
 //         }
 
-       
-        
-    
 //     }
 // }
 
-
-
-
-.aboutBoxImg{
+.aboutBoxImg {
     width: 100%;
     height: 35vh;
-    background-image: url('https://www.cropin.com/hs-fs/hubfs/kharif-crop.jpg?width=880&height=661&name=kharif-crop.jpg');
+    background-image: url("../AboutImg/aboutBG.jpg");
     background-repeat: no-repeat;
-   
+    opacity: 0.7;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
-   
-  
 }

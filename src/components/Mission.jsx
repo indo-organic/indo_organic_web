@@ -2,11 +2,22 @@
 const Mission = () => {
   return (
     <>
-      <section className="">
-        <div className="container max-w-xl p-6 mx-auto space-y-12 lg:px-8 lg:max-w-7xl mt-14">
-        <div className='h-[30vh] flex  justify-center items-center bg-gray-700'>
-      <h2 className=" text-white font-bold text-3xl  text-center sm:text-5xl">MISSION</h2>
-    </div>
+      <section className="bg-gray-100">
+        <div className=" container max-w-xl p-6 mx-auto space-y-12 lg:px-8 lg:max-w-7xl mt-14">
+          {/* <div className='h-[30vh] flex  justify-center items-center bg-gray-700'>
+            <h2 className=" text-white font-bold text-3xl  text-center sm:text-5xl">MISSION</h2>
+          </div> */}
+
+
+          <div class="relative mx-auto mt-10 w-full">
+            <img class="h-64 w-full object-cover rounded-md" src='https://www.strategy-business.com/media/image/44639082_thumb6_1180x670.jpg' alt="Random image" />
+            <div class="absolute inset-0 bg-gray-700 opacity-40 rounded-md"></div>
+            <div class="absolute inset-0 flex items-center justify-center">
+              <h2 class="text-white text-3xl font-bold">Mission</h2>
+            </div>
+          </div>
+
+
           <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
             <div>
               <div className="mt-4 space-y-12">
@@ -38,9 +49,9 @@ const Mission = () => {
                 </div>
               </div>
             </div>
-             <div class="h-[460px] rounded-lg bg-gray-300 dark:bg-gray-700 mb-4">
-                    <img className="w-full h-full object-cover" src="https://us.123rf.com/450wm/dizanna/dizanna2001/dizanna200100621/138620572-mission-word-cloud-collage-business-concept-background.jpg" alt="Product Image"/>
-                </div>
+            <div class="h-[460px] rounded-lg bg-gray-300 dark:bg-gray-700 mb-4">
+              <img className="w-full h-full object-cover" src="https://www.bism-cairo.com/-/media/project/gems/bism_gems_british_international_school_madinaty_cairo/_page-top-right-images/490-x-400-px/490-x-400-px.jpg?h=400&w=490&hash=DE964DE8E7238B7B70073D2857F8EB89" alt="Product Image" />
+            </div>
 
 
           </div>

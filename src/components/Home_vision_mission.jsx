@@ -4,7 +4,7 @@ const Home_vision_mission = () => {
     <>
 
 
-      <section className="text-gray-800 body-font bg-green-200 ">
+      <section className="text-gray-800 body-font bg-slate-200 ">
         <div className="container px-5 py-24 mx-auto flex flex-wrap">
           <div className="flex flex-wrap -m-4 text-center justify-center">
             <div className="p-4 lg:w-[35%] md:w-full">

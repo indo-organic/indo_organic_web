@@ -6,8 +6,8 @@ const TermsConditions = () => {
 
 
 <div class="bg-gray-100 flex text-center flex-col">
-        <div class="container mx-auto px-4 py-8 my-12">
-          <h1 class="text-3xl font-bold mb-4">Terms and Conditions</h1>
+        <div class="container mx-auto px-4 py-8 my-9">
+          <h1 class="text-3xl font-bold mb-4  bg-gray-600 text-white p-16">Terms and Conditions</h1>
           <h2 class="text-2xl font-bold mb-2"> Introduction:</h2>
             
           <p class="mb-4 p-9">

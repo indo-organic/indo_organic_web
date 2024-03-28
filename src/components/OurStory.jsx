@@ -10,7 +10,7 @@ const OurStory = () => {
           </div>
         </div>
       </section> */}
-      <div class="h-[19vh] bg-gray-50 flex flex-col justify-center relative overflow-hidden ">
+      <div class="h-[19vh]  flex flex-col justify-center relative overflow-hidden ">
     <div class="max-w-14xl mx-auto">
         <div class="relative group cursor-pointer">
             <div
@@ -51,12 +51,12 @@ const OurStory = () => {
 
 
 
-      <div className="flex justify-center">
+      <div className="flex justify-center bg-gray-200">
       <div className="flex flex-col justify-center">
         <div className="flex flex-col md:flex-row max-w-7xl justify-center items-center">
           <div className="overflow-hidden w-full m-4 shadow-sm flex flex-col md:flex-row justify-center">
             <div className="flex flex-col md:flex-row items-center">
-              <div className="w-[70%] flex text-center justify-center overflow-hidden">
+              <div className="w-[70%] flex text-center justify-center overflow-hidden" >
                 <img src={aboutHome1} alt="" className="w-[70%]" />
               </div>
               <div className="md:w-2/3 m-4">

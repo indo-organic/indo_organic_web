@@ -3,21 +3,37 @@ import aboutImg1 from '../AboutImg/aboutImg1.jpg'
 import aboutImg2 from '../AboutImg/aboutImg2.jpg'
 import aboutImg3 from '../AboutImg/aboutImg3.jpg'
 import aboutImg4 from '../AboutImg/about4.jpg'
+import video from '../assets/caro.mp4'
+
 const AboutUs = () => {
   return (
     <>
-
+    
       <div className="text-center pb-4">
-        <div className="aboutBoxImg ">
-        <h2 className="font-bold text-3xl sm:text-3xl md:text-4xl lg:text-7xl">
-          About us
-        </h2>
+        {/* <div className="aboutBoxImg ">
+          <h2 className="font-bold text-3xl sm:text-3xl md:text-4xl lg:text-7xl">
+            About us
+          </h2>
+        </div> */}
+        {/* <div class="relative mx-auto mt-10 w-full">
+          <img class="h-64 w-full object-cover rounded-md" src={aboutImg3} alt="Random image" />
+          <div class="absolute inset-0 bg-gray-700 opacity-40 rounded-md"></div>
+          <div class="absolute inset-0 flex items-center justify-center">
+            <h2 class="text-white text-3xl font-bold">About us</h2>
+          </div>
+        </div> */}
+          <div class="relative mx-auto mt-10 w-full">
+        <video src={video} autoPlay loop muted className=" w-[100%] h-[70vh] object-cover m-auto  " > </video>
+        <div class="absolute inset-0 bg-gray-700 opacity-10 rounded-md"></div>
+        <div class="absolute inset-0 flex items-center justify-center">
+          <h2 class="text-white text-6xl font-bold">About us</h2>
         </div>
-      
+      </div>
+
 
         <div className="flex flex-wrap items-center mt-20  text-center ">
           <div className="w-full md:w-3/5 lg:w-1/2 px-4 ">
-            <img src={aboutImg1} alt="gem" className="w-[50%] inline-block rounded shadow-lg border border-merino-400 opacity-[0.8] hover:opacity-[1] " />
+            <img src={aboutImg1} alt="gem" className="w-[50%] inline-block rounded shadow-lg border border-merino-400 " />
           </div>
           <div className="w-full md:w-2/5 lg:w-1/2 px-4 text-center md:text-left lg:pl-12">
             <p className="sm:text-lg mt-6">
@@ -83,9 +99,21 @@ const AboutUs = () => {
           </div>
         </div>
 
-      </div>
 
 
+
+
+
+
+
+
+
+
+
+
+      </div> 
+
+    
 
     </>
   )

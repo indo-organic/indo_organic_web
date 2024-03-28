@@ -1,11 +1,8 @@
-import '../styles/Journey.scss'
+import React from 'react'
+
 const Journey = () => {
   return (
- <>
- <div className="journey"></div>
- 
- </>
-
+    <div>Journey</div>
   )
 }
 
