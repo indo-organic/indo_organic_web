@@ -1,10 +1,13 @@
 import React from 'react'
 import { Link } from "react-router-dom"
+
+
+
 const Adjuvants = () => {
   return (
     <>
-    
-{/*     
+
+          
     <div className="flex flex-wrap my-12">
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full ">
               <a className="block relative h-48 rounded overflow-hidden text-center justify-center pl-10">
@@ -24,8 +27,7 @@ const Adjuvants = () => {
             
         
            
-          </div> */}
-
+          </div>
 
 
 

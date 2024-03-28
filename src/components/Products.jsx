@@ -33,7 +33,7 @@ function Card({ imageUrl, title, description, date, readTime }) {
         <p className="text-gray-500 text-sm">{description}</p>
       </div>
       <div className="px-6 py-4 flex flex-row items-center">
-       
+
       </div>
     </div>
   );
@@ -90,35 +90,48 @@ const Products = () => {
       </div> */}
 
       <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
-      <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-10">
-        <Card
-          imageUrl={agrochemical_img}
-          title="Agrochemical"
-          description="The city that never sleeps"
-          date="40"
-         
-        />
-        <Card
-          imageUrl={adjuvants_img}
-          title="Adjuvants"
-          description="The collection of best pizza images in Newyork city"
-          date="1"
-         
-        />
-        <Card
-          imageUrl={supplements_img }
-          title="IOL specialist"
-          description="The collection of best salads of town in pictures"
-          date="15"
-          
-        />
+        <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-10">
+          <Link to='/agrochemical'>
+
+
+            <Card
+              imageUrl={agrochemical_img}
+              title="Agrochemical"
+              description="The city that never sleeps"
+              date="40"
+
+            />
+          </Link>
+
+          <Link to='/adjuvants'>
+
+
+            <Card
+              imageUrl={adjuvants_img}
+              title="Adjuvants"
+              description="The collection of best pizza images in Newyork city"
+              date="1"
+
+            />
+          </Link>
+          <Link to='/speciality'>
+
+
+            <Card
+              imageUrl={supplements_img}
+              title="IOL specialist"
+              description="The collection of best salads of town in pictures"
+              date="15"
+
+            />
+          </Link>
+        </div>
       </div>
-    </div>
 
 
 
 
-  
+
 
     </>
   )
