@@ -1,4 +1,4 @@
-import alaskaImg from '../../prod_img/alaskaImg.jpg'
+// import alaskaImg from '../../prod_img/alaskaImg.jpg'
 const Alaska = () => {
   return (
     <>

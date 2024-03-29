@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom"
 import '../styles/Agrochemical.scss'
 import rukkaImg from '../prod_img/rukka.jpg'
-import alaskaImg from '../prod_img/alaskaImg.jpg'
-import indoxamImg from '../prod_img/indoxamImg.jpg'
+import alaskaImg from '../prod_img/alaska.jpg'
+import indoxamImg from '../prod_img/indoxam.jpg'
 
 
 

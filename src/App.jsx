@@ -71,6 +71,7 @@ import Valino from './productPage/fungicide/Valino'
 
       // Adjuvants
       import Combo_b from './productPage/adjuvants/Combo_b'
+import SocialMedia from './components/SocialMedia'
   
 
 const App = () => {
@@ -79,6 +80,7 @@ const App = () => {
       <Router>
         <Top />
         <Navbar />
+        <SocialMedia/>
 
         <Routes>
           <Route path='/' element={<Home />} />

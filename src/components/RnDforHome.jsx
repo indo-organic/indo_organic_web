@@ -3,9 +3,8 @@ import rnd2 from '../RnDImg/rnd2.jpg'
 const RnDforHome = () => {
   return (
     <>
-
-      
-      <section className="bg-white dark:bg-gray-900">
+{/* 
+ <section className="bg-white dark:bg-gray-900">
         <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
           <div className="font-light text-gray-900 sm:text-lg dark:text-gray-400">
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white"> Research and Developments</h2>
@@ -30,10 +29,10 @@ const RnDforHome = () => {
             <img className="mt-4 w-full lg:mt-10 rounded-lg " src={rnd2} alt="office content 2 black night hour sticky fixed top-4 red dark " />
           </div>
         </div>
-      </section>
+      </section>  */}
 
 
-{/*  
+
       <div className="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl">
        
         <div className="w-full h-64 lg:w-1/2 lg:h-auto">
@@ -65,8 +64,30 @@ const RnDforHome = () => {
          
         </div>
        
-      </div>  */}
+      </div>  
 
+
+
+      {/* <div className="py-16 bg-white">  
+      <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
+        <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
+          <div className="md:w-5/12 lg:w-5/12">
+            <img src="https://tailus.io/sources/blocks/left-image/preview/images/startup.png" alt="image" loading="lazy" width="" height="" />
+          </div>
+          <div className="md:w-7/12 lg:w-6/12">
+            <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">Research and Developments</h2>
+            <p className="mt-6 text-gray-600">Our R&D team is continuously working with highly
+              qualified and experienced research scientists focusing on
+              Bio-efficacy and toxicology studies.</p>
+            <p className="mt-4 text-gray-600">We produce specialized formulations of crop nutritions,
+              biostimulants and soil improvers that meet the needs of
+              each physiological stage of the crop, offering suitable
+              products for each condition according to our customers
+              need.</p>
+          </div>
+        </div>
+      </div>
+    </div> */}
 
     </>
   )

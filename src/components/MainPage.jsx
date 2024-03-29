@@ -1,4 +1,4 @@
-import SocialMedia from "./SocialMedia"
+// import SocialMedia from "./SocialMedia"
 import Product from './Products'
 import OurStory from "./OurStory"
 // import IntroVid from "./IntroVid"
@@ -22,7 +22,7 @@ const MainPage = () => {
     <Product/>
     <RnDforHome/>
      <Domestic/>
-    <Hightlights/>
+    {/* <Hightlights/> */}
     <Trust/>
      <Home_vision_mission/>
      {/* <Quality/> */}
@@ -32,7 +32,7 @@ const MainPage = () => {
     {/* <NewUpdate/> */}
     {/* <Team/> */}
     <News/>
-    <SocialMedia/>
+    {/* <SocialMedia/> */}
     
     
     </>

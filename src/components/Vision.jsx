@@ -1,4 +1,4 @@
-import visionimg from '../assets/visionImg.jpg'
+// import visionimg from '../assets/visionImg.jpg'
 const Vision = () => {
   return (
     <>
@@ -8,12 +8,12 @@ const Vision = () => {
       <h2 className=" text-white font-bold text-3xl  text-center sm:text-5xl">VISION</h2>
     </div> */}
           <div class="relative mx-auto mt-10 w-full">
-            <img class="h-64 w-full object-cover rounded-md" src={visionimg} alt="Random image" />
-            <div class="absolute inset-0 bg-gray-700 opacity-40 rounded-md"></div>
+            <img class="h-64 w-full object-cover rounded-md object-bottom" src="https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Ae03611ae-8edd-457f-aa4d-73c591a75ee8?source=next-article&fit=scale-down&quality=highest&width=1440&dpr=1" alt="Random image" />
+            <div class="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
             <div class="absolute inset-0 flex items-center justify-center">
               <h2 class="text-white text-3xl font-bold">vision</h2>
             </div>
-          </div>
+          </div> 
 
 
 
@@ -49,8 +49,8 @@ const Vision = () => {
               </div>
             </div>
 
-            <div class="h-[460px] rounded-lg bg-gray-300 dark:bg-gray-700 mb-4" >
-              <img className="w-full h-full object-cover" src={visionimg} alt="Product Image" />
+            <div class="h-[460px] rounded-lg  mb-4" >
+              <img className="w-full h-full object-cover rounded-[6rem]" src='https://www.teektaka.com/wp-content/uploads/2020/07/ES-Investing-Blog.jpg' alt="Product Image" />
             </div>
 
           </div>
