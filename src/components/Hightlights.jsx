@@ -1,5 +1,5 @@
 import React from 'react'
-import alaska from '../prod_img/alaskaImg.jpg'
+import alaska from '../prod_img/alaska.jpg'
 const Hightlights = () => {
     return (
         <>

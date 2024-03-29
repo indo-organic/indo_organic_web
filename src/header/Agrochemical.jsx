@@ -1,171 +1,133 @@
 import { Link } from "react-router-dom"
 import '../styles/Agrochemical.scss'
-import rukkaImg from '../prod_img/rukka.jpg'
-import alaskaImg from '../prod_img/alaska.jpg'
-import indoxamImg from '../prod_img/indoxam.jpg'
+import rukkaImg from '../product_image/rukka.png'
+import alaskaImg from '../product_image/alaska.png'
+import indoxamImg from '../product_image/indoxam.png'
 
 
 
-import indoPrimeImg from '../prod_img/indoPrimeImg.jpg'
-import tangoPlusImg from '../prod_img/tangoplusImg.jpg'
-import sulfieImg from '../prod_img/sulfieImg.jpg'
+import indoPrimeImg from '../product_image/indoprime.png'
+
+import tangoPlusImg from '../product_image/tangoplus.png'
+import sulfieImg from '../product_image/sulfieImg.jpg'
 
 
 
-import protoImg from '../prod_img/protoImg.jpg'
-import emoImg from '../prod_img/emo10Img.jpg'
-import timeupImg from '../prod_img/timeupImg.jpg'
+import protoImg from '../product_image/proto50.png'
+import emoImg from '../product_image/emo10.png'
+import timeupImg from '../product_image/timeup.png'
+
+const AgroCard = ({ category, name, seeMore, imageSrc, imageAlt, sciName }) => {
+  return (
+    <div className="flex-shrink-0 m-6 relative overflow-hidden bg-green-700 rounded-lg max-w-xs shadow-lg group">
+      <svg className="absolute bottom-0 left-0 mb-8 scale-150 group-hover:scale-[1.65] transition-transform"
+        viewBox="0 0 375 283" fill="none" style={{ opacity: 0.1 }}>
+        <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white" />
+        <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+      </svg>
+      <div className="relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
+        <div className="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+          style={{ background: 'radial-gradient(black, transparent 60%)', transform: 'rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1)', opacity: 0.2 }}>
+        </div>
+        <img className="relative w-40 h-60" src={imageSrc} alt={imageAlt} />
+      </div>
+      <div className="relative text-white px-6 pb-6 mt-6">
+        <span className="block opacity-75 -mb-1">{category}</span>
+        <div className="flex justify-between">
+          <span className="block font-semibold text-xl">{name}</span>
+          <span className=" bg-white rounded-full text-green-500 text-xs font-bold px-3 py-2 leading-none flex items-center">{seeMore}</span>
+        </div>
+        <span className="opacity-75 -mb-1">{sciName}</span>
+      </div>
+    </div>
+  );
+};
 const Agrochemical = () => {
   return (
     < >
-      <div className="agroImg">
-        <div className="agrochemical text-3xl text-center  uppercase bg-green-300 p-4 ">
-          agrochemical
-        </div>
 
-        <p className="text-3xl  uppercase  text-center p-3  text-red-700">Insecticide</p>
-        <section id="Projects"
-          className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
-
-
-          <div className="w-72 h-90 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl text-center">
-            <Link to='/rukka'>
-              <img src={rukkaImg}
-                alt="Product" className="w-[84%] mt-3 mb-3 object-cover rounded-t-xl m-auto" />
-              <div className="px-4 py-3 w-72 bg-green-200">
-                <span className="text-gray-800 mr-3 uppercase text-xs">Service</span>
-                <p className="text-lg font-bold text-black truncate block capitalize">Rukka</p>
-              </div>
-            </Link>
-          </div>
+      <h1 class="text-3xl font-bold mb-4 text-center  uppercase   bg-gray-300  text-white p-16"> agrochemical</h1>
 
 
 
-          <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl text-center">
-            <Link to='/alaska'>
-              <img src={alaskaImg}
-                alt="Product" className="w-[84%] mt-3 object-cover rounded-t-xl m-auto" />
-              <div className="px-4 py-3 w-72 bg-green-400">
-                <span className="text-gray-800 mr-3 uppercase text-xs">Service</span>
-                <p className="text-lg font-bold text-black truncate block capitalize">Alaska</p>
-              </div>
-            </Link>
-          </div>
 
-          <div className="w-72 h-90 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl text-center">
-            <Link to='/indoxam'>
-              <img src={indoxamImg}
-                alt="Product" className="w-[52%] mt-3 mb-4 object-cover rounded-t-xl m-auto" />
-              <div className="px-4 py-3 w-72 bg-green-400">
-                <span className="text-gray-800 mr-3 uppercase text-xs">Generic</span>
-                <p className="text-lg font-bold text-black truncate block capitalize">Indoxam</p>
-              </div>
-            </Link>
-          </div>
+      <p className="text-3xl  uppercase  text-center  p-3  text-red-700 ">Insecticide</p>
+      <div className="p-1 flex flex-wrap items-center justify-center">
+        <Link to='/rukka'>
+          <AgroCard category="Insecticide" name="RUKKA" seeMore="see more" sciName='ACTIVE INGREDIENT: Cartap Hydrochloride 4% GR'
+            imageSrc={rukkaImg}
+            imageAlt="RUKKA" />
+        </Link>
+        <Link to='/alaska'>
+          <AgroCard category="Insecticide" name="ALASKA" seeMore="see more" sciName='Profenofos 40% EC + Cypermethrin 4% EC'
+            imageSrc={alaskaImg}
+            imageAlt="alaska" />
+        </Link>
+        <Link to='/indoxam'>
+          <AgroCard category="Insecticide" name="INDOXAM" seeMore="see more" sciName='ACTIVE INGREDIENT: Thiamethoxam 25% WG'
+            imageSrc={indoxamImg}
+            imageAlt="indoxam" />
+        </Link>
 
-        </section>
-        <div className="w-ful text-center p-4">
-          <Link to='/insecticide' class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-            See all products
-          </Link>
+      </div>
+      <div className="w-ful text-center p-4 ">
+        <Link to='/insecticide' class="bg-transparent  text-xl hover:bg-green-500 text-green-700 font-semibold hover:text-black py-4 px-6 border border-blue-500 hover:border-transparent rounded">
+          See all products
+        </Link>
 
-        </div>
+      </div>
 
 
-        <p className="text-3xl p-3 uppercase text-center text-yellow-400">fungicide</p>
-        <section id="Projects"
-          className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
+      <p className="text-3xl  uppercase  text-center p-3  text-red-700 ">fungicide</p>
+      <div className="p-1 flex flex-wrap items-center justify-center ">
+        <Link to='/rukka'>
+          <AgroCard category="Fungicide" name="INDO-PRIME" seeMore="see more" sciName='ACTIVE INGREDIENT: Carbendazim 12% + Mancozeb 63% WP'
+            imageSrc={indoPrimeImg}
+            imageAlt="indoprime" />
+        </Link>
+        <Link to='/alaska'>
+          <AgroCard category="Fungicide" name="TANGO-PLUS" seeMore="see more" sciName='ACTIVE INGREDIENT: Hexaconazole 5% SC'
+            imageSrc={tangoPlusImg}
+            imageAlt="tangoplus" />
+        </Link>
+        <Link to='/indoxam'>
+          <AgroCard category="Fungicide" name="SULPHIE" seeMore="see more" sciName='ACTIVE INGREDIENT: Sulphur 80% WDG'
+            imageSrc={sulfieImg}
+            imageAlt="sulphie" />
+        </Link>
+
+      </div>
+      <div className="w-ful text-center p-4 ">
+        <Link to='/fungicide' class="bg-transparent  text-xl hover:bg-green-500 text-green-700 font-semibold hover:text-black py-4 px-6 border border-blue-500 hover:border-transparent rounded">
+          See all products
+        </Link>
+
+      </div>
 
 
-          <div className="w-72 h-90 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl text-center">
-            <Link to='/IndoPrime'>
-              <img src={indoPrimeImg}
-                alt="Product" className="w-[95%] mt-2 mb-5 object-cover rounded-t-xl m-auto" />
-              <div className="px-4 py-3 w-72 bg-green-400">
-                <span className="text-gray-800 mr-3 uppercase text-xs">Generic</span>
-                <p className="text-lg font-bold text-black truncate block capitalize">Indo-prime</p>
-              </div>
-            </Link>
-          </div>
+      <p className="text-3xl  uppercase  text-center p-3  text-red-700 ">herbicide</p>
+      <div className="p-1 flex flex-wrap items-center justify-center ">
+        <Link to='/rukka'>
+          <AgroCard category="Herbicide" name="PROTO-50" seeMore="see more" sciName='ACTIVE INGREDIENT: Pretilachlor 50% EC'
+            imageSrc={protoImg}
+            imageAlt="proto" />
+        </Link>
+        <Link to='/alaska'>
+          <AgroCard category="Herbicide" name="EMO-10" seeMore="see more" sciName='ACTIVE INGREDIENT: Imazethapyr 10% SL'
+            imageSrc={emoImg}
+            imageAlt="emo" />
+        </Link>
+        <Link to='/indoxam'>
+          <AgroCard category="Herbicide" name="TIME-UP" seeMore="see more" sciName='ACTIVE INGREDIENT: Ammonium Salt of Glyphosate 71% SG'
+            imageSrc={timeupImg}
+            imageAlt="timeup" />
+        </Link>
 
-
-          <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl text-center">
-            <Link to='/tangoPlus'>
-              <img src={tangoPlusImg}
-                alt="Product" className="w-[40%] mt-2  mb-3 object-cover rounded-t-xl m-auto" />
-              <div className="px-4 py-3 w-72  bg-green-400">
-                <span className="text-gray-800 mr-3 uppercase text-xs">Generic</span>
-                <p className="text-lg font-bold text-black truncate block capitalize">Tango-plus</p>
-              </div>
-            </Link>
-          </div>
-
-          <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl text-center">
-            <Link to='/sulphie'>
-              <img src={sulfieImg}
-                alt="Product" className="w-[90%] mt-2 mb-4 object-cover rounded-t-xl m-auto" />
-              <div className="px-4 py-3 w-72 bg-green-400">
-                <span className="text-gray-800 mr-3 uppercase text-xs">Generic</span>
-                <p className="text-lg font-bold text-black truncate block capitalize">Sulphie</p>
-              </div>
-            </Link>
-          </div>
-          <div className="flex justify-center text-center  w-full">
-
-            <Link to='/fungicide' className="border border-gray-300 hover:border-green-500 p-3 mt-6">See all products</Link>
-          </div>
-
-
-        </section>
-
-        <p className="text-2xl p-3 uppercase text-center text-green-400">Herbicide</p>
-        <section id="Projects"
-          className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
-
-
-          <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl text-center">
-            <Link to='/proto50'>
-              <img src={protoImg}
-                alt="Product" className="w-[38%] mb-3 object-cover rounded-t-xl m-auto" />
-              <div className="px-4 py-3 w-72 bg-green-400" >
-                <span className="text-gray-800 mr-3 uppercase text-xs">Weedicide</span>
-                <p className="text-lg font-bold text-black truncate block capitalize">PROTO-50</p>
-              </div>
-            </Link>
-          </div>
-
-
-
-          <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl text-center">
-            <Link to='/proto50'>
-              <img src={emoImg}
-                alt="Product" className="w-[81%] mb-3 object-cover rounded-t-xl m-auto" />
-              <div className="px-4 py-3 w-72 bg-green-400">
-                <span className="text-gray-800 mr-3 uppercase text-xs">Weedicide</span>
-                <p className="text-lg font-bold text-black truncate block capitalize">EMO-10</p>
-              </div>
-            </Link>
-          </div>
-
-          <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl text-center">
-            <Link to='/proto50'>
-              <img src={timeupImg}
-                alt="Product" className="w-[83%] mb-3 object-cover rounded-t-xl m-auto" />
-              <div className="px-4 py-3 w-72 bg-green-400">
-                <span className="text-gray-800 mr-3 uppercase text-xs">Weedicide</span>
-                <p className="text-lg font-bold text-black truncate block capitalize">TIme-UP</p>
-              </div>
-            </Link>
-          </div>
-
-
-          <div className="flex justify-center text-center  w-full">
-
-            <Link to='/herbicide' className="border border-gray-300 hover:border-green-500 p-3 mt-6">See all products</Link>
-          </div>
-
-
-        </section>
+      </div>
+      <div className="w-ful text-center p-4 ">
+        <Link to='/fungicide' class="bg-transparent  text-xl hover:bg-green-500 text-green-700 font-semibold hover:text-black py-4 px-6 border border-blue-500 hover:border-transparent rounded">
+          See all products
+        </Link>
 
       </div>
 

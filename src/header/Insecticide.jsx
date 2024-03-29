@@ -1,53 +1,40 @@
-// import { Link } from "react-router-dom"
+import { Link } from "react-router-dom"
+import rukkaImg from '../product_image/rukka.png'
+import alaskaImg from '../product_image/alaska.png'
+import indoxamImg from '../product_image/indoxam.png'
+import vaidImg from '../product_image/vaid.png'
+// import fiprosixImg from '../product_image/fiprosix.png'
+import dhamaalImg from '../product_image/dhamaal.png'
 
-
-import rukkaImg from '../prod_img/rukka.jpg'
-import alaskaImg from '../prod_img/alaska.jpg'
-import indoxamImg from '../prod_img/indoxam.jpg'
-import vaidImg from '../prod_img/vaid.jpg'
-
-
-
-import indoPrimeImg from '../prod_img/indoPrimeImg.jpg'
-// import tangoPlusImg from '../prod_img/tangoplusImg.jpg'
-// import sulfieImg from '../prod_img/sulfieImg.jpg'
-
-
-
-// import protoImg from '../prod_img/protoImg.jpg'
-// import emoImg from '../prod_img/emo10Img.jpg'
-// import timeupImg from '../prod_img/timeupImg.jpg'
-
-
-
-const ProductCard = ({ category, name, seeMore, imageSrc, imageAlt }) => {
-    return (
-        <div className="flex-shrink-0 m-6 relative overflow-hidden bg-green-500 rounded-lg max-w-xs shadow-lg group">
-            <svg className="absolute bottom-0 left-0 mb-8 scale-150 group-hover:scale-[1.65] transition-transform"
-                viewBox="0 0 375 283" fill="none" style={{ opacity: 0.1 }}>
-                <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white" />
-                <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
-            </svg>
-            <div className="relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
-                <div className="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
-                    style={{ background: 'radial-gradient(black, transparent 60%)', transform: 'rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1)', opacity: 0.2 }}>
-                </div>
-                <img className="relative w-40" src={imageSrc} alt={imageAlt} />
-            </div>
-            <div className="relative text-white px-6 pb-6 mt-6">
-                <span className="block opacity-75 -mb-1">{category}</span>
-                <div className="flex justify-between">
-                    <span className="block font-semibold text-xl">{name}</span>
-                    <span className=" bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center">{seeMore}</span>
-                </div>
-            </div>
+const InsectCard = ({ category, name, seeMore, imageSrc, imageAlt, sciName }) => {
+  return (
+    <div className="flex-shrink-0 m-6 relative overflow-hidden bg-green-700 rounded-lg max-w-xs shadow-lg group">
+      <svg className="absolute bottom-0 left-0 mb-8 scale-150 group-hover:scale-[1.65] transition-transform"
+        viewBox="0 0 375 283" fill="none" style={{ opacity: 0.1 }}>
+        <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white" />
+        <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+      </svg>
+      <div className="relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
+        <div className="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+          style={{ background: 'radial-gradient(black, transparent 60%)', transform: 'rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1)', opacity: 0.2 }}>
         </div>
-    );
+        <img className="relative w-40 h-60" src={imageSrc} alt={imageAlt} />
+      </div>
+      <div className="relative text-white px-6 pb-6 mt-6">
+        <span className="block opacity-75 -mb-1">{category}</span>
+        <div className="flex justify-between">
+          <span className="block font-semibold text-xl">{name}</span>
+          <span className=" bg-white rounded-full text-green-500 text-xs font-bold px-3 py-2 leading-none flex items-center">{seeMore}</span>
+        </div>
+        <span className="opacity-75 -mb-1">{sciName}</span>
+      </div>
+    </div>
+  );
 };
 const Insecticide = () => {
-    return (
-        <>
-            {/* <section className="text-gray-600 body-font">
+  return (
+    <>
+      {/* <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
         <p classNameName="text-2xl p-3 capitalize">insecticide</p>
           <div className="flex flex-wrap -m-4">
@@ -226,76 +213,87 @@ const Insecticide = () => {
 
 
 
-            {/* <p classNameName="text-3xl  capitalize m-auto p-3  text-red-700">Insecticide</p>
-      <section id="Projects"
-        className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
 
 
-        <div className="w-72 h-90 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl text-center">
-          <Link to='/rukka'>
-            <img src={rukkaImg}
-              alt="Product" className="w-[84%] mt-3 mb-3 object-cover rounded-t-xl m-auto" />
-            <div className="px-4 py-3 w-72 bg-green-400">
-              <span className="text-gray-800 mr-3 uppercase text-xs">Service</span>
-              <p className="text-lg font-bold text-black truncate block capitalize">Rukka</p>
-            </div>
-          </Link>
-        </div>
+<h1 class="text-3xl font-bold mb-4 text-center  uppercase   bg-gray-800  text-white p-16">insecticide</h1>
+
+      <div className="p-1 flex flex-wrap items-center justify-center">
+        <Link to='/rukka'>
+          <InsectCard category="Service" name="RUKKA" seeMore="see more" sciName='ACTIVE INGREDIENT: Cartap Hydrochloride 4% GR'
+            imageSrc={rukkaImg}
+            imageAlt="RUKKA" />
+        </Link>
+        <Link to='/alaska'>
+          <InsectCard category="Service" name="ALASKA" seeMore="see more" sciName='Profenofos 40% EC + Cypermethrin 4% EC'
+            imageSrc={alaskaImg}
+            imageAlt="alaska" />
+        </Link>
+        <Link to='/cyphorus'>
+          <InsectCard category="Insecticide" name="CYPHORUS" seeMore="see more" sciName='ACTIVE INGREDIENT: Thiamethoxam 25% WG'
+            imageSrc={rukkaImg}
+            imageAlt="cyphorus" />
+        </Link>
+        <Link to='/indoxam'>
+          <InsectCard category="Generic" name="INDOXAM" seeMore="see more" sciName='ACTIVE INGREDIENT: Thiamethoxam 25% WG'
+            imageSrc={indoxamImg}
+            imageAlt="indoxam" />
+        </Link>
+
+        <Link to='/vaid'>
+          <InsectCard category="Generic" name="VAID" seeMore="see more" sciName='ACTIVE INGREDIENT: Cartap Hydrochloride 4% GR'
+            imageSrc={vaidImg}
+            imageAlt="vaid" />
+        </Link>
+        <Link to='/fiprosix'>
+          <InsectCard category="Generic" name="FIPROSIX" seeMore="see more" sciName='Profenofos 40% EC + Cypermethrin 4% EC'
+            // imageSrc={fiprosixImg}
+            imageAlt="fiprosix" />
+        </Link>
+        <Link to='/dhamaal'>
+          <InsectCard category="Generic" name="DHAMAAL" seeMore="see more" sciName='ACTIVE INGREDIENT: Thiamethoxam 25% WG'
+            imageSrc={dhamaalImg}
+            imageAlt="dhamaal" />
+        </Link>
+
+        <Link to='/emanate'>
+          <InsectCard category="Generic" name="EMANATE" seeMore="see more" sciName='ACTIVE INGREDIENT: Cartap Hydrochloride 4% GR'
+            imageSrc={rukkaImg}
+            imageAlt="emanate" />
+        </Link>
+        <Link to='/thypo'>
+          <InsectCard category="Generic" name="THYPO" seeMore="see more" sciName='Profenofos 40% EC + Cypermethrin 4% EC'
+            imageSrc={rukkaImg}
+            imageAlt="thypo" />
+        </Link>
+        <Link to='/grit40'>
+          <InsectCard category="Generic" name="GRIT-40" seeMore="see more" sciName='ACTIVE INGREDIENT: Thiamethoxam 25% WG'
+            imageSrc={rukkaImg}
+            imageAlt="grit-40" />
+        </Link>
+        <Link to='/tropiz'>
+          <InsectCard category="Generic" name="TROPIZ" seeMore="see more" sciName='ACTIVE INGREDIENT: Cartap Hydrochloride 4% GR'
+            imageSrc={rukkaImg}
+            imageAlt="tropiz" />
+        </Link>
+        <Link to='/peak'>
+          <InsectCard category="Generic" name="PEAK" seeMore="see more" sciName='Profenofos 40% EC + Cypermethrin 4% EC'
+            imageSrc={rukkaImg}
+            imageAlt="peak" />
+        </Link>
+        <Link to='/vaidL'>
+          <InsectCard category="Generic" name="VAID-L" seeMore="see more" sciName='ACTIVE INGREDIENT: Thiamethoxam 25% WG'
+            imageSrc={rukkaImg}
+            imageAlt="vaid-L" />
+        </Link>
+      
 
 
 
-        <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl text-center">
-          <Link to='/alaska'>
-            <img src={alaskaImg}
-              alt="Product" className="w-[84%] mt-3 object-cover rounded-t-xl m-auto" />
-            <div className="px-4 py-3 w-72 bg-green-400">
-              <span className="text-gray-800 mr-3 uppercase text-xs">Service</span>
-              <p className="text-lg font-bold text-black truncate block capitalize">Alaska</p>
-            </div>
-          </Link>
-        </div>
-
-        <div className="w-72 h-90 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl text-center">
-          <Link to='/cyphones'>
-            <img src={timeupImg}
-              alt="Product" className="w-[89%] mt-3 mb-4 object-cover rounded-t-xl m-auto" />
-            <div className="px-4 py-3 w-72 bg-green-400">
-              <span className="text-gray-800 mr-3 uppercase text-xs">Service</span>
-              <p className="text-lg font-bold text-black truncate block capitalize">Cyphones</p>
-            </div>
-          </Link>
-        </div>
+      </div>
 
 
-
-
-      </section> */}
-
-
-
-
-            <div className="p-1 flex flex-wrap items-center justify-center">
-                <ProductCard category="service" name="rukka" seeMore="see more"
-                    imageSrc={rukkaImg}
-                    imageAlt="rukka" />
-                <ProductCard category="service" name="Alaska" seeMore="see more"
-                    imageSrc={alaskaImg}
-                    imageAlt="alaska" />
-
-                <ProductCard category="Generic" name="indo Prime" seeMore="see more"
-                    imageSrc={indoPrimeImg}
-                    imageAlt="indoxam" />
-
-                <ProductCard category="generic" name="Vaid" seeMore="see more"
-                    imageSrc={vaidImg}
-                    imageAlt="vaid" />
-
-
-            </div>
-
-
-        </>
-    )
+    </>
+  )
 }
 
 export default Insecticide
