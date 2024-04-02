@@ -25,9 +25,10 @@ const Static = () => {
       </div>
     </div>
   </div>
+
 </section> 
     
-    
+
     
     </>
   )
