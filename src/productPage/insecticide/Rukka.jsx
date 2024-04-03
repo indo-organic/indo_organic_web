@@ -4,12 +4,13 @@ const Rukka = () => {
   return (
     <>
 
+<h1 className="text-3xl font-bold mb-4  bg-green-600 text-white p-16 text-center">Insecticide</h1>
 
-      <h1 className="text-3xl  text-red-700 py-6 px-4">Insecticide</h1>
-      <section className="text-gray-600 body-font overflow-hidden">
+      {/* <h1 className="text-3xl  text-red-700 py-6 px-4">Insecticide</h1> */}
+      <section className="text-gray-600 body-font overflow-hidden bg-gray-100">
         <div className="container px-5 py-24 mx-auto">
           <div className="lg:w-4/5 mx-auto flex flex-wrap">
-            <div class="h-[460px] rounded-lg bg-gray-300 dark:bg-gray-700 mb-4">
+            <div class="h-[460px] rounded-lg  dark:bg-gray-700 mb-4">
               <img class="w-full h-full object-cover" src={rukkaImg} alt="Product Image" />
             </div>
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
@@ -18,13 +19,13 @@ const Rukka = () => {
               </h2>
               <p className="leading-relaxed">It is a systemic insecticide with stomach and contact action. It is effective against insect mining in plants by its systemic action. It controls insect resistant to other insecticides. It has a long persistent efficacy and can control almost all stage of insects</p>
 
-              <h3 className="text-gray-900 text-2xl title-font font-medium m-3">Target  crops</h3>
+              <h3 className="text-red-600 text-2xl title-font font-medium m-3">Target  crops</h3>
               <p className='leading-relaxed m-4'>Rice, Potato, Cabbage, Soya bean, Peanut, Sunflowers,maize, Sugarbeets, Wheat, pearl Barley, Cotton, Ginger, Tea, and Sugarcane.</p>
 
-              <h3 className="text-gray-900 text-2xl title-font font-medium m-3">Target pests & Diseases</h3>
+              <h3 className="text-red-600 text-2xl title-font font-medium m-3">Target pests & Diseases</h3>
               <p className='leading-relaxed m-4'>It is used to control chewing and sucking Insects at almost all stages of development. For example leaf folder, stem borer, early shoot borer, root maggots.</p>
 
-              <h3 className="text-gray-900 text-2xl title-font font-medium m-3">Dosage</h3>
+              <h3 className="text-red-600 text-2xl title-font font-medium m-3">Dosage</h3>
               <p className='leading-relaxed m-4'>7.5-10 Kg/acre.</p>
 
               <div className="">

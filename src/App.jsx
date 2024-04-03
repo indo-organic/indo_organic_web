@@ -40,7 +40,7 @@ import FiproSix from './productPage/insecticide/FiproSix'
 import Dhamaal from './productPage/insecticide/Dhamaal'
 import Emanate from './productPage/insecticide/Emanate'
 import Thypo from './productPage/insecticide/Thypo'
-import Grid40 from './productPage/insecticide/Grid40'
+import Grit40 from './productPage/insecticide/Grit40'
 import Tropiz from './productPage/insecticide/Tropiz'
 import Peak from './productPage/insecticide/Peak'
 import Vaid_L from './productPage/insecticide/Vaid_L'
@@ -123,7 +123,7 @@ const App = () => {
           <Route path='/dhamaal' element={<Dhamaal />} />
           <Route path='/emanate' element={<Emanate />} />
           <Route path='/thypo' element={<Thypo />} />
-          <Route path='/grid40' element={<Grid40 />} />
+          <Route path='/grit40' element={<Grit40 />} />
           <Route path='/tropiz' element={<Tropiz />} />
           <Route path='/peak' element={<Peak />} />
           <Route path='/vaid_l' element={<Vaid_L />} />
@@ -170,7 +170,7 @@ const App = () => {
 
 
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </Router>
 
 

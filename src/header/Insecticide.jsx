@@ -3,17 +3,17 @@ import rukkaImg from '../product_image/rukka.png'
 import alaskaImg from '../product_image/alaska.png'
 import indoxamImg from '../product_image/indoxam.png'
 import vaidImg from '../product_image/vaid.png'
-// import fiprosixImg from '../product_image/fiprosix.png'
+import fiprosixImg from '../product_image/fiprosix.png'
 import dhamaalImg from '../product_image/dhamaal.png'
+import emanateImg from '../product_image/emanate.png'
+import thypoImg from '../product_image/thypo.png'
+import grit40Img from '../product_image/grit40.png'
+import tropizImg from '../product_image/tropiz.png'
 
 const InsectCard = ({ category, name, seeMore, imageSrc, imageAlt, sciName }) => {
   return (
     <div className="flex-shrink-0 m-6 relative overflow-hidden bg-green-700 rounded-lg max-w-xs shadow-lg group">
-      <svg className="absolute bottom-0 left-0 mb-8 scale-150 group-hover:scale-[1.65] transition-transform"
-        viewBox="0 0 375 283" fill="none" style={{ opacity: 0.1 }}>
-        <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white" />
-        <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
-      </svg>
+      
       <div className="relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
         <div className="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
           style={{ background: 'radial-gradient(black, transparent 60%)', transform: 'rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1)', opacity: 0.2 }}>
@@ -230,7 +230,7 @@ const Insecticide = () => {
         </Link>
         <Link to='/cyphorus'>
           <InsectCard category="Insecticide" name="CYPHORUS" seeMore="see more" sciName='ACTIVE INGREDIENT: Thiamethoxam 25% WG'
-            imageSrc={rukkaImg}
+            // imageSrc={rukkaImg}
             imageAlt="cyphorus" />
         </Link>
         <Link to='/indoxam'>
@@ -246,7 +246,7 @@ const Insecticide = () => {
         </Link>
         <Link to='/fiprosix'>
           <InsectCard category="Generic" name="FIPROSIX" seeMore="see more" sciName='Profenofos 40% EC + Cypermethrin 4% EC'
-            // imageSrc={fiprosixImg}
+            imageSrc={fiprosixImg}
             imageAlt="fiprosix" />
         </Link>
         <Link to='/dhamaal'>
@@ -257,22 +257,22 @@ const Insecticide = () => {
 
         <Link to='/emanate'>
           <InsectCard category="Generic" name="EMANATE" seeMore="see more" sciName='ACTIVE INGREDIENT: Cartap Hydrochloride 4% GR'
-            imageSrc={rukkaImg}
+            imageSrc={emanateImg}
             imageAlt="emanate" />
         </Link>
         <Link to='/thypo'>
           <InsectCard category="Generic" name="THYPO" seeMore="see more" sciName='Profenofos 40% EC + Cypermethrin 4% EC'
-            imageSrc={rukkaImg}
+            imageSrc={thypoImg}
             imageAlt="thypo" />
         </Link>
         <Link to='/grit40'>
           <InsectCard category="Generic" name="GRIT-40" seeMore="see more" sciName='ACTIVE INGREDIENT: Thiamethoxam 25% WG'
-            imageSrc={rukkaImg}
+            imageSrc={grit40Img}
             imageAlt="grit-40" />
         </Link>
         <Link to='/tropiz'>
           <InsectCard category="Generic" name="TROPIZ" seeMore="see more" sciName='ACTIVE INGREDIENT: Cartap Hydrochloride 4% GR'
-            imageSrc={rukkaImg}
+            imageSrc={tropizImg}
             imageAlt="tropiz" />
         </Link>
         <Link to='/peak'>
