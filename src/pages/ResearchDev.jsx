@@ -1,9 +1,9 @@
 import '../styles/ResearchDev.scss'
-import research_img from '../assets/image1.jpg'
-import research1 from '../assets/research1.jpg'
-import research2 from '../assets/research2.jpg'
+// import research_img from '../assets/image1.jpg'
+// import research1 from '../assets/research1.jpg'
+// import research2 from '../assets/research2.jpg'
 
-import rnd2 from '../RnDImg/rnd2.jpg'
+// import rnd2 from '../RnDImg/rnd2.jpg'
 
 
 
@@ -36,7 +36,7 @@ const ResearchDev = () => {
           <img src={research2} alt="" />
          
         </div>
-      </div> */}
+      </div>  */}
 
 
 
@@ -65,7 +65,7 @@ const ResearchDev = () => {
           </div>
           <div className="grid grid-cols-2 gap-4 mt-8">
             <img className="w-full rounded-lg" src="https://media.istockphoto.com/id/494726892/photo/model-plant-in-a-research-lab.jpg?s=612x612&w=0&k=20&c=FgYna7smf8rXvnn1Lc_ClFproFIk8tclsoi3TJ8VTcE=" alt="office content 1"/>
-              <img className="mt-4 w-full lg:mt-10 rounded-lg" src={rnd2} alt="office content 2"/>
+              {/* <img className="mt-4 w-full lg:mt-10 rounded-lg" src={rnd2} alt="office content 2"/> */}
               </div>
           </div>
       </section>

@@ -31,7 +31,7 @@ const Gallery = () => {
   return (
     <>
     
-    <div className="grid grid-cols-1 w-[80%] m-auto sm:grid-cols-2 md:grid-cols-3 ">
+    <div className="grid grid-cols-1 w-[80%] m-auto sm:grid-cols-2 md:grid-cols-3 py-20 ">
         {data.map(({ imageLink }, index) => (
           <div key={index}>
             <img

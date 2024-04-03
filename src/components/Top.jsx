@@ -17,10 +17,10 @@ const Top = () => {
     };
     return (
         <>
-            <div className="top">
+           <div className="top">
 
                 <div className="top_right">
-                    {/* right side content here */}
+                  
                     
                     News &  Insights
 
@@ -46,8 +46,10 @@ const Top = () => {
 
                     </div>
                 </div>
-            </div>
+            </div> 
 
+
+          
         </>
     )
 }
