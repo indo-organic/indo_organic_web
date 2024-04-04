@@ -33,7 +33,7 @@ import Agrochemical from './header/Agrochemical'
 import Insecticide from './header/Insecticide'
 import Rukka from './productPage/insecticide/Rukka'
 import Alaska from './productPage/insecticide/Alaska'
-import Cyphones from './productPage/insecticide/Cyphones'
+import Cyphorus from './productPage/insecticide/Cyphorus'
 import Indoxam from './productPage/insecticide/Indoxam'
 import Vaid from './productPage/insecticide/Vaid'
 import FiproSix from './productPage/insecticide/FiproSix'
@@ -116,7 +116,7 @@ const App = () => {
 
           <Route path='/rukka' element={<Rukka />} />
           <Route path='/alaska' element={<Alaska />} />
-          <Route path='/cyphones' element={<Cyphones />} />
+          <Route path='/cyphorus' element={<Cyphorus />} />
           <Route path='/indoxam' element={<Indoxam />} />
           <Route path='/vaid' element={<Vaid />} />
           <Route path='/fiprosix' element={<FiproSix />} />
@@ -170,7 +170,7 @@ const App = () => {
 
 
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
 
 

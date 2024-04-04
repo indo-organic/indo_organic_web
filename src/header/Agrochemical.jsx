@@ -44,32 +44,50 @@ const Agrochemical = () => {
           <h2 class="text-white text-3xl font-bold">Agrochemical</h2>
         </div>
       </div>
+      <div className=" w-full h-screen ">
 
-      <p className="text-3xl  uppercase  text-center  p-3  text-red-700 ">Insecticide</p>
-      <div className="p-1 flex flex-wrap items-center justify-center">
-        <Link to='/rukka'>
-          <AgroCard category="Insecticide" name="RUKKA" seeMore="see more" sciName='ACTIVE INGREDIENT: Cartap Hydrochloride 4% GR'
-            imageSrc={rukkaImg}
-            imageAlt="RUKKA" />
-        </Link>
-        <Link to='/alaska'>
-          <AgroCard category="Insecticide" name="ALASKA" seeMore="see more" sciName='Profenofos 40% EC + Cypermethrin 4% EC'
-            imageSrc={alaskaImg}
-            imageAlt="alaska" />
-        </Link>
-        <Link to='/indoxam'>
-          <AgroCard category="Insecticide" name="INDOXAM" seeMore="see more" sciName='ACTIVE INGREDIENT: Thiamethoxam 25% WG'
-            imageSrc={indoxamImg}
-            imageAlt="indoxam" />
-        </Link>
+
+        <p className="text-3xl  uppercase  text-center  p-3  text-red-700 ">Insecticide</p>
+        <div className="p-1 flex flex-wrap items-center justify-center">
+          <Link to='/rukka'>
+            <AgroCard category="Insecticide" name="RUKKA" seeMore="see more" sciName='ACTIVE INGREDIENT: Cartap Hydrochloride 4% GR'
+              imageSrc={rukkaImg}
+              imageAlt="RUKKA" />
+          </Link>
+          <Link to='/alaska'>
+            <AgroCard category="Insecticide" name="ALASKA" seeMore="see more" sciName='Profenofos 40% EC + Cypermethrin 4% EC'
+              imageSrc={alaskaImg}
+              imageAlt="alaska" />
+          </Link>
+          <Link to='/indoxam'>
+            <AgroCard category="Insecticide" name="INDOXAM" seeMore="see more" sciName='ACTIVE INGREDIENT: Thiamethoxam 25% WG'
+              imageSrc={indoxamImg}
+              imageAlt="indoxam" />
+          </Link>
+
+        </div>
+        <div className="w-ful text-center p-4 ">
+          <Link to='/insecticide' class="bg-transparent  text-xl hover:bg-green-500 text-green-700 font-semibold hover:text-black py-4 px-6 border border-blue-500 hover:border-transparent rounded">
+            See all products
+          </Link>
+
+        </div>
+
+
+
+
 
       </div>
-      <div className="w-ful text-center p-4 ">
-        <Link to='/insecticide' class="bg-transparent  text-xl hover:bg-green-500 text-green-700 font-semibold hover:text-black py-4 px-6 border border-blue-500 hover:border-transparent rounded">
-          See all products
-        </Link>
 
-      </div>
+
+
+
+
+
+
+
+
+
 
 
       <p className="text-3xl  uppercase  text-center p-3  text-red-700 ">fungicide</p>
@@ -119,7 +137,7 @@ const Agrochemical = () => {
 
       </div>
       <div className="w-ful text-center p-4 ">
-        <Link to='/fungicide' class="bg-transparent  text-xl hover:bg-green-500 text-green-700 font-semibold hover:text-black py-4 px-6 border border-blue-500 hover:border-transparent rounded">
+        <Link to='/herbicide' class="bg-transparent  text-xl hover:bg-green-500 text-green-700 font-semibold hover:text-black py-4 px-6 border border-blue-500 hover:border-transparent rounded">
           See all products
         </Link>
 

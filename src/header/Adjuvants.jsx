@@ -28,14 +28,14 @@ const Adjuvants = () => {
     <>
       <h1 className="text-3xl font-bold mb-4  bg-green-600 text-white p-16 text-center">Adjuvants</h1>
 
-          
-<div className="p-1 flex flex-wrap items-center justify-center">
+
+      <div className="p-1 flex flex-wrap items-center justify-center bg-gray-200 h-screen">
         <Link to='/comboB'>
           <AgroCard category="Adjuvant" name="COMBO-B" seeMore="see more" sciName='Organosilicone Based Spray Adjuvant'
             imageSrc={comboBImg}
             imageAlt="combob" />
         </Link>
-       
+
 
       </div>
 

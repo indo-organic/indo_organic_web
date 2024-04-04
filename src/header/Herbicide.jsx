@@ -1,223 +1,98 @@
 import { Link } from "react-router-dom"
+
+import proto50Img from '../product_image/proto50.png'
+import emo10Img from '../product_image/emo10.png'
+import timeupImg from '../product_image/timeup.png'
+import nirolImg from '../product_image/nirol.png'
+import cutnipImg from '../product_image/cutnip.png'
+import auto32Img from '../product_image/auto32.png'
+
+
+const HerbiCard = ({ category, name, seeMore, imageSrc, imageAlt, sciName }) => {
+  return (
+    <div className="flex-shrink-0 m-6 relative overflow-hidden bg-green-700 rounded-lg max-w-xs shadow-lg group">
+
+      <div className="relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
+        <div className="block absolute w-52 h-48  bottom-0 left-0 -mb-24 ml-3"
+          style={{ background: 'radial-gradient(black, transparent 60%)', transform: 'rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1)', opacity: 0.2 }}>
+        </div>
+        <img className="relative w-40 h-60" src={imageSrc} alt={imageAlt} />
+      </div>
+      <div className="relative text-white px-6 pb-6 mt-6">
+        <span className="block opacity-75 -mb-1">{category}</span>
+        <div className="flex justify-between">
+          <span className="block font-semibold text-xl">{name}</span>
+          <span className=" bg-white rounded-full text-green-500 text-xs font-bold px-3 py-2 leading-none flex items-center">{seeMore}</span>
+        </div>
+        <span className="opacity-75 -mb-1">{sciName}</span>
+      </div>
+    </div>
+  );
+};
 const Herbicide = () => {
   return (
     <>
 
-      {/* <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto">
-          <p className="text-2xl p-3 capitalize">Herbicide</p>
-          <div className="flex flex-wrap -m-4">
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-48 rounded overflow-hidden">
-                <img className="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260" />
-              </a>
-              <div className="mt-4">
-                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Service</h3>
-                <div className="flex justify-evenly">
-
-                  <h2 className="text-gray-900 title-font text-lg font-medium">Proto-50</h2>
-                  <Link to='/proto50' className="mt-1">
-                    Learn more
-                  </Link>
-                </div>
-
-              </div>
-            </div>
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-48 rounded overflow-hidden">
-                <img className="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260" />
-              </a>
-              <div className="mt-4">
-                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Service</h3>
-                <div className="flex justify-evenly">
-
-                  <h2 className="text-gray-900 title-font text-lg font-medium">Emo-10</h2>
-                  <Link to='/emo10' className="mt-1">
-                    Learn more
-                  </Link>
-                </div>
-
-              </div>
-            </div>
-
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-48 rounded overflow-hidden">
-                <img className="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260" />
-              </a>
-              <div className="mt-4">
-                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Service</h3>
-                <div className="flex justify-evenly">
-
-                  <h2 className="text-gray-900 title-font text-lg font-medium">time-up</h2>
-                  <Link to='/timeup' className="mt-1">
-                    Learn more
-                  </Link>
-                </div>
-
-              </div>
-            </div>
-
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-48 rounded overflow-hidden">
-                <img className="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260" />
-              </a>
-              <div className="mt-4">
-                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Service</h3>
-                <div className="flex justify-evenly">
-
-                  <h2 className="text-gray-900 title-font text-lg font-medium">Nirol</h2>
-                  <Link to='/nirol' className="mt-1">
-                    Learn more
-                  </Link>
-                </div>
-
-              </div>
-            </div>
-           
-
-            
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-48 rounded overflow-hidden">
-                <img className="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260" />
-              </a>
-              <div className="mt-4">
-                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Service</h3>
-                <div className="flex justify-evenly">
-
-                  <h2 className="text-gray-900 title-font text-lg font-medium">Cutnip</h2>
-                  <Link to='/cutnip' className="mt-1">
-                    Learn more
-                  </Link>
-                </div>
-
-              </div>
-            </div>
+      <h1 class="text-3xl font-bold mb-4 text-center  uppercase   bg-gray-800  text-white p-16">Herbicide</h1>
 
 
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-48 rounded overflow-hidden">
-                <img className="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260" />
-              </a>
-              <div className="mt-4">
-                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Service</h3>
-                <div className="flex justify-evenly">
+      <div className="p-1 flex flex-wrap items-center justify-center">
+        <Link to='/proto50'>
+          <HerbiCard category="Service" name="PROTO-50" seeMore="see more" sciName='ACTIVE INGREDIENT: Pretilachlor 50% EC
+'
+            imageSrc={proto50Img}
+            imageAlt="PROTO-50" />
+        </Link>
 
-                  <h2 className="text-gray-900 title-font text-lg font-medium">Auto-30</h2>
-                  <Link to='/auto-32' className="mt-1">
-                    Learn more
-                  </Link>
-                </div>
+        <Link to='/emo10'>
+          <HerbiCard category="Service" name="EMO-10" seeMore="see more" sciName=' ACTIVE INGREDIENT: Imazethapyr 10% SL
+'
+            imageSrc={emo10Img}
+            imageAlt="emo10" />
+        </Link>
 
-              </div>
-            </div>
+        <Link to='/timeup'>
+          <HerbiCard category="Service" name="TIME-UP" seeMore="see more" sciName='ACTIVE INGREDIENT: Ammonium Salt of Glyphosate 71% SG
+'
+            imageSrc={timeupImg}
+            imageAlt="timeup" />
+        </Link>
 
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-48 rounded overflow-hidden">
-                <img className="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260" />
-              </a>
-              <div className="mt-4">
-                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Service</h3>
-                <div className="flex justify-evenly">
+        <Link to='/nirol'>
+          <HerbiCard category="Service" name="NIROL" seeMore="see more" sciName='ACTIVE INGREDIENT: Clodinafop + Propargyl 15% WP'
+            imageSrc={nirolImg}
+            imageAlt="nirol" />
+        </Link>
 
-                  <h2 className="text-gray-900 title-font text-lg font-medium">Pit-Kit</h2>
-                  <Link to='/Pitkit' className="mt-1">
-                    Learn more
-                  </Link>
-                </div>
+        <Link to='/cutnip'>
+          <HerbiCard category="Service" name="CUTNIP" seeMore="see more" sciName='ACTIVE INGREDIENT: 2-4 D Amine salt 58% SL
+'
+            imageSrc={cutnipImg}
+            imageAlt="cutnip" />
+        </Link>
 
-              </div>
-            </div>
-           
+        <Link to='/auto32'>
+          <HerbiCard category="Service" name="AUTO-32" seeMore="see more" sciName='Pendimethalin 30% + Imazethapyr 2% EC
+'
+            imageSrc={auto32Img}
+            imageAlt="AUTO32" />
+        </Link>
+
+        <Link to='/pitkit'>
+          <HerbiCard category="Service" name="PIT-KIT" seeMore="see more" sciName='
+'
+            // imageSrc={emo10Img}
+            imageAlt="PITKIT" />
+        </Link>
 
 
 
 
 
 
+      </div>
 
 
-
-
-
-
-
-          </div>
-        </div>
-      </section> */}
-
-
-
-
-      <section id="Projects"
-        className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
-
-        <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
-          <a href="#">
-            <img src="https://images.unsplash.com/photo-1646753522408-077ef9839300?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-              alt="Product" className="h-80 w-72 object-cover rounded-t-xl" />
-            <div className="px-4 py-3 w-72">
-              <span className="text-gray-400 mr-3 uppercase text-xs">Brand</span>
-              <p className="text-lg font-bold text-black truncate block capitalize">Product Name</p>
-              <div className="flex items-center">
-               
-                <div className="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                  fill="currentColor" className="bi bi-bag-plus" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd"
-                    d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
-                  <path
-                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-                </svg></div>
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
-          <a href="#">
-            <img src="https://images.unsplash.com/photo-1651950519238-15835722f8bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mjh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-              alt="Product" className="h-80 w-72 object-cover rounded-t-xl" />
-            <div className="px-4 py-3 w-72">
-              <span className="text-gray-400 mr-3 uppercase text-xs">Brand</span>
-              <p className="text-lg font-bold text-black truncate block capitalize">Product Name</p>
-              <div className="flex items-center">
-               
-                <div className="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                  fill="currentColor" className="bi bi-bag-plus" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd"
-                    d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
-                  <path
-                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-                </svg></div>
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
-          <a href="#">
-            <img src="https://images.unsplash.com/photo-1651950537598-373e4358d320?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MjV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-              alt="Product" className="h-80 w-72 object-cover rounded-t-xl" />
-            <div className="px-4 py-3 w-72">
-              <span className="text-gray-400 mr-3 uppercase text-xs">Brand</span>
-              <p className="text-lg font-bold text-black truncate block capitalize">Product Name</p>
-              <div className="flex items-center">
-               
-                <div className="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                  fill="currentColor" className="bi bi-bag-plus" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd"
-                    d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
-                  <path
-                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-                </svg></div>
-              </div>
-            </div>
-          </a>
-        </div>
-
-
-
-
-      </section>
 
 
     </>

@@ -1,22 +1,19 @@
-import vaidImg from '../../product_image/vaid.png'
-import vaid_title from '../../titleImg/Vaid.png'
-
-const Peak = () => {
+import cyphorusImg from '../../product_image/cyphorus.png'
+const Cyphorus = () => {
   return (
     <>
-    
-    <h1 className="text-3xl font-bold mb-4  bg-green-600 text-white p-16 text-center">Insecticide</h1>
+     <h1 className="text-3xl font-bold mb-4  bg-green-600 text-white p-16 text-center">Insecticide</h1>
 
 
 <section className="text-gray-600 body-font overflow-hidden bg-gray-100">
   <div className="container px-5 py-24 mx-auto">
     <div className="lg:w-4/5 mx-auto flex flex-wrap">
       <div class="h-[460px] rounded-lg  dark:bg-gray-700 mb-4">
-        <img class="w-full h-full object-cover" src={vaidImg} alt="Product Image" />
+        <img class="w-full h-full object-cover" src={cyphorusImg} alt="Product Image" />
       </div>
       <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
         <h2 className="text-sm title-font text-gray-500 tracking-widest">
-          <img src={vaid_title} alt="" className='w-72 my-4' />
+          {/* <img src={cyphorus_title} alt="" className='w-72 my-4' /> */}
         </h2>
         <p className="leading-relaxed">VAID is a granular Insecticide. It works on stem borer of rice,
           grey hopper, green leaf hopper and multiple species of thrips.
@@ -50,8 +47,11 @@ const Peak = () => {
   </div>
 </section>
     
+    
+    
+    
     </>
   )
 }
 
-export default Peak
+export default Cyphorus
