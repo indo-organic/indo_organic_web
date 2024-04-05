@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 
-import rukkaImg from '../product_image/rukka.png'
-import alaskaImg from '../product_image/alaska.png'
-import indoxamImg from '../product_image/indoxam.png'
+import helperLImg from '../product_image/helperL.png'
+// import indomagic from '../product_image/'
+
 
 
 import Slider from 'react-slick';
@@ -43,27 +43,28 @@ const BestSeller = () => {
             <h2 className="text-white text-3xl font-bold m-auto ">BEST SELLERS</h2>
           </div>
         </div>
+          
 
       <div className="mx-auto max-w-7xl  flex flex-col justify-center pt-1 pb-8">
         <Slider {...settings}>
-          <Link to='/rukka' className="px-4">
+          <Link to='/indomagic' className="px-4">
             <div className="bg-gray-200 p-4 rounded-lg shadow-md h-[60vh] text-center">
-              <img src={rukkaImg} alt="Card 1" className=" h-[40vh] object-cover mb-4 rounded-lg m-auto" />
-              <h2 className="text-lg font-semibold">Rukka</h2>
+              {/* <img src={helperLImg} alt="Card 1" className=" h-[40vh] object-cover mb-4 rounded-lg m-auto" /> */}
+              <h2 className="text-lg font-semibold">INDO-MAGIC</h2>
               <p className="text-gray-700">sci name.</p>
             </div>
           </Link>
           <Link to='/alaska' className="px-4">
             <div className="bg-gray-200 p-4 rounded-lg shadow-md h-[60vh] text-center">
-              <img src={alaskaImg} alt="Card 1" className=" h-[40vh] object-cover mb-4 rounded-lg m-auto" />
-              <h2 className="text-lg font-semibold">Alaska</h2>
+              <img src={helperLImg} alt="Card 1" className=" h-[40vh] object-cover mb-4 rounded-lg m-auto" />
+              <h2 className="text-lg font-semibold">HELPER-L</h2>
               <p className="text-gray-700">sci name.</p>
             </div>
           </Link>
           <Link to='/indoxam' className="px-4">
             <div className="bg-gray-200 p-4 rounded-lg shadow-md h-[60vh] text-center">
-              <img src={indoxamImg} alt="Card 1" className=" h-[40vh] object-cover mb-4 rounded-lg m-auto" />
-              <h2 className="text-lg font-semibold">Indoxam</h2>
+              {/* <img src={helperLImg} alt="Card 1" className=" h-[40vh] object-cover mb-4 rounded-lg m-auto" /> */}
+              <h2 className="text-lg font-semibold">FUNGI-7</h2>
               <p className="text-gray-700">sci name.</p>
             </div>
           </Link>

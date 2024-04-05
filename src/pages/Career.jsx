@@ -52,11 +52,11 @@ const Career = () => {
       </div>
     </div>  */}
 
-      <div class="relative mx-auto mt-10 w-full">
-        <img class="h-64 w-full object-cover rounded-md object-bottom" src="https://www.idhsustainabletrade.com/uploaded/2017/05/impact-agrochemicals-1440x450-c-default.jpg?x16939&x16939" alt="Random image" />
-        <div class="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
-        <div class="absolute inset-0 flex items-center justify-center">
-          <h2 class="text-white text-3xl font-bold">Career </h2>
+      <div className="relative mx-auto mt-10 w-full">
+        <img className="h-64 w-full object-cover rounded-md object-bottom" src="https://www.idhsustainabletrade.com/uploaded/2017/05/impact-agrochemicals-1440x450-c-default.jpg?x16939&x16939" alt="Random image" />
+        <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
+        <div className="absolute inset-0 flex items-center justify-center">
+          <h2 className="text-white text-3xl font-bold">Career </h2>
         </div>
       </div>
 

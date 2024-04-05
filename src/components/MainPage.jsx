@@ -13,7 +13,7 @@ import RnDforHome from "./RnDforHome"
 // import Hightlights from "./Hightlights"
 // import Team from "./Team"
 // import Domestic from '../footer/Domestic'
-import News from '../footer/News'
+// import News from '../footer/News'
 import BestSeller from './BestSeller'
 import HomeVideo from './HomeVideo'
 const MainPage = () => {
@@ -35,7 +35,7 @@ const MainPage = () => {
     {/* <Indo_researchBox/> */}
     {/* <NewUpdate/> */}
     {/* <Team/> */}
-    <News/>
+    {/* <News/> */}
     {/* <SocialMedia/> */}
     
     

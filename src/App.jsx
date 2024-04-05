@@ -56,23 +56,49 @@ import Tebnol from './productPage/fungicide/Tebnol'
 import Tringo from './productPage/fungicide/Tringo'
 import Valino from './productPage/fungicide/Valino'
 
-  //  herbicide
+//  herbicide
 
-  import Herbicide from './header/Herbicide'
-  import Auto32 from './productPage/herbicide/Auto32'
-  import Cutnip from './productPage/herbicide/Cutnip'
-  import Emo10 from './productPage/herbicide/Emo10'
-  import Nirol from './productPage/herbicide/Nirol'
-  import PitKit from './productPage/herbicide/PitKit'
-  import Proto50 from './productPage/herbicide/Proto50'
-  import TimeUp from './productPage/herbicide/TimeUp'
+import Herbicide from './header/Herbicide'
+import Auto32 from './productPage/herbicide/Auto32'
+import Cutnip from './productPage/herbicide/Cutnip'
+import Emo10 from './productPage/herbicide/Emo10'
+import Nirol from './productPage/herbicide/Nirol'
+import PitKit from './productPage/herbicide/PitKit'
+import Proto50 from './productPage/herbicide/Proto50'
+import TimeUp from './productPage/herbicide/TimeUp'
 
 
 
-      // Adjuvants
-      import Combo_b from './productPage/adjuvants/Combo_b'
+// Adjuvants
+import Combo_b from './productPage/adjuvants/Combo_b'
 import SocialMedia from './components/SocialMedia'
-  
+
+
+
+
+//  biostimulant
+      //  soil revivers
+import Soilrevivers from './header/Soilrevivers'
+import CalciGold from './productPage/soilRevivers/CalciGold'
+
+import Calcigoldplus from './productPage/soilRevivers/Calcigoldplus'
+
+import HerboKing from './productPage/soilRevivers/HerboKing'
+import HerboKingAdvance from './productPage/soilRevivers/HerboKingAdvance'
+import HerboRiza from './productPage/soilRevivers/HerboRiza'
+import Humimax from './productPage/soilRevivers/Humimax'
+import TotalGR from './productPage/soilRevivers/TotalGR'
+import TotalGRAdvance from './productPage/soilRevivers/TotalGRAdvance'
+        // nutritions
+           import Nutrition from './header/Nutrition'
+        import Amigo from './productPage/nutritions/Amigo'
+        import AutoMoto from './productPage/nutritions/AutoMoto'
+        import BloomFlower from './productPage/nutritions/BloomFlower'
+        import FixC from './productPage/nutritions/FixC'
+        import HelperL from './productPage/nutritions/HelperL'
+        import IndoMagic from './productPage/nutritions/IndoMagic'
+
+
 
 const App = () => {
   return (
@@ -80,14 +106,14 @@ const App = () => {
       <Router>
         <Top />
         <Navbar />
-        <SocialMedia/>
+        <SocialMedia />
 
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/agrochemical' element={<Agrochemical />} />
           <Route path='/organicRange' element={<OrganicRange />} />
           <Route path='/speciality' element={<Speciality />} />
-          
+
           <Route path='/adjuvants' element={<Adjuvants />} />
 
           <Route path='/aboutUs' element={<AboutUs />} />
@@ -100,7 +126,7 @@ const App = () => {
           <Route path='/mission' element={<Mission />} />
 
           <Route path='/news' element={<News />} />
-          <Route path='/termsCondition'  element={<TermsConditions />} />
+          <Route path='/termsCondition' element={<TermsConditions />} />
           <Route path='/privacyPolicy' element={<PrivacyPolicy />} />
           <Route path='/returnPolicy' element={<ReturnPolicy />} />
           <Route path='/Domestic' element={<Domestic />} />
@@ -108,7 +134,7 @@ const App = () => {
           <Route path='/testimonial' element={<Testimonial />} />
           <Route path='/trialProduct' element={<TrialProduct />} />
           <Route path='/faqs' element={<Faqs />} />
-         
+
 
           {/* insecticide */}
 
@@ -147,18 +173,46 @@ const App = () => {
           <Route path='/auto32' element={<Auto32 />} />
           <Route path='/cutnip' element={<Cutnip />} />
           <Route path='/emo10' element={<Emo10 />} />
-          <Route path='/nirol' element={<Nirol/>} />
+          <Route path='/nirol' element={<Nirol />} />
           <Route path='/pitKit' element={<PitKit />} />
           <Route path='/proto50' element={<Proto50 />} />
           <Route path='/timeUp' element={<TimeUp />} />
 
-      
 
 
 
 
-            {/* adjuvants */}
+
+          {/* adjuvants */}
           <Route path='/comboB' element={<Combo_b />} />
+
+
+
+
+          {/* biostimulant  */}
+
+          {/* soil reviver */}
+          <Route path='/soilrevivers' element={<Soilrevivers />} />
+          <Route path='/CalciGold' element={<CalciGold />} />
+          <Route path='/CalciGoldPlus' element={<Calcigoldplus />} />
+          <Route path='/HerboKing' element={<HerboKing />} />
+          <Route path='/HerboKingAdvance' element={<HerboKingAdvance />} />
+          <Route path='/HerboRize' element={<HerboRiza />} />
+          <Route path='/Humimax' element={<Humimax />} />
+          <Route path='/TotalGR' element={<TotalGR />} />
+          <Route path='/TotalGRAdvance' element={<TotalGRAdvance />} />
+
+
+          {/* Nutrition */}
+          <Route path='/Nutrition' element={<Nutrition />} />
+          
+          <Route path='/Amigo' element={<Amigo />} />
+          <Route path='/AutoMoto' element={<AutoMoto/>} />
+          <Route path='/BloomFlower' element={<BloomFlower />} />
+          <Route path='/FixC' element={<FixC/>} />
+          <Route path='/HelperL' element={<HelperL/>} />
+          <Route path='/IndoMagic' element={<IndoMagic/>} />
+
 
 
 
@@ -170,7 +224,7 @@ const App = () => {
 
 
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
 
 

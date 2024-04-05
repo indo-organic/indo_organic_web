@@ -43,11 +43,11 @@ const Agrochemical = () => {
       <div className="bg-gray-600 pb-20">
 
 
-        <div class="relative mx-auto mt-10 w-full">
-          <img class="h-64 w-full object-cover rounded-md object-center" src={agrochemicalImg} alt="Random image" />
-          <div class="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
-          <div class="absolute inset-0 flex items-center justify-center">
-            <h2 class="text-white text-3xl font-bold">Agrochemical</h2>
+        <div className="relative mx-auto mt-10 w-full">
+          <img className="h-64 w-full object-cover rounded-md object-center" src={agrochemicalImg} alt="Random image" />
+          <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
+          <div className="absolute inset-0 flex items-center justify-center">
+            <h2 className="text-white text-3xl font-bold">Agrochemical</h2>
           </div>
         </div>
 
@@ -55,11 +55,11 @@ const Agrochemical = () => {
 
         {/* <p className="text-3xl  uppercase  text-center  p-3 
          text-red-700 ">Insecticide</p> */}
-        <div class="relative mx-auto mt-5 w-[70%]">
-          <img class="h-32 w-full object-cover rounded-md object-bottom" src="https://htmlcolorcodes.com/assets/images/colors/dark-green-color-solid-background-1920x1080.png" alt="Random image" />
-          <div class="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
-          <div class="absolute inset-0 flex items-center pl-[3rem]">"
-            <h2 class="text-white text-3xl font-bold">Insecticide</h2>
+        <div className="relative mx-auto mt-5 w-[70%]">
+          <img className="h-32 w-full object-cover rounded-md object-bottom" src="https://htmlcolorcodes.com/assets/images/colors/dark-green-color-solid-background-1920x1080.png" alt="Random image" />
+          <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
+          <div className="absolute inset-0 flex items-center pl-[3rem]">"
+            <h2 className="text-white text-3xl font-bold">Insecticide</h2>
           </div>
         </div>
 
@@ -81,11 +81,11 @@ const Agrochemical = () => {
           </Link>
 
         </div>
-        <div class="relative mx-auto mt-5 mb-10 w-[70%]">
-          <img class="h-32 w-full object-cover rounded-md object-center" src="https://w0.peakpx.com/wallpaper/1010/898/HD-wallpaper-green-leafed-plants-shallow-graphy-dark-theme-dark-theme.jpg" alt="Random image" />
-          <div class="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
-          <div class="absolute inset-0 flex items-center  justify-center">
-            <Link to='/insecticide' class="text-white text-3xl font-bold hover:text-gray-900 hover:text-[2rem]">see all products</Link>
+        <div className="relative mx-auto mt-5 mb-10 w-[70%]">
+          <img className="h-32 w-full object-cover rounded-md object-center" src="https://w0.peakpx.com/wallpaper/1010/898/HD-wallpaper-green-leafed-plants-shallow-graphy-dark-theme-dark-theme.jpg" alt="Random image" />
+          <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
+          <div className="absolute inset-0 flex items-center  justify-center">
+            <Link to='/insecticide' className="text-white text-3xl font-bold hover:text-gray-900 hover:text-[2rem]">see all products</Link>
           </div>
         </div>
 
@@ -94,11 +94,11 @@ const Agrochemical = () => {
 
 
         {/* <p className="text-3xl  uppercase  text-center p-3  text-red-700 ">fungicide</p> */}
-        <div class="relative mx-auto mt-5 w-[70%]">
-          <img class="h-32 w-full object-cover rounded-md object-bottom" src="https://c4.wallpaperflare.com/wallpaper/226/453/125/nature-moss-bokeh-macro-wallpaper-preview.jpg" alt="Random image" />
-          <div class="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
-          <div class="absolute inset-0 flex items-center pl-[3rem]">
-            <h2 class="text-white text-3xl font-bold uppercase">fungicide</h2>
+        <div className="relative mx-auto mt-5 w-[70%]">
+          <img className="h-32 w-full object-cover rounded-md object-bottom" src="https://c4.wallpaperflare.com/wallpaper/226/453/125/nature-moss-bokeh-macro-wallpaper-preview.jpg" alt="Random image" />
+          <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
+          <div className="absolute inset-0 flex items-center pl-[3rem]">
+            <h2 className="text-white text-3xl font-bold uppercase">fungicide</h2>
           </div>
         </div>
         <div className="p-1 flex flex-wrap items-center justify-center ">
@@ -120,17 +120,17 @@ const Agrochemical = () => {
 
         </div>
         {/* <div className="w-ful text-center p-4 ">
-          <Link to='/fungicide' class="bg-transparent  text-xl hover:bg-green-500 text-green-700 font-semibold hover:text-black py-4 px-6 border border-blue-500 hover:border-transparent rounded">
+          <Link to='/fungicide' className="bg-transparent  text-xl hover:bg-green-500 text-green-700 font-semibold hover:text-black py-4 px-6 border border-blue-500 hover:border-transparent rounded">
             See all products
           </Link>
 
         </div> */}
 
-        <div class="relative mx-auto mt-5 mb-10 w-[70%]">
-          <img class="h-32 w-full object-cover rounded-md object-bottom" src="https://w0.peakpx.com/wallpaper/1010/898/HD-wallpaper-green-leafed-plants-shallow-graphy-dark-theme-dark-theme.jpg" alt="Random image" />
-          <div class="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
-          <div class="absolute inset-0 flex items-center  justify-center">
-            <Link to='/fungicide' class="text-white text-3xl font-bold hover:text-gray-900 hover:text-[2rem]">see all products</Link>
+        <div className="relative mx-auto mt-5 mb-10 w-[70%]">
+          <img className="h-32 w-full object-cover rounded-md object-bottom" src="https://w0.peakpx.com/wallpaper/1010/898/HD-wallpaper-green-leafed-plants-shallow-graphy-dark-theme-dark-theme.jpg" alt="Random image" />
+          <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
+          <div className="absolute inset-0 flex items-center  justify-center">
+            <Link to='/fungicide' className="text-white text-3xl font-bold hover:text-gray-900 hover:text-[2rem]">see all products</Link>
           </div>
         </div>
 
@@ -141,11 +141,11 @@ const Agrochemical = () => {
 
 
         {/* <p className="text-3xl  uppercase  text-center p-3  text-red-700 ">herbicide</p> */}
-        <div class="relative mx-auto mt-5 w-[70%]">
-          <img class="h-32 w-full object-cover rounded-md object-center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaWzbsO48snZBYaB2xfMBdfPSoGUmG7aCM7MAKXUbe_Q&s" alt="Random image" />
-          <div class="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
-          <div class="absolute inset-0 flex items-center pl-[3rem]">
-            <h2 class="text-white text-3xl font-bold uppercase">herbicide</h2>
+        <div className="relative mx-auto mt-5 w-[70%]">
+          <img className="h-32 w-full object-cover rounded-md object-center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaWzbsO48snZBYaB2xfMBdfPSoGUmG7aCM7MAKXUbe_Q&s" alt="Random image" />
+          <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
+          <div className="absolute inset-0 flex items-center pl-[3rem]">
+            <h2 className="text-white text-3xl font-bold uppercase">herbicide</h2>
           </div>
         </div>
         <div className="p-1 flex flex-wrap items-center justify-center ">
@@ -167,17 +167,17 @@ const Agrochemical = () => {
 
         </div>
         {/* <div className="w-ful text-center p-4 ">
-          <Link to='/herbicide' class="bg-transparent  text-xl hover:bg-green-500 text-green-700 font-semibold hover:text-black py-4 px-6 border border-blue-500 hover:border-transparent rounded">
+          <Link to='/herbicide' className="bg-transparent  text-xl hover:bg-green-500 text-green-700 font-semibold hover:text-black py-4 px-6 border border-blue-500 hover:border-transparent rounded">
             See all products
           </Link>
 
         </div> */}
 
-        <div class="relative mx-auto mt-5 mb-10 w-[70%]">
-          <img class="h-32 w-full object-cover rounded-md object-center" src="https://w0.peakpx.com/wallpaper/1010/898/HD-wallpaper-green-leafed-plants-shallow-graphy-dark-theme-dark-theme.jpg" alt="Random image" />
-          <div class="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
-          <div class="absolute inset-0 flex items-center  justify-center">
-            <Link to='/herbicide' class="text-white text-3xl font-bold hover:text-gray-900 hover:text-[2rem]">see all products</Link>
+        <div className="relative mx-auto mt-5 mb-10 w-[70%]">
+          <img className="h-32 w-full object-cover rounded-md object-center" src="https://w0.peakpx.com/wallpaper/1010/898/HD-wallpaper-green-leafed-plants-shallow-graphy-dark-theme-dark-theme.jpg" alt="Random image" />
+          <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
+          <div className="absolute inset-0 flex items-center  justify-center">
+            <Link to='/herbicide' className="text-white text-3xl font-bold hover:text-gray-900 hover:text-[2rem]">see all products</Link>
           </div>
         </div>
       </div>

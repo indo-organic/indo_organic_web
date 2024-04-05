@@ -6,18 +6,18 @@ const Combo_b = () => {
     <>
 
       {/* <h1 className="text-3xl font-bold mb-4  bg-green-600 text-white p-16 text-center">Adjuvants</h1> */}
-      <div class="relative mx-auto mt-10 w-full">
-          <img class="h-64 w-full object-cover rounded-md object-bottom" src="https://www.idhsustainabletrade.com/uploaded/2017/05/impact-agrochemicals-1440x450-c-default.jpg?x16939&x16939" alt="Random image" />
-          <div class="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
-          <div class="absolute inset-0 flex items-center justify-center">
-            <h2 class="text-white text-3xl font-bold">ADJUVANTS</h2>
+      <div className="relative mx-auto mt-10 w-full">
+          <img className="h-64 w-full object-cover rounded-md object-bottom" src="https://www.idhsustainabletrade.com/uploaded/2017/05/impact-agrochemicals-1440x450-c-default.jpg?x16939&x16939" alt="Random image" />
+          <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
+          <div className="absolute inset-0 flex items-center justify-center">
+            <h2 className="text-white text-3xl font-bold">ADJUVANTS</h2>
           </div>
         </div>
       <section className="text-gray-600 body-font overflow-hidden">
         <div className="container px-5 py-24 mx-auto">
           <div className="lg:w-4/5 mx-auto flex flex-wrap">
-            <div class="h-[460px] rounded-lg bg-gray-300 dark:bg-gray-700 mb-4">
-              <img class="w-full h-full object-cover" src={comboBImg} alt="Product Image" />
+            <div className="h-[460px] rounded-lg bg-gray-300 dark:bg-gray-700 mb-4">
+              <img className="w-full h-full object-cover" src={comboBImg} alt="Product Image" />
             </div>
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
               <h2 className="text-sm title-font text-gray-500 tracking-widest">

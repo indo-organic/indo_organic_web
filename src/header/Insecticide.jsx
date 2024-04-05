@@ -41,12 +41,12 @@ const Insecticide = () => {
       <div className="bg-gray-600">
 
 
-        {/* <h1 class="text-3xl font-bold mb-4 text-center  uppercase   bg-gray-800  text-white p-16">insecticide</h1> */}
-        <div class="relative mx-auto mt-10 w-full">
-          <img class="h-64 w-full object-cover rounded-md object-bottom" src="https://foodtank.com/wp-content/uploads/2020/08/Herbicide-Free-Campus_Students_Community-Activism.jpg" alt="Random image" />
-          <div class="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
-          <div class="absolute inset-0 flex items-center justify-center">
-            <h2 class="text-white text-3xl font-bold">INSECTICIDE </h2>
+        {/* <h1 className="text-3xl font-bold mb-4 text-center  uppercase   bg-gray-800  text-white p-16">insecticide</h1> */}
+        <div className="relative mx-auto mt-10 w-full">
+          <img className="h-64 w-full object-cover rounded-md object-bottom" src="https://foodtank.com/wp-content/uploads/2020/08/Herbicide-Free-Campus_Students_Community-Activism.jpg" alt="Random image" />
+          <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
+          <div className="absolute inset-0 flex items-center justify-center">
+            <h2 className="text-white text-3xl font-bold">INSECTICIDE </h2>
           </div>
         </div>
 

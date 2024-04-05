@@ -31,11 +31,11 @@ const Adjuvants = () => {
 
 
         {/* <h1 className="text-3xl font-bold mb-4  bg-green-600 text-white p-16 text-center">Adjuvants</h1> */}
-        <div class="relative mx-auto mt-10 w-full">
-          <img class="h-64 w-full object-cover rounded-md object-bottom" src="https://www.creative-biolabs.com/vaccine/images/Adjuvant-Emulsions-1.jpg" alt="Random image" />
-          <div class="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
-          <div class="absolute inset-0 flex items-center justify-center">
-            <h2 class="text-white text-3xl font-bold">ADJUVANTS</h2>
+        <div className="relative mx-auto mt-10 w-full">
+          <img className="h-64 w-full object-cover rounded-md object-bottom" src="https://www.creative-biolabs.com/vaccine/images/Adjuvant-Emulsions-1.jpg" alt="Random image" />
+          <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
+          <div className="absolute inset-0 flex items-center justify-center">
+            <h2 className="text-white text-3xl font-bold">ADJUVANTS</h2>
           </div>
         </div>
 
