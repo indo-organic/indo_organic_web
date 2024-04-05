@@ -10,27 +10,6 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-const AgroCard = ({ category, name, seeMore, imageSrc, imageAlt, sciName }) => {
-    return (
-      <div className="flex-shrink-0 m-6 relative overflow-hidden bg-gray-500 rounded-lg max-w-xs shadow-lg group">
-      
-        <div className="relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
-          <div className="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
-            style={{ background: 'radial-gradient(black, transparent 60%)', transform: 'rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1)', opacity: 0.2 }}>
-          </div>
-          <img className="relative w-40 h-60" src={imageSrc} alt={imageAlt} />
-        </div>
-        <div className="relative text-white px-6 pb-6 mt-6">
-          <span className="block opacity-75 -mb-1">{category}</span>
-          <div className="flex justify-between">
-            <span className="block font-semibold text-xl">{name}</span>
-            <span className=" bg-white rounded-full text-green-500 text-xs font-bold px-3 py-2 leading-none flex items-center">{seeMore}</span>
-          </div>
-          <span className="opacity-75 -mb-1">{sciName}</span>
-        </div>
-      </div>
-    );
-  };
 const BestSeller = () => {
   const settings = {
     dots: true,
@@ -57,67 +36,51 @@ const BestSeller = () => {
   };
   return (
     <>
-    <div className="bg-gray-200 my-12">
+      <div className="relative mx-auto  w-[70%] mt-5 mb-1">
+          <img className="h-16 w-full object-cover rounded-md object-bottom" src="https://www.thespruce.com/thmb/P_RO3BhitUHl1tIsb9EuIsxl6CM=/3000x2000/filters:no_upscale()/pyrethrin-insecticide-definition-1902891_Hero1-386797349e94413b8133a93e8008a582.jpg" alt="Random image" />
+          <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
+          <div className="absolute inset-0 flex items-center  ">"
+            <h2 className="text-white text-3xl font-bold m-auto ">BEST SELLERS</h2>
+          </div>
+        </div>
 
-   
-    
-    <p className="text-3xl  uppercase  text-center  p-3   ">THE BEST-SELLERS</p>
-      <div className="p-1 flex flex-wrap items-center justify-center">
-        <Link to='/rukka'>
-          <AgroCard category="Insecticide" name="RUKKA" seeMore="see more" sciName='ACTIVE INGREDIENT: Cartap Hydrochloride 4% GR'
-            imageSrc={rukkaImg}
-            imageAlt="RUKKA" />
-        </Link>
-        <Link to='/alaska'>
-          <AgroCard category="Insecticide" name="ALASKA" seeMore="see more" sciName='Profenofos 40% EC + Cypermethrin 4% EC'
-            imageSrc={alaskaImg}
-            imageAlt="alaska" />
-        </Link>
-        <Link to='/indoxam'>
-          <AgroCard category="Insecticide" name="INDOXAM" seeMore="see more" sciName='ACTIVE INGREDIENT: Thiamethoxam 25% WG'
-            imageSrc={indoxamImg}
-            imageAlt="indoxam" />
-        </Link>
-
-      </div>
-      <div className="w-ful text-center p-4 ">
-        <Link to='/agrochemical' class="bg-transparent  text-xl hover:bg-green-500 text-green-700 font-semibold hover:text-black py-4 px-6 border border-blue-500 hover:border-transparent rounded">
-          See more
-        </Link>
-
-      </div>
-      </div>
-
-
-
-      <div className="mx-auto max-w-7xl bg-black flex flex-col justify-center pt-20 pb-20">
+      <div className="mx-auto max-w-7xl  flex flex-col justify-center pt-1 pb-8">
         <Slider {...settings}>
-          <div className="px-4">
-            <div className="bg-gray-200 p-4 rounded-lg shadow-md h-[70vh]">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ3-2OfHGn2z7iPiDyMD9Kxcmm09tZn7L4t8PzTZUdCQ&s" alt="Card 1" className=" h-[40vh] object-cover mb-4 rounded-lg" />
-              <h2 className="text-lg font-semibold">Card 1</h2>
-              <p className="text-gray-700">Content of card 1 goes here.</p>
+          <Link to='/rukka' className="px-4">
+            <div className="bg-gray-200 p-4 rounded-lg shadow-md h-[60vh] text-center">
+              <img src={rukkaImg} alt="Card 1" className=" h-[40vh] object-cover mb-4 rounded-lg m-auto" />
+              <h2 className="text-lg font-semibold">Rukka</h2>
+              <p className="text-gray-700">sci name.</p>
             </div>
-          </div>
-          <div className="px-4">
-            <div className="bg-gray-200 p-4 rounded-lg shadow-md h-[70vh]">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ3-2OfHGn2z7iPiDyMD9Kxcmm09tZn7L4t8PzTZUdCQ&s" alt="Card 1" className=" h-[40vh] object-cover mb-4 rounded-lg" />
-              <h2 className="text-lg font-semibold">Card 2</h2>
-              <p className="text-gray-700">Content of card 1 goes here.</p>
+          </Link>
+          <Link to='/alaska' className="px-4">
+            <div className="bg-gray-200 p-4 rounded-lg shadow-md h-[60vh] text-center">
+              <img src={alaskaImg} alt="Card 1" className=" h-[40vh] object-cover mb-4 rounded-lg m-auto" />
+              <h2 className="text-lg font-semibold">Alaska</h2>
+              <p className="text-gray-700">sci name.</p>
             </div>
-          </div>
-          <div className="px-4">
-            <div className="bg-gray-200 p-4 rounded-lg shadow-md h-[70vh]">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ3-2OfHGn2z7iPiDyMD9Kxcmm09tZn7L4t8PzTZUdCQ&s" alt="Card 1" className=" h-[40vh] object-cover mb-4 rounded-lg" />
-              <h2 className="text-lg font-semibold">Card 3</h2>
-              <p className="text-gray-700">Content of card 1 goes here.</p>
+          </Link>
+          <Link to='/indoxam' className="px-4">
+            <div className="bg-gray-200 p-4 rounded-lg shadow-md h-[60vh] text-center">
+              <img src={indoxamImg} alt="Card 1" className=" h-[40vh] object-cover mb-4 rounded-lg m-auto" />
+              <h2 className="text-lg font-semibold">Indoxam</h2>
+              <p className="text-gray-700">sci name.</p>
             </div>
-          </div>
+          </Link>
         </Slider>
       </div>
+      <div className="relative mx-auto  mb-10 w-[70%]">
+          <img className="h-16 w-full object-cover rounded-md object-center" src="https://w0.peakpx.com/wallpaper/1010/898/HD-wallpaper-green-leafed-plants-shallow-graphy-dark-theme-dark-theme.jpg" alt="Random image" />
+          <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
+          <div className="absolute inset-0 flex items-center  justify-center">
+            <Link to='/agrochemical' className="text-white text-3xl font-bold hover:text-gray-900 hover:text-[2rem]">see all products</Link>
+          </div>
+        </div>
 
 
-      
+        <hr className="w-[80%] h-[1vh] bg-black  m-auto " />
+
+
     </>
   )
 }

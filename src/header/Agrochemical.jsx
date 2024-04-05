@@ -56,7 +56,7 @@ const Agrochemical = () => {
         {/* <p className="text-3xl  uppercase  text-center  p-3 
          text-red-700 ">Insecticide</p> */}
         <div class="relative mx-auto mt-5 w-[70%]">
-          <img class="h-32 w-full object-cover rounded-md object-bottom" src="https://www.thespruce.com/thmb/P_RO3BhitUHl1tIsb9EuIsxl6CM=/3000x2000/filters:no_upscale()/pyrethrin-insecticide-definition-1902891_Hero1-386797349e94413b8133a93e8008a582.jpg" alt="Random image" />
+          <img class="h-32 w-full object-cover rounded-md object-bottom" src="https://htmlcolorcodes.com/assets/images/colors/dark-green-color-solid-background-1920x1080.png" alt="Random image" />
           <div class="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
           <div class="absolute inset-0 flex items-center pl-[3rem]">"
             <h2 class="text-white text-3xl font-bold">Insecticide</h2>

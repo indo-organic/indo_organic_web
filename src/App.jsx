@@ -78,7 +78,7 @@ const App = () => {
   return (
     <>
       <Router>
-        {/* <Top /> */}
+        <Top />
         <Navbar />
         <SocialMedia/>
 
@@ -170,7 +170,7 @@ const App = () => {
 
 
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </Router>
 
 

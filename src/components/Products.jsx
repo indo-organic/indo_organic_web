@@ -89,8 +89,8 @@ const Products = () => {
         </div>
       </div> */}
 
-      <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16 ">
-          <p className="text-center pb-8 lg:text-7xl font-semibold text-green-400 md:text-3xl">Products we offer</p>
+      <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16  my-20 ">
+        <p className="text-center pb-8 lg:text-7xl font-semibold text-green-700 md:text-3xl">Products we offer</p>
         <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-10">
           <Link to='/agrochemical'>
 

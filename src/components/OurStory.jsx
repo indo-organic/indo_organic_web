@@ -1,4 +1,4 @@
-import aboutHome1 from '../AboutImg/aboutHome1.jpg'
+// import aboutHome1 from '../AboutImg/aboutHome1.jpg'
 import ourStory1 from '../AboutImg/favicon.jpg'
 import ourStory2 from '../assets/ourStoryImg.jpg'
 import { Link } from 'react-router-dom'
@@ -6,48 +6,27 @@ const OurStory = () => {
   return (
     <>
 
-      <section className=" body-font">
-        <div className="container px-5 py-[4%] mx-auto">
+      {/* <section className=" body-font bg-gray-700 lg:hidden">
+        <div className="container px-5 py-[1%] mx-auto">
           <div className="lg:w-2/3 flex  text-center flex-col sm:flex-row sm:items-center items-start mx-auto">
-            <h1 className="flex-grow sm:pr-16 text-3xl font-medium title-font text-green-600 "> We leverage our rich heritage to tackle the challenges of the future</h1>
+            <h1 className="flex-grow sm:pr-16 text-3xl font-medium title-font text-white "> We leverage our rich heritage to tackle the challenges of the future</h1>
           </div>
         </div>
-      </section>
+      </section> */}
 
 
-
-
-
-
-      {/* 
-      <div className="flex justify-center bg-gray-200">
-      <div className="flex flex-col justify-center">
-        <div className="flex flex-col md:flex-row max-w-7xl justify-center items-center">
-          <div className="overflow-hidden w-full m-4 shadow-sm flex flex-col md:flex-row justify-center">
-            <div className="flex flex-col md:flex-row items-center">
-              <div className="w-[70%] flex text-center justify-center overflow-hidden" >
-                <img src={aboutHome1} alt="" className="w-[70%]" />
-              </div>
-              <div className="md:w-2/3 m-4">
-               
-                <div className="font-bold text-black text-xl m-2">About us</div>
-                <div className="text-sm text-[1.2rem] mt-4 m-2">
-                  <a href="#"> Indoorganics Pvt Ltd. (IOL) is a leading manufacturer, marketer and exporter of agricultural inputs which includes a range of nonorganic pesticides (Agrochemicals) and a mix of organic products particularly bio-stimulants, biological solutions, plant nutrients and fertilizers. We have been serving the farming community through our high-quality Crop Protection & Crop Nutrition products since many years.</a>
-                </div>
-               
-              </div>
-            </div>
+             
+        <div className="relative mx-auto mt-10 w-[90%]">
+          <img className="h-32 w-full object-cover rounded-md object-center" src='https://www.shutterstock.com/image-photo/woman-planting-young-seedling-gardening-260nw-1768851851.jpg' alt="Random image" />
+          <div className="absolute inset-0 bg-gray-900 opacity-50 rounded-md"></div>
+          <div className="absolute inset-0 flex items-center justify-center">
+            <h2 className="text-white lg:text-3xl md:xl md:text-center md:m-auto sm:text-[1rem] sm:text-center font-bold uppercase">We leverage our rich heritage to tackle the challenges of the future</h2>
           </div>
         </div>
-      </div>
-    </div>  */}
 
 
 
-
-
-
-      <div className=" relative flex items-center justify-center overflow-hidden bg-gray-200 z-10">
+      <div className=" relative flex items-center justify-center overflow-hidden bg-whitesmoke z-10">
         <div className="relative mx-auto h-full px-4 pb-20 md:pb-10 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8">
           <div className="flex flex-col items-center justify-between lg:flex-row py-16">
             <div className="relative">
@@ -55,14 +34,14 @@ const OurStory = () => {
                 <img src={ourStory1} className="w-28 z-0 h-full object-fill fill-y text-y" alt="Placeholder" />
               </div>
               <div className="lg:max-w-xl lg:pr-5 relative z-40">
-                <p className="flex text-sm uppercase text-g1">About Us</p>
+                <p className="flex text-sm uppercase text-g1 text-green-900">About Us</p>
                 <h2 className="mb-6 max-w-lg text-5xl font-light leading-snug tracking-tight text-g1 sm:text-7xl sm:leading-snug">
                   Quality is never by {' '}
-                  <span className="my-1 inline-block border-b-8 border-g4 bg-gray-400 px-4 font-bold  text-white">Chance</span>
+                  <span className="my-1 inline-block border-b-8 border-g4 px-4 font-bold text-green-700 ">Chance</span>
                 </h2>
                 <p className="text-base text-gray-700">Indoorganics Pvt Ltd. (IOL) is a leading manufacturer, marketer and exporter of agricultural inputs which includes a range of nonorganic pesticides (Agrochemicals) and a mix of organic products particularly bio-stimulants, biological solutions, plant nutrients and fertilizers. We have been serving the farming community through our high-quality Crop Protection & Crop Nutrition products since many years.</p>
                 <div className="mt-10 flex flex-col items-center md:flex-row">
-                  <Link to="/aboutUs" className="mb-3 inline-flex h-12 w-full items-center justify-center rounded bg-green-500 px-6 font-medium tracking-wide text-white shadow-md transition hover:bg-green-800 focus:outline-none md:mr-4 md:mb-0 md:w-auto">
+                  <Link to="/aboutUs" className="mb-3 inline-flex h-12 w-full items-center justify-center rounded bg-green-700 px-6 font-medium tracking-wide text-white shadow-md transition hover:bg-green-900 focus:outline-none md:mr-4 md:mb-0 md:w-auto">
                     View More
                   </Link>
                   <Link href="researchDev" aria-label="" className="group inline-flex items-center font-semibold text-g1">
