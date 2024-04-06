@@ -42,7 +42,9 @@ const Home_vision_mission = () => {
 
 
 
+              
 
+                
       <div className="flex flex-wrap justify-evenly">
         <Link to='/vision' className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 p-4 hover:scale-125 transition-all">
           <div to='/vision' className="bg-gray-600 p-6 rounded-lg shadow-md text-center" >
@@ -57,7 +59,7 @@ const Home_vision_mission = () => {
         </div>
           </Link>
       </div>
-
+      
 
     </>
   )

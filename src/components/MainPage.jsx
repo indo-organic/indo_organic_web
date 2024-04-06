@@ -15,7 +15,7 @@ import RnDforHome from "./RnDforHome"
 // import Domestic from '../footer/Domestic'
 // import News from '../footer/News'
 import BestSeller from './BestSeller'
-import HomeVideo from './HomeVideo'
+// import HomeVideo from './HomeVideo'
 const MainPage = () => {
   return (
     <>
@@ -29,7 +29,7 @@ const MainPage = () => {
      <Home_vision_mission/>
      {/* <Quality/> */}
 
-    <HomeVideo/>
+    {/* <HomeVideo/> */}
     <Gallery/>
     {/* <IntroVid/> */}
     {/* <Indo_researchBox/> */}

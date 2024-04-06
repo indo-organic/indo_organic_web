@@ -39,10 +39,13 @@ const AgroCard = ({ category, name, seeMore, imageSrc, imageAlt, sciName }) => {
 const Agrochemical = () => {
   return (
     < >
-      <div className="bg-green-800 pb-2">
+      <div  className="flex flex-col w-[100%]  bg-cover bg-fixed bg-center justify-center items-center m-auto"
+        style={{
+          backgroundImage: 'url(https://www.icolorpalette.com/download/solidcolorimage/43464b_solid_color_background_icolorpalette.png)',
+        }}>
 
 
-        <div className="relative mx-auto mt-10 w-full">
+        <div className="relative mx-auto  w-full">
           <img className="h-64 w-full object-cover rounded-md object-center" src={agrochemicalImg} alt="Random image" />
           <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
           <div className="absolute inset-0 flex items-center justify-center">

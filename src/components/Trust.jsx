@@ -1,7 +1,13 @@
 
 const Trust = () => {
+
+
+    
     return (
-        <div className="container mx-auto max-w-5xl flex gap-12 flex-wrap items-start justify-center md:justify-between m-[10vh] ">
+      
+
+        
+        <div className="container mx-auto max-w-5xl flex gap-12 flex-wrap items-start  md:justify-between   " >
             <div className="grid gap-4 justify-items-center text-center md:flex-1">
                 <div className=" rounded-full border-8 border-green-500 p-4 ">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
@@ -11,8 +17,8 @@ const Trust = () => {
                         </path>
                     </svg>
                 </div>
-                <h3 className="text-3xl font-bold">Trustworthy</h3>
-                <p>Trustworthiness is our cornerstone. We prioritize transparency, reliability, and integrity in every aspect of our operations.</p>
+                <h3 className="text-3xl font-bold text-white">Trustworthy</h3>
+                <p className="text-white">Trustworthiness is our cornerstone. We prioritize transparency, reliability, and integrity in every aspect of our operations.</p>
             </div>
             <div className="grid gap-4 justify-items-center text-center md:flex-1">
                 <div className=" rounded-full border-8 border-green-500 p-4 ">
@@ -41,8 +47,7 @@ const Trust = () => {
          </div>
 
 
-
-
+       
 
 
 

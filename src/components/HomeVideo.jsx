@@ -1,18 +1,39 @@
-import video from '../assets/HomeVideo.mp4'
-import React from 'react'
+import keyImg from '../AboutImg/bannerKey.jpg'
 
 const HomeVideo = () => {
   return (
-    <div className="bg-gray-200 my-10">
-    <video src={video} autoPlay loop muted className=" w-[70%] h-[80vh] object-cover m-auto py-10" >
+    <>
+      <div className=" bg-gray-300  flex flex-col w-[100%] h-[50vh] bg-contain bg-no-repeat bg-fixed bg-top justify-center items-center m-auto"
+        style={{
+          backgroundImage: `url(${keyImg})`
+        }}>
 
-    </video>
-  </div>
+      </div>
+
+      <hr />
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </>
   )
 }
 
 export default HomeVideo
-
-
-
 
