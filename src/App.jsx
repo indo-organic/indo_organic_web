@@ -77,7 +77,7 @@ import SocialMedia from './components/SocialMedia'
 
 
 //  biostimulant
-      //  soil revivers
+//  soil revivers
 import Soilrevivers from './header/Soilrevivers'
 import CalciGold from './productPage/soilRevivers/CalciGold'
 
@@ -89,14 +89,24 @@ import HerboRiza from './productPage/soilRevivers/HerboRiza'
 import Humimax from './productPage/soilRevivers/Humimax'
 import TotalGR from './productPage/soilRevivers/TotalGR'
 import TotalGRAdvance from './productPage/soilRevivers/TotalGRAdvance'
-        // nutritions
-           import Nutrition from './header/Nutrition'
-        import Amigo from './productPage/nutritions/Amigo'
-        import AutoMoto from './productPage/nutritions/AutoMoto'
-        import BloomFlower from './productPage/nutritions/BloomFlower'
-        import FixC from './productPage/nutritions/FixC'
-        import HelperL from './productPage/nutritions/HelperL'
-        import IndoMagic from './productPage/nutritions/IndoMagic'
+// nutritions
+import Nutrition from './header/Nutrition'
+import Amigo from './productPage/nutritions/Amigo'
+import AutoMoto from './productPage/nutritions/AutoMoto'
+import BloomFlower from './productPage/nutritions/BloomFlower'
+import FixC from './productPage/nutritions/FixC'
+import HelperL from './productPage/nutritions/HelperL'
+import IndoMagic from './productPage/nutritions/IndoMagic'
+
+
+//  protection
+import Protection from './header/Protection' 
+import AllIn from './productPage/protection/AllIn'
+// import Curev from './productPage/protection/Curev'
+import Fungi7 from './productPage/protection/Fungi7'
+import FungiEx from './productPage/protection/FungiEx'
+import Urban3 from './productPage/protection/Urban3'
+
 
 
 
@@ -205,17 +215,26 @@ const App = () => {
 
           {/* Nutrition */}
           <Route path='/Nutrition' element={<Nutrition />} />
-          
+
           <Route path='/Amigo' element={<Amigo />} />
-          <Route path='/AutoMoto' element={<AutoMoto/>} />
+          <Route path='/AutoMoto' element={<AutoMoto />} />
           <Route path='/BloomFlower' element={<BloomFlower />} />
-          <Route path='/FixC' element={<FixC/>} />
-          <Route path='/HelperL' element={<HelperL/>} />
-          <Route path='/IndoMagic' element={<IndoMagic/>} />
+          <Route path='/FixC' element={<FixC />} />
+          <Route path='/HelperL' element={<HelperL />} />
+          <Route path='/IndoMagic' element={<IndoMagic />} />
 
 
 
 
+
+
+          {/* Protection */}
+          <Route path='/Protection' element={<Protection />} />
+          <Route path='/AllIn' element={<AllIn />} />
+          <Route path='/Fungi7' element={<Fungi7 />} />
+          {/* <Route path='/Curev' element={<Curev />} /> */}
+          <Route path='/FungiEx' element={<FungiEx />} />
+          <Route path='/Urban3' element={<Urban3/>} />
 
 
 

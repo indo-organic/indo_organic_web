@@ -4,6 +4,7 @@ import herboKingAdvanceImg from '../product_image/herobokingAdvance.png'
 import TotalGRImg from '../product_image/totalgr.png'
 import totolgrAdvance from '../product_image/totolgrAdvance.png'
 import herboRiza from '../product_image/herboRiza.png'
+import humimax from '../product_image/humimax.png'
 import { Link } from "react-router-dom";
 
 const SoilReviverCard = ({ category, name, seeMore, imageSrc, imageAlt, sciName }) => {
@@ -85,7 +86,7 @@ const Soilrevivers = () => {
 
                     <Link to='/Humimax'>
                         <SoilReviverCard category="KEY" name="humi-max" seeMore="see more" sciName='---------------'
-                            // imageSrc={totolgrAdvance}
+                            imageSrc={humimax}
                             imageAlt="humixam" />
                     </Link>
 

@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from "react-router-dom"
 
 import helperLImg from '../product_image/helperL.png'
-// import indomagic from '../product_image/'
-
+import indomagicImg from '../product_image/indomagic.png'
+import fungi7Img from '../product_image/fungi7.png'
 
 
 import Slider from 'react-slick';
@@ -49,7 +49,7 @@ const BestSeller = () => {
         <Slider {...settings}>
           <Link to='/indomagic' className="px-4">
             <div className="bg-gray-200 p-4 rounded-lg shadow-md h-[60vh] text-center">
-              {/* <img src={helperLImg} alt="Card 1" className=" h-[40vh] object-cover mb-4 rounded-lg m-auto" /> */}
+              <img src={indomagicImg} alt="Card 1" className=" h-[40vh] object-cover mb-4 rounded-lg m-auto" />
               <h2 className="text-lg font-semibold">INDO-MAGIC</h2>
               <p className="text-gray-700">sci name.</p>
             </div>
@@ -63,7 +63,7 @@ const BestSeller = () => {
           </Link>
           <Link to='/indoxam' className="px-4">
             <div className="bg-gray-200 p-4 rounded-lg shadow-md h-[60vh] text-center">
-              {/* <img src={helperLImg} alt="Card 1" className=" h-[40vh] object-cover mb-4 rounded-lg m-auto" /> */}
+              <img src={fungi7Img} alt="Card 1" className=" h-[40vh] object-cover mb-4 rounded-lg m-auto" />
               <h2 className="text-lg font-semibold">FUNGI-7</h2>
               <p className="text-gray-700">sci name.</p>
             </div>

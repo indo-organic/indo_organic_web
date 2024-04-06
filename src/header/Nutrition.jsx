@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom";
-
-const NutritionCard= ({ category, name, seeMore, imageSrc, imageAlt, sciName }) => {
+import amigoImg from '../product_image/amigo.png'
+import indoMagicImg from '../product_image/indomagic.png'
+import helperLImg from '../product_image/helperL.png'
+import fixCImg from '../product_image/fixC.png'
+import autoMotoImg from '../product_image/autoMoto.png'
+const NutritionCard = ({ category, name, seeMore, imageSrc, imageAlt, sciName }) => {
     return (
         <div className="h-[29rem] w-[30rem] flex-shrink-0 m-6 relative overflow-hidden bg-gray-200 rounded-lg max-w-xs shadow-lg group">
 
@@ -24,69 +28,74 @@ const NutritionCard= ({ category, name, seeMore, imageSrc, imageAlt, sciName }) 
 };
 
 const Nutrition = () => {
-  return (
-    <>
-      <div className="bg-gray-600">
+    return (
+        <>
+            <div className="bg-gray-600">
 
 
-{/* <h1 className="text-3xl font-bold mb-4 text-center  uppercase   bg-gray-800  text-white p-16">insecticide</h1> */}
-<div className="relative mx-auto mt-10 w-full">
-    <img className="h-64 w-full object-cover rounded-md object-bottom" src="https://daisysgarden.com.au/web/image/595180-3bc6db29/jpg%20revive%20vs%20mushroom.jpg" alt="Random image" />
-    <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
-    <div className="absolute inset-0 flex items-center justify-center">
-        <h2 className="text-white text-3xl font-bold">PGRs/NUTRITION </h2>
-    </div>
-</div>
+                {/* <h1 className="text-3xl font-bold mb-4 text-center  uppercase   bg-gray-800  text-white p-16">insecticide</h1> */}
+                <div className="relative mx-auto mt-10 w-full">
+                    <img className="h-64 w-full object-cover rounded-md object-bottom" src="https://daisysgarden.com.au/web/image/595180-3bc6db29/jpg%20revive%20vs%20mushroom.jpg" alt="Random image" />
+                    <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
+                    <div className="absolute inset-0 flex items-center justify-center">
+                        <h2 className="text-white text-3xl font-bold">PGRs/NUTRITION </h2>
+                    </div>
+                </div>
 
-<div className="p-1 flex flex-wrap items-center justify-center">
-    <Link to='/CalciGold'>
-        <NutritionCard category="GENERIC" name="calci-gold" seeMore="see more" sciName='-------------'
-            // imageSrc={calcigoldImg}
-            imageAlt="calci-gold" />
-    </Link>
-    <Link to='/HerboKing'>
-        <NutritionCard category="GENERIC" name="herbo-king" seeMore="see more" sciName='------------------L'
-            // imageSrc={herbokingImg}
-            imageAlt="herboking" />
-    </Link>
-    <Link to='/HerboKingAdvance'>
-        <NutritionCard category="FOCUS" name="herbo-king advance" seeMore="see more" sciName='---------------'
-            // imageSrc={herboKingAdvanceImg}
-            imageAlt="herbokingadvance" />
-    </Link>
-    
-   
-    <Link to='/TotalGR'>
-        <NutritionCard category="FOCUS" name="total-gr" seeMore="see more" sciName='---------------'
-            // imageSrc={TotalGRImg}
-            imageAlt="total-gr" />
-    </Link>
+                <div className="p-1 flex flex-wrap items-center justify-center">
+                    <Link to='/Amigo'>
+                        <NutritionCard category="KEY" name="amigo" seeMore="see more" sciName='-------------'
+                            imageSrc={amigoImg}
+                            imageAlt="amigo" />
+                    </Link>
+                    <Link to='/IndoMagic'>
+                        <NutritionCard category="KEY" name="INDO-MAGIC" seeMore="see more" sciName='------------------L'
+                            imageSrc={indoMagicImg}
+
+                            imageAlt="INDO-MAGIC" />
+                    </Link>
+                    <Link to='/HelperL'>
+                        <NutritionCard category="KEY" name="HelperL" seeMore="see more" sciName='---------------'
+                            imageSrc={helperLImg}
+
+                            imageAlt="helperL" />
+                    </Link>
 
 
-    <Link to='/CalciGoldPlus'>
-        <NutritionCard category="FOCUS" name="calci-gold (+)" seeMore="see more" sciName='---------------'
-            // imageSrc={TotalGRImg}
-            imageAlt="calcigoldplus" />
-    </Link>
+                    <Link to='/AutoMoto'>
+                        <NutritionCard category="KEY" name="AUTO-MOTO" seeMore="see more" sciName='---------------'
+                            imageSrc={autoMotoImg}
+
+                            imageAlt="AUTO-MOTO" />
+                    </Link>
 
 
-    <Link to='/TotalGRAdvance'>
-        <NutritionCard category="key" name="total-gr advance" seeMore="see more" sciName='---------------'
-            // imageSrc={totolgrAdvance}
-            imageAlt="totalgrAdvance" />
-    </Link>
+                    <Link to='/FixC'>
+                        <NutritionCard category="FOCUS" name="fix-c" seeMore="see more" sciName='---------------'
+                            imageSrc={fixCImg}
+
+                            imageAlt="fix-c" />
+                    </Link>
 
 
-   
+                    <Link to='/Bloomflower'>
+                        <NutritionCard category="FOCUS" name="Bloom-Flower" seeMore="see more" sciName='---------------'
+                            // imageSrc={amigoImg}
+
+                            imageAlt="bloom flower" />
+                    </Link>
 
 
 
-</div>
-</div>
-    
-    
-    </>
-  )
+
+
+
+                </div>
+            </div>
+
+
+        </>
+    )
 }
 
 export default Nutrition
