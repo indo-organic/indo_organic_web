@@ -27,11 +27,7 @@ const Adjuvants = () => {
   return (
     <>
 
-     
-
-
-        {/* <h1 className="text-3xl font-bold mb-4  bg-green-600 text-white p-16 text-center">Adjuvants</h1> */}
-        <div className="relative mx-auto mt-10 w-full">
+             <div className="relative mx-auto  w-full">
           <img className="h-64 w-full object-cover rounded-md object-bottom" src="https://www.creative-biolabs.com/vaccine/images/Adjuvant-Emulsions-1.jpg" alt="Random image" />
           <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
           <div className="absolute inset-0 flex items-center justify-center">
@@ -40,7 +36,7 @@ const Adjuvants = () => {
         </div>
 
 
-        <div className="p-1 flex flex-wrap items-center justify-center bg-gray-600 h-screen">
+        <div className="p-1 flex flex-wrap items-center justify-center bg-gray-600 h-[70vh]">
           <Link to='/comboB'>
             <AgroCard category="Adjuvant" name="COMBO-B" seeMore="see more" sciName='Organosilicone Based Spray Adjuvant'
               imageSrc={comboBImg}

@@ -47,24 +47,25 @@ const Soilrevivers = () => {
 
                 <div className="p-1 flex flex-wrap items-center justify-center">
                     <Link to='/CalciGold'>
-                        <SoilReviverCard category="GENERIC" name="calci-gold" seeMore="see more" sciName='-------------'
+                        <SoilReviverCard category="GENERIC" name="calci-gold" seeMore="see more" sciName='Organic Calcium Based Granules
+'
                             imageSrc={calcigoldImg}
                             imageAlt="calci-gold" />
                     </Link>
                     <Link to='/HerboKing'>
-                        <SoilReviverCard category="GENERIC" name="herbo-king" seeMore="see more" sciName='------------------L'
+                        <SoilReviverCard category="GENERIC" name="herbo-king" seeMore="see more" sciName='Organically Derived Plant Vitalizer'
                             imageSrc={herbokingImg}
                             imageAlt="herboking" />
                     </Link>
                     <Link to='/HerboKingAdvance'>
-                        <SoilReviverCard category="FOCUS" name="herbo-king advance" seeMore="see more" sciName='---------------'
+                        <SoilReviverCard category="FOCUS" name="herbo-king advance" seeMore="see more" sciName='Naturally Derived Plant Energizer'
                             imageSrc={herboKingAdvanceImg}
                             imageAlt="herbokingadvance" />
                     </Link>
                     
                    
                     <Link to='/TotalGR'>
-                        <SoilReviverCard category="FOCUS" name="total-gr" seeMore="see more" sciName='---------------'
+                        <SoilReviverCard category="FOCUS" name="total-gr" seeMore="see more" sciName='Root Growth Accelerator & Yield Enhancer'
                             imageSrc={TotalGRImg}
                             imageAlt="total-gr" />
                     </Link>
@@ -78,7 +79,7 @@ const Soilrevivers = () => {
 
 
                     <Link to='/TotalGRAdvance'>
-                        <SoilReviverCard category="key" name="total-gr advance" seeMore="see more" sciName='---------------'
+                        <SoilReviverCard category="key" name="total-gr advance" seeMore="see more" sciName='Plant Growth Accelerator & Yield Enhancer'
                             imageSrc={totolgrAdvance}
                             imageAlt="totalgrAdvance" />
                     </Link>
@@ -91,7 +92,7 @@ const Soilrevivers = () => {
                     </Link>
 
                     <Link to='/HerboRize'>
-                        <SoilReviverCard category="KEY" name="herbo-riza" seeMore="see more" sciName='---------------'
+                        <SoilReviverCard category="KEY" name="herbo-riza" seeMore="see more" sciName='Root Zone Nutrient Chelator & Plant Nurturer'
                             imageSrc={herboRiza}
                             imageAlt="herboriza" />
                     </Link>

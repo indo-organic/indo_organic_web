@@ -56,17 +56,18 @@ const Speciality = () => {
         </div>
         <div className="p-1 flex flex-wrap items-center justify-center  ">
           <Link to='/CalciGold'>
-            <BioCard category="biostimulant" name="calci-gold" seeMore="see more" sciName='-------------'
+            <BioCard category="biostimulant" name="calci-gold" seeMore="see more" sciName='Organic Calcium Based Granules
+'
               imageSrc={calcigoldImg}
               imageAlt="calci-gold" />
           </Link>
           <Link to='/HerboKing'>
-            <BioCard category="biostimulant" name="herbo-king" seeMore="see more" sciName='------------------L'
+            <BioCard category="biostimulant" name="herbo-king" seeMore="see more" sciName='Organically Derived Plant Vitalizer'
               imageSrc={herbokingImg}
               imageAlt="herboking" />
           </Link>
           <Link to='/Totalgr'>
-            <BioCard category="biostimulant" name="total-gr" seeMore="see more" sciName='---------------'
+            <BioCard category="biostimulant" name="total-gr" seeMore="see more" sciName='Root Growth Accelerator & Yield Enhancer'
               imageSrc={totalgrImg}
               imageAlt="totalgr" />
           </Link>
