@@ -1,17 +1,17 @@
 import { Link } from "react-router-dom"
 // import protection_img from '../assets/research2.jpg'
-import supplements_img from '../prod_img/supplements.jpg'
+import supplements_img from '../assets/research2.jpg'
 import adjuvants_img from '../prod_img/adjuvantsImg.jpg'
 import agrochemical_img from '../prod_img/agrochemicalImg.png'
 
 
-function Card({ imageUrl, title, description, date, readTime }) {
+function Card({ imageUrl, title, date,  }) {
   return (
     <div className="rounded overflow-hidden shadow-lg">
       <a href="#"></a>
-      <div className="relative">
+      <div className="relative ">
         <a href="#">
-          <img className="w-full" src={imageUrl} alt="Sunset in the mountains" />
+          <img className="w-full h-[40vh]" src={imageUrl} alt="" />
           <div className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
         </a>
         <a href="#!">
@@ -22,19 +22,15 @@ function Card({ imageUrl, title, description, date, readTime }) {
         <a href="!#">
           <div className="text-sm absolute top-0 right-0 bg-green-600 px-4 text-white rounded-full h-16 w-16 flex flex-col items-center justify-center mt-3 mr-3 hover:bg-black hover:text-green-600 transition duration-500 ease-in-out">
             <span className="font-bold">{date}</span>
-            <small>{readTime}</small>
           </div>
         </a>
       </div>
-      <div className="px-6 py-4">
-        <a href="#" className="font-semibold text-lg inline-block hover:text-green-600 transition duration-500 ease-in-out">
+      <div className="px-6 py-2 text-center bg-gray-300">
+        <a href="#" className="font-semibold text-lg inline-block hover:text-white transition duration-500 ease-in-out">
           {title}
         </a>
-        <p className="text-gray-500 text-sm">{description}</p>
       </div>
-      <div className="px-6 py-4 flex flex-row items-center">
-
-      </div>
+    
     </div>
   );
 }
@@ -45,9 +41,8 @@ const Products = () => {
 
       {/* <div className="bg-gray-200 my-[4rem] py-6 sm:py-8 lg:py-12  ">
         <div className="mx-auto max-w-screen-xl px-4 md:px-8  ">
-          <h1 className="text-lg font-semibold   lg:text-2xl">Product and Service</h1>
-
-          <div className=" grid gap-6 sm:grid-cols-2 lg:grid-cols-4 ">
+          <p className="text-center pb-8 lg:text-7xl font-semibold text-green-700 md:text-3xl">Products we offer</p>
+          <div className=" grid gap-6 sm:grid-cols-2 lg:grid-cols-4 bg-green-400">
             <Link to='/agrochemical' className="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
               <img src={agrochemical_img} loading="lazy" alt="Photo by Fakurian Design" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
@@ -70,7 +65,7 @@ const Products = () => {
               </div>
             </Link>
 
-          
+
 
             <Link to='/speciality' className="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
               <img src={supplements_img} loading="lazy" alt="Photo by Fakurian Design" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
@@ -83,15 +78,15 @@ const Products = () => {
               </div>
             </Link>
 
-           
+
 
           </div>
         </div>
       </div> */}
 
-      
 
-     
+         
+
 
       <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16  my-20 ">
         <p className="text-center pb-8 lg:text-7xl font-semibold text-green-700 md:text-3xl">Products we offer</p>
@@ -102,7 +97,7 @@ const Products = () => {
             <Card
               imageUrl={agrochemical_img}
               title="Agrochemical"
-              description="The city that never sleeps"
+
               date="40"
 
             />
@@ -114,7 +109,6 @@ const Products = () => {
             <Card
               imageUrl={adjuvants_img}
               title="Adjuvants"
-              description="The collection of best pizza images in Newyork city"
               date="1"
 
             />
@@ -125,14 +119,13 @@ const Products = () => {
             <Card
               imageUrl={supplements_img}
               title="IOL specialist"
-              description="The collection of best salads of town in pictures"
               date="15"
 
             />
           </Link>
         </div>
       </div>
-     
+
 
 
 
@@ -143,3 +136,7 @@ const Products = () => {
 }
 
 export default Products
+
+
+
+

@@ -40,7 +40,7 @@ const BestSeller = () => {
 
   
       <div className="relative mx-auto  w-[70%] mt-5 mb-1">
-          <img className="h-16 w-full object-cover rounded-md object-bottom" src="https://www.thespruce.com/thmb/P_RO3BhitUHl1tIsb9EuIsxl6CM=/3000x2000/filters:no_upscale()/pyrethrin-insecticide-definition-1902891_Hero1-386797349e94413b8133a93e8008a582.jpg" alt="Random image" />
+          <img className="h-16 w-full object-cover rounded-md object-bottom " src="https://www.thespruce.com/thmb/P_RO3BhitUHl1tIsb9EuIsxl6CM=/3000x2000/filters:no_upscale()/pyrethrin-insecticide-definition-1902891_Hero1-386797349e94413b8133a93e8008a582.jpg" alt="Random image" />
           <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
           <div className="absolute inset-0 flex items-center  ">"
             <h2 className="text-white text-3xl font-bold m-auto ">BEST SELLERS</h2>

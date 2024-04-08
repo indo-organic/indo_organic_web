@@ -42,24 +42,28 @@ const Home_vision_mission = () => {
 
 
 
-              
 
-                
-      <div className="flex flex-wrap justify-evenly">
-        <Link to='/vision' className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 p-4 hover:scale-125 transition-all">
-          <div to='/vision' className="bg-gray-600 p-6 rounded-lg shadow-md text-center" >
-            <img className=" w-40 h-40 rounded-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdVkxMe3Xzhx7ek2lf2KhngVmgBTc8xqoyIWfcn__bGRvIkWieMY4MnrAojhsIJOsQmOo&usqp=CAU" alt="" />
-            <p className="font-bold text-3xl text-white">VISION</p>
-        </div>
+      <div className="flex flex-col w-[90%] h-[40vh] bg-cover bg-fixed bg-center justify-center items-center m-auto"
+        style={{
+          backgroundImage: 'url(https://st.depositphotos.com/1229718/4695/i/450/depositphotos_46956433-stock-photo-investment-success.jpg)',
+        }}>
+
+        {/* <div className="flex flex-wrap justify-evenly">
+          <Link to='/vision' className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 p-4 hover:scale-125 transition-all">
+            <div  className=" p-6 rounded-lg shadow-md text-center" >
+              <img className=" w-40 h-40 rounded-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdVkxMe3Xzhx7ek2lf2KhngVmgBTc8xqoyIWfcn__bGRvIkWieMY4MnrAojhsIJOsQmOo&usqp=CAU" alt="" />
+              <p className="font-bold text-3xl text-white">VISION</p>
+            </div>
           </Link>
           <Link to='/mission' className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 p-4 hover:scale-125 transition-all">
-          <div className="bg-gray-600 p-6 rounded-lg shadow-md text-center" >
-            <img className=" w-40 h-40 rounded-full" src="https://media4.manhattan-institute.org/sites/cj/files/economic-growth-is-still-our-best-hope.jpg" alt="" />
-            <p className="font-bold text-3xl text-white">MISSION</p>
-        </div>
+            <div className=" p-6 rounded-lg shadow-md text-center" >
+              <img className=" w-40 h-40 rounded-full" src="https://media4.manhattan-institute.org/sites/cj/files/economic-growth-is-still-our-best-hope.jpg" alt="" />
+              <p className="font-bold text-3xl text-white">MISSION</p>
+            </div>
           </Link>
+        </div> */}
+
       </div>
-      
 
     </>
   )
