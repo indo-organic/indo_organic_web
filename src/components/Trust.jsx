@@ -7,10 +7,12 @@ const Trust = () => {
         // container mx-auto max-w-5xl flex gap-12 flex-wrap items-start  md:justify-between  py-[10rem]  bg-gray-300 
 
 
+               <div className="bg-gray-200 py-10">
 
-        <div className="container mx-auto max-w-5xl flex gap-12 flex-wrap items-start  md:justify-between  py-[1rem]  my-4 bg-cover bg-fixed bg-center justify-center  m-auto"  style={{
+             
+        <div className="container mx-auto max-w-6xl flex gap-12 flex-wrap items-start  md:justify-between  py-[1rem]  bg-cover bg-fixed bg-center justify-center  m-auto" style={{
             backgroundImage: 'url(https://www.marsdd.com/wp-content/uploads/2021/06/CROP.jpg)',
-          }} >
+        }} >
             <div className="grid gap-4 justify-items-center text-center md:flex-1">
                 <div className=" rounded-full border-8 border-gray-200 p-4 ">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
@@ -50,7 +52,7 @@ const Trust = () => {
         </div>
 
 
-
+        </div>
 
 
 

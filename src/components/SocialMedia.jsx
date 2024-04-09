@@ -9,43 +9,8 @@ import '../styles/Socia.scss'
 const SocialMedia = () => {
     return (
         <>
-            {/* <div className="social">
-            <div className="social_text">
-                Connect with us 
-            </div>
-            <div className="social_p">
-            Follow us on social media for the latest news, updates and stories!
-
-
-            </div>
-            <div className="social_icons">
-
-                <a href="https://youtube.com/@indoorganics?si=Rs0ayidzuF5wt_cH"  target="_blank" className="yt">
-                    <FaYoutube/>
-                </a>
-                  
-                  
-                <a href="https://www.linkedin.com/company/indo-organics-pvt-ltd_find_us_here/"  target="_blank" className="linkedin">
-                    <FaLinkedin/>
-                </a>
-
-                
-                <a href="https://www.facebook.com/iolindia/" target="_blank" className="fb">
-                    <FaFacebookSquare/>
-                </a>
-
-
-                <a href="" className="twitter">
-                    <FaSquareXTwitter/>
-                </a>
-
-            </div>
-
-
-
-
-        </div> */}
-
+           
+        
             <div className="fixed top-[40%] right-0 h-full  p-4 z-50 ">
                 <ul className="flex flex-col space-y-4 text-4xl">
                     <li>

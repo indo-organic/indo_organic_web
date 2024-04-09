@@ -4,7 +4,9 @@ const Static = () => {
   return (
     <>  
 
-    
+                      <div className="bg-gray-200 py-10">
+
+                      
       <section  className="flex flex-col w-[90%] h-[40vh] bg-cover bg-fixed bg-center justify-center items-center m-auto"
         style={{
           backgroundImage: 'url(https://bonnieplants.com/cdn/shop/files/plugs_on_ledge.jpg?v=1681134679&width=1200)',
@@ -31,7 +33,7 @@ const Static = () => {
         </div>
 
       </section>
-
+      </div>
      
      
    

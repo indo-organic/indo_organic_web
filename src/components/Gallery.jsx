@@ -30,6 +30,7 @@ const Gallery = () => {
       ];
   return (
     <>
+     <div className="bg-gray-200">
     
     <div className="grid grid-cols-1 w-[80%] m-auto sm:grid-cols-2 md:grid-cols-3 py-20 ">
         {data.map(({ imageLink }, index) => (
@@ -42,7 +43,8 @@ const Gallery = () => {
           </div>
         ))}
       </div>
-    
+      
+      </div>
     </>
   )
 }

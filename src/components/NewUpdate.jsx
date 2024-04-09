@@ -1,20 +1,3 @@
-// import '../styles/NewUpdate.scss'
-// const NewUpdate = () => {
-//   return (
-//     <>
-//      <div classNameName="text-container">
-//       <div classNameName="text-slide">
-//         <span>Latest news  and updates</span>
-//       </div>
-//     </div>
-    
-    
-//     </>
-//   )
-// }
-
-// export default NewUpdate
-
 
 import React from 'react'
 
@@ -46,7 +29,7 @@ const NewUpdate = () => {
             </div>
           </div>
           <div className="p-6">
-            <h5 className="mb-3 text-lg font-bold">My paradise</h5>
+            <h5 className="mb-3 text-lg font-bold">Lorem, ipsum dolor.</h5>
             <p className="mb-4 text-neutral-500 dark:text-neutral-300">
               <small>Published <u>13.01.2022</u> by
                 <a href="#!">Anna Maria Doe</a></small>
@@ -79,7 +62,7 @@ const NewUpdate = () => {
             </div>
           </div>
           <div className="p-6">
-            <h5 className="mb-3 text-lg font-bold">Travel to Italy</h5>
+          <h5 className="mb-3 text-lg font-bold">Lorem, ipsum dolor.</h5>
             <p className="mb-4 text-neutral-500 dark:text-neutral-300">
               <small>Published <u>12.01.2022</u> by
                 <a href="#!">Halley Frank</a></small>
@@ -112,7 +95,7 @@ const NewUpdate = () => {
             </div>
           </div>
           <div className="p-6">
-            <h5 className="mb-3 text-lg font-bold">Chasing the sun</h5>
+          <h5 className="mb-3 text-lg font-bold">Lorem, ipsum dolor.</h5>
             <p className="mb-4 text-neutral-500 dark:text-neutral-300">
               <small>Published <u>10.01.2022</u> by
                 <a href="#!">Joe Svan</a></small>

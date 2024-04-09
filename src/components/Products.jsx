@@ -26,7 +26,7 @@ function Card({ imageUrl, title, date,  }) {
         </a>
       </div>
       <div className="px-6 py-2 text-center bg-gray-300">
-        <a href="#" className="font-semibold text-lg inline-block hover:text-white transition duration-500 ease-in-out">
+        <a href="#" className="font-semibold text-lg inline-block hover:text-green-600 transition duration-500 ease-in-out">
           {title}
         </a>
       </div>
@@ -86,9 +86,11 @@ const Products = () => {
 
 
          
+               <div className="bg-gray-200">
 
+               
 
-      <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16  my-20 ">
+      <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16 py-20 ">
         <p className="text-center pb-8 lg:text-7xl font-semibold text-green-700 md:text-3xl">Products we offer</p>
         <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-10">
           <Link to='/agrochemical'>
@@ -128,7 +130,7 @@ const Products = () => {
 
 
 
-
+      </div>
 
 
     </>

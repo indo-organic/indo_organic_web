@@ -38,8 +38,10 @@ const BestSeller = () => {
     <> 
    
 
-  
-      <div className="relative mx-auto  w-[70%] mt-5 mb-1">
+     <div className="bg-gray-200 py-24">
+
+    
+      <div className="relative mx-auto  w-[70%] mb-1">
           <img className="h-16 w-full object-cover rounded-md object-bottom " src="https://www.thespruce.com/thmb/P_RO3BhitUHl1tIsb9EuIsxl6CM=/3000x2000/filters:no_upscale()/pyrethrin-insecticide-definition-1902891_Hero1-386797349e94413b8133a93e8008a582.jpg" alt="Random image" />
           <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
           <div className="absolute inset-0 flex items-center  ">"
@@ -51,21 +53,21 @@ const BestSeller = () => {
       <div className="mx-auto max-w-7xl  flex flex-col justify-center pt-1 pb-8">
         <Slider {...settings}>
           <Link to='/indomagic' className="px-4">
-            <div className="bg-gray-200 p-4 rounded-lg shadow-md h-[60vh] text-center">
+            <div className="bg-green-300 p-4 rounded-lg shadow-md h-[60vh] text-center">
               <img src={indomagicImg} alt="Card 1" className=" h-[40vh] object-cover mb-4 rounded-lg m-auto" />
               <h2 className="text-lg font-semibold">INDO-MAGIC</h2>
               <p className="text-gray-700">Phyto-Extruded Plant Augmenter and Yield Enhancer</p>
             </div>
           </Link>
           <Link to='/HelperL' className="px-4">
-            <div className="bg-gray-200 p-4 rounded-lg shadow-md h-[60vh] text-center">
+            <div className="bg-green-300 p-4 rounded-lg shadow-md h-[60vh] text-center">
               <img src={helperLImg} alt="Card 1" className=" h-[40vh] object-cover mb-4 rounded-lg m-auto" />
               <h2 className="text-lg font-semibold">HELPER-L</h2>
               <p className="text-gray-700">Premium Sargassum Enriched Liquid Energizer</p>
             </div>
           </Link>
           <Link to='/fungi7' className="px-4">
-            <div className="bg-gray-200 p-4 rounded-lg shadow-md h-[60vh] text-center">
+            <div className="bg-green-300 p-4 rounded-lg shadow-md h-[60vh] text-center">
               <img src={fungi7Img} alt="Card 1" className=" h-[40vh] object-cover mb-4 rounded-lg m-auto" />
               <h2 className="text-lg font-semibold">FUNGI-7</h2>
               <p className="text-gray-700">Fungal Growth Inhibitor</p>
@@ -84,7 +86,7 @@ const BestSeller = () => {
 
         <hr className="w-[80%] h-[1vh] bg-black  m-auto " />
 
-        
+        </div>
     </>
   )
 }
