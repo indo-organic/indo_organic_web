@@ -44,18 +44,18 @@ const Nutrition = () => {
 
                 <div className="p-1 flex flex-wrap items-center justify-center">
                     <Link to='/Amigo'>
-                        <NutritionCard category="KEY" name="amigo" seeMore="see more" sciName='-------------'
+                        <NutritionCard category="KEY" name="amigo" seeMore="see more" sciName='Amino Rich Bio-Stimulator'
                             imageSrc={amigoImg}
                             imageAlt="amigo" />
                     </Link>
                     <Link to='/IndoMagic'>
-                        <NutritionCard category="KEY" name="INDO-MAGIC" seeMore="see more" sciName='------------------L'
+                        <NutritionCard category="KEY" name="INDO-MAGIC" seeMore="see more" sciName='Phyto-Extruded Plant Augmenter and Yield Enhancer'
                             imageSrc={indoMagicImg}
 
                             imageAlt="INDO-MAGIC" />
                     </Link>
                     <Link to='/HelperL'>
-                        <NutritionCard category="KEY" name="HelperL" seeMore="see more" sciName='---------------'
+                        <NutritionCard category="KEY" name="HelperL" seeMore="see more" sciName='Premium Sargassum Enriched Liquid Energizer'
                             imageSrc={helperLImg}
 
                             imageAlt="helperL" />
@@ -63,7 +63,7 @@ const Nutrition = () => {
 
 
                     <Link to='/AutoMoto'>
-                        <NutritionCard category="KEY" name="AUTO-MOTO" seeMore="see more" sciName='---------------'
+                        <NutritionCard category="KEY" name="AUTO-MOTO" seeMore="see more" sciName='Plant quality and yield enhancer (With trace elements)'
                             imageSrc={autoMotoImg}
 
                             imageAlt="AUTO-MOTO" />
@@ -71,7 +71,7 @@ const Nutrition = () => {
 
 
                     <Link to='/FixC'>
-                        <NutritionCard category="FOCUS" name="fix-c" seeMore="see more" sciName='---------------'
+                        <NutritionCard category="FOCUS" name="fix-c" seeMore="see more" sciName='Organic carbon sequester and stabilizer'
                             imageSrc={fixCImg}
 
                             imageAlt="fix-c" />

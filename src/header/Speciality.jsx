@@ -98,17 +98,17 @@ const Speciality = () => {
         </div>
         <div className="p-1 flex flex-wrap items-center justify-center ">
           <Link to='/Amigo'>
-            <BioCard category="biostimulant" name="amigo" seeMore="see more" sciName='-------------'
+            <BioCard category="biostimulant" name="amigo" seeMore="see more" sciName='Amino Rich Bio-Stimulator'
               imageSrc={amigoImg}
               imageAlt="amigo" />
           </Link>
           <Link to='/IndoMagic'>
-            <BioCard category="biostimulant" name="Indo-magic" seeMore="see more" sciName='------------------L'
+            <BioCard category="biostimulant" name="Indo-magic" seeMore="see more" sciName='Phyto-Extruded Plant Augmenter and Yield Enhancer'
               imageSrc={indomagicImg}
               imageAlt="indo-magic" />
           </Link>
           <Link to='/HelperL'>
-            <BioCard category="biostimulant" name="helper-L" seeMore="see more" sciName='---------------'
+            <BioCard category="biostimulant" name="helper-L" seeMore="see more" sciName='Premium Sargassum Enriched Liquid Energizer'
               imageSrc={helperLImg}
               imageAlt="helperL" />
           </Link>
@@ -140,17 +140,17 @@ const Speciality = () => {
         </div>
         <div className="p-1 flex flex-wrap items-center justify-center ">
           <Link to='/AllIn'>
-            <BioCard category="biostimulant" name="All-in" seeMore="see more" sciName='-------------'
+            <BioCard category="biostimulant" name="All-in" seeMore="see more" sciName=' Immunity Booster and Defence Activator'
               imageSrc={allinImg}
               imageAlt="All-in" />
           </Link>
           <Link to='/Fungi7'>
-            <BioCard category="biostimulant" name="fungi-7" seeMore="see more" sciName='------------------L'
+            <BioCard category="biostimulant" name="fungi-7" seeMore="see more" sciName='Fungal Growth Inhibitor '
               imageSrc={fungi7Img}
               imageAlt="fungi-7" />
           </Link>
           <Link to='/Fungiex'>
-            <BioCard category="biostimulant" name="fungi-ex" seeMore="see more" sciName='---------------'
+            <BioCard category="biostimulant" name="fungi-ex" seeMore="see more" sciName='Soil Borne Fungal Retardant'
               imageSrc={fungiexImg}
               imageAlt="fungi-ex" />
           </Link>

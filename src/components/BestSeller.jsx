@@ -54,21 +54,21 @@ const BestSeller = () => {
             <div className="bg-gray-200 p-4 rounded-lg shadow-md h-[60vh] text-center">
               <img src={indomagicImg} alt="Card 1" className=" h-[40vh] object-cover mb-4 rounded-lg m-auto" />
               <h2 className="text-lg font-semibold">INDO-MAGIC</h2>
-              <p className="text-gray-700">sci name.</p>
+              <p className="text-gray-700">Phyto-Extruded Plant Augmenter and Yield Enhancer</p>
             </div>
           </Link>
-          <Link to='/alaska' className="px-4">
+          <Link to='/HelperL' className="px-4">
             <div className="bg-gray-200 p-4 rounded-lg shadow-md h-[60vh] text-center">
               <img src={helperLImg} alt="Card 1" className=" h-[40vh] object-cover mb-4 rounded-lg m-auto" />
               <h2 className="text-lg font-semibold">HELPER-L</h2>
-              <p className="text-gray-700">sci name.</p>
+              <p className="text-gray-700">Premium Sargassum Enriched Liquid Energizer</p>
             </div>
           </Link>
-          <Link to='/indoxam' className="px-4">
+          <Link to='/fungi7' className="px-4">
             <div className="bg-gray-200 p-4 rounded-lg shadow-md h-[60vh] text-center">
               <img src={fungi7Img} alt="Card 1" className=" h-[40vh] object-cover mb-4 rounded-lg m-auto" />
               <h2 className="text-lg font-semibold">FUNGI-7</h2>
-              <p className="text-gray-700">sci name.</p>
+              <p className="text-gray-700">Fungal Growth Inhibitor</p>
             </div>
           </Link>
         </Slider>

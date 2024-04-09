@@ -102,7 +102,7 @@ import IndoMagic from './productPage/nutritions/IndoMagic'
 //  protection
 import Protection from './header/Protection' 
 import AllIn from './productPage/protection/AllIn'
-// import Curev from './productPage/protection/Curev'
+import Curev from './productPage/protection/Curev'
 import Fungi7 from './productPage/protection/Fungi7'
 import FungiEx from './productPage/protection/FungiEx'
 import Urban3 from './productPage/protection/Urban3'
@@ -232,7 +232,7 @@ const App = () => {
           <Route path='/Protection' element={<Protection />} />
           <Route path='/AllIn' element={<AllIn />} />
           <Route path='/Fungi7' element={<Fungi7 />} />
-          {/* <Route path='/Curev' element={<Curev />} /> */}
+          <Route path='/CureV' element={<Curev />} />
           <Route path='/FungiEx' element={<FungiEx />} />
           <Route path='/Urban3' element={<Urban3/>} />
 

@@ -47,32 +47,32 @@ const Protection = () => {
 
         <div className="p-1 flex flex-wrap items-center justify-center">
           <Link to='/Allin'>
-            <ProtCard category="FOCUS" name="all-in" seeMore="see more" sciName='-------------'
+            <ProtCard category="FOCUS" name="all-in" seeMore="see more" sciName=' Immunity Booster and Defence Activator'
               imageSrc={allinImg}
               imageAlt="allin" />
           </Link>
 
           <Link to='/Fungi7'>
-            <ProtCard category="FOCUS" name="fungi-7" seeMore="see more" sciName='-------------'
+            <ProtCard category="FOCUS" name="fungi-7" seeMore="see more" sciName='Fungal Growth Inhibitor '
               imageSrc={fungi7Img}
               imageAlt="fungi7" />
           </Link>
 
            
           <Link to='/FungiEX'>
-            <ProtCard category="FOCUS" name="fungi-ex" seeMore="see more" sciName='-------------'
+            <ProtCard category="FOCUS" name="fungi-ex" seeMore="see more" sciName='Soil Borne Fungal Retardant'
               imageSrc={fungiexImg}
               imageAlt="fungiex" />
           </Link>
 
           <Link to='/Urban3'>
-            <ProtCard category="FOCUS" name="urban-3" seeMore="see more" sciName='-------------'
+            <ProtCard category="FOCUS" name="urban-3" seeMore="see more" sciName='Botanical Insecticide For Sucking Pests'
               imageSrc={urbanImg}
               imageAlt="urban-3" />
           </Link>
 
           <Link to='/CureV'>
-            <ProtCard category="FOCUS" name="cure-v" seeMore="see more" sciName='-------------'
+            <ProtCard category="FOCUS" name="cure-v" seeMore="see more" sciName='Herbal Virus Eradicator & Immunity Escalator'
               imageSrc={curevImg}
               imageAlt="curev" />
           </Link>

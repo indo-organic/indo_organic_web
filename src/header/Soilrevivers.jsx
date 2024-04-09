@@ -86,7 +86,7 @@ const Soilrevivers = () => {
 
 
                     <Link to='/Humimax'>
-                        <SoilReviverCard category="KEY" name="humi-max" seeMore="see more" sciName='---------------'
+                        <SoilReviverCard category="KEY" name="humi-max" seeMore="see more" sciName='Humic Enriched Soil Reviver'
                             imageSrc={humimax}
                             imageAlt="humixam" />
                     </Link>

@@ -49,8 +49,8 @@ const TotalGRAdvance = () => {
 
               <h3 className="text-gray-900 text-2xl title-font font-medium m-3">MODE OF ACTION</h3>
               <p className='leading-relaxed m-4'>It activates soil bacteria, specially rhizosphere bacteria which are responsible for better
-growth of root system. It also acts as a natural chelating agent which enhances uptake and
-utilization of major nutrients, promotes enzymatic activity and enhances protein synthesis.
+                growth of root system. It also acts as a natural chelating agent which enhances uptake and
+                utilization of major nutrients, promotes enzymatic activity and enhances protein synthesis.
               </p>
 
               <h3 className="text-gray-900 text-2xl title-font font-medium m-3">RECOMMENDATIONS</h3>
@@ -59,12 +59,12 @@ utilization of major nutrients, promotes enzymatic activity and enhances protein
 
               <h3 className="text-gray-900 text-2xl title-font font-medium m-3">METHOD OF APPLICATION</h3>
               <p className='leading-relaxed m-4'>Top dressing once in every 25 days
-after 15 days of sowing.
+                after 15 days of sowing.
               </p>
 
               <h3 className="text-gray-900 text-2xl title-font font-medium m-3"> DOSAGE</h3>
               <p className='leading-relaxed m-4'>6-10 Kg per acre for sowing or 4-6 Kg
-per acre for standing crops.
+                per acre for standing crops.
               </p>
 
 
