@@ -71,11 +71,11 @@ const Soilrevivers = () => {
                     </Link>
 
 
-                    <Link to='/CalciGoldPlus'>
+                    {/* <Link to='/CalciGoldPlus'>
                         <SoilReviverCard category="FOCUS" name="calci-gold (+)" seeMore="see more" sciName='---------------'
-                            // imageSrc={TotalGRImg}
+                            imageSrc={TotalGRImg}
                             imageAlt="calcigoldplus" />
-                    </Link>
+                    </Link> */}
 
 
                     <Link to='/TotalGRAdvance'>

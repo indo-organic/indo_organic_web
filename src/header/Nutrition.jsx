@@ -78,12 +78,12 @@ const Nutrition = () => {
                     </Link>
 
 
-                    <Link to='/Bloomflower'>
+                    {/* <Link to='/Bloomflower'>
                         <NutritionCard category="FOCUS" name="Bloom-Flower" seeMore="see more" sciName='---------------'
                             // imageSrc={amigoImg}
 
                             imageAlt="bloom flower" />
-                    </Link>
+                    </Link> */}
 
 
 

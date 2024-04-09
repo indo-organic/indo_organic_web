@@ -4,7 +4,10 @@ import test1 from '../testimonials/testimonial1.jpg'
 const Testimonial = () => {
   return (
     <>
-      <div className="bg-gray-600">
+      <div className="flex flex-col w-[99%]  bg-cover bg-fixed bg-center justify-center items-center m-auto "
+        style={{
+          backgroundImage: 'url(https://i.pinimg.com/736x/81/70/32/817032a8175cfb96b7d2f6830c463670.jpg)',
+        }}>
 
 
         <div className="relative mx-auto  w-full">

@@ -6,31 +6,17 @@ const OurStory = () => {
   return (
     <>
 
-      {/* <section className=" body-font bg-gray-700 lg:hidden">
-        <div className="container px-5 py-[1%] mx-auto">
-          <div className="lg:w-2/3 flex  text-center flex-col sm:flex-row sm:items-center items-start mx-auto">
-            <h1 className="flex-grow sm:pr-16 text-3xl font-medium title-font text-white "> We leverage our rich heritage to tackle the challenges of the future</h1>
-          </div>
-        </div>
-      </section> */}
-
-      <div className="flex flex-col w-[100%] h-[140vh] bg-cover bg-fixed bg-center justify-center items-center m-auto"
-        style={{
-          backgroundImage: 'url(https://img.freepik.com/free-vector/hand-drawn-floral-outline-background_52683-128392.jpg)',
-        }}>
 
 
 
-        <div className="relative mx-auto mt-10 w-[90%]">
+      <div className="bg-gray-200">
+        <div className="relative mx-auto  w-[90%]">
           <img className="h-32 w-full object-cover rounded-md object-center" src='https://www.shutterstock.com/image-photo/woman-planting-young-seedling-gardening-260nw-1768851851.jpg' alt="Random image" />
           <div className="absolute inset-0 bg-gray-900 opacity-50 rounded-md"></div>
           <div className="absolute inset-0 flex items-center justify-center">
             <h2 className="text-white lg:text-3xl md:xl md:text-center md:m-auto sm:text-[1rem] sm:text-center font-bold uppercase">We leverage our rich heritage to tackle the challenges of the future</h2>
           </div>
         </div>
-
-
-
         <div className=" relative flex items-center justify-center overflow-hidden bg-whitesmoke z-10">
           <div className="relative mx-auto h-full px-4 pb-20 md:pb-10 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8">
             <div className="flex flex-col items-center justify-between lg:flex-row py-16">
@@ -67,13 +53,8 @@ const OurStory = () => {
                 </div>
               </div>
             </div>
-
           </div>
-
         </div>
-
-
-
       </div>
 
 
