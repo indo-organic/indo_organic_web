@@ -13,10 +13,10 @@ const News = () => {
                         <div className="sm:flex items-center justify-between xl:gap-x-8 gap-x-6">
                             <div className="sm:w-1/2 relative">
                                 <div>
-                                    <p className="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2021</p>
+                                    <p className="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2024</p>
                                     <div className="absolute bottom-0 left-0 p-6">
-                                        <h2 className="text-xl font-semibold 5 text-white">The Decorated Ways</h2>
-                                        <p className="text-base leading-4 text-white mt-2">Dive into minimalism</p>
+                                        <h2 className="text-xl font-semibold 5 text-white">crops</h2>
+                                        <p className="text-base leading-4 text-white mt-2">Lorem ipsum dolor sit amet.</p>
                                         <div className="flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
                                             <p className="pr-2 text-sm font-medium leading-none">Read More</p>
                                             <svg className="fill-stroke" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -29,10 +29,10 @@ const News = () => {
                             </div>
                             <div className="sm:w-1/2 sm:mt-0 mt-4 relative">
                                 <div>
-                                    <p className="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2021</p>
+                                    <p className="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2024</p>
                                     <div className="absolute bottom-0 left-0 p-6">
-                                        <h2 className="text-xl font-semibold 5 text-white">The Decorated Ways</h2>
-                                        <p className="text-base leading-4 text-white mt-2">Dive into minimalism</p>
+                                        <h2 className="text-xl font-semibold 5 text-white">agrochemical</h2>
+                                        <p className="text-base leading-4 text-white mt-2">Lorem, ipsum dolor.</p>
                                         <div className="flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
                                             <p className="pr-2 text-sm font-medium leading-none">Read More</p>
                                             <svg className="fill-stroke" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -46,10 +46,10 @@ const News = () => {
                         </div>
                         <div className="relative">
                             <div>
-                                <p className="md:p-10 p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2021</p>
+                                <p className="md:p-10 p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2024</p>
                                 <div className="absolute bottom-0 left-0 md:p-10 p-6">
-                                    <h2 className="text-xl font-semibold 5 text-white">The Decorated Ways</h2>
-                                    <p className="text-base leading-4 text-white mt-2">Dive into minimalism</p>
+                                    <h2 className="text-xl font-semibold 5 text-white">io specialist</h2>
+                                    <p className="text-base leading-4 text-white mt-2">Lorem, ipsum dolor.</p>
                                     <div className="flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
                                         <p className="pr-2 text-sm font-medium leading-none">Read More</p>
                                         <svg className="fill-stroke" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -65,10 +65,10 @@ const News = () => {
                     <div className="lg:w-1/2 xl:ml-8 lg:ml-4 lg:mt-0 md:mt-6 mt-4 lg:flex flex-col justify-between">
                         <div className="relative">
                             <div>
-                                <p className="md:p-10 p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2021</p>
+                                <p className="md:p-10 p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2024</p>
                                 <div className="absolute bottom-0 left-0 md:p-10 p-6">
-                                    <h2 className="text-xl font-semibold 5 text-white">The Decorated Ways</h2>
-                                    <p className="text-base leading-4 text-white mt-2">Dive into minimalism</p>
+                                    <h2 className="text-xl font-semibold 5 text-white"> organics</h2>
+                                    <p className="text-base leading-4 text-white mt-2">Divm</p>
                                     <div className="flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
                                         <p className="pr-2 text-sm font-medium leading-none">Read More</p>
                                         <svg className="fill-stroke" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -83,10 +83,10 @@ const News = () => {
                         <div className="sm:flex items-center justify-between xl:gap-x-8 gap-x-6 md:mt-6 mt-4">
                             <div className="relative w-full">
                                 <div>
-                                    <p className="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2021</p>
+                                    <p className="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2024</p>
                                     <div className="absolute bottom-0 left-0 p-6">
-                                        <h2 className="text-xl font-semibold 5 text-white">The Decorated Ways</h2>
-                                        <p className="text-base leading-4 text-white mt-2">Dive into minimalism</p>
+                                        <h2 className="text-xl font-semibold 5 text-white">Tdemos</h2>
+                                        <p className="text-base leading-4 text-white mt-2">demo</p>
                                         <div className="flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
                                             <p className="pr-2 text-sm font-medium leading-none">Read More</p>
                                             <svg className="fill-stroke" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -99,10 +99,10 @@ const News = () => {
                             </div>
                             <div className="relative w-full sm:mt-0 mt-4">
                                 <div>
-                                    <p className="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2021</p>
+                                    <p className="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2024</p>
                                     <div className="absolute bottom-0 left-0 p-6">
-                                        <h2 className="text-xl font-semibold 5 text-white">The Decorated Ways</h2>
-                                        <p className="text-base leading-4 text-white mt-2">Dive into minimalism</p>
+                                        <h2 className="text-xl font-semibold 5 text-white">demo</h2>
+                                        <p className="text-base leading-4 text-white mt-2">demosss</p>
                                         <div className="flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
                                             <p className="pr-2 text-sm font-medium leading-none">Read More</p>
                                             <svg className="fill-stroke" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">

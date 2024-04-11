@@ -33,9 +33,9 @@ const MainPage = () => {
     <Gallery/>
     {/* <IntroVid/> */}
     {/* <Indo_researchBox/> */}
-    <NewUpdate/>
+    {/* <NewUpdate/> */}
     {/* <Team/> */}
-    {/* <News/> */}
+    <News/>
    
     
     

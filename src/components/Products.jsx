@@ -4,8 +4,9 @@ import supplements_img from '../assets/research2.jpg'
 import adjuvants_img from '../prod_img/adjuvantsImg.jpg'
 import agrochemical_img from '../prod_img/agrochemicalImg.png'
 
+import staticsbg from '../assets/staticsbg.jpg'
 
-function Card({ imageUrl, title, date,  }) {
+function Card({ imageUrl, title, date, }) {
   return (
     <div className="rounded overflow-hidden shadow-lg">
       <a href="#"></a>
@@ -30,7 +31,7 @@ function Card({ imageUrl, title, date,  }) {
           {title}
         </a>
       </div>
-    
+
     </div>
   );
 }
@@ -85,52 +86,55 @@ const Products = () => {
       </div> */}
 
 
-         
-               <div className="bg-gray-200">
 
-               
-
-      <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16 py-20 ">
-        <p className="text-center pb-8 lg:text-7xl font-semibold text-green-700 md:text-3xl">Products we offer</p>
-        <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-10">
-          <Link to='/agrochemical'>
+      <div className="bg-green-900 pb-20"
+      >
 
 
-            <Card
-              imageUrl={agrochemical_img}
-              title="Agrochemical"
 
-              date="40"
-
-            />
-          </Link>
-
-          <Link to='/adjuvants'>
+        <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16 py-20 ">
+          <p className="text-center pb-8 lg:text-7xl font-semibold text-white md:text-3xl">Products we offer</p>
+          <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-10">
+            <Link to='/agrochemical'>
 
 
-            <Card
-              imageUrl={adjuvants_img}
-              title="Adjuvants"
-              date="1"
+              <Card
+                imageUrl={agrochemical_img}
+                title="Agrochemical"
 
-            />
-          </Link>
-          <Link to='/speciality'>
+                date="40"
+
+              />
+            </Link>
+
+            <Link to='/adjuvants'>
 
 
-            <Card
-              imageUrl={supplements_img}
-              title="IOL specialist"
-              date="15"
+              <Card
+                imageUrl={adjuvants_img}
+                title="Adjuvants"
+                date="1"
 
-            />
-          </Link>
+              />
+            </Link>
+            <Link to='/speciality'>
+
+
+              <Card
+                imageUrl={supplements_img}
+                title="IOL specialist"
+                date="15"
+
+              />
+            </Link>
+          </div>
         </div>
-      </div>
 
 
 
       </div>
+
+
 
 
     </>
