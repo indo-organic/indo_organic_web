@@ -3,16 +3,7 @@ import { Link } from "react-router-dom"
 const Home_vision_mission = () => {
   return (
     <>
-
-
-
-
-
-
-
-      <div className="bg-gray-200 py-5">
-
-
+      <div className="bg-green-900 py-5">
         <div className="flex flex-wrap justify-evenly">
           <Link to='/vision' className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 p-4 hover:scale-125 transition-all">
             <div className=" p-6 rounded-lg shadow-md text-center bg-gray-500 flex flex-col items-center" >
@@ -27,7 +18,6 @@ const Home_vision_mission = () => {
             </div>
           </Link>
         </div>
-
       </div>
 
     </>

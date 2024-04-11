@@ -1,7 +1,7 @@
 // import aboutHome1 from '../AboutImg/aboutHome1.jpg'
 import ourStory1 from '../AboutImg/favicon.jpg'
 import ourStory2 from '../assets/ourStoryImg.jpg'
-import staticsbg from '../assets/staticsbg.jpg'
+import imagee from '../assets/bbb.jpg'
 import { Link } from 'react-router-dom'
 const OurStory = () => {
   return (
@@ -10,7 +10,8 @@ const OurStory = () => {
 
 
 
-      <div className="bg-green-900"
+      <div className="flex flex-col w-[100%]  bg-cover bg-fixed bg-center justify-center items-center m-auto"
+          style={{ backgroundImage: "url(https://www.bhmpics.com/downloads/green-textured-wallpaper-/3.photo-1629197520635-16570fbd0bb3.jpg)" }}
       >
 
 

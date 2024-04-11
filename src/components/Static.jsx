@@ -3,9 +3,10 @@ const Static = () => {
   return (
     <>
 
-      <div className="bg-green-900 py-10">
+      <div className="flex flex-col w-[100%]  bg-cover bg-fixed bg-center justify-center items-center m-auto"
+          style={{ backgroundImage: "url(https://www.bhmpics.com/downloads/green-textured-wallpaper-/3.photo-1629197520635-16570fbd0bb3.jpg)" }}>
 
-        <section className="flex flex-col w-[98%] h-[50vh] bg-cover bg-fixed bg-center justify-center items-center m-auto"
+        <section className="flex flex-col w-[90%] h-[50vh] bg-cover bg-fixed bg-center justify-center items-center m-auto"
           style={{ backgroundImage: `url(${staticsbg})` }}
         >
 

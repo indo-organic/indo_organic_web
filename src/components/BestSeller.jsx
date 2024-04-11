@@ -38,7 +38,8 @@ const BestSeller = () => {
     <>
 
 
-      <div className="bg-green-900 py-10">
+      <div className="flex flex-col w-[100%]  bg-cover bg-fixed bg-center justify-center items-center m-auto"
+          style={{ backgroundImage: "url(https://us.123rf.com/450wm/shiro/shiro1108/shiro110800083/10265931-green-leaf.jpg?ver=6)" }}>
 
         <div className="relative mx-auto  w-[70%] mb-1">
           <img className="h-16 w-full object-cover rounded-md object-bottom " src="https://www.thespruce.com/thmb/P_RO3BhitUHl1tIsb9EuIsxl6CM=/3000x2000/filters:no_upscale()/pyrethrin-insecticide-definition-1902891_Hero1-386797349e94413b8133a93e8008a582.jpg" alt="Random image" />

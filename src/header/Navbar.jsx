@@ -132,17 +132,13 @@ function Navbar() {
 
 
 
-
-
-
-
-    <nav className="bg-white sticky top-0 w-full  z-50">
+    <nav className="bg-white sticky top-0 w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0 w-48">
-              <Link to="/" className="w-7">
-                <img src={logo} alt="" className="" />
+              <Link to="/" className="w-10">
+                <img src={logo} alt="" className="w-[40rem]" />
               </Link>
             </div>
             <div className="hidden md:block">
@@ -150,21 +146,21 @@ function Navbar() {
                 <Link
                   to="/"
                   href="#"
-                  className="text-black hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className=" text-black  hover:bg-green-400 hover:text-green-900 px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Home
                 </Link>
                 <Link
                   to="/aboutUs"
                   href="#"
-                  className="text-black hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-black  hover:bg-green-400 hover:text-green-900 px-3 py-2 rounded-md text-sm font-medium"
                 >
                   About
                 </Link>
                 <div className="relative">
                   <button
                     onClick={toggleNavbar}
-                    className="text-black hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium focus:outline-none focus:ring"
+                    className="text-black  hover:bg-green-400 hover:text-green-900 px-3 py-2 rounded-md text-sm font-medium focus:outline-none focus:ring"
                   >
                     Product & Services
                   </button>
@@ -206,21 +202,21 @@ function Navbar() {
                 <Link
                   to="/researchDev"
                   href="#"
-                  className="text-black hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-black  hover:bg-green-400 hover:text-green-900 px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Research and Devlopment
                 </Link>
                 <Link
                   to="/career"
                   href="#"
-                  className="text-black hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-black  hover:bg-green-400 hover:text-green-900 px-3 py-2 rounded-md text-sm font-medium"
                 >
                   career
                 </Link>
                 <Link
                   to="/contact"
                   href="#"
-                  className="text-black hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-black  hover:bg-green-400 hover:text-green-900 px-3 py-2 rounded-md text-sm font-medium"
                 >
                   contact us
                 </Link>
@@ -355,6 +351,7 @@ function Navbar() {
     </nav>
     
 
+    
 
 
 

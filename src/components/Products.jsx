@@ -87,7 +87,8 @@ const Products = () => {
 
 
 
-      <div className="bg-green-900 pb-20"
+      <div className="flex flex-col w-[100%]  bg-cover bg-fixed bg-center justify-center items-center m-auto"
+          style={{ backgroundImage: "url(https://www.bhmpics.com/downloads/green-textured-wallpaper-/3.photo-1629197520635-16570fbd0bb3.jpg)" }}
       >
 
 

@@ -46,9 +46,10 @@ const RnDforHome = () => {
 
 
 
+  <div className="flex flex-col w-[100%]  bg-cover bg-fixed bg-center justify-center items-center m-auto"
+          style={{ backgroundImage: "url(https://www.bhmpics.com/downloads/green-textured-wallpaper-/3.photo-1629197520635-16570fbd0bb3.jpg)" }}>
 
-
-      <div className="flex flex-col w-[100%] h-[100vh] bg-cover bg-fixed bg-center justify-center items-center m-auto"
+      <div className="flex flex-col w-[90%] h-[100vh] bg-cover bg-fixed bg-center justify-center items-center m-auto"
           style={{ backgroundImage: `url(${staticsbg})` }} >
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
@@ -110,7 +111,7 @@ const RnDforHome = () => {
 
 
 
-
+      </div>
 
 
 
