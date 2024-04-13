@@ -4,13 +4,28 @@ import contactImg from '../AboutImg/aboutImg3.jpg'
 
 const Contact = () => {
   return (
-    <>        <div className="relative mx-auto  w-full">
+    <>
+      {/* <div className="relative mx-auto  w-full">
       <img className="h-64 w-full object-cover rounded-md object-center" src={contactImg} alt="Random image" />
       <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
       <div className="absolute inset-0 flex items-center justify-center">
         <h2 className="text-white text-3xl font-bold">Get in Touch with us</h2>
       </div>
-    </div>
+    </div> */}
+
+
+
+      <div className="flex flex-col w-[100%] h-[50vh] bg-cover bg-fixed bg-bottom justify-center items-center m-auto"
+        style={{ backgroundImage: `url(${contactImg})` }}>
+        <h2 className="text-white text-[3rem] font-bold">Get in Touch with us</h2>
+
+      </div>
+
+
+
+
+
+
       <section className="bg-gray-700 ">
         <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-20 lg:px-8">
           {/* <div className="max-w-2xl lg:max-w-4xl mx-auto text-center">

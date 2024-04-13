@@ -22,7 +22,7 @@ const MainPage = () => {
     <OurStory/>
     <Static/>
     <Product/>
-    <RnDforHome/>
+    {/* <RnDforHome/> */}
     <BestSeller/>
     {/* <Hightlights/> */}
     <Trust/>
@@ -35,7 +35,7 @@ const MainPage = () => {
     {/* <Indo_researchBox/> */}
     {/* <NewUpdate/> */}
     {/* <Team/> */}
-    <News/>
+    {/* <News/> */}
    
     
     

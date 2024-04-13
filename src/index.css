@@ -6,6 +6,8 @@
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
+
+
  
 }
 html{
@@ -13,11 +15,10 @@ html{
   height: 100vh;
   font-family: 'Roboto, sans-serif';
     scroll-behavior: smooth;
-   
-  
-  
- 
 }
+
+
+
 
 
 

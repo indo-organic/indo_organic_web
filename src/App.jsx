@@ -114,7 +114,7 @@ const App = () => {
   return (
     <>
       <Router>
-        {/* <Top /> */}
+        <Top />
         <Navbar />
         <SocialMedia />
 

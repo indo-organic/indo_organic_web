@@ -38,20 +38,20 @@ const BestSeller = () => {
     <>
 
 
-      <div className="flex flex-col w-[100%]  bg-cover bg-fixed bg-center justify-center items-center m-auto"
-          style={{ backgroundImage: "url(https://us.123rf.com/450wm/shiro/shiro1108/shiro110800083/10265931-green-leaf.jpg?ver=6)" }}>
+      <div className="flex flex-col w-[100%] py-10 bg-cover bg-fixed bg-center justify-center items-center m-auto"
+          style={{ backgroundImage: "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8xS5cK7pJcbDhl-SRS1znNA77u2KpF5EfF2Qxr0jAxw&s)" }}>
 
         <div className="relative mx-auto  w-[70%] mb-1">
-          <img className="h-16 w-full object-cover rounded-md object-bottom " src="https://www.thespruce.com/thmb/P_RO3BhitUHl1tIsb9EuIsxl6CM=/3000x2000/filters:no_upscale()/pyrethrin-insecticide-definition-1902891_Hero1-386797349e94413b8133a93e8008a582.jpg" alt="Random image" />
-          <div className="absolute inset-0 bg-green-900 opacity-50 rounded-md"></div>
+          <img className="h-16 w-full object-cover rounded-md object-bottom " src="https://i.pinimg.com/736x/d9/5e/09/d95e097a046d1971177078b6e40dab28.jpg" alt="Random image" />
+          <div className="absolute inset-0  opacity-50 rounded-md"></div>
           <div className="absolute inset-0 flex items-center  ">"
             <h2 className="text-white text-3xl font-bold m-auto ">BEST SELLERS</h2>
           </div>
         </div>
-        <div className="mx-auto max-w-7xl  flex flex-col justify-center pt-10 pb-8">
+        <div className="mx-auto max-w-7xl  flex flex-col justify-center pt-10 pb-8 ">
           <Slider {...settings}>
             <Link to='/indomagic' className="px-4">
-              <div className="bg-green-200 p-4 rounded-lg shadow-md h-[60vh] text-center">
+              <div className="bg-green-500 p-4 rounded-lg shadow-md h-[60vh] text-center">
                 <img src={indomagicImg} alt="Card 1" className=" h-[40vh] object-cover mb-4 rounded-lg m-auto" />
                 <h2 className="text-lg font-semibold">INDO-MAGIC</h2>
                 <p className="text-gray-700">Phyto-Extruded Plant Augmenter and Yield Enhancer</p>
@@ -73,13 +73,7 @@ const BestSeller = () => {
             </Link>
           </Slider>
         </div>
-        <div className="relative mx-auto  mb-10 w-[70%]">
-          <img className="h-16 w-full object-cover rounded-md object-center" src="https://w0.peakpx.com/wallpaper/1010/898/HD-wallpaper-green-leafed-plants-shallow-graphy-dark-theme-dark-theme.jpg" alt="Random image" />
-          <div className="absolute inset-0 bg-green-900 opacity-50 rounded-md"></div>
-          <div className="absolute inset-0 flex items-center  justify-center">
-            <Link to='/agrochemical' className="text-white text-3xl font-bold hover:text-gray-900 hover:text-[2rem]">see all products</Link>
-          </div>
-        </div>
+      
 
 
 

@@ -5,16 +5,21 @@ import 'slick-carousel/slick/slick-theme.css';
 import '../styles/Carousel.scss'
 import bgImg from '../assets/bgimg.jpg'
 
+import prodCat from '../assets/prodCat.png'
+import about from '../AboutImg/about4.jpg'
 
 
+// style={{ backgroundImage: `url(${bgImg})` }}
 
 const Carousel = () => {
- 
+
 
   return (
     <>
+      <div className="flex flex-col w-[100%] h-[100vh] bg-cover bg-fixed bg-center justify-center items-center m-auto"
+        style={{ backgroundImage: 'url(https://media.licdn.com/dms/image/D5612AQFSr0q7ITJpig/article-cover_image-shrink_720_1280/0/1665482566081?e=2147483647&v=beta&t=A_Zg-PUOLJ-4Qv6YyMEPgjfxiQUXUTWfXS1Y-Ocm4S8)' }}></div>
 
-       <header className="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
+      <header className="relative flex items-center justify-center h-[80vh]  overflow-hidden bg-green-900 ">
         {/* <div className="relative p-5 text-6xl font-bold text-white bg-opacity-50 rounded-xl uppercase bg-green-500 z-20">
           Welcome to Indo-<span className='text-[4rem]  '>Organics</span>
         </div> */}
@@ -22,12 +27,13 @@ const Carousel = () => {
           <source src="https://media.licdn.com/dms/image/D5612AQFSr0q7ITJpig/article-cover_image-shrink_720_1280/0/1665482566081?e=2147483647&v=beta&t=A_Zg-PUOLJ-4Qv6YyMEPgjfxiQUXUTWfXS1Y-Ocm4S8" type="video/mp4" />
 
         </video> */}
-          <img className="absolute z-10 w-auto min-w-full min-h-full max-w-none" src="https://media.licdn.com/dms/image/D5612AQFSr0q7ITJpig/article-cover_image-shrink_720_1280/0/1665482566081?e=2147483647&v=beta&t=A_Zg-PUOLJ-4Qv6YyMEPgjfxiQUXUTWfXS1Y-Ocm4S8" alt="" />
-      </header>  
+        {/* <img className="absolute z-10 w-auto min-w-full min-h-full max-w-none" src={prodCat} alt="" /> */}
+        <img className="object-contain  w-[20%]" src={about} alt="" />
+      </header>
 
 
 
-{/* <header className="relative flex items-center justify-center h-[80vh] mb-12 overflow-hidden">
+      {/* <header className="relative flex items-center justify-center h-[80vh] mb-12 overflow-hidden">
       
         <img src={bgImg} alt="" className='absolute z-10 w-auto min-w-full h-[80vh] max-w-none'/>
 
@@ -35,11 +41,11 @@ const Carousel = () => {
 
 
 
-    
 
 
 
-{/* 
+
+      {/* 
 <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
