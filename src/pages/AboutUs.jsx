@@ -123,17 +123,30 @@ const AboutUs = () => {
           <img src={aboutImg4} alt="" />
         </div>
 
-        <div className='w-[60%] bg-gray-300'>
+        <div className='w-[60%] bg-gray-100'>
           <div className='p-4 py-[3rem]'>
-            <p>WHO WE ARE ?
+            <p className='py-2 text-xl text-green-500 font-bold'>WHO WE ARE ?
             </p>
-            <p>Established in 2010 in association with Indogulf Cropsciences PTY, LTD, Australia.</p>
-            <p>One of the leading players in the Indian crop industry. We are pioneers in Biostimulants and safe agricultural inputs</p>
-            <p>Focuses on manufacturing and marketing of Green Technology based Plant health and Nutritional Products.</p>
-            <p>Has introduced a mix of organic products range including plant nutrients, Biostimulants, crop boosters and
+            <p className='py-1 '>&#9702; Established in 2010 in association with Indogulf Cropsciences PTY, LTD, Australia.</p>
+            <p className='pt-3'>&#9702; One of the leading players in the Indian crop industry. We are pioneers in Biostimulants and safe agricultural inputs</p>
+            <p className='pt-3  '>&#9702; Focuses on manufacturing and marketing of Green Technology based Plant health and Nutritional Products.</p>
+            <p className='pt-3 ' >&#9702; Has introduced a mix of organic products range including plant nutrients, Biostimulants, crop boosters and
               energizers.</p>
-            <p>Has developed Product matrix as per the stage of the crop focusing on the farmers to get a better yield of a quality
+            <p className='pt-3 ' >&#9702; Has developed Product matrix as per the stage of the crop focusing on the farmers to get a better yield of a quality
               product.</p>
+
+          </div>
+
+          <div className='p-4 py-[3rem]'>
+            <p className='py-2 text-xl text-green-500 font-bold'>PHILOSOPHY
+            </p>
+            <p className='text-l  font-bold'>Key- A Symbol of Our Promise</p>
+            <p className='py-1 '>&#9702; Our mascot is small Key which we believe is Key to Success</p>
+            <p className='pt-3'>&#9702; For us Key is nothing but attitude, which is embedded in all its positivity among our team members and our way of doing business</p>
+
+            <p className='pt-3 ' >&#9702; The attitude to create possibilities of success and growth for all associated with our company. 
+</p>
+            <p className='pt-3 ' >&#9702; This is the Key to growth which will be the differentiation.</p>
 
           </div>
 
