@@ -5,6 +5,7 @@ import aboutImg3 from '../AboutImg/aboutImg3.jpg'
 import aboutImg4 from '../AboutImg/about4.jpg'
 // import video from '../assets/caro.mp4'
 import AboutImg from '../AboutImg/aboutImg3.jpg'
+import aboutrr from '../AboutImg/about4-removebg-preview-removebg-preview.png'
 
 import contactImg from '../AboutImg/aboutImg3.jpg'
 
@@ -97,43 +98,52 @@ const AboutUs = () => {
         </div>
       </div> */}
 
-
-
       <div className="flex flex-col w-[100%] h-[40vh] bg-cover bg-fixed bg-bottom justify-center items-center m-auto"
         style={{ backgroundImage: `url(${contactImg})` }}>
         <p className='text-gray-800 text-[3rem] font-bold'>About us</p>
       </div>
 
+      <div className='flex  w-[100%] py-10 bg-gray-200   text-black'>
 
-      <div className="flex flex-col   py-10 h-[100vh] bg-green-900 text-white">
+        <div className="w-[25%] ">
+          <img src={aboutImg4} alt="" />
+        </div>
+
+        <div className='w-[50%]'>
+
+          <p className=' py-4 px-4  text-center text-xl font-[500]'>Indoorganics Pvt Ltd. (IOL) is a leading manufacturer, marketer
+            and exporter of agricultural inputs which includes a range of nonorganic pesticides (Agrochemicals) and a mix of organic products particularly bio-stimulants, biological solutions, plant nutrients and fertilizers. We have been serving the farming community through our  high-quality Crop Protection & Crop Nutrition products since many years.</p>
 
 
-        <p className=' py-4 px-80 text-center text-xl font-[500]'>Indoorganics Pvt Ltd. (IOL) is a leading manufacturer, marketer
-          and exporter of agricultural inputs which includes a range of nonorganic pesticides (Agrochemicals) and a mix of organic products particularly bio-stimulants, biological solutions, plant nutrients and fertilizers. We have been serving the farming community through our  high-quality Crop Protection & Crop Nutrition products since many years.</p>
+          <p className=' py-4 px-4 text-center text-xl font-[500]'> IOL in technical association with Indogulf cropsciences PTY. LTD.,
+            Australia has been engaged in developing the best quality bio
+            stimulants to provide innovative solutions for global agricultural
+            needs and to develop alternative products that are safer, more
+            effective, less invasive and more economical than conventional crop
+            care products.</p>
 
+          <p className=' py-4 px-4 text-center text-xl font-[500]'>  We are technically advanced organization with a background and
+            deep understanding of Green Extraction Technology which is based
+            on discovery and design of extraction processes which will reduce
+            energy consumption, allows use of alternative solvents and
+            renewable natural products like biostimulants and bio-protections &
+            fertilizers.</p>
 
-        <p className=' py-4 px-80 text-center text-xl font-[500]'> IOL in technical association with Indogulf cropsciences PTY. LTD.,
-          Australia has been engaged in developing the best quality bio
-          stimulants to provide innovative solutions for global agricultural
-          needs and to develop alternative products that are safer, more
-          effective, less invasive and more economical than conventional crop
-          care products.</p>
+          <p className=' py-4 px-4 text-center text-xl font-[500]'>   Our mascot is small key which we believe is Key to Success.
+            For us Key is nothing but attitude, which is embedded in all
+            its positivity among our team members and our way of doing
+            business. The attitude to create possibilities of success and
+            growth for all associated with our company. This is the Key
+            to growth which will be the differentiator.</p>
 
-        <p className=' py-4 px-80 text-center text-xl font-[500]'>  We are technically advanced organization with a background and
-          deep understanding of Green Extraction Technology which is based
-          on discovery and design of extraction processes which will reduce
-          energy consumption, allows use of alternative solvents and
-          renewable natural products like biostimulants and bio-protections &
-          fertilizers.</p>
+        </div>
 
-        <p className=' py-4 px-80 text-center text-xl font-[500]'>   Our mascot is small key which we believe is Key to Success.
-          For us Key is nothing but attitude, which is embedded in all
-          its positivity among our team members and our way of doing
-          business. The attitude to create possibilities of success and
-          growth for all associated with our company. This is the Key
-          to growth which will be the differentiator.</p>
+        <div className="w-[25%] ">
+          <img src={aboutrr} alt="" />
+        </div>
 
       </div>
+
 
       <section id="comparison" aria-label="QuickEdit vs traditional editor" className=" py-20 sm:py-32 bg-green-900">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
