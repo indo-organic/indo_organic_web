@@ -97,55 +97,56 @@ const AboutUs = () => {
           </div>
         </div>
       </div> */}
-
+      {/* 
       <div className="flex flex-col w-[100%] h-[40vh] bg-cover bg-fixed bg-bottom justify-center items-center m-auto"
         style={{ backgroundImage: `url(${contactImg})` }}>
         <p className='text-gray-800 text-[3rem] font-bold'>About us</p>
+      </div>  */}
+      <div className="flex  gap-4 w-[100%] h-[25rem] bg-cover bg-fixed bg-bottom justify-center items-center m-auto"
+        style={{ backgroundImage: `url(${contactImg})` }}>
+
+        <div className="absolute inset-0 flex flex-col items-center justify-center">
+          <h2 className="text-white text-3xl font-bold">About us</h2>
+          <h2 className="flex gap-4 text-white py-2">
+            <p>Home  &#9702;</p>
+            <p>Company  &#9702;</p>
+            {/* <p>About  &#9702;</p> */}
+          </h2>
+
+        </div>
+
       </div>
 
-      <div className='flex  w-[100%] py-10 bg-gray-200   text-black'>
+      <div className='flex  justify-center w-[100%] py-10    text-black'>
 
-        <div className="w-[25%] ">
+        <div className="w-[30%]  ">
           <img src={aboutImg4} alt="" />
         </div>
 
-        <div className='w-[50%]'>
+        <div className='w-[60%] bg-gray-300'>
+          <div className='p-4 py-[3rem]'>
+            <p>WHO WE ARE ?
+            </p>
+            <p>Established in 2010 in association with Indogulf Cropsciences PTY, LTD, Australia.</p>
+            <p>One of the leading players in the Indian crop industry. We are pioneers in Biostimulants and safe agricultural inputs</p>
+            <p>Focuses on manufacturing and marketing of Green Technology based Plant health and Nutritional Products.</p>
+            <p>Has introduced a mix of organic products range including plant nutrients, Biostimulants, crop boosters and
+              energizers.</p>
+            <p>Has developed Product matrix as per the stage of the crop focusing on the farmers to get a better yield of a quality
+              product.</p>
 
-          <p className=' py-4 px-4  text-center text-xl font-[500]'>Indoorganics Pvt Ltd. (IOL) is a leading manufacturer, marketer
-            and exporter of agricultural inputs which includes a range of nonorganic pesticides (Agrochemicals) and a mix of organic products particularly bio-stimulants, biological solutions, plant nutrients and fertilizers. We have been serving the farming community through our  high-quality Crop Protection & Crop Nutrition products since many years.</p>
+          </div>
 
 
-          <p className=' py-4 px-4 text-center text-xl font-[500]'> IOL in technical association with Indogulf cropsciences PTY. LTD.,
-            Australia has been engaged in developing the best quality bio
-            stimulants to provide innovative solutions for global agricultural
-            needs and to develop alternative products that are safer, more
-            effective, less invasive and more economical than conventional crop
-            care products.</p>
 
-          <p className=' py-4 px-4 text-center text-xl font-[500]'>  We are technically advanced organization with a background and
-            deep understanding of Green Extraction Technology which is based
-            on discovery and design of extraction processes which will reduce
-            energy consumption, allows use of alternative solvents and
-            renewable natural products like biostimulants and bio-protections &
-            fertilizers.</p>
-
-          <p className=' py-4 px-4 text-center text-xl font-[500]'>   Our mascot is small key which we believe is Key to Success.
-            For us Key is nothing but attitude, which is embedded in all
-            its positivity among our team members and our way of doing
-            business. The attitude to create possibilities of success and
-            growth for all associated with our company. This is the Key
-            to growth which will be the differentiator.</p>
 
         </div>
 
-        <div className="w-[25%] ">
-          <img src={aboutrr} alt="" />
-        </div>
 
       </div>
 
 
-      <section id="comparison" aria-label="QuickEdit vs traditional editor" className=" py-20 sm:py-32 bg-green-900">
+      <section id="comparison" aria-label="QuickEdit vs traditional editor" className=" py-20 sm:py-32 bg-gray-100 ">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col w-[80%] h-[20vh] bg-cover bg-fixed bg-bottom justify-center items-center m-auto"
             style={{ backgroundImage: `url(${contactImg})` }}>
