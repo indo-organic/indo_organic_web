@@ -1,7 +1,7 @@
 .footer {
    width: 100%;
    min-height: 50vh; /* Change height to min-height for responsiveness */
-   background: black;
+   background: rgb(2, 40, 2);
    color: white;
    display: flex;
    flex-wrap: wrap; /* Allow items to wrap to next line */
@@ -11,7 +11,7 @@
    .footer_1 {
       display: flex;
       flex-direction: column;
-      gap: 2rem;
+      gap: 1rem;
       text-transform: capitalize;
 
       .footer_address {

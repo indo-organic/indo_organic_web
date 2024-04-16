@@ -16,31 +16,33 @@ import Domestic from '../footer/Domestic'
 import News from '../footer/News'
 import BestSeller from './BestSeller'
 import HomeVideo from './HomeVideo'
+import ContactHome from './ContactHome'
 const MainPage = () => {
   return (
     <>
-    <OurStory/>
-    <Static/>
-    <Product/>
-    {/* <RnDforHome/> */}
-    <BestSeller/>
-    {/* <Hightlights/> */}
-    <Trust/>
-     <Home_vision_mission/>
-     {/* <Quality/> */}
+      <Product />
+      <OurStory />
+      <Static/>
+      <RnDforHome />
+      <BestSeller/>
+      {/* <Hightlights/> */}
+      {/* <Trust/> */}
+      {/* <Home_vision_mission/> */}
+      <Quality/>
+      {/* <HomeVideo/> */}
+      <Gallery/>
+      {/* <IntroVid/> */}
+      {/* <Indo_researchBox/> */}
+      {/* <NewUpdate/> */}
+      {/* <Team/> */}
+      {/* <News/> */}
 
-    {/* <HomeVideo/> */}
-    <Gallery/>
-    {/* <IntroVid/> */}
-    {/* <Indo_researchBox/> */}
-    {/* <NewUpdate/> */}
-    {/* <Team/> */}
-    {/* <News/> */}
-   
-    
-    
+      <ContactHome />
+
+
+
     </>
-    
+
   )
 }
 

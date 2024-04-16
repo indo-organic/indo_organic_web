@@ -114,7 +114,7 @@ const App = () => {
   return (
     <>
       <Router>
-        <Top />
+        {/* <Top /> */}
         <Navbar />
         <SocialMedia />
 
@@ -123,9 +123,7 @@ const App = () => {
           <Route path='/agrochemical' element={<Agrochemical />} />
           <Route path='/organicRange' element={<OrganicRange />} />
           <Route path='/speciality' element={<Speciality />} />
-
           <Route path='/adjuvants' element={<Adjuvants />} />
-
           <Route path='/aboutUs' element={<AboutUs />} />
           <Route path='/researchDev' element={<ResearchDev />} />
           <Route path='/career' element={<Career />} />
@@ -134,7 +132,6 @@ const App = () => {
           <Route path='/BoardOfDirector' element={<BoardOfDirector />} />
           <Route path='/vision' element={<Vision />} />
           <Route path='/mission' element={<Mission />} />
-
           <Route path='/news' element={<News />} />
           <Route path='/termsCondition' element={<TermsConditions />} />
           <Route path='/privacyPolicy' element={<PrivacyPolicy />} />
@@ -145,11 +142,9 @@ const App = () => {
           <Route path='/trialProduct' element={<TrialProduct />} />
           <Route path='/faqs' element={<Faqs />} />
 
-
           {/* insecticide */}
 
           <Route path='/insecticide' element={< Insecticide />} />
-
           <Route path='/rukka' element={<Rukka />} />
           <Route path='/alaska' element={<Alaska />} />
           <Route path='/cyphorus' element={<Cyphorus />} />
@@ -166,8 +161,8 @@ const App = () => {
 
 
           {/* fungicide */}
+          
           <Route path='/fungicide' element={<Fungicide />} />
-
           <Route path='/IndoPrime' element={<IndoPrime />} />
           <Route path='/demo70' element={<Demo70 />} />
           <Route path='/sulphie' element={<Sulphie />} />

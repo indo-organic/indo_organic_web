@@ -46,7 +46,7 @@ const RnDforHome = () => {
 
 
 
-  <div className="bg-green-900 py-8"
+  {/* <div className="bg-green-900 py-8"
         >
 
       <div className="flex flex-col w-[90%] h-[100vh] bg-cover bg-fixed bg-center justify-center items-center m-auto"
@@ -57,9 +57,7 @@ const RnDforHome = () => {
               <div className="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
                 <img className="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0" src='https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2019/03/22/Pictures/chandigarh-outskirts-hindustan-ludhiana-bothgarh-working-chandigarh_08e52426-4ccc-11e9-9111-3135b956f139.jpg' alt="" />
                 <div className="absolute inset-0 bg-gray-500 mix-blend-multiply"></div>
-                {/* <div className="absolute left-1/2 top-1/2 -ml-16 -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl" aria-hidden="true">
-                  <div className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-40" style={{ clipPath: "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)" }}></div>
-                </div> */}
+               
                 <figure className="relative isolate">
 
                   <blockquote className="mt-6 text-xl font-semibold leading-8 text-white">
@@ -112,9 +110,14 @@ const RnDforHome = () => {
 
 
       </div> 
+ */}
+
+     <section className='w-full h-[70vh] bg-green-800'>
+              
 
 
 
+     </section>
 
 
 

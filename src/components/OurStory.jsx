@@ -10,7 +10,7 @@ const OurStory = () => {
 
 
 
-      <div className="bg-green-900 py-6" >
+      <div className='bg-green-900' >
         <div className="relative mx-auto  w-[90%]">
           <img className="h-32 w-full object-cover rounded-md object-center " src='https://www.shutterstock.com/image-photo/woman-planting-young-seedling-gardening-260nw-1768851851.jpg' alt="Random image" />
           <div className="absolute inset-0 bg-green-600 opacity-50 rounded-md"></div>

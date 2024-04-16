@@ -3,7 +3,10 @@ import protection_img from '../assets/research2.jpg'
 import supplements_img from '../assets/research2.jpg'
 import adjuvants_img from '../prod_img/adjuvantsImg.jpg'
 import agrochemical_img from '../prod_img/agrochemicalImg.png'
-
+import agro from '../productImgicon/agr.png'
+import bio from '../productImgicon/bio.png'
+import adju from '../productImgicon/adjuvant.png'
+import seed from '../productImgicon/seed.png'
 // import staticsbg from '../assets/staticsbg.jpg'
 
 // function Card({ imageUrl, title, date, }) {
@@ -121,12 +124,16 @@ const ProductCard = ({ imageUrl, productName }) => {
 
 const ResponsiveProductGrid = () => {
   return (
+    <>
+
+
+      {/*       
     <div className="text-center p-10 bg-green-900">
       <h1 className="font-bold text-4xl mb-4 text-white">Products </h1>
       <section id="Projects"
         className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
 
-        {/* Product card components */}
+        
         <ProductCard
           imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLJWUV4Ew8HMdDDd5sHkiD6eaBaPZloKJ-OpXVUA8xxA&s"
           productName="AGROCHEMICAL"
@@ -145,7 +152,7 @@ const ResponsiveProductGrid = () => {
 
           productName="BIOSTIMULANT"
         />
-        {/* Add more ProductCard components for other products */}
+        
       </section>
 
       <div className="relative mx-auto  mb-10 w-[70%]">
@@ -155,7 +162,87 @@ const ResponsiveProductGrid = () => {
             <Link to='/agrochemical' className="text-white text-3xl font-bold hover:text-gray-900 hover:text-[2rem]">see all products</Link>
           </div>
         </div>
-    </div>
+    </div> */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <section className='w-full h-[50vh] bg-green-950 flex items-center justify-center'>
+
+        <div className="flex flex-col  w-[80%] h-[40vh]  uppercase">
+
+
+
+
+          <div className='flex justify-evenly items-center mt-9  '>
+
+
+
+
+            <Link to='/agrochemical' className='flex flex-col items-center justify-center no-underline  border-2 px-5 py-3 border-yellow-400 border-rounded hover:bg-green-800'>
+              <p>
+                <img src={agro} alt="" className='w-[5rem] rounded-full bg-yellow-500 p-4 hover:bg-yellow-700 ' />
+              </p>
+              <p className='text-xl  text-white p-[1rem] hover:text-black'>agrochemical</p>
+            </Link>
+
+            
+            <Link to='/agrochemical' className='flex flex-col items-center justify-center no-underline  border-2 px-5 py-3 border-yellow-400 border-rounded'>
+              <p>
+                <img src={agro} alt="" className='w-[5rem] rounded-full bg-yellow-500 p-4 hover:bg-yellow-700 ' />
+              </p>
+              <p className='text-xl  text-white p-[1rem] hover:text-black'>adjuvant</p>
+            </Link>
+
+            
+            <Link to='/agrochemical' className='flex flex-col items-center justify-center no-underline  border-2 px-5 py-3 border-yellow-400 border-rounded'>
+              <p>
+                <img src={agro} alt="" className='w-[5rem] rounded-full bg-yellow-500 p-4 hover:bg-yellow-700 ' />
+              </p>
+              <p className='text-xl  text-white p-[1rem] hover:text-black'>biostimulant</p>
+            </Link>
+
+            
+            <Link to='/agrochemical' className='flex flex-col items-center justify-center no-underline  border-2 px-5 py-3 border-yellow-400 border-rounded'>
+              <p>
+                <img src={agro} alt="" className='w-[5rem] rounded-full bg-yellow-500 p-4 hover:bg-yellow-700 ' />
+              </p>
+              <p className='text-xl  text-white p-[1rem] hover:text-black'>seed</p>
+            </Link>
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+        </div>
+
+
+
+      </section>
+    </>
+
+
+
   );
 }
 
