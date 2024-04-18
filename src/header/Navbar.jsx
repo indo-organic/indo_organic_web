@@ -291,96 +291,100 @@
 
 
 
-import '../styles/navBarbox.scss'
-import logo from "../assets/logo.jpg";
+// import '../styles/navBarbox.scss'
+// import logo from "../assets/logo.jpg";
 
 
-import React, { useState, useEffect } from 'react';
+// import React, { useState, useEffect } from 'react';
 
-const Navigation = () => {
-  const [isNavOpen, setIsNavOpen] = useState(false);
+// const Navigation = () => {
+//   const [isNavOpen, setIsNavOpen] = useState(false);
 
-  const toggleNav = () => {
-    setIsNavOpen(!isNavOpen);
-  };
+//   const toggleNav = () => {
+//     setIsNavOpen(!isNavOpen);
+//   };
 
-  const handleDropdownClick = (e) => {
-    e.stopPropagation();
-    const dropdown = e.currentTarget.nextElementSibling;
-    dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
-  };
+//   const handleDropdownClick = (e) => {
+//     e.stopPropagation();
+//     const dropdown = e.currentTarget.nextElementSibling;
+//     dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+//   };
 
-  useEffect(() => {
-    const handleClickOutside = () => {
-      document.querySelectorAll('.nav-dropdown').forEach((dropdown) => {
-        dropdown.style.display = 'none';
-      });
-    };
+//   useEffect(() => {
+//     const handleClickOutside = () => {
+//       document.querySelectorAll('.nav-dropdown').forEach((dropdown) => {
+//         dropdown.style.display = 'none';
+//       });
+//     };
 
-    document.addEventListener('click', handleClickOutside);
+//     document.addEventListener('click', handleClickOutside);
 
-    return () => {
-      document.removeEventListener('click', handleClickOutside);
-    };
-  }, []);
+//     return () => {
+//       document.removeEventListener('click', handleClickOutside);
+//     };
+//   }, []);
 
-  return (
-    <section className="navigation">
-      <div className="nav-container">
-        <div className="brand">
-           <img src={logo} alt=""  className='w-[20rem]'/>
-        </div>
+//   return (
+//     <section className="navigation">
+//       <div className="nav-container">
+//         <div className="brand">
+//            <img src={logo} alt=""  className='w-[20rem]'/>
+//         </div>
 
-        <nav>
-          <div className="nav-mobile">
-            <button id="nav-toggle" onClick={toggleNav}>
-              <span></span>
-            </button>
-          </div>
-          <ul className={isNavOpen ? 'nav-list open' : 'nav-list'}>
-            <li>
-              <a href="">Home</a>
-            </li>
-            <li>
-              <a href="/aboutUs">company</a>
-            </li>
-            <li>
-              <a href="#!" onClick={handleDropdownClick}>
-                Services
-              </a>
-              <ul className="nav-dropdown">
-                <li>
-                  <a href="/agrochemical">Agrochemical</a>
-                </li>
-                <li>
-                  <a href="/adjuvants">adjuvants</a>
-                </li>
-                <li>
-                  <a href="speciality">Biostimulants</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a href="/researchDev">Research and Development</a>
-            </li>
-            <li>
-              <a href="/contact">Contact</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </section>
-
-
-
+//         <nav>
+//           <div className="nav-mobile">
+//             <button id="nav-toggle" onClick={toggleNav}>
+//               <span></span>
+//             </button>
+//           </div>
+//           <ul className={isNavOpen ? 'nav-list open' : 'nav-list'}>
+//             <li>
+//               <a href="">Home</a>
+//             </li>
+//             <li>
+//               <a href="/aboutUs">company</a>
+//             </li>
+//             <li>
+//               <a href="#!" onClick={handleDropdownClick}>
+//                 Services
+//               </a>
+//               <ul className="nav-dropdown">
+//                 <li>
+//                   <a href="/agrochemical">Agrochemical</a>
+//                 </li>
+//                 <li>
+//                   <a href="/adjuvants">adjuvants</a>
+//                 </li>
+//                 <li>
+//                   <a href="speciality">Biostimulants</a>
+//                 </li>
+//               </ul>
+//             </li>
+//             <li>
+//               <a href="/researchDev">Research and Development</a>
+//             </li>
+//             <li>
+//               <a href="/contact">Contact</a>
+//             </li>
+//           </ul>
+//         </nav>
+//       </div>
+//     </section>
 
 
 
 
-  );
-};
 
-export default Navigation;
+
+
+//   );
+// };
+
+// export default Navigation;
+
+
+
+
 
 
 

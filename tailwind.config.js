@@ -17,13 +17,17 @@ export default {
   plugins: [   ],
 }
 
-// module.exports = {
+const flowbite = require("flowbite-react/tailwind");
 
-//   plugins: [
-//       require('flowbite/plugin')
-//   ]
-
-// }
-
-
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    // ...
+    flowbite.content(),
+  ],
+  plugins: [
+    // ...
+    flowbite.plugin(),
+  ],
+};
 
