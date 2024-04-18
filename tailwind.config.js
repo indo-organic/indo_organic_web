@@ -14,5 +14,16 @@ export default {
       
     },
   },
-  plugins: [],
+  plugins: [   ],
 }
+
+// module.exports = {
+
+//   plugins: [
+//       require('flowbite/plugin')
+//   ]
+
+// }
+
+
+

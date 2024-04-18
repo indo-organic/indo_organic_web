@@ -102,7 +102,7 @@ const AboutUs = () => {
         style={{ backgroundImage: `url(${contactImg})` }}>
         <p className='text-gray-800 text-[3rem] font-bold'>About us</p>
       </div>  */}
-      <div className="flex  gap-4 w-[100%] h-[25rem] bg-cover bg-fixed bg-bottom justify-center items-center m-auto"
+      <div className="flex  gap-4 w-[100%] h-[25rem] bg-cover bg-fixed bg-bottom justify-center items-center m-auto "
         style={{ backgroundImage: `url(${contactImg})` }}>
 
         <div className="absolute inset-0 flex flex-col items-center justify-center">
@@ -117,13 +117,13 @@ const AboutUs = () => {
 
       </div>
 
-      <div className='flex  justify-center w-[100%] py-10    text-black'>
+      <div className='flex  justify-center w-[100%] py-10  bg-gray-300  text-black'>
 
         <div className="w-[30%]  ">
           <img src={aboutImg4} alt="" />
         </div>
 
-        <div className='w-[60%] bg-gray-100'>
+        <div className='w-[60%] bg-gray-200'>
           <div className='p-4 py-[3rem]'>
             <p className='py-2 text-xl text-green-500 font-bold'>WHO WE ARE ?
             </p>
@@ -159,7 +159,7 @@ const AboutUs = () => {
       </div>
 
 
-      <section id="comparison" aria-label="QuickEdit vs traditional editor" className=" py-20 sm:py-32 bg-gray-100 ">
+      <section id="comparison" aria-label="QuickEdit vs traditional editor" className=" py-20 sm:py-32 bg-gray-300 ">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col w-[80%] h-[20vh] bg-cover bg-fixed bg-bottom justify-center items-center m-auto"
             style={{ backgroundImage: `url(${contactImg})` }}>

@@ -7,8 +7,8 @@ const RnDforHome = () => {
   return (
     <>
 
-      {/* <div
-        className="relative flex mb-[11rem] flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl">
+      <div
+        className="relative flex mb-[11rem] flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl bg-green-950">
 
         <div className="w-full h-64 lg:w-1/2 lg:h-auto">
           <img className="h-full w-full object-cover" src="https://media.istockphoto.com/id/494726892/photo/model-plant-in-a-research-lab.jpg?s=612x612&w=0&k=20&c=FgYna7smf8rXvnn1Lc_ClFproFIk8tclsoi3TJ8VTcE=" alt="Winding mountain road" />
@@ -39,14 +39,14 @@ const RnDforHome = () => {
 
         </div>
 
-      </div>  */}
+      </div>  
 
 
       {/* bg-gray-200 py-24 sm:py-32 */}
 
 
-
-  {/* <div className="bg-green-900 py-8"
+{/* 
+   <div className="bg-green-900 py-8"
         >
 
       <div className="flex flex-col w-[90%] h-[100vh] bg-cover bg-fixed bg-center justify-center items-center m-auto"
@@ -110,15 +110,9 @@ const RnDforHome = () => {
 
 
       </div> 
- */}
+  */}
 
-     <section className='w-full h-[70vh] bg-green-800'>
-              
-
-
-
-     </section>
-
+   
 
 
 

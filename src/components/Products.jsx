@@ -178,7 +178,8 @@ const ResponsiveProductGrid = () => {
 
 
 
-      <section className='w-full h-[50vh] bg-green-950 flex items-center justify-center'>
+      <section className="flex flex-col w-[100%] h-[50vh] bg-cover bg-fixed bg-center justify-center items-center m-auto"
+        style={{ backgroundImage: 'url(https://wallpapers.com/images/hd/textured-dark-green-stone-wall-desktop-u7th7eeecckdpd1i.jpg)' }}>
 
         <div className="flex flex-col  w-[80%] h-[40vh]  uppercase">
 
@@ -197,29 +198,28 @@ const ResponsiveProductGrid = () => {
               <p className='text-xl  text-white p-[1rem] hover:text-black'>agrochemical</p>
             </Link>
 
-            
-            <Link to='/agrochemical' className='flex flex-col items-center justify-center no-underline  border-2 px-5 py-3 border-yellow-400 border-rounded'>
+
+            <Link to='/adjuvants' className='flex flex-col items-center justify-center no-underline  border-2 px-5 py-3 border-yellow-400 border-rounded hover:bg-green-800'>
               <p>
-                <img src={agro} alt="" className='w-[5rem] rounded-full bg-yellow-500 p-4 hover:bg-yellow-700 ' />
+                <img src={adju} alt="" className='w-[5rem] rounded-full bg-yellow-500 p-4 hover:bg-yellow-700 ' />
               </p>
               <p className='text-xl  text-white p-[1rem] hover:text-black'>adjuvant</p>
             </Link>
 
-            
-            <Link to='/agrochemical' className='flex flex-col items-center justify-center no-underline  border-2 px-5 py-3 border-yellow-400 border-rounded'>
+                  
+            <Link to='/speciality' className='flex flex-col items-center justify-center no-underline  border-2 px-5 py-3 border-yellow-400 border-rounded hover:bg-green-800'>
               <p>
-                <img src={agro} alt="" className='w-[5rem] rounded-full bg-yellow-500 p-4 hover:bg-yellow-700 ' />
+                <img src={bio} alt="" className='w-[5rem] rounded-full bg-yellow-500 p-4 hover:bg-yellow-700 ' />
               </p>
               <p className='text-xl  text-white p-[1rem] hover:text-black'>biostimulant</p>
             </Link>
 
-            
-            <Link to='/agrochemical' className='flex flex-col items-center justify-center no-underline  border-2 px-5 py-3 border-yellow-400 border-rounded'>
-              <p>
-                <img src={agro} alt="" className='w-[5rem] rounded-full bg-yellow-500 p-4 hover:bg-yellow-700 ' />
-              </p>
-              <p className='text-xl  text-white p-[1rem] hover:text-black'>seed</p>
-            </Link>
+
+           
+
+
+
+
 
 
 

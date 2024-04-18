@@ -84,6 +84,7 @@ import React from "react";
 const Footer = () => {
   return (
     <>
+    
 
       <footer className=" relative z-10 bg-gray-200 pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px]">
         <div className="container">

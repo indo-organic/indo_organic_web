@@ -93,10 +93,10 @@ const Contact = () => {
         </div>
       </div> */}
 
-      <div className="flex  gap-4 w-[100%] h-[25rem] bg-cover bg-fixed bg-bottom justify-center items-center m-auto"
+      <div className="flex  gap-4 w-[100%] h-[25rem] bg-cover bg-fixed bg-bottom justify-center items-center m-auto "
         style={{ backgroundImage: 'url(https://img.freepik.com/premium-photo/red-telephone-receiver-hanging-against-gray-background_1048944-24563307.jpg)' }}>
 
-        <div className="absolute inset-0 flex flex-col items-center justify-center">
+        <div className="absolute inset-0 flex flex-col items-center justify-center ">
           <h2 className="text-white text-3xl font-bold uppercase">contact us</h2>
           <h2 className="flex gap-4 text-white py-2">
             <p>Home  &#9702;</p>
@@ -107,7 +107,7 @@ const Contact = () => {
         </div>
 
       </div>
-      <div className=" flex flex-col items-center justify-center uppercase py-10 font-sans">
+      <div className=" flex flex-col items-center justify-center uppercase py-10 font-sans bg-gray-300">
         <h2 className=" text-xl text-green-600 ">COMPANY</h2>
         <h2 className=" text-3xl py-2 font-bold">location </h2>
       </div>
@@ -117,7 +117,7 @@ const Contact = () => {
 
 
 
-        <div className="font-sans w-[30%] flex flex-col items-center text-center  justify-center h-[40vh] border-4 border-black  hover:bg-gray-100 ">
+        <div className="font-sans w-[30%] flex flex-col items-center text-center  justify-center h-[40vh] border-4 border-black  hover:bg-gray-200 ">
           <div className="flex flex-col gap-3 items-center ">
             <CiLocationOn className="text-6xl text-green-500" />
             <p className="text-xl uppercase">address</p>
@@ -132,7 +132,7 @@ const Contact = () => {
         </div>
 
 
-        <div className="font-sans w-[30%] flex flex-col items-center text-center  justify-center h-[40vh] border-4 border-black  hover:bg-gray-100 ">
+        <div className="font-sans w-[30%] flex flex-col items-center text-center  justify-center h-[40vh] border-4 border-black  hover:bg-gray-200 ">
           <div className="flex flex-col gap-3 items-center ">
             <MdCallEnd
               className="text-6xl text-green-500" />
@@ -151,7 +151,7 @@ const Contact = () => {
         </div>
 
 
-        <div className="font-sans w-[30%] flex flex-col items-center text-center  justify-center h-[40vh] border-4 border-black  hover:bg-gray-100 ">
+        <div className="font-sans w-[30%] flex flex-col items-center text-center  justify-center h-[40vh] border-4 border-black  hover:bg-gray-200 ">
           <div className="flex flex-col gap-3 items-center ">
             <AiOutlineMail
               className="text-6xl text-green-500" />

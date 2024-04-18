@@ -17,9 +17,11 @@ import News from '../footer/News'
 import BestSeller from './BestSeller'
 import HomeVideo from './HomeVideo'
 import ContactHome from './ContactHome'
+import Headline from './Headline'
 const MainPage = () => {
   return (
     <>
+      <Headline/>
       <Product />
       <OurStory />
       <Static/>
