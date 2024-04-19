@@ -174,7 +174,7 @@ const ResponsiveProductGrid = () => {
 
 
 
-
+{/* 
       <section className="flex flex-col w-[100%] h-[50vh] bg-cover bg-fixed bg-center justify-center items-center m-auto"
         style={{ backgroundImage: 'url(https://wallpapers.com/images/hd/textured-dark-green-stone-wall-desktop-u7th7eeecckdpd1i.jpg)' }}>
 
@@ -235,7 +235,7 @@ const ResponsiveProductGrid = () => {
 
 
 
-      </section> 
+      </section>  */}
     </>
 
 
