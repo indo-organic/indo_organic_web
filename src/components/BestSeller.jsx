@@ -39,7 +39,7 @@ const BestSeller = () => {
 
 
       <div className="flex flex-col w-[100%] py-10 bg-cover bg-fixed bg-center justify-center items-center m-auto"
-          style={{ backgroundImage: "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8xS5cK7pJcbDhl-SRS1znNA77u2KpF5EfF2Qxr0jAxw&s)" }}>
+        style={{ backgroundImage: "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8xS5cK7pJcbDhl-SRS1znNA77u2KpF5EfF2Qxr0jAxw&s)" }}>
 
         <div className="relative mx-auto  w-[70%] mb-1">
           <img className="h-16 w-full object-cover rounded-md object-bottom " src="https://i.pinimg.com/736x/d9/5e/09/d95e097a046d1971177078b6e40dab28.jpg" alt="Random image" />
@@ -73,7 +73,7 @@ const BestSeller = () => {
             </Link>
           </Slider>
         </div>
-      
+
 
 
 

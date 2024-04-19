@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fullpage/react-fullpage": "^0.1.42",
     "@material-tailwind/react": "^2.1.9",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.3",

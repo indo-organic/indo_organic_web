@@ -7,7 +7,7 @@ import agro from '../productImgicon/agr.png'
 import bio from '../productImgicon/bio.png'
 import adju from '../productImgicon/adjuvant.png'
 import seed from '../productImgicon/seed.png'
-// import staticsbg from '../assets/staticsbg.jpg'
+import staticsbg from '../assets/staticsbg.jpg'
 
 // function Card({ imageUrl, title, date, }) {
 //   return (
@@ -46,7 +46,7 @@ import seed from '../productImgicon/seed.png'
 
 
 
-//  <div className="bg-green-900"
+//       <div className="bg-green-900"
 //       >
 
 
@@ -93,9 +93,6 @@ import seed from '../productImgicon/seed.png'
 
 //       </div> 
 
-
-
-
 //     </>
 //   )
 // }
@@ -127,8 +124,8 @@ const ResponsiveProductGrid = () => {
     <>
 
 
-      {/*       
-    <div className="text-center p-10 bg-green-900">
+            
+    <div className="text-center p-10 bg-yellow-900">
       <h1 className="font-bold text-4xl mb-4 text-white">Products </h1>
       <section id="Projects"
         className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
@@ -162,7 +159,7 @@ const ResponsiveProductGrid = () => {
             <Link to='/agrochemical' className="text-white text-3xl font-bold hover:text-gray-900 hover:text-[2rem]">see all products</Link>
           </div>
         </div>
-    </div> */}
+    </div>
 
 
 
@@ -238,7 +235,7 @@ const ResponsiveProductGrid = () => {
 
 
 
-      </section>
+      </section> 
     </>
 
 

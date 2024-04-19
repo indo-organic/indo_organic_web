@@ -6,7 +6,8 @@ import staticsbg from '../assets/staticsbg.jpg'
 const RnDforHome = () => {
   return (
     <>
-
+      {/* <div className="bg-green-900">
+        
       <div
         className="relative flex mb-[11rem] flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl bg-green-950">
 
@@ -41,11 +42,12 @@ const RnDforHome = () => {
 
       </div>  
 
-
+      
+      </div> */}
       {/* bg-gray-200 py-24 sm:py-32 */}
 
 
-{/* 
+      {/*  
    <div className="bg-green-900 py-8"
         >
 
@@ -109,13 +111,45 @@ const RnDforHome = () => {
 
 
 
-      </div> 
-  */}
-
-   
+      </div>  */}
 
 
 
+
+
+<div className="py-16 bg-green-950 ">
+      <div className="container m-auto px-6 space-y-8 text-gray-500 md:px-12 lg:px-20">
+        <div className="justify-center text-center gap-6 md:text-left md:flex lg:items-center  lg:gap-16">
+          <div className="order-last mb-6 space-y-6 md:mb-0 md:w-6/12 lg:w-6/12">
+            <h1 className="text-4xl text-gray-200 font-bold md:text-5xl">Research and Development</h1>
+            <p className="text-lg text-gray-100">Fostering Prosperity Through Innovative Agrochemical Solutions. Cultivating Sustainability, Yielding Success. Bridging Science with Nature, Empowering Farmers for a Greener Tomorrow. Your Partner in Agricultural Excellence and Environmental Stewardship.</p>
+            <div className="flex flex-row-reverse flex-wrap justify-center gap-4 md:gap-6 md:justify-end">
+              <button type="button" title="Start buying" className="w-full py-3 px-6 text-center rounded-xl transition bg-gray-400 shadow-xl hover:bg-gray-600 active:bg-gray-00 focus:bg-gray-600 sm:w-max">
+                <span className="block text-black font-semibold">
+                  Learn more
+                </span>
+              </button>
+              {/* <button type="button" title="more about" className="w-full order-first py-3 px-6 text-center rounded-xl bg-gray-100 transition hover:bg-gray-200 active:bg-gray-300 focus:bg-gray-200 sm:w-max">
+                <span className="block text-gray-600 font-semibold">
+                  More about
+                </span>
+              </button> */}
+            </div>
+          </div>
+          <div className="grid grid-cols-5 grid-rows-4 gap-4 md:w-5/12 lg:w-6/12">
+            <div className="col-span-2 row-span-4">
+              <img src="https://djzw0xesrb3bn.cloudfront.net/vigyanprasar/transcoded_images/5d80bf913866a958050000e7-1603364602-xl_image_16_9/360x203-large-xl_image_16_9.jpg" className="rounded-full" width="640" height="960" alt="shoes" loading="lazy" />
+            </div>
+            <div className="col-span-2 row-span-2">
+              <img src="https://media.licdn.com/dms/image/D4D12AQFhpJWXwt8Tgw/article-cover_image-shrink_600_2000/0/1684298908509?e=2147483647&v=beta&t=BBtfwPGgbEp8GNixtkAxNQmpSTcm5Aax2ZHc_ambSyA" className="w-full h-full object-cover object-top rounded-xl" width="640" height="640" alt="shoe" loading="lazy" />
+            </div>
+            <div className="col-span-3 row-span-3">
+              <img src="https://etimg.etb2bimg.com/photo/107045029.cms" className="w-full h-full object-cover object-top rounded-xl" width="640" height="427" alt="shoes" loading="lazy" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
 

@@ -22,15 +22,15 @@ const MainPage = () => {
   return (
     <>
       <Headline/>
-      <Product />
       <OurStory />
-      <Static/>
+      {/* <Static/> */}
       <RnDforHome />
-      <BestSeller/>
+      <Product />
+      {/* <BestSeller/> */}
       {/* <Hightlights/> */}
       {/* <Trust/> */}
       {/* <Home_vision_mission/> */}
-      <Quality/>
+      {/* <Quality/> */}
       {/* <HomeVideo/> */}
       <Gallery/>
       {/* <IntroVid/> */}

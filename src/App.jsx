@@ -184,15 +184,8 @@ const App = () => {
           <Route path='/timeUp' element={<TimeUp />} />
 
 
-
-
-
-
           {/* adjuvants */}
           <Route path='/comboB' element={<Combo_b />} />
-
-
-
 
           {/* biostimulant  */}
 
