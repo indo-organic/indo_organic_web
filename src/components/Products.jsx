@@ -124,57 +124,46 @@ const ResponsiveProductGrid = () => {
     <>
 
 
-            
-    <div className="text-center p-10 bg-yellow-900">
-      <h1 className="font-bold text-4xl mb-4 text-white">Products </h1>
-      <section id="Projects"
-        className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
 
-        
-        <ProductCard
-          imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLJWUV4Ew8HMdDDd5sHkiD6eaBaPZloKJ-OpXVUA8xxA&s"
-          productName="AGROCHEMICAL"
-
-        />
-
-        <ProductCard
-          imageUrl="https://www.crodapharma.com/mediaassets/images/health-care/health-care-new-website/png/adjuvant-systems-visual-nav.jpg?la=en-GB"
-
-          productName="ADJUVANT"
-        />
+      <div className="text-center p-10 bg-yellow-900">
+        <h1 className="font-bold text-4xl mb-4 text-white">Products </h1>
+        <section id="Projects"
+          className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
 
 
-        <ProductCard
-          imageUrl={supplements_img}
+          <ProductCard
+            imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLJWUV4Ew8HMdDDd5sHkiD6eaBaPZloKJ-OpXVUA8xxA&s"
+            productName="AGROCHEMICAL"
 
-          productName="BIOSTIMULANT"
-        />
-        
-      </section>
+          />
 
-      <div className="relative mx-auto  mb-10 w-[70%]">
+          <ProductCard
+            imageUrl="https://www.crodapharma.com/mediaassets/images/health-care/health-care-new-website/png/adjuvant-systems-visual-nav.jpg?la=en-GB"
+
+            productName="ADJUVANT"
+          />
+
+
+          <ProductCard
+            imageUrl={supplements_img}
+
+            productName="BIOSTIMULANT"
+          />
+
+        </section>
+
+        <div className="relative mx-auto  mb-10 w-[70%]">
           <img className="h-16 w-full object-cover rounded-md object-center" src="https://w0.peakpx.com/wallpaper/1010/898/HD-wallpaper-green-leafed-plants-shallow-graphy-dark-theme-dark-theme.jpg" alt="Random image" />
           <div className="absolute inset-0 bg-green-900 opacity-50 rounded-md"></div>
           <div className="absolute inset-0 flex items-center  justify-center">
             <Link to='/agrochemical' className="text-white text-3xl font-bold hover:text-gray-900 hover:text-[2rem]">see all products</Link>
           </div>
         </div>
-    </div>
+      </div>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-{/* 
+      {/* 
       <section className="flex flex-col w-[100%] h-[50vh] bg-cover bg-fixed bg-center justify-center items-center m-auto"
         style={{ backgroundImage: 'url(https://wallpapers.com/images/hd/textured-dark-green-stone-wall-desktop-u7th7eeecckdpd1i.jpg)' }}>
 
