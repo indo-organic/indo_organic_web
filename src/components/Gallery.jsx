@@ -50,6 +50,7 @@ const Gallery = () => {
     </section> 
 
 
+
   
 
 
@@ -62,6 +63,13 @@ const Gallery = () => {
 }
 
 export default Gallery
+
+
+
+
+
+
+
 
 
 

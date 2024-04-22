@@ -11,45 +11,45 @@ import caro from '../assets/carouselImg.mp4'
 
 // style={{ backgroundImage: `url(${bgImg})` }}
 
-
+import { MDBCarousel, MDBCarouselItem } from 'mdb-react-ui-kit';
 
 const Carousel = () => {
 
-  
+
 
   return (
     <>
 
 
 
+      <MDBCarousel showControls fade>
+        <MDBCarouselItem itemId={1}>
+          <img src='https://media.licdn.com/dms/image/D5612AQFSr0q7ITJpig/article-cover_image-shrink_720_1280/0/1665482566081?e=2147483647&v=beta&t=A_Zg-PUOLJ-4Qv6YyMEPgjfxiQUXUTWfXS1Y-Ocm4S8' className='d-block w-100 h-[80vh] object-cover object-center' alt='...' />
+        </MDBCarouselItem>
+        <MDBCarouselItem itemId={2}>
+          <img src='https://okcredit-blog-images-prod.storage.googleapis.com/2021/04/agri2.jpeg' className='d-block w-100 h-[80vh] object-cover object-top' alt='...' />
+        </MDBCarouselItem>
+        <MDBCarouselItem itemId={3}>
+          <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdLKEgdXtXULkP8VSaQVWQzU6WZidlNa09HfpPclj90R0j85RWdhCrVEkCABTH2mvtp3Y&usqp=CAU' className='d-block w-100 h-[80vh] object-cover' alt='...' />
+        </MDBCarouselItem>
+      </MDBCarousel>
 
 
- 
-      {/* <div className="flex flex-col w-[100%] h-[100vh] bg-cover bg-fixed bg-center justify-center items-center m-auto"
-        style={{ backgroundImage: 'url(https://media.licdn.com/dms/image/D5612AQFSr0q7ITJpig/article-cover_image-shrink_720_1280/0/1665482566081?e=2147483647&v=beta&t=A_Zg-PUOLJ-4Qv6YyMEPgjfxiQUXUTWfXS1Y-Ocm4S8)' }}></div> */}
-
-      <header className="relative flex items-center justify-center h-[90vh] pt-40   w-full overflow-hidden bg-white ">
-        {/* <div className="relative p-5 text-6xl font-bold text-white bg-opacity-50 rounded-xl uppercase bg-green-500 z-20">
-          Welcome to Indo-<span className='text-[4rem]  '>Organics</span>
-        </div> */}
-        {/* <video autoPlay loop muted className="absolute z-10 w-auto min-w-full min-h-full max-w-none">
-          <source src={caro} type="video/mp4" />
-
-        </video> */}
-        {/* <img className="absolute z-10 w-auto min-w-full min-h-full max-w-none" src={prodCat} alt="" /> */}
-        {/* <img className="object-contain  w-[20%]" src={about} alt="" /> */}
-        <img src="https://media.licdn.com/dms/image/D5612AQFSr0q7ITJpig/article-cover_image-shrink_720_1280/0/1665482566081?e=2147483647&v=beta&t=A_Zg-PUOLJ-4Qv6YyMEPgjfxiQUXUTWfXS1Y-Ocm4S8" className='w-full mt-[2rem] ' alt="" />
-      </header>
 
 
-      
-     
     </>
 
   );
 };
 
 export default Carousel;
+
+
+
+
+
+
+
 
 
 
