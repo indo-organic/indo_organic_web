@@ -107,6 +107,7 @@ const Contact = () => {
         </div>
 
       </div>
+
       <div className=" flex flex-col items-center justify-center uppercase py-10 font-sans bg-gray-300">
         <h2 className=" text-xl text-green-600 ">COMPANY</h2>
         <h2 className=" text-3xl py-2 font-bold">location </h2>
@@ -114,8 +115,6 @@ const Contact = () => {
 
       <div className="lg:flex md:text-center md:h-[90vh]  gap-4 w-[100%] lg:h-[50vh] bg-cover bg-fixed bg-center justify-center items-center m-auto"
         style={{ backgroundImage: 'url(https://img.freepik.com/free-vector/white-abstract-background-theme_23-2148827269.jpg)' }}>
-
-
 
         <div className="font-sans w-[30%] flex flex-col items-center text-center  justify-center h-[40vh] border-4 border-black  hover:bg-gray-200 ">
           <div className="flex flex-col gap-3 items-center ">
@@ -130,7 +129,6 @@ const Contact = () => {
           </div>
 
         </div>
-
 
         <div className="font-sans w-[30%] flex flex-col items-center text-center  justify-center h-[40vh] border-4 border-black  hover:bg-gray-200 ">
           <div className="flex flex-col gap-3 items-center ">
@@ -150,7 +148,6 @@ const Contact = () => {
 
         </div>
 
-
         <div className="font-sans w-[30%] flex flex-col items-center text-center  justify-center h-[40vh] border-4 border-black  hover:bg-gray-200 ">
           <div className="flex flex-col gap-3 items-center ">
             <AiOutlineMail
@@ -166,19 +163,10 @@ const Contact = () => {
 
         </div>
 
-
-
-
-
       </div>
 
 
       <iframe className='w-full h-[80vh]' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.339275172473!2d77.17552497529209!3d28.70940507562289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d031c41947203%3A0xe88fd4421f109030!2sIndo%20Organics%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1710313494240!5m2!1sen!2sin" frameborder="0"></iframe>
-
-
-
-
-
 
 
     </>

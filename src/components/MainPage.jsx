@@ -21,7 +21,7 @@ import Headline from './Headline'
 const MainPage = () => {
   return (
     <>
-      <Headline/>
+      <Headline />
       <OurStory />
       {/* <Static/> */}
       <RnDforHome />
@@ -32,10 +32,10 @@ const MainPage = () => {
       {/* <Home_vision_mission/> */}
       {/* <Quality/> */}
       {/* <HomeVideo/> */}
-      <Gallery/>
+      <Gallery />
       {/* <IntroVid/> */}
       {/* <Indo_researchBox/> */}
-      {/* <NewUpdate/> */}
+      <NewUpdate/>
       {/* <Team/> */}
       {/* <News/> */}
 

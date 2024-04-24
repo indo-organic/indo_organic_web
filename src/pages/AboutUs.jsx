@@ -117,15 +117,15 @@ const AboutUs = () => {
 
       </div>
 
-      <div className='flex  justify-center w-[100%] py-10  bg-gray-400  text-black'>
+      <div className='flex  justify-center w-[100%] py-10  bg-gray-200  text-black'>
 
         <div className="w-[30%]  ">
           <img src={aboutImg4} alt="" />
         </div>
 
-        <div className='w-[60%] bg-gray-200'>
+        <div className='w-[60%] bg-gray-300'>
           <div className='p-4 py-[3rem]'>
-            <p className='py-2 text-xl text-green-500 font-bold'>WHO WE ARE ?
+            <p className='py-2 text-3xl text-green-500 font-bold'>WHO WE ARE ?
             </p>
             <p className='py-1 '>&#9702; Established in 2010 in association with Indogulf Cropsciences PTY, LTD, Australia.</p>
             <p className='pt-3'>&#9702; One of the leading players in the Indian crop industry. We are pioneers in Biostimulants and safe agricultural inputs</p>
@@ -138,7 +138,7 @@ const AboutUs = () => {
           </div>
 
           <div className='p-4 py-[3rem]'>
-            <p className='py-2 text-xl text-green-500 font-bold'>PHILOSOPHY
+            <p className='py-2 text-3xl text-green-500 font-bold'>PHILOSOPHY
             </p>
             <p className='text-l  font-bold'>Key- A Symbol of Our Promise</p>
             <p className='py-1 '>&#9702; Our mascot is small Key which we believe is Key to Success</p>
@@ -150,15 +150,12 @@ const AboutUs = () => {
 
           </div>
 
-
-
-
         </div>
 
 
       </div>
 
-
+      {/* 
       <section id="comparison" aria-label="QuickEdit vs traditional editor" className=" py-20 sm:py-32 bg-gray-400 ">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col w-[80%] h-[20vh] bg-cover bg-fixed bg-bottom justify-center items-center m-auto"
@@ -211,7 +208,9 @@ const AboutUs = () => {
             </li>
           </ul>
         </div>
-      </section>
+      </section> */}
+
+
 
 
       <section className="bg-gray-400">
@@ -234,6 +233,11 @@ const AboutUs = () => {
         </div>
       </section>
 
+
+
+
+
+
       <section className="bg-gray-400">
         <div className="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-1">
@@ -253,6 +257,7 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
+
 
 
 
