@@ -78,7 +78,7 @@ const ContactHome = () => {
 
 
             <section className="flex  gap-4 w-[100%] min-h-[30rem] bg-cover bg-fixed bg-bottom justify-center items-center m-auto "
-                style={{ backgroundImage: `url(${contactHomeImg})` }}>
+                style={{ backgroundImage: 'url(https://t3.ftcdn.net/jpg/07/74/86/40/360_F_774864064_IJeOOaBHfKhU98W90oIkvyXZmWCytrIe.jpg)' }}>
 
                 <div className="w-[80%] h-[20rem]  flex flex-col items-center justify-center gap-5 uppercase font-serif">
                     <p className='text-white text-[3rem] font-[900]'>grow with us, thrive tomorrow</p>
@@ -94,58 +94,7 @@ const ContactHome = () => {
 
 
 
-            <section className="contact bg-green-950" id="contact">
-            <div class="container">
-		<div class="header-content">
-			<a href="">Logo</a>
-			<span id="menu-icon" onClick="toggleMenu()"><img src="images/menu.svg" /></span>
-			<span id="header-right-menu">
-				<a href="#">Services</a>
-				<a href="#">Products</a>
-				<a href="#">Pricing</a>
-				<a href="#" class="header-active">Contact Us</a>
-			</span>
-		</div>
-		<div class="inner-container">
-			<div class="tile1">
-				<div class="tile1-heading">Get in touch</div>
-				<div class="form-row">We are here for you! How can we help?</div>
-				<form>
-					<div class="form-row">
-						<input type="text" class="form-field" placeholder="Enter your name"/>
-					</div>
-					<div class="form-row">
-						<input type="text" class="form-field" placeholder="Enter your email address"/>
-					</div>
-					<div class="form-row">
-						<textarea class="form-field" placeholder="Go ahead we are listening..."></textarea>
-					</div>
-					<div class="form-row">
-						<input type="button" class="form-field btn" value="Submit"/>
-					</div>
-				</form>
-			</div>
-			<div class="tile2">
-				<div class="tile2-image">
-					<img src="images/contact.png"/>
-				</div>
-				<div>
-					<div class="form-row">
-						<img src="images/loaction.png" class="contact-image"/><span>564
-							Alabama Avenue</span>
-					</div>
-					<div class="form-row">
-						<img src="images/phone.png" class="contact-image"/><span>+466723723666</span>
-					</div>
-					<div class="form-row">
-						<img src="images/mail.png" class="contact-image"/><span>contact@admin.com</span>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-        </section>
-
+       
 
                       
 

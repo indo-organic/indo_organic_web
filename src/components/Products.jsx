@@ -8,6 +8,7 @@ import bio from '../productImgicon/bio.png'
 import adju from '../productImgicon/adjuvant.png'
 import seed from '../productImgicon/seed.png'
 import staticsbg from '../assets/staticsbg.jpg'
+import insect from '../AboutImg/aboutBG.jpg'
 
 function Card({ imageUrl, title, date, }) {
   return (
@@ -91,7 +92,109 @@ const Products = () => {
 
 
 
-      </div> 
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <section className="w-full h-[50vh] bg-gray-300 flex items-center justify-center pl-[3rem] flex-col">
+      <p className="text-center pb-8 lg:text-7xl font-semibold text-white md:text-3xl">Agrochemical</p>
+        <div className="w-[80%] h-60  flex  justify-evenly items-center">
+          <div className="flex flex-col items-center ">
+            <div className="w-[10rem] h-[10rem] bg-black rounded-full">
+              <img src={insect} alt="" className="rounded-full w-[10rem] h-[10rem]" />
+            </div>
+            <p className="text-xl font-bold">
+              Insecticide
+            </p>
+
+          </div>
+
+
+          <div className="flex flex-col items-center ">
+            <div className="w-[10rem] h-[10rem] bg-black rounded-full">
+              <img src={insect} alt="" className="rounded-full w-[10rem] h-[10rem]" />
+            </div>
+            <p className="text-xl font-bold">
+              Fungicide
+            </p>
+
+          </div>
+
+          <div className="flex flex-col items-center ">
+            <div className="w-[10rem] h-[10rem] bg-black rounded-full">
+              <img src={insect} alt="" className="rounded-full w-[10rem] h-[10rem]" />
+            </div>
+            <p className="text-xl font-bold">
+              Herbicide
+            </p>
+
+          </div>
+
+
+        </div>
+
+
+      </section>
+
+      <section className="w-full h-[50vh] bg-gray-300 flex items-center justify-center pl-[3rem] flex-col">
+      <p className="text-center pb-8 lg:text-7xl font-semibold text-white md:text-3xl">Biostimulant</p>
+        <div className="w-[80%] h-60  flex  justify-evenly items-center">
+          <div className="flex flex-col items-center ">
+            <div className="w-[10rem] h-[10rem] bg-black rounded-full">
+              <img src={insect} alt="" className="rounded-full w-[10rem] h-[10rem]" />
+            </div>
+            <p className="text-xl font-bold">
+              Soil Revivers
+            </p>
+
+          </div>
+
+
+          <div className="flex flex-col items-center ">
+            <div className="w-[10rem] h-[10rem] bg-black rounded-full">
+              <img src={insect} alt="" className="rounded-full w-[10rem] h-[10rem]" />
+            </div>
+            <p className="text-xl font-bold">
+              Nutrition
+            </p>
+
+          </div>
+
+          <div className="flex flex-col items-center ">
+            <div className="w-[10rem] h-[10rem] bg-black rounded-full">
+              <img src={insect} alt="" className="rounded-full w-[10rem] h-[10rem]" />
+            </div>
+            <p className="text-xl font-bold">
+            Protection
+            </p>
+
+          </div>
+
+
+        </div>
+
+
+      </section>
+
+
+
+
+
+
 
     </>
   )
