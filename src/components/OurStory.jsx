@@ -11,42 +11,34 @@ const OurStory = () => {
 
 
 
-      <div className='bg-gray-500' >
-        
+      <div className='bg-gray-white' >
+
         <div className=" relative flex items-center justify-center overflow-hidden bg-whitesmoke z-10">
           <div className="relative mx-auto h-full px-4 pb-20 md:pb-10 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8">
             <div className="flex flex-col items-center justify-between lg:flex-row py-16">
               <div className="relative">
-                <div className="absolute top-0  -left-[8.5rem]  z-0 opacity-70">
-                  {/* <img src={ourStory1} className="w-28  h-full object-fill fill-y text-y" alt="Placeholder" /> */}
-                </div>
+
                 <div className="lg:max-w-xl lg:pr-5 relative z-40">
-                  <p className="flex  uppercase text-xl text-white">About Us</p>
-                  <h2 className="mb-6 max-w-lg text-5xl font-light leading-snug tracking-tight text-g1 sm:text-7xl sm:leading-snug text-white">
+                  <p className="flex  uppercase text-xl text-black">About Us</p>
+                  <h2 className="mb-6 max-w-lg text-5xl font-light leading-snug tracking-tight text-g1 sm:text-7xl sm:leading-snug text-black">
                     Quality is never by {' '}
-                    <span className="my-1 inline-block border-b-8 border-g4 px-4 font-bold text-green-300 ">Chance</span>
+                    <span className="my-1 inline-block border-b-8 border-g4 px-4 font-bold text-green-700 ">Chance</span>
                   </h2>
-                  <p className="text-base text-white">Indoorganics Pvt Ltd. (IOL) is a leading manufacturer, marketer and exporter of agricultural inputs which includes a range of nonorganic pesticides (Agrochemicals) and a mix of organic products particularly bio-stimulants, biological solutions, plant nutrients and fertilizers. We have been serving the farming community through our high-quality Crop Protection & Crop Nutrition products since many years.</p>
+                  <p className="text-base  text-black">Indoorganics Pvt Ltd. (IOL) is a leading manufacturer, marketer and exporter of agricultural inputs which includes a range of nonorganic pesticides (Agrochemicals) and a mix of organic products particularly bio-stimulants, biological solutions, plant nutrients and fertilizers. We have been serving the farming community through our high-quality Crop Protection & Crop Nutrition products since many years.</p>
                   <div className="mt-10 flex flex-col items-center md:flex-row">
                     <Link to="/aboutUs" className="mb-3 inline-flex h-12 w-full items-center justify-center rounded bg-green-700 px-6 font-medium tracking-wide text-white shadow-md transition hover:bg-green-900 focus:outline-none md:mr-4 md:mb-0 md:w-auto">
                       View More
                     </Link>
-                    <Link href="researchDev" aria-label="" className="group inline-flex items-center font-semibold text-g1 text-white">
-                      Learn about R&D
-                      <svg xmlns="http://www.w3.org/2000/svg" className="ml-4 h-6 w-6 transition-transform group-hover:translate-x-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                      </svg>
-                    </Link>
+
                   </div>
                 </div>
               </div>
               <div className="relative hidden lg:ml-32 lg:block lg:w-1/2 ">
-                <svg xmlns="http://www.w3.org/2000/svg" className="my-6 mx-auto h-10 w-10 animate-bounce rounded-full bg-green-600 p-2 lg:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                {/* <svg xmlns="http://www.w3.org/2000/svg" className="my-6 mx-auto h-10 w-10 animate-bounce rounded-full bg-green-600 p-2 lg:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M16 17l-4 4m0 0l-4-4m4 4V3"></path>
-                </svg>
+                </svg> */}
                 <div className="abg-orange-400 mx-auto w-fit overflow-hidden rounded-[1rem] rounded-br-none rounded-tl-none ">
-                  {/* <img src={ourStory2} alt="Placeholder" className='' /> */}
-                        <video src={homeResearch} loop autoPlay muted></video>
+                  <video src={homeResearch} loop autoPlay muted></video>
                 </div>
               </div>
             </div>

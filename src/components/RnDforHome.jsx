@@ -6,117 +6,12 @@ import staticsbg from '../assets/staticsbg.jpg'
 const RnDforHome = () => {
   return (
     <>
-      {/* <div className="bg-green-900">
-        
-      <div
-        className="relative flex mb-[11rem] flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl bg-green-950">
-
-        <div className="w-full h-64 lg:w-1/2 lg:h-auto">
-          <img className="h-full w-full object-cover" src="https://media.istockphoto.com/id/494726892/photo/model-plant-in-a-research-lab.jpg?s=612x612&w=0&k=20&c=FgYna7smf8rXvnn1Lc_ClFproFIk8tclsoi3TJ8VTcE=" alt="Winding mountain road" />
-        </div>
-
-        <div className="max-w-lg bg-white md:max-w-2xl md:z-10 md:shadow-lg md:absolute md:top-0 md:mt-48 lg:w-3/5 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-24 xl:ml-12">
-
-          <div className="flex flex-col p-12 md:px-16">
-            <h2 className="text-2xl font-medium uppercase text-green-800 lg:text-4xl">Research and Developments</h2>
-
-            <p>Our R&D team is continuously working with highly
-              qualified and experienced research scientists focusing on
-              Bio-efficacy and toxicology studies.</p>
-            <p>We produce specialized formulations of crop nutritions,
-              biostimulants and soil improvers that meet the needs of
-              each physiological stage of the crop, offering suitable
-              products for each condition according to our customers
-              need. </p>
-
-            <p>All Our products are independently tested for efficacy,
-              safety and wellness for the environment by accredited
-              labs, our customers and consumers.</p>
-
-            <div className="mt-10">
-              <Link to='/researchDev' className="inline-block w-full text-center text-lg font-medium text-gray-100 bg-green-600 border-solid border-2 border-gray-600 p-1 hover:bg-green-800 hover:shadow-md md:w-48">Read More</Link>
-            </div>
-          </div>
-
-        </div>
-
-      </div>  
-
-      
-      </div> */}
-      {/* bg-gray-200 py-24 sm:py-32 */}
-
-
-      {/*  
-   <div className="bg-green-900 py-8"
-        >
-
-      <div className="flex flex-col w-[90%] h-[100vh] bg-cover bg-fixed bg-center justify-center items-center m-auto"
-          style={{ backgroundImage: `url(${staticsbg})` }} >
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-            <div className="lg:pr-4">
-              <div className="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
-                <img className="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0" src='https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2019/03/22/Pictures/chandigarh-outskirts-hindustan-ludhiana-bothgarh-working-chandigarh_08e52426-4ccc-11e9-9111-3135b956f139.jpg' alt="" />
-                <div className="absolute inset-0 bg-gray-500 mix-blend-multiply"></div>
-               
-                <figure className="relative isolate">
-
-                  <blockquote className="mt-6 text-xl font-semibold leading-8 text-white">
-                    <p>"Fostering Prosperity Through Innovative Agrochemical Solutions. Cultivating Sustainability, Yielding Success. Bridging Science with Nature, Empowering Farmers for a Greener Tomorrow. Your Partner in Agricultural Excellence and Environmental Stewardship."</p>
-                  </blockquote>
-
-                </figure>
-              </div>
-            </div>
-            <div>
-              <div className="text-base leading-7 text-gray-700 lg:max-w-lg">
-                <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl text-white">Research and Developments</h1>
-                <div className="max-w-xl text-white">
-                  <p className="mt-6">Our R&D team is continuously working with highly
-                    qualified and experienced research scientists focusing on
-                    Bio-efficacy and toxicology studies.</p>
-                  <p className="mt-8">We produce specialized formulations of crop nutritions,
-                    biostimulants and soil improvers that meet the needs of
-                    each physiological stage of the crop, offering suitable
-                    products for each condition according to our customers
-                    need</p>
-                  <p className="mt-8">All Our products are independently tested for efficacy,
-                    safety and wellness for the environment by accredited
-                    labs, our customers and consumers</p>
-                </div>
-              </div>
-              <dl className="mt-10 grid grid-cols-2 gap-8 border-t border-gray-900/10 pt-10 sm:grid-cols-4  ">
-                <div>
-                  <dt className="text-sm font-semibold leading-6 text-white">Founded</dt>
-                  <dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-white">2016</dd>
-                </div>
-                <div>
-                  <dt className="text-sm font-semibold leading-6 text-white">Employees</dt>
-                  <dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-white">50+</dd>
-                </div>
-                <div>
-                  <dt className="text-sm font-semibold leading-6 text-white">States</dt>
-                  <dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-white">20</dd>
-                </div>
-
-              </dl>
-              <div className="mt-10 flex">
-                <Link to='/researchDev' className="text-base font-semibold leading-7 text-green-500">Learn more about our company <span aria-hidden="true">&rarr;</span></Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
-      </div>  */}
+     
 
 
 
 
-
+{/* 
 <div className="py-16 bg-green-950 ">
       <div className="container m-auto px-6 space-y-8 text-gray-500 md:px-12 lg:px-20">
         <div className="justify-center text-center gap-6 md:text-left md:flex lg:items-center  lg:gap-16">
@@ -129,11 +24,7 @@ const RnDforHome = () => {
                   Learn more
                 </span>
               </button>
-              {/* <button type="button" title="more about" className="w-full order-first py-3 px-6 text-center rounded-xl bg-gray-100 transition hover:bg-gray-200 active:bg-gray-300 focus:bg-gray-200 sm:w-max">
-                <span className="block text-gray-600 font-semibold">
-                  More about
-                </span>
-              </button> */}
+             
             </div>
           </div>
           <div className="grid grid-cols-5 grid-rows-4 gap-4 md:w-5/12 lg:w-6/12">
@@ -149,9 +40,68 @@ const RnDforHome = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
 
 
+<section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-white dark:bg-dark">
+        <div className="container mx-auto">
+          <div className="flex flex-wrap items-center justify-between -mx-4">
+            <div className="w-full px-4 lg:w-6/12">
+              <div className="flex items-center -mx-3 sm:-mx-4">
+                <div className="w-full px-3 sm:px-4 xl:w-1/2">
+                  <div className="py-3 sm:py-4">
+                    <img
+                      src="https://i.ibb.co/gFb3ns6/image-1.jpg"
+                      alt=""
+                      className="w-full rounded-2xl"
+                    />
+                  </div>
+                  <div className="py-3 sm:py-4">
+                    <img
+                      src="https://i.ibb.co/rfHFq15/image-2.jpg"
+                      alt=""
+                      className="w-full rounded-2xl"
+                    />
+                  </div>
+                </div>
+                <div className="w-full px-3 sm:px-4 xl:w-1/2">
+                  <div className="relative z-10 my-4">
+                    <img
+                      src="https://i.ibb.co/9y7nYCD/image-3.jpg"
+                      alt=""
+                      className="w-full rounded-2xl"
+                    />
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
+              <div className="mt-10 lg:mt-0">
+                <span className="block mb-4 text-lg font-semibold text-green-700">
+                 Indo organics
+                </span>
+                <h2 className="mb-5 text-3xl font-bold text-dark dark:text-white sm:text-[40px]/[48px]">
+                Research and Development
+                </h2>
+                <p className="mb-5 text-base text-body-color dark:text-dark-6">
+                Fostering Prosperity Through Innovative Agrochemical Solutions. Cultivating Sustainability, Yielding Success. Bridging Science with Nature, Empowering Farmers for a Greener Tomorrow. 
+                </p>
+                <p className="mb-8 text-base text-body-color dark:text-dark-6">
+                Your Partner in Agricultural Excellence and Environmental Stewardship.
+                </p>
+                <Link to='/reseachDev'
+                  href="javascript:void(0)"
+                  className="mb-3 inline-flex h-12 w-full items-center justify-center rounded bg-green-700 px-6 font-medium tracking-wide text-white shadow-md transition hover:bg-green-900 focus:outline-none md:mr-4 md:mb-0 md:w-auto"
+                >
+                  Learn more
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
 
     </>
