@@ -43,7 +43,7 @@ const RnDforHome = () => {
     </div> */}
 
 
-<section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-white dark:bg-dark">
+<section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-gray-100 min-h-[70vh]">
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center justify-between -mx-4">
             <div className="w-full px-4 lg:w-6/12">
@@ -51,14 +51,14 @@ const RnDforHome = () => {
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="py-3 sm:py-4">
                     <img
-                      src="https://i.ibb.co/gFb3ns6/image-1.jpg"
+                      src="https://bsmedia.business-standard.com/_media/bs/img/article/2016-03/02/full/1456935798-4925.jpg?im=FeatureCrop,size=(826,465)"
                       alt=""
                       className="w-full rounded-2xl"
                     />
                   </div>
                   <div className="py-3 sm:py-4">
                     <img
-                      src="https://i.ibb.co/rfHFq15/image-2.jpg"
+                      src="https://cdn.givingcompass.org/wp-content/uploads/2019/02/11172049/8-Women-Breaking-Ground-in-Science-Agriculture.jpg"
                       alt=""
                       className="w-full rounded-2xl"
                     />
@@ -67,7 +67,7 @@ const RnDforHome = () => {
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="relative z-10 my-4">
                     <img
-                      src="https://i.ibb.co/9y7nYCD/image-3.jpg"
+                      src="https://www.tata.com/content/dam/tata/images/newsroom/community/desktop/sustainable_farming_tata_trusts_secondary3_desktop_753.jpg"
                       alt=""
                       className="w-full rounded-2xl"
                     />
