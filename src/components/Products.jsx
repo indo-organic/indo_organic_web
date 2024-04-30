@@ -10,7 +10,7 @@
 // import staticsbg from '../assets/staticsbg.jpg'
 // import insect from '../AboutImg/aboutBG.jpg'
 import '../styles/Product.scss'
-
+import pro from '../pages/pro.png'
 
 function Card({ imageUrl, title, date, }) {
   return (
@@ -97,81 +97,61 @@ const Products = () => {
       </div> */}
 
 
-
-      <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
-
-      <section class="projects section" id="projects">
-        <h2 class="section__title-1">
-          <span>Products we offers</span>
-        </h2>
-
-        <div class="projects__container container grid">
-          <article class="projects__card">
-            <div class="projects__image">
-              <img src="https://png.pngtree.com/png-vector/20240122/ourlarge/pngtree-illustration-of-a-cartoon-bug-png-image_11455019.png" alt="image" class="projects__img" />
-
-              <a href="#" class="projects__button button">
-                <i class="ri-arrow-right-up-line"></i>
-              </a>
+      <body>
+        <h1 class="title-shop">Product and Services</h1>
+        <main class="main bd-grid">
+          <article class="card">
+            <div class="card__img">
+            <img src={pro} alt="" />
             </div>
-
-            <div class="projects__content">
-              <h3 class="projects__subtitle">Agrochemical</h3>
-              <h2 class="projects__title">Insecticide</h2>
-
-              <p class="projects__description">
-
-                An insecticide is a pesticide designed to control or eliminate insects. It is widely used in agriculture, public health, and residential settings to manage insect pests. Insecticides work by disrupting the physiology or behavior of insects, leading to their death or inhibition of growth.
-              </p>
+            <div class="card__name">
+              <p>Insecticide</p>
             </div>
+            <div class="card__precis">
+              <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
 
-
+              <div>
+                <span class="card__preci card__preci--before">Agrochemical</span>
+                <span class="card__preci card__preci--now">Insecticide</span>
+              </div>
+              <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+            </div>
           </article>
 
-
-          <article class="projects__card">
-            <div class="projects__image">
-              <img src="https://i.ytimg.com/vi/AVas6juNnfc/maxresdefault.jpg" alt="image" class="projects__img" />
-
-              <a href="#" class="projects__button button">
-                <i class="ri-arrow-right-up-line"></i>
-              </a>
+          <article class="card">
+            <div class="card__img">
+            <img src={pro} alt="" />
             </div>
-
-            <div class="projects__content">
-              <h3 class="projects__subtitle">Agrochemical</h3>
-              <h2 class="projects__title">Fungicide</h2>
-
-              <p class="projects__description">
-
-
-                A fungicide is a type of pesticide specifically formulated to control, prevent, or eliminate fungal diseases in plants. These chemical substances are used in agriculture, gardening, and landscaping to protect crops, ornamental plants, and trees from fungal infections that can cause damage and reduce yields
-              </p>
+            <div class="card__name">
+              <p>Insecticide</p>
             </div>
+            <div class="card__precis">
+              <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
 
-
+              <div>
+                <span class="card__preci card__preci--before">Agrochemical</span>
+                <span class="card__preci card__preci--now">Insecticide</span>
+              </div>
+              <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+            </div>
           </article>
 
-          <article class="projects__card">
-            <div class="projects__image">
-              <img src="https://png.pngtree.com/png-vector/20240122/ourlarge/pngtree-illustration-of-a-cartoon-bug-png-image_11455019.png" alt="image" class="projects__img" />
-
-              <a href="#" class="projects__button button">
-                <i class="ri-arrow-right-up-line"></i>
-              </a>
+          <article class="card">
+            <div class="card__img">
+              <img src={pro} alt="" />
             </div>
-
-            <div class="projects__content">
-              <h3 class="projects__subtitle">Agrochemical</h3>
-              <h2 class="projects__title">herbicide</h2>
-
-              <p class="projects__description">
-
-                A herbicide is a type of pesticide specifically designed to control, manage, or eliminate unwanted plants, commonly referred to as weeds. Herbicides are widely used in agriculture, landscaping, forestry, and vegetation management to suppress the growth of weeds that compete with crops, ornamental plants, or desired vegetation.
-              </p>
+            <div class="card__name">
+              <p>Insecticide</p>
             </div>
+            <div class="card__precis">
+              <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
 
-
+              <div>
+                <span class="card__preci card__preci--before">Agrochemical</span>
+                <span class="card__preci card__preci--now">Insecticide</span>
+              </div>
+              <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+            </div>
           </article>
 
 
@@ -179,44 +159,9 @@ const Products = () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        </div>
-      </section> 
-
-
-
-
-
-
-
-
-
-
-
+        </main>
+       
+      </body>
 
 
 
