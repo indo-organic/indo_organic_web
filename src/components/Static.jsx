@@ -1,4 +1,4 @@
-import staticsbg from '../assets/staticsbg.jpg'
+import staticsbg from '../carouselImg/stat.png'
 const Static = () => {
   return (
     <>
@@ -12,7 +12,7 @@ const Static = () => {
         >
 
           <div className="text-center text-white text-[5rem]">
-           Quality is never by chance
+          We leverage our rich heritage to tackle the challenges of the future
           </div>
 
         </section>

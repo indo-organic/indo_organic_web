@@ -72,7 +72,7 @@ import { FaCediSign } from "react-icons/fa6";
 import { CiLocationOn } from "react-icons/ci";
 import { MdCallEnd } from "react-icons/md";
 import { AiOutlineMail } from "react-icons/ai";
-import contactUS from '../AboutImg/aboutImg3.jpg'
+import contactUS from '../AboutImg/contantnew.png'
 
 
 
@@ -94,7 +94,7 @@ const Contact = () => {
       </div> */}
 
       <div className="flex  gap-4 w-[100%] h-[25rem] bg-cover bg-fixed bg-bottom justify-center items-center m-auto "
-        style={{ backgroundImage: 'url(https://img.freepik.com/premium-photo/red-telephone-receiver-hanging-against-gray-background_1048944-24563307.jpg)' }}>
+        style={{ backgroundImage:  `url(${contactUS})` }}>
 
         <div className="absolute inset-0 flex flex-col items-center justify-center ">
           <h2 className="text-white text-3xl font-bold uppercase">contact us</h2>
