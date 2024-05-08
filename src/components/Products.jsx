@@ -1,55 +1,51 @@
 // import { Link } from "react-router-dom"
-// import protection_img from '../assets/research2.jpg'
-// import supplements_img from '../assets/research2.jpg'
-// import adjuvants_img from '../prod_img/adjuvantsImg.jpg'
+import protection_img from '../assets/research2.jpg'
+import supplements_img from '../assets/research2.jpg'
+import adjuvants_img from '../prod_img/adjuvantsImg.jpg'
 // import agrochemical_img from '../prod_img/agrochemicalImg.png'
-// import agro from '../productImgicon/agr.png'
-// import bio from '../productImgicon/bio.png'
-// import adju from '../productImgicon/adjuvant.png'
+import agro from '../productImgicon/agr.png'
+import bio from '../productImgicon/bio.png'
+import adju from '../productImgicon/adjuvant.png'
 // import seed from '../productImgicon/seed.png'
 // import staticsbg from '../assets/staticsbg.jpg'
 // import insect from '../AboutImg/aboutBG.jpg'
-import '../styles/Product.scss'
-import pro from '../pages/pro.png'
+// import '../styles/Product.scss'
+// import pro from '../pages/pro.png'
 
-function Card({ imageUrl, title, date, }) {
-  return (
-    <div className="rounded overflow-hidden shadow-lg">
-      <a href="#"></a>
-      <div className="relative ">
-        <a href="#">
-          <img className="w-full h-[40vh]" src={imageUrl} alt="" />
-          <div className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
-        </a>
-        <a href="#!">
-          <div className="absolute bottom-0 left-0 bg-green-600 px-4 py-2 text-white text-sm hover:bg-black hover:text-green-600 transition duration-500 ease-in-out">
-            Services
-          </div>
-        </a>
-        <a href="!#">
-          <div className="text-sm absolute top-0 right-0 bg-green-600 px-4 text-white rounded-full h-16 w-16 flex flex-col items-center justify-center mt-3 mr-3 hover:bg-black hover:text-green-600 transition duration-500 ease-in-out">
-            <span className="font-bold">{date}</span>
-          </div>
-        </a>
-      </div>
-      <div className="px-6 py-2 text-center bg-gray-300">
-        <a href="#" className="font-semibold text-lg inline-block hover:text-green-600 transition duration-500 ease-in-out">
-          {title}
-        </a>
-      </div>
+// function Card({ imageUrl, title, date, }) {
+//   return (
+//     <div className="rounded overflow-hidden shadow-lg">
+//       <a href="#"></a>
+//       <div className="relative ">
+//         <a href="#">
+//           <img className="w-full h-[40vh]" src={imageUrl} alt="" />
+//           <div className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
+//         </a>
+//         <a href="#!">
+//           <div className="absolute bottom-0 left-0 bg-green-600 px-4 py-2 text-white text-sm hover:bg-black hover:text-green-600 transition duration-500 ease-in-out">
+//             Services
+//           </div>
+//         </a>
+//         <a href="!#">
+//           <div className="text-sm absolute top-0 right-0 bg-green-600 px-4 text-white rounded-full h-16 w-16 flex flex-col items-center justify-center mt-3 mr-3 hover:bg-black hover:text-green-600 transition duration-500 ease-in-out">
+//             <span className="font-bold">{date}</span>
+//           </div>
+//         </a>
+//       </div>
+//       <div className="px-6 py-2 text-center bg-gray-300">
+//         <a href="#" className="font-semibold text-lg inline-block hover:text-green-600 transition duration-500 ease-in-out">
+//           {title}
+//         </a>
+//       </div>
 
-    </div>
-  );
-}
+//     </div>
+//   );
+// }
 
 const Products = () => {
   return (
     <>
-
-
-
-
-      {/* <div className="bg-green-900"
+      <div className="bg-green-900"
       >
 
 
@@ -94,79 +90,7 @@ const Products = () => {
 
 
 
-      </div> */}
-
-
-      <body>
-        <h1 class="title-shop">Product and Services</h1>
-        <main class="main bd-grid">
-          <article class="card">
-            <div class="card__img">
-            <img src={pro} alt="" />
-            </div>
-            <div class="card__name">
-              <p>Insecticide</p>
-            </div>
-            <div class="card__precis">
-              <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
-
-              <div>
-                <span class="card__preci card__preci--before">Agrochemical</span>
-                <span class="card__preci card__preci--now">Insecticide</span>
-              </div>
-              <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card__img">
-            <img src={pro} alt="" />
-            </div>
-            <div class="card__name">
-              <p>Insecticide</p>
-            </div>
-            <div class="card__precis">
-              <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
-
-              <div>
-                <span class="card__preci card__preci--before">Agrochemical</span>
-                <span class="card__preci card__preci--now">Insecticide</span>
-              </div>
-              <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card__img">
-              <img src={pro} alt="" />
-            </div>
-            <div class="card__name">
-              <p>Insecticide</p>
-            </div>
-            <div class="card__precis">
-              <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
-
-              <div>
-                <span class="card__preci card__preci--before">Agrochemical</span>
-                <span class="card__preci card__preci--now">Insecticide</span>
-              </div>
-              <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
-            </div>
-          </article>
-
-
-
-
-
-
-        </main>
-       
-      </body>
-
-
-
-
-
+      </div>
     </>
   )
 }

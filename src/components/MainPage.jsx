@@ -23,9 +23,9 @@ const MainPage = () => {
     <>
       <Headline />
       <OurStory />
-      {/* <Static/> */}
+      <Static/>
       <RnDforHome />
-      <Product />
+      {/* <Product /> */}
       {/* <BestSeller/> */}
       {/* <Hightlights/> */}
       {/* <Trust/> */}
