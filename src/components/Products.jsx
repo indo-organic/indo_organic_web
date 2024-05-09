@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 const ProductGrid = () => {
   return (
     <>
-      <div className="text-center p-10">
-        <h1 className="font-bold text-4xl mb-1">Products We Offer</h1>
+      <div className="text-center pt-[10rem]">
+        <h1 className="font-[900] text-4xl mb-1 ">Products We Offer</h1>
       </div>
 
       <section id="Projects"

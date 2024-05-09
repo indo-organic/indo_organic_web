@@ -18,6 +18,7 @@ import BestSeller from './BestSeller'
 import HomeVideo from './HomeVideo'
 import ContactHome from './ContactHome'
 import Headline from './Headline'
+import QR from './QR'
 const MainPage = () => {
   return (
     <>
@@ -38,6 +39,7 @@ const MainPage = () => {
       {/* <NewUpdate/> */}
       {/* <Team/> */}
       {/* <News/> */}
+      <QR/>
 
       <ContactHome />
 

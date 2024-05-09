@@ -1,4 +1,4 @@
-import DhamaalImg from '../../product_image/dhamaal.png'
+import DhamaalImg from '../../product_image/testDhamaal.jpg'
 import Dhamaal_title from '../../titleImg/Dhamaal.png'
 const Dhamaal = () => {
   return (
