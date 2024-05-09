@@ -1,174 +1,104 @@
-// import { Link } from "react-router-dom"
-import protection_img from '../assets/research2.jpg'
-import supplements_img from '../assets/research2.jpg'
-import adjuvants_img from '../prod_img/adjuvantsImg.jpg'
-// import agrochemical_img from '../prod_img/agrochemicalImg.png'
-import agro from '../productImgicon/agr.png'
-import bio from '../productImgicon/bio.png'
-import adju from '../productImgicon/adjuvant.png'
-// import seed from '../productImgicon/seed.png'
-// import staticsbg from '../assets/staticsbg.jpg'
-// import insect from '../AboutImg/aboutBG.jpg'
-// import '../styles/Product.scss'
-// import pro from '../pages/pro.png'
-
-// function Card({ imageUrl, title, date, }) {
-//   return (
-//     <div className="rounded overflow-hidden shadow-lg">
-//       <a href="#"></a>
-//       <div className="relative ">
-//         <a href="#">
-//           <img className="w-full h-[40vh]" src={imageUrl} alt="" />
-//           <div className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
-//         </a>
-//         <a href="#!">
-//           <div className="absolute bottom-0 left-0 bg-green-600 px-4 py-2 text-white text-sm hover:bg-black hover:text-green-600 transition duration-500 ease-in-out">
-//             Services
-//           </div>
-//         </a>
-//         <a href="!#">
-//           <div className="text-sm absolute top-0 right-0 bg-green-600 px-4 text-white rounded-full h-16 w-16 flex flex-col items-center justify-center mt-3 mr-3 hover:bg-black hover:text-green-600 transition duration-500 ease-in-out">
-//             <span className="font-bold">{date}</span>
-//           </div>
-//         </a>
-//       </div>
-//       <div className="px-6 py-2 text-center bg-gray-300">
-//         <a href="#" className="font-semibold text-lg inline-block hover:text-green-600 transition duration-500 ease-in-out">
-//           {title}
-//         </a>
-//       </div>
-
-//     </div>
-//   );
-// }
-
-const Products = () => {
+import React from 'react';
+import { Link } from 'react-router-dom';
+const ProductGrid = () => {
   return (
     <>
-      <div className="bg-green-900"
-      >
+      <div className="text-center p-10">
+        <h1 className="font-bold text-4xl mb-1">Products We Offer</h1>
+      </div>
+
+      <section id="Projects"
+        className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
+
+        <Link to='/insecticide' className="w-72 h-[19rem] object-cover bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl ">
+          <a href="#">
+            <img src='https://i.guim.co.uk/img/media/de2022c9550a0070986a904c3438a3064abe8d70/0_62_2480_1488/master/2480.jpg?width=465&dpr=1&s=none' alt="Product" className="h-60 w-full rounded-t-xl" />
+            <div className="px-4 py-3  w-72">
+              {/* <span className="text-gray-400 mr-3 uppercase text-xs">Agrochemical</span> */}
+              <p className="text-lg font-bold text-black truncate block capitalize text-center ">Insecticide</p>
+
+            </div>
+          </a>
+        </Link>
+        <Link to='/fungicide' className="w-72 h-[19rem] object-cover bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl ">
+          <a href="#">
+            <img src='https://www.reagent.co.uk/wp-content/uploads/2023/02/spraying-a-rose-bush-with-a-fungicide.webp' alt="Product" className="h-60 w-full rounded-t-xl" />
+            <div className="px-4 py-3  w-72">
+              {/* <span className="text-gray-400 mr-3 uppercase text-xs">Agrochemical</span> */}
+              <p className="text-lg font-bold text-black truncate block capitalize text-center ">Fungicide</p>
+
+            </div>
+          </a>
+        </Link>
+
+        <Link to='/herbicide' className="w-72 h-[19rem] object-cover bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl ">
+          <a href="#">
+            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdwgzIBqIw5cn1-CUw6lLWqFHkuOwHusN-tXO667-07w&s' alt="Product" className="h-60 w-full rounded-t-xl" />
+            <div className="px-4 py-3  w-72">
+              {/* <span className="text-gray-400 mr-3 uppercase text-xs">Agrochemical</span> */}
+              <p className="text-lg font-bold text-black truncate block capitalize text-center ">Herbicide</p>
+
+            </div>
+          </a>
+        </Link>
+
+       
+      
+
+
+      </section>
 
 
 
-        <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16 py-20 ">
-          <p className="text-center pb-8 lg:text-7xl font-semibold text-white md:text-3xl">Products we offer</p>
-          <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-10">
-            <Link to='/agrochemical'>
+      <section id="Projects"
+        className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
 
+        <div className="w-72 h-[19rem] object-cover bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl ">
+          <a href="#">
+            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgN8_TKpT9zXrmnB78YLsgTLSKzfSSpzZXDI1JYrcOog&s' alt="Product" className="h-60 w-full rounded-t-xl" />
+            <div className="px-4 py-3  w-72">
+              {/* <span className="text-gray-400 mr-3 uppercase text-xs">Agrochemical</span> */}
+              <p className="text-lg font-bold text-black truncate block capitalize text-center ">Soid Revivers</p>
 
-              <Card
-                imageUrl={agrochemical_img}
-                title="Agrochemical"
+            </div>
+          </a>
+        </div>
+        <div className="w-72 h-[19rem] object-cover bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl ">
+          <a href="#">
+            <img src='https://www.tuftsmedicarepreferred.org/sites/default/files/styles/width_731/public/2021-10/GettyImages-1224317722.jpg?itok=FhWXKpnX' alt="Product" className="h-60 w-full rounded-t-xl" />
+            <div className="px-4 py-3  w-72">
+              {/* <span className="text-gray-400 mr-3 uppercase text-xs">Agrochemical</span> */}
+              <p className="text-lg font-bold text-black truncate block capitalize text-center ">PGRs/Nutrition</p>
 
-                date="40"
-
-              />
-            </Link>
-
-            <Link to='/adjuvants'>
-
-
-              <Card
-                imageUrl={adjuvants_img}
-                title="Adjuvants"
-                date="1"
-
-              />
-            </Link>
-            <Link to='/speciality'>
-
-
-              <Card
-                imageUrl={supplements_img}
-                title="IOL specialist"
-                date="15"
-
-              />
-            </Link>
-          </div>
+            </div>
+          </a>
         </div>
 
+        <div className="w-72 h-[19rem] object-cover bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl ">
+          <a href="#">
+            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmepfP2y2LHJvP4gzerAH3gE0GchF13aZK_vbFP8TMf2l70Q8_ZXf-PB5bIG1nO5LIY4o&usqp=CAU' alt="Product" className="h-60 w-full rounded-t-xl" />
+            <div className="px-4 py-3  w-72">
+              {/* <span className="text-gray-400 mr-3 uppercase text-xs">Agrochemical</span> */}
+              <p className="text-lg font-bold text-black truncate block capitalize text-center ">Protection</p>
+
+            </div>
+          </a>
+        </div>
+
+       
+      
 
 
-      </div>
+      </section>
+
+    
+      
+
+
+
+
     </>
-  )
+  );
 }
 
-export default Products
-
-
-
-
-// import React from 'react';
-// import { Link } from 'react-router-dom';
-
-// const ProductCard = ({ imageUrl, productName }) => {
-//   return (
-//     <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
-//       <a href="#">
-//         <img src={imageUrl} alt="Product" className="h-80 w-72 object-cover rounded-t-xl" />
-//         <div className="px-4 py-3 w-72">
-//           <p className="text-lg font-bold text-black truncate block capitalize">{productName}</p>
-
-//         </div>
-//       </a>
-//     </div>
-//   );
-// }
-
-// const ResponsiveProductGrid = () => {
-//   return (
-//     <>
-
-
-
-//       <div className="text-center p-10 bg-yellow-900">
-//         <h1 className="font-bold text-4xl mb-4 text-white">Products </h1>
-//         <section id="Projects"
-//           className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
-
-
-//           <ProductCard
-//             imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLJWUV4Ew8HMdDDd5sHkiD6eaBaPZloKJ-OpXVUA8xxA&s"
-//             productName="AGROCHEMICAL"
-
-//           />
-
-//           <ProductCard
-//             imageUrl="https://www.crodapharma.com/mediaassets/images/health-care/health-care-new-website/png/adjuvant-systems-visual-nav.jpg?la=en-GB"
-
-//             productName="ADJUVANT"
-//           />
-
-
-//           <ProductCard
-//             imageUrl={supplements_img}
-
-//             productName="BIOSTIMULANT"
-//           />
-
-//         </section>
-
-//         <div className="relative mx-auto  mb-10 w-[70%]">
-//           <img className="h-16 w-full object-cover rounded-md object-center" src="https://w0.peakpx.com/wallpaper/1010/898/HD-wallpaper-green-leafed-plants-shallow-graphy-dark-theme-dark-theme.jpg" alt="Random image" />
-//           <div className="absolute inset-0 bg-green-900 opacity-50 rounded-md"></div>
-//           <div className="absolute inset-0 flex items-center  justify-center">
-//             <Link to='/agrochemical' className="text-white text-3xl font-bold hover:text-gray-900 hover:text-[2rem]">see all products</Link>
-//           </div>
-//         </div>
-//       </div>
-
-
-
-
-//     </>
-
-
-
-//   );
-// }
-
-// export default ResponsiveProductGrid;
-
-
+export default ProductGrid;

@@ -21,11 +21,11 @@ import Headline from './Headline'
 const MainPage = () => {
   return (
     <>
-      <Headline />
+      {/* <Headline /> */}
       <OurStory />
       <Static/>
-      <RnDforHome />
-      {/* <Product /> */}
+      <Product />
+      {/* <RnDforHome /> */}
       {/* <BestSeller/> */}
       {/* <Hightlights/> */}
       {/* <Trust/> */}
