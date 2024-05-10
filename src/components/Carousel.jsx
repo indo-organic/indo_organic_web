@@ -1,65 +1,10 @@
 
 import caro1 from '../carouselImg/image1.png'
 import caro2 from '../carouselImg/image2.png'
-import caro3 from '../carouselImg/image3.png'
-// import "react-responsive-carousel/lib/styles/carousel.min.css"; 
-// import { Carousel } from 'react-responsive-carousel';
-
-// const Hero = () => {
-//   return (
-//     <>
-//       <div className=" w-full ">
-//         <Carousel showArrows={false} showThumbs={false} autoPlay={true} infiniteLoop={true} transitionTime={10}>
-//           <div>
-//             <img src={caro1} />
-
-//           </div>
-
-//           <div>
-//             <img src={caro2} />
-
-//           </div>
-//           <div>
-//             <img src={caro3} />
-
-//           </div>
-
-//           <div>
-//             <img src={caro3} />
-
-//           </div>
+// import caro3 from '../carouselImg/image3.png'
+import caro3 from '../carouselImg/image3.mp4'
 
 
-
-//         </Carousel>
-
-
-
-//       </div>
-
-//     </>
-//   )
-// }
-
-// export default Hero
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-import React from 'react';
 import { MDBCarousel, MDBCarouselItem, MDBCarouselCaption } from 'mdb-react-ui-kit';
 const Carousel = () => {
   return (
@@ -80,7 +25,9 @@ const Carousel = () => {
       </MDBCarouselCaption>
     </MDBCarouselItem>
     <MDBCarouselItem itemId={3}>
-      <img src={caro3} className='d-block w-100' alt='...' />
+      {/* <img src={caro3} className='d-block w-100' alt='...' /> */}
+      <video src={caro3} className='d-block w-100' loop autoPlay muted></video>
+
       <MDBCarouselCaption>
         {/* <h5>Third slide label</h5>
         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}

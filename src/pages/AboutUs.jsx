@@ -117,13 +117,13 @@ const AboutUs = () => {
 
       </div>
 
-      <div className='flex  justify-center w-[100%] py-10  bg-gray-200  text-black'>
+      <div className='flex  justify-center w-[100%] py-10  bg-white  text-black'>
 
         <div className="w-[30%]  ">
           <img src={aboutImg4} alt="" />
         </div>
 
-        <div className='w-[60%] bg-gray-300'>
+        <div className='w-[60%] bg-gray-100'>
           <div className='p-4 py-[3rem]'>
             <p className='py-2 text-3xl text-green-500 font-bold'>WHO WE ARE ?
             </p>
@@ -143,16 +143,11 @@ const AboutUs = () => {
             <p className='text-l  font-bold'>Key- A Symbol of Our Promise</p>
             <p className='py-1 '>&#9702; Our mascot is small Key which we believe is Key to Success</p>
             <p className='pt-3'>&#9702; For us Key is nothing but attitude, which is embedded in all its positivity among our team members and our way of doing business</p>
-
             <p className='pt-3 ' >&#9702; The attitude to create possibilities of success and growth for all associated with our company.
             </p>
             <p className='pt-3 ' >&#9702; This is the Key to growth which will be the differentiation.</p>
-
           </div>
-
         </div>
-
-
       </div>
 
       {/* 
@@ -211,8 +206,6 @@ const AboutUs = () => {
       </section> */}
 
 
-
-
       <section className="bg-gray-400">
         <div className="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-1">
@@ -233,11 +226,6 @@ const AboutUs = () => {
         </div>
       </section>
 
-
-
-
-
-
       <section className="bg-gray-400">
         <div className="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-1">
@@ -257,8 +245,6 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
-
-
 
 
     </>
