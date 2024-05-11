@@ -26,7 +26,7 @@ const MainPage = () => {
       <OurStory />
       <Static/>
       <Product />
-      {/* <RnDforHome /> */}
+      <RnDforHome />
       {/* <BestSeller/> */}
       {/* <Hightlights/> */}
       {/* <Trust/> */}
@@ -40,7 +40,6 @@ const MainPage = () => {
       {/* <Team/> */}
       {/* <News/> */}
       <QR/>
-
       <ContactHome />
 
 

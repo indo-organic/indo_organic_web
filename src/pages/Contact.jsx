@@ -47,7 +47,7 @@ const Contact = () => {
       <div className="lg:flex md:text-center md:h-[90vh]  gap-4 w-[100%] lg:h-[50vh] bg-cover bg-fixed bg-center justify-center items-center m-auto"
         style={{ backgroundImage: 'url(https://img.freepik.com/free-vector/white-abstract-background-theme_23-2148827269.jpg)' }}>
 
-        <div className="font-sans w-[30%] flex flex-col items-center text-center  justify-center h-[40vh] border-4 border-black  hover:bg-gray-200 ">
+        {/* <div className="font-sans w-[30%] flex flex-col items-center text-center  justify-center h-[40vh] border-4 border-black  hover:bg-gray-200 ">
           <div className="flex flex-col gap-3 items-center ">
             <CiLocationOn className="text-6xl text-green-500" />
             <p className="text-xl uppercase">address</p>
@@ -92,7 +92,7 @@ const Contact = () => {
             </p>
           </div>
 
-        </div>
+        </div> */}
 
       </div>
 
