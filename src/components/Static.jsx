@@ -1,4 +1,6 @@
 import staticsbg from '../carouselImg/stat.png'
+// import staticsbg from '../carouselImg/stat.png'
+
 const Static = () => {
   return (
     <>
@@ -7,7 +9,7 @@ const Static = () => {
 
      
 
-        <section className="flex flex-col w-[90%] h-[20vh]  bg-cover bg-fixed bg-center justify-center items-center m-auto"
+        <section className="flex flex-col w-[90%] h-[40vh]  bg-cover bg-fixed bg-center justify-center items-center m-auto"
            style={{ backgroundImage:  `url(${staticsbg})` }}
         >
 
