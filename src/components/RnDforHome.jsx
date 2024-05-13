@@ -6,12 +6,12 @@ import staticsbg from '../assets/staticsbg.jpg'
 const RnDforHome = () => {
   return (
     <>
-     
 
 
 
 
-{/* 
+
+      {/* 
 <div className="py-16 bg-green-950 ">
       <div className="container m-auto px-6 space-y-8 text-gray-500 md:px-12 lg:px-20">
         <div className="justify-center text-center gap-6 md:text-left md:flex lg:items-center  lg:gap-16">
@@ -43,7 +43,7 @@ const RnDforHome = () => {
     </div> */}
 
 
-<section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-gray-100 min-h-[70vh]">
+      <section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-gray-100 min-h-[70vh]">
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center justify-between -mx-4">
             <div className="w-full px-4 lg:w-6/12">
@@ -71,7 +71,7 @@ const RnDforHome = () => {
                       alt=""
                       className="w-full rounded-2xl"
                     />
-                    
+
                   </div>
                 </div>
               </div>
@@ -80,16 +80,16 @@ const RnDforHome = () => {
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="mt-10 lg:mt-0">
                 <span className="block mb-4 text-lg font-semibold text-green-700">
-                 Indo organics
+                  Indo organics
                 </span>
                 <h2 className="mb-5 text-3xl font-bold text-dark dark:text-white sm:text-[40px]/[48px]">
-                Research and Development
+                  Research and Development
                 </h2>
                 <p className="mb-5 text-base text-body-color dark:text-dark-6">
-                Fostering Prosperity Through Innovative Agrochemical Solutions. Cultivating Sustainability, Yielding Success. Bridging Science with Nature, Empowering Farmers for a Greener Tomorrow. 
+                  Fostering Prosperity Through Innovative Agrochemical Solutions. Cultivating Sustainability, Yielding Success. Bridging Science with Nature, Empowering Farmers for a Greener Tomorrow.
                 </p>
                 <p className="mb-8 text-base text-body-color dark:text-dark-6">
-                Your Partner in Agricultural Excellence and Environmental Stewardship.
+                  Your Partner in Agricultural Excellence and Environmental Stewardship.
                 </p>
                 <Link to='/reseachDev'
                   href="javascript:void(0)"
@@ -102,7 +102,6 @@ const RnDforHome = () => {
           </div>
         </div>
       </section>
-
 
     </>
   )
