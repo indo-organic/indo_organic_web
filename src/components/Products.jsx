@@ -58,7 +58,7 @@ const ProductGrid = () => {
             <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgN8_TKpT9zXrmnB78YLsgTLSKzfSSpzZXDI1JYrcOog&s' alt="Product" className="h-60 w-full rounded-t-xl" />
             <div className="px-4 py-3  w-72">
               {/* <span className="text-gray-400 mr-3 uppercase text-xs">Agrochemical</span> */}
-              <p className="text-lg font-bold text-black truncate block capitalize text-center ">Soid Revivers</p>
+              <p className="text-lg font-bold text-black truncate block capitalize text-center ">Soil Revivers</p>
 
             </div>
           </a>
