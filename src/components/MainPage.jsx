@@ -19,6 +19,7 @@ import BestSeller from './BestSeller'
 // import ContactHome from './ContactHome'
 // import Headline from './Headline'
 import QR from './QR'
+import Catalogue from './Catalogue'
 const MainPage = () => {
   return (
     <>
@@ -38,7 +39,8 @@ const MainPage = () => {
       {/* <Indo_researchBox/> */}
       {/* <NewUpdate/> */}
       {/* <Team/> */}
-      <News/>
+      {/* <News/> */}
+      <Catalogue/>
       <QR/>
       {/* <ContactHome /> */}
 

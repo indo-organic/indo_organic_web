@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 const ProductGrid = () => {
   return (
     <>
-      <div className="text-center pt-[10rem]">
-        <h1 className="font-[900] text-4xl mb-1 ">Products We Offer</h1>
+      <div className="text-center pt-[5rem]">
+        <h1 className="font-[900] text-7xl mb-1 text-green-800">Products We Offer</h1>
       </div>
 
       <section id="Projects"
-        className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
+        className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
 
         <Link to='/insecticide' className="w-72 h-[19rem] object-cover bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl ">
           <a href="#">
@@ -42,9 +42,16 @@ const ProductGrid = () => {
           </a>
         </Link>
 
-       
-      
+        <Link to='/adjuvant' className="w-72 h-[19rem] object-cover bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl ">
+          <a href="#">
+            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaoPEuW6TOCrAMpUDaID7M6waBiMGk9hKNv_Ygl58hCA&s' alt="Product" className="h-60 w-full rounded-t-xl" />
+            <div className="px-4 py-3  w-72">
+              {/* <span className="text-gray-400 mr-3 uppercase text-xs">Agrochemical</span> */}
+              <p className="text-lg font-bold text-black truncate block capitalize text-center ">Adjuvant</p>
 
+            </div>
+          </a>
+        </Link>
 
       </section>
 

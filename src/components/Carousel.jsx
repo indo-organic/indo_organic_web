@@ -1,5 +1,5 @@
 
-import caro1 from '../carouselImg/image1.png'
+import caro1 from '../carouselImg/first.png'
 import caro2 from '../carouselImg/image2.png'
 // import caro3 from '../carouselImg/image3.png'
 import caro3 from '../carouselImg/image3.mp4'
@@ -10,7 +10,7 @@ const Carousel = () => {
   return (
     <MDBCarousel showControls showIndicators>
     <MDBCarouselItem itemId={1}>
-      <img src={caro1} className='d-block w-100' alt='...' />
+      <img src={caro1} className='d-block w-100 ' alt='...' />
       <MDBCarouselCaption>
         {/* <h5>First slide label</h5>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
