@@ -4,12 +4,7 @@ import '../styles/coHome.scss'
 const ContactHome = () => {
     return (
         <>
-
-
-
-
-
-           <section className="bg-green-950">
+           {/* <section className="bg-green-950">
                 <div className="container px-6 py-12 mx-auto">
                     <div>
                         <p className="font-medium text-white">Contact us</p>
@@ -67,11 +62,9 @@ const ContactHome = () => {
                         </div>
                     </div>
                 </div>
-            </section> 
+            </section>  */}
 
-
-
-            {/* <section className="flex  gap-4 w-[100%] min-h-[30rem] bg-cover bg-fixed bg-bottom justify-center items-center m-auto "
+            <section className="flex  gap-4 w-[100%] min-h-[30rem] bg-cover bg-fixed bg-bottom justify-center items-center m-auto "
                 style={{ backgroundImage: 'url(https://t3.ftcdn.net/jpg/07/74/86/40/360_F_774864064_IJeOOaBHfKhU98W90oIkvyXZmWCytrIe.jpg)' }}>
 
                 <div className="w-[80%] h-[20rem]  flex flex-col items-center justify-center gap-5 uppercase font-serif">
@@ -80,7 +73,7 @@ const ContactHome = () => {
                     <button className='border-2 border-white text-white px-4 text-[1.3rem] font-[600]' >contact us</button>
                 </div>
 
-            </section> */}
+            </section>
 
 
 
@@ -88,10 +81,10 @@ const ContactHome = () => {
 
 
 
-{/* 
-          <div className="overflow-hidden rounded-lg lg:col-span-2 h-96 lg:h-auto flex justify-center  py-20 bg-gray-200">
-                <iframe className='h-[20rem] w-[90%]' frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.339275172473!2d77.17552497529209!3d28.70940507562289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d031c41947203%3A0xe88fd4421f109030!2sIndo%20Organics%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1710313494240!5m2!1sen!2sin"></iframe>
-            </div>  */}
+
+  <div className="overflow-hidden rounded-lg lg:col-span-2 h-96 lg:h-auto flex justify-center  py-10 bg-gray-200">
+                <iframe className='h-[20rem] w-[96%]' frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.339275172473!2d77.17552497529209!3d28.70940507562289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d031c41947203%3A0xe88fd4421f109030!2sIndo%20Organics%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1710313494240!5m2!1sen!2sin"></iframe>
+            </div>  
 
 
 

@@ -1,9 +1,10 @@
 import qr from '../carouselImg/qr.png'
+import qrImg from '../carouselImg/qrImg.png'
 const Catalogue = () => {
     return (
         <>
 
-<section class="bg-white dark:bg-gray-900 py-[20vh]">
+            <section class="bg-white dark:bg-gray-900 py-[20vh]">
         <div class="container flex flex-col items-center px-4 py-12 mx-auto xl:flex-row">
             <div class="flex justify-center xl:w-1/2">
                 <img class="h-80 w-80 sm:w-[28rem] sm:h-[28rem] flex-shrink-0 object-contain" src={qr} alt=""/>
@@ -30,6 +31,9 @@ const Catalogue = () => {
             </div>
         </div>
     </section>
+
+
+
 
 
         </>

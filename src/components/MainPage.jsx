@@ -16,7 +16,7 @@ import RnDforHome from "./RnDforHome"
 import News from '../footer/News'
 import BestSeller from './BestSeller'
 // import HomeVideo from './HomeVideo'
-// import ContactHome from './ContactHome'
+import ContactHome from './ContactHome'
 // import Headline from './Headline'
 import QR from './QR'
 import Catalogue from './Catalogue'
@@ -40,9 +40,9 @@ const MainPage = () => {
       {/* <NewUpdate/> */}
       {/* <Team/> */}
       {/* <News/> */}
-      <Catalogue/>
-      <QR/>
-      {/* <ContactHome /> */}
+      {/* <Catalogue/> */}
+      {/* <QR/> */}
+      <ContactHome />
 
 
 

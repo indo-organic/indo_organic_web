@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom';
 const ProductGrid = () => {
   return (
     <>
-      <div className="text-center pt-[5rem]">
-        <h1 className="font-[900] text-7xl mb-1 text-green-800">Products We Offer</h1>
+    <div className="min-h-[100vh] py-20">
+      <div className="text-center pt-[2rem] ">
+        <h1 className="font-[900] text-5xl mb-1 text-green-800">Products We Offer</h1>
       </div>
 
       <section id="Projects"
@@ -52,7 +53,6 @@ const ProductGrid = () => {
             </div>
           </a>
         </Link>
-
       </section>
 
 
@@ -87,21 +87,11 @@ const ProductGrid = () => {
             <div className="px-4 py-3  w-72">
               {/* <span className="text-gray-400 mr-3 uppercase text-xs">Agrochemical</span> */}
               <p className="text-lg font-bold text-black truncate block capitalize text-center ">Protection</p>
-
             </div>
           </a>
         </div>
-
-       
-      
-
-
       </section>
-
-    
-      
-
-
+      </div>
 
 
     </>

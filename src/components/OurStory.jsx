@@ -7,11 +7,7 @@ import homeResearch from '../assets/homeResearchV.mp4'
 const OurStory = () => {
   return (
     <>
-
-
-
-
-      <div className='bg-gray-white' >
+      <div className='bg-gray-white h-screen' >
 
         <div className=" relative flex items-center justify-center overflow-hidden bg-whitesmoke z-10">
           <div className="relative mx-auto h-full px-4 pb-20 md:pb-10 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8">
@@ -19,7 +15,7 @@ const OurStory = () => {
               <div className="relative">
 
                 <div className="lg:max-w-xl lg:pr-5 relative z-40">
-                  <p className="flex  uppercase text-xl text-black">About Us</p>
+                  <p className="flex  uppercase text-xl text-black font-sans">About Us</p>
                   <h2 className="mb-6 max-w-lg text-5xl font-light leading-snug tracking-tight text-g1 sm:text-7xl sm:leading-snug text-black">
                     Quality is never by {' '}
                     <span className="my-1 inline-block border-b-8 border-g4 px-4 font-bold text-green-700 ">Chance</span>
