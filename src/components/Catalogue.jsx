@@ -7,7 +7,7 @@ const Catalogue = () => {
             <section class="bg-white dark:bg-gray-900 py-[20vh]">
         <div class="container flex flex-col items-center px-4 py-12 mx-auto xl:flex-row">
             <div class="flex justify-center xl:w-1/2">
-                {/* <img class="h-80 w-80 sm:w-[28rem] sm:h-[28rem] flex-shrink-0 object-contain" src={qr} alt=""/> */}
+                <img class="h-80 w-80 sm:w-[28rem] sm:h-[28rem] flex-shrink-0 object-contain" src={qr} alt=""/>
             </div>
             
             <div class="flex flex-col items-center mt-6 xl:items-start xl:w-1/2 xl:mt-0">
