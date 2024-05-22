@@ -5,7 +5,7 @@ import OurStory from "./OurStory"
 // import NewUpdate from "./NewUpdate"
 // import Home_vision_mission from "./Home_vision_mission"
 // import Indo_researchBox from "./Indo_researchBox"
-// import Gallery from "./Gallery"
+import Gallery from "./Gallery"
 // import Trust from "./Trust"
 // import Quality from './Quality'
 import Static from "./Static"
@@ -24,6 +24,7 @@ const MainPage = () => {
   return (
     <>
       {/* <Headline /> */}
+      {/* <Gallery /> */}
       <OurStory />
       <Static/>
       <Product />
@@ -34,7 +35,6 @@ const MainPage = () => {
       {/* <Home_vision_mission/> */}
       {/* <Quality/> */}
       {/* <HomeVideo/> */}
-      {/* <Gallery /> */}
       {/* <IntroVid/> */}
       {/* <Indo_researchBox/> */}
       {/* <NewUpdate/> */}

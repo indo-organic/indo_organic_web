@@ -1,10 +1,11 @@
+
 import indomagic from '../product_image/indomagic.png'
 import alaska from '../product_image/alaska.png'
 import vaid from '../product_image/vaid.png'
 import demo70 from '../product_image/demo70.png'
 import rukka from '../product_image/rukka.png'
 const Gallery = () => {
-   
+
   return (
     <>
 
@@ -49,27 +50,11 @@ const Gallery = () => {
       </div>
     </section> 
 
-
-
-  
-
-
-
-
-
-
     </>
   )
 }
 
 export default Gallery
-
-
-
-
-
-
-
 
 
 
