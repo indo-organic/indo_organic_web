@@ -24,7 +24,7 @@ const MainPage = () => {
   return (
     <>
       {/* <Headline /> */}
-      <Gallery />
+      {/* <Gallery /> */}
       <OurStory />
       <Static/>
       <Product />
