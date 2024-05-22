@@ -96,8 +96,8 @@ const Navbar = () => {
 
                     </span>
                     <div className="inline-block cursor-pointer border-gray-300">
-                    <FaRegNewspaper className="text-2xl cursor-pointer fill-[#333] hover:fill-[#007bff] inline-block" />
-                       
+                        <FaRegNewspaper className="text-2xl cursor-pointer fill-[#333] hover:fill-[#007bff] inline-block" />
+
 
 
                     </div>
@@ -435,8 +435,8 @@ const Navbar = () => {
 
 
 
-                        <li className='max-lg:border-b max-lg:px-3 max-lg:py-3'><a href='javascript:void(0)'
-                            className='hover:text-[#007bff] text-gray-600 font-semibold text-[15px] block'>contact us</a></li>
+                        <Link to='/contact' className='max-lg:border-b max-lg:px-3 max-lg:py-3'><a href='javascript:void(0)'
+                            className='hover:text-[#007bff] text-gray-600 font-semibold text-[15px] block'>contact us</a></Link>
                     </ul>
                 </div>
 
