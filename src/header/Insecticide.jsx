@@ -38,7 +38,7 @@ const Insecticide = () => {
   return (
     <>
 
-      <div className="bg-yellow-900">
+      <div className="">
 
 
         {/* <h1 className="text-3xl font-bold mb-4 text-center  uppercase   bg-gray-800  text-white p-16">insecticide</h1> */}

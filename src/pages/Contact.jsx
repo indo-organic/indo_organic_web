@@ -4,6 +4,7 @@ import { MdCallEnd } from "react-icons/md";
 import { AiOutlineMail } from "react-icons/ai";
 import { Link } from "react-router-dom";
 // import contactUS from '../AboutImg/contantnew.png'
+import contactImg from '../productImgicon/contactImg.jpg'
 
 
 
@@ -25,7 +26,7 @@ const Contact = () => {
       </div> */}
 
       <div className="flex  gap-4 w-[100%] h-[25rem] bg-cover bg-fixed bg-bottom justify-center items-center m-auto "
-        style={{ backgroundImage: 'url(https://t4.ftcdn.net/jpg/03/14/35/05/360_F_314350569_NwbxSuxBEnzfWgPJFhKhBbS2zcpzeoCs.jpg)' }}>
+        style={{ backgroundImage: `url(${contactImg})` }}>
 
         <div className="absolute inset-0 flex flex-col items-center justify-center ">
           <h2 className="text-white text-3xl font-bold uppercase">contact us</h2>
