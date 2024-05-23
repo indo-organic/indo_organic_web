@@ -20,6 +20,8 @@ import ContactHome from './ContactHome'
 // import Headline from './Headline'
 import QR from './QR'
 import Catalogue from './Catalogue'
+import Sustain from './Sustain'
+import Crop from './Crop'
 const MainPage = () => {
   return (
     <>
@@ -29,7 +31,9 @@ const MainPage = () => {
       <Static/>
       <Product />
       <RnDforHome />
-      <BestSeller/>
+      <Sustain/>
+      {/* <Crop/> */}
+      {/* <BestSeller/> */}
       {/* <Hightlights/> */}
       {/* <Trust/> */}
       {/* <Home_vision_mission/> */}
@@ -39,9 +43,9 @@ const MainPage = () => {
       {/* <Indo_researchBox/> */}
       {/* <NewUpdate/> */}
       {/* <Team/> */}
-      {/* <News/> */}
-      <Catalogue/>
-      <QR/>
+      {/* <Catalogue/> */}
+      {/* <QR/> */}
+      <News/>
       <ContactHome />
 
 

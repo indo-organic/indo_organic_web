@@ -7,7 +7,7 @@ import homeResearch from '../assets/homeResearchV.mp4'
 const OurStory = () => {
   return (
     <>
-      <div className='bg-gray-white h-screen' >
+      <div className='bg-pink-50 h-screen' >
 
         <div className=" relative flex items-center justify-center overflow-hidden bg-whitesmoke z-10">
           <div className="relative mx-auto h-full px-4 pb-20 md:pb-10 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8">
@@ -20,7 +20,7 @@ const OurStory = () => {
                     Quality is never by {' '}
                     <span className="my-1 inline-block border-b-8 border-g4 px-4 font-bold text-green-700 ">Chance</span>
                   </h2>
-                  <p className="text-base  text-black">Indoorganics Pvt Ltd. (IOL) is a leading manufacturer, marketer and exporter of agricultural inputs which includes a range of nonorganic pesticides (Agrochemicals) and a mix of organic products particularly bio-stimulants, biological solutions, plant nutrients and fertilizers. We have been serving the farming community through our high-quality Crop Protection & Crop Nutrition products since many years.</p>
+                  <p className="text-base  text-black font-serif ">Indoorganics Pvt Ltd. (IOL) is a prominent manufacturer, marketer, and exporter of agricultural inputs. Our product range includes non-organic pesticides (agrochemicals) and a variety of organic products, particularly bio-stimulants, biological solutions, plant nutrients, and fertilizers. For many years, we have been dedicated to serving the farming community with our high-quality crop protection and crop nutrition products.</p>
                   <div className="mt-10 flex flex-col items-center md:flex-row">
                     <Link to="/aboutUs" className="mb-3 inline-flex h-12 w-full items-center justify-center rounded bg-green-700 px-6 font-medium tracking-wide text-white shadow-md transition hover:bg-green-900 focus:outline-none md:mr-4 md:mb-0 md:w-auto">
                       View More
