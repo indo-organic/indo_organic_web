@@ -118,7 +118,7 @@ const App = () => {
         <SocialMedia />
 
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/'  element={<Home />} />
           <Route path='/agrochemical' element={<Agrochemical />} />
           <Route path='/organicRange' element={<OrganicRange />} />
           <Route path='/speciality' element={<Speciality />} />

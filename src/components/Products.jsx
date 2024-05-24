@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import herbicideImg from '../assets/herbicide.png'
+import protectionImg from '../productImgicon/protection.png'
 const ProductGrid = () => {
   return (
     <>
@@ -84,7 +85,7 @@ const ProductGrid = () => {
 
           <Link to='/protection' className="w-72 h-[19rem] object-cover bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl ">
             <a href="#">
-              <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmepfP2y2LHJvP4gzerAH3gE0GchF13aZK_vbFP8TMf2l70Q8_ZXf-PB5bIG1nO5LIY4o&usqp=CAU' alt="Product" className="h-60 w-full rounded-t-xl" />
+              <img src={protectionImg} alt="Product" className="h-60 w-full rounded-t-xl" />
               <div className="px-4 py-3  w-72">
                 {/* <span className="text-gray-400 mr-3 uppercase text-xs">Agrochemical</span> */}
                 <p className="text-lg font-bold text-black truncate block capitalize text-center ">Protection</p>

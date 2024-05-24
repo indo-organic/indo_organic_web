@@ -86,7 +86,7 @@ const Navbar = () => {
       </div> */}
 
                 <a href="javascript:void(0)" className="shrink-0"><img src={logo} alt="logo"
-                    className='md:w-[170px] w-36' />
+                    className='md:w-[200px] w-36' />
                 </a>
 
                 <div className="lg:absolute lg:right-10 flex items-center ml-auto space-x-8">

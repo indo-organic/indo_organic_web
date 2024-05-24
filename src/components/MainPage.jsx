@@ -44,8 +44,8 @@ const MainPage = () => {
       {/* <NewUpdate/> */}
       {/* <Team/> */}
       {/* <Catalogue/> */}
-      {/* <QR/> */}
-      <News/>
+      <QR/>
+      {/* <News/> */}
       <ContactHome />
 
 
