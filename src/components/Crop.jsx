@@ -12,7 +12,7 @@ const crops = [
     description: "lorem10 demo text",
     imageUrl: "https://vlsci.com/wp-content/uploads/2022/07/melissa-askew-y4xZxzN754M-unsplash-scaled.jpg"
   },
- 
+
   {
     title: "sugarcane",
     description: "lorem10 demo text",
@@ -37,10 +37,10 @@ const crops = [
 
 const Crop = () => {
   return (
-    <div className="container">
+    <div className="container-crops">
       <h2 className="title">target Crops</h2>
       <p className="description">
-      Indo Organis offers a wide range of products tailored for various crops.
+        Indo Organis offers a wide range of products tailored for various crops.
       </p>
       <div className="crops-slider">
         <div className="slider-wrapper">
