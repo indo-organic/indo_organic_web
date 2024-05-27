@@ -214,7 +214,7 @@ const AboutUs = () => {
               <h2 className="text-3xl font-extrabold text-white sm:text-4xl">Vision</h2>
               <p className="mt-4 text-white text-lg">At Indo Organic, our vision is to lead the agricultural industry towards a sustainable and prosperous future. We envision a world where farming practices harmonize with nature, where the soil is nurtured, and where the health and well-being of both people and the planet are paramount</p>
               <div className="mt-8">
-                <a href="#" className="text-blue-500  font-medium">Learn more about our vision <span className="ml-2">&#8594;</span></a>
+                <div href="#" className="text-blue-500  font-medium">Learn more about our vision <span className="ml-2">&#8594;</span></div>
               </div>
             </div>
 
@@ -237,7 +237,7 @@ const AboutUs = () => {
               <h2 className="text-3xl font-extrabold text-white sm:text-4xl">Mission</h2>
               <p className="mt-4 text-white text-lg">At Indo Organic, our mission is to revolutionize agriculture by providing innovative agrochemical solutions and organic products that enhance crop productivity while safeguarding environmental sustainability. We are dedicated to empowering farmers with knowledge, tools, and resources to adopt sustainable farming practices, promoting soil health, biodiversity, and ecological balance.</p>
               <div className="mt-8">
-                <a href="#" className="text-blue-500 hover:text-blue-600 font-medium">Learn more about our mission <span className="ml-2">&#8594;</span></a>
+                <div className="text-blue-500 hover:text-blue-600 font-medium">Learn more about our mission <span className="ml-2">&#8594;</span></div>
               </div>
             </div>
 

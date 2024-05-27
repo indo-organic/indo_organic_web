@@ -31,7 +31,7 @@ const MainPage = () => {
       {/* <Headline /> */}
       {/* <Gallery /> */}
       <OurStory />
-      <Weather/>
+      {/* <Weather/> */}
       <Static/>
       <Product />
       <RnDforHome />

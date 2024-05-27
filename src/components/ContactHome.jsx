@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom'
 const ContactHome = () => {
     return (
         <>
-            {/* <section className="bg-green-950">
+
+             {/* <section className="bg-green-950">
                 <div className="container px-6 py-12 mx-auto">
                     <div>
                         <p className="font-medium text-white">Contact us</p>
@@ -63,7 +64,7 @@ const ContactHome = () => {
                         </div>
                     </div>
                 </div>
-            </section>  */}
+            </section>   */}
 
             <section className="flex  gap-4 w-[100%] min-h-[20rem] bg-cover bg-fixed bg-bottom justify-center items-center m-auto "
                 style={{ backgroundImage: 'url(https://www.deere.co.in/assets/images/region-1/industries/agriculture/in_agriculture_hero_1366x347.jpg)' }}>
@@ -71,14 +72,14 @@ const ContactHome = () => {
                 <div className="w-[80%] h-[20rem]  flex flex-col items-center justify-center gap-5 uppercase font-serif">
                     <p className='text-white text-[3rem] font-[900]'>grow with us, thrive tomorrow</p>
                     {/* <p className='text-white text-xl font-[900]  text-center'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur consectetur et ratione. Totam veritatis, optio quam molestias maxime non quaerat.</p> */}
-                    <Link to='/contact' class="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-green-500 rounded-xl group">
-                      <span class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-green-700 rounded group-hover:-mr-4 group-hover:-mt-4">
-                        <span class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
-                      </span>
-                      <span class="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full translate-y-full bg-green-900 rounded-2xl group-hover:mb-12 group-hover:translate-x-0"></span>
-                      <span class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white">Contact us</span>
+                    <Link to='/contact' className="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-green-500 rounded-xl group">
+                        <span className="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-green-700 rounded group-hover:-mr-4 group-hover:-mt-4">
+                            <span className="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
+                        </span>
+                        <span className="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full translate-y-full bg-green-900 rounded-2xl group-hover:mb-12 group-hover:translate-x-0"></span>
+                        <span className="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white">Contact us</span>
                     </Link>
-                    
+
 
                 </div>
 
@@ -91,8 +92,8 @@ const ContactHome = () => {
 
 
 
-            {/* <div className="overflow-hidden rounded-lg lg:col-span-2 h-96 lg:h-auto flex justify-center  py-10 bg-gray-200">
-                <iframe className='h-[20rem] w-[96%]' frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.339275172473!2d77.17552497529209!3d28.70940507562289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d031c41947203%3A0xe88fd4421f109030!2sIndo%20Organics%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1710313494240!5m2!1sen!2sin"></iframe>
+            {/* <div classNameName="overflow-hidden rounded-lg lg:col-span-2 h-96 lg:h-auto flex justify-center  py-10 bg-gray-200">
+                <iframe classNameName='h-[20rem] w-[96%]' frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.339275172473!2d77.17552497529209!3d28.70940507562289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d031c41947203%3A0xe88fd4421f109030!2sIndo%20Organics%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1710313494240!5m2!1sen!2sin"></iframe>
             </div> */}
 
 

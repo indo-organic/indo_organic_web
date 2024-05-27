@@ -17,20 +17,20 @@ const Indo_researchBox = () => {
   return (
     <>
 
-            <div className="flex text-center p-3">
-            <h1 class="flex-grow sm:pr-16 text-2xl font-medium title-font text-gray-900">INDO ORGANICS AT GLANCE</h1>
-            </div>
+      <div className="flex text-center p-3">
+        <h1 class="flex-grow sm:pr-16 text-2xl font-medium title-font text-gray-900">INDO ORGANICS AT GLANCE</h1>
+      </div>
       <div className="flex flex-wrap justify-center">
         <Card
           title="RESEARCH"
           image={glance1}
         />
-        
-         <Card
+
+        <Card
           title="HAPPY FARMER"
           image="https://t4.ftcdn.net/jpg/03/76/16/79/360_F_376167961_QsDy4ZKc4n8dC5ac1oiqu72HU7Y0J86Z.jpg"
         />
-         <Card
+        <Card
           title="GROWTH"
           image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfTt9iFLY6rwTma9LyB7Ly_ZpC20mnqtCp-U2XNhiJiLC22HdLmZZNj4Mzi00OA1DNKZU&usqp=CAU"
         />

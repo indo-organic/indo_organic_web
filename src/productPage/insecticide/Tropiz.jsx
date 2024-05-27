@@ -12,8 +12,8 @@ const Tropiz = () => {
       <section className="text-gray-600 body-font overflow-hidden bg-gray-100">
         <div className="container px-5 py-24 mx-auto">
           <div className="lg:w-4/5 mx-auto flex flex-wrap">
-            <div class="h-[460px] rounded-lg  dark:bg-gray-700 mb-4">
-              <img class="w-full h-full object-cover" src={tropizImg} alt="Product Image" />
+            <div className="h-[460px] rounded-lg  dark:bg-gray-700 mb-4">
+              <img className="w-full h-full object-cover" src={tropizImg} alt="Product Image" />
             </div>
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
               <h2 className="text-sm title-font text-gray-500 tracking-widest">
