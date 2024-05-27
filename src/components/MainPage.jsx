@@ -25,13 +25,15 @@ import Crop from './Crop'
 const MainPage = () => {
   return (
     <>
+   
+   
       {/* <Headline /> */}
       {/* <Gallery /> */}
       <OurStory />
       <Static/>
       <Product />
       <RnDforHome />
-      <Sustain/>
+      {/* <Sustain/> */}
       {/* <Crop/> */}
       {/* <BestSeller/> */}
       {/* <Hightlights/> */}
@@ -48,7 +50,7 @@ const MainPage = () => {
       {/* <News/> */}
       <ContactHome />
 
-
+  
 
     </>
 

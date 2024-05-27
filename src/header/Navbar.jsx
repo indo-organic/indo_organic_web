@@ -96,7 +96,10 @@ const Navbar = () => {
 
                     </span>
                     <div className="inline-block cursor-pointer border-gray-300">
+                        <a href="https://www.agriculture.com/news" target='blank'>
                         <FaRegNewspaper className="text-2xl cursor-pointer fill-[#333] hover:fill-[#007bff] inline-block" />
+                        </a>
+                        
 
 
 

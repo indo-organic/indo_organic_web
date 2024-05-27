@@ -33,10 +33,10 @@ const Fungicide = () => {
     <>
 
       {/* <h1 className="text-3xl font-bold mb-4 text-center  uppercase   bg-gray-800  text-white p-16">Fungicide</h1> */}
-<div className="bg-gray-600">
+      <div className="bg-gray-600">
 
 
-      <div className="relative mx-auto mt-10 w-full">
+        <div className="relative mx-auto mt-10 w-full">
           <img className="h-64 w-full object-cover rounded-md object-bottom" src="https://foodtank.com/wp-content/uploads/2020/08/Herbicide-Free-Campus_Students_Community-Activism.jpg" alt="Random image" />
           <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
           <div className="absolute inset-0 flex items-center justify-center">
@@ -44,44 +44,44 @@ const Fungicide = () => {
           </div>
         </div>
 
-      <div className="p-1 flex flex-wrap items-center justify-center">
-        <Link to='/IndoPrime'>
-          <FungiCard category="Generic" name="INDO-PRIME" seeMore="see more" sciName='ACTIVE INGREDIENT: Carbendazim 12% + Mancozeb 63% WP
+        <div className="p-1 flex flex-wrap items-center justify-center">
+          <Link to='/IndoPrime'>
+            <FungiCard category="Generic" name="INDO-PRIME" seeMore="see more" sciName='ACTIVE INGREDIENT: Carbendazim 12% + Mancozeb 63% WP
 '
-            imageSrc={IndoPrimeImg}
-            imageAlt="indo-prime" />
-        </Link>
+              imageSrc={IndoPrimeImg}
+              imageAlt="indo-prime" />
+          </Link>
 
-        <Link to='/tangoPlus'>
-          <FungiCard category="Generic" name="TANGO-PLUS" seeMore="see more" sciName='ACTIVE INGREDIENT: Hexaconazole 5% SC'
-            imageSrc={tangoplusImg}
-            imageAlt="tangoPlus" />
-        </Link>
-        <Link to='/sulphie'>
-          <FungiCard category="Generic" name="SULPHIE" seeMore="see more" sciName='ACTIVE INGREDIENT: Sulphur 80% WDG'
-            imageSrc={ sulphieImg}
-            imageAlt="SULPHIE" />
-        </Link>
-        <Link to='/valino'>
-          <FungiCard category="Generic" name="VALINO" seeMore="see more" sciName='ACTIVE INGREDIENT: Validamycin 3% L'
-            imageSrc={valinoImg}
-            imageAlt="VALINO" />
-        </Link>
-        <Link to='/tebnol'>
-          <FungiCard category="Generic" name="TEBNOL" seeMore="see more" sciName='Azoxystrobin 11% + Tebuconazole 18.3% SC'
-            imageSrc={tebnolImg}
-            imageAlt="TEBNOL" />
-        </Link>
-        <Link to='/tringo'>
-          <FungiCard category="Generic" name="TRINGO" seeMore="see more" sciName='Sulphur 65 % + Tebuconazole 10% WDG '
-            imageSrc={tringoImg}
-            imageAlt="TRINGO" />
-        </Link>
-        <Link to='/demo70'>
-          <FungiCard category="Generic" name="DEMO-70" seeMore="see more" sciName='Thiophanate Methyl 70% WP'
-            imageSrc={demo70Img}
-            imageAlt="DEMO-70" />
-        </Link>
+          <Link to='/tangoPlus'>
+            <FungiCard category="Generic" name="TANGO-PLUS" seeMore="see more" sciName='ACTIVE INGREDIENT: Hexaconazole 5% SC'
+              imageSrc={tangoplusImg}
+              imageAlt="tangoPlus" />
+          </Link>
+          <Link to='/sulphie'>
+            <FungiCard category="Generic" name="SULPHIE" seeMore="see more" sciName='ACTIVE INGREDIENT: Sulphur 80% WDG'
+              imageSrc={sulphieImg}
+              imageAlt="SULPHIE" />
+          </Link>
+          <Link to='/valino'>
+            <FungiCard category="Generic" name="VALINO" seeMore="see more" sciName='ACTIVE INGREDIENT: Validamycin 3% L'
+              imageSrc={valinoImg}
+              imageAlt="VALINO" />
+          </Link>
+          <Link to='/tebnol'>
+            <FungiCard category="Generic" name="TEBNOL" seeMore="see more" sciName='Azoxystrobin 11% + Tebuconazole 18.3% SC'
+              imageSrc={tebnolImg}
+              imageAlt="TEBNOL" />
+          </Link>
+          <Link to='/tringo'>
+            <FungiCard category="Generic" name="TRINGO" seeMore="see more" sciName='Sulphur 65 % + Tebuconazole 10% WDG '
+              imageSrc={tringoImg}
+              imageAlt="TRINGO" />
+          </Link>
+          <Link to='/demo70'>
+            <FungiCard category="Generic" name="DEMO-70" seeMore="see more" sciName='Thiophanate Methyl 70% WP'
+              imageSrc={demo70Img}
+              imageAlt="DEMO-70" />
+          </Link>
 
 
 
