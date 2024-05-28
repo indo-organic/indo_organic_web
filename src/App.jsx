@@ -118,7 +118,7 @@ const App = () => {
         <SocialMedia />
 
         <Routes>
-          <Route path='/'  element={<Home />} />
+          <Route path='/' exact  element={<Home />} />
           <Route path='/agrochemical' element={<Agrochemical />} />
           <Route path='/organicRange' element={<OrganicRange />} />
           <Route path='/speciality' element={<Speciality />} />
@@ -186,6 +186,9 @@ const App = () => {
           {/* adjuvants */}
           <Route path='/comboB' element={<Combo_b />} />
 
+
+
+
           {/* biostimulant  */}
 
           {/* soil reviver */}
@@ -199,21 +202,14 @@ const App = () => {
           <Route path='/TotalGR' element={<TotalGR />} />
           <Route path='/TotalGRAdvance' element={<TotalGRAdvance />} />
 
-
           {/* Nutrition */}
           <Route path='/Nutrition' element={<Nutrition />} />
-
           <Route path='/Amigo' element={<Amigo />} />
           <Route path='/AutoMoto' element={<AutoMoto />} />
           <Route path='/BloomFlower' element={<BloomFlower />} />
           <Route path='/FixC' element={<FixC />} />
           <Route path='/HelperL' element={<HelperL />} />
           <Route path='/IndoMagic' element={<IndoMagic />} />
-
-
-
-
-
 
           {/* Protection */}
           <Route path='/Protection' element={<Protection />} />
@@ -222,12 +218,6 @@ const App = () => {
           <Route path='/CureV' element={<Curev />} />
           <Route path='/FungiEx' element={<FungiEx />} />
           <Route path='/Urban3' element={<Urban3/>} />
-
-
-
-
-
-
 
         </Routes>
         <Footer />

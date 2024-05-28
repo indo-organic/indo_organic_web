@@ -2,17 +2,17 @@
 import Product from './Products'
 import OurStory from "./OurStory"
 import IntroVid from "./IntroVid"
-// import NewUpdate from "./NewUpdate"
-// import Home_vision_mission from "./Home_vision_mission"
-// import Indo_researchBox from "./Indo_researchBox"
+import NewUpdate from "./NewUpdate"
+import Home_vision_mission from "./Home_vision_mission"
+import Indo_researchBox from "./Indo_researchBox"
 import Gallery from "./Gallery"
-// import Trust from "./Trust"
-// import Quality from './Quality'
+import Trust from "./Trust"
+import Quality from './Quality'
 import Static from "./Static"
 import RnDforHome from "./RnDforHome"
-// import Hightlights from "./Hightlights"
+import Hightlights from "./Hightlights"
 // import Team from "./Team"
-// import Domestic from '../footer/Domestic'
+import Domestic from '../footer/Domestic'
 import News from '../footer/News'
 import BestSeller from './BestSeller'
 // import HomeVideo from './HomeVideo'
@@ -31,7 +31,7 @@ const MainPage = () => {
       {/* <Headline /> */}
       {/* <Gallery /> */}
       <OurStory />
-      {/* <Weather/> */}
+      <Weather/>
       <Static/>
       <Product />
       <RnDforHome />
@@ -43,7 +43,7 @@ const MainPage = () => {
       {/* <Home_vision_mission/> */}
       {/* <Quality/> */}
       {/* <HomeVideo/> */}
-      <IntroVid/>
+      {/* <IntroVid/> */}
       {/* <Indo_researchBox/> */}
       {/* <NewUpdate/> */}
       {/* <Team/> */}

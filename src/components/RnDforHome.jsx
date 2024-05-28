@@ -1,7 +1,7 @@
 
-import rnd2 from '../RnDImg/rnd2.jpg'
+// import rnd2 from '../RnDImg/rnd2.jpg'
 import { Link } from "react-router-dom"
-import staticsbg from '../assets/staticsbg.jpg'
+// import staticsbg from '../assets/staticsbg.jpg'
 
 const RnDforHome = () => {
   return (

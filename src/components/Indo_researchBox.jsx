@@ -18,7 +18,7 @@ const Indo_researchBox = () => {
     <>
 
       <div className="flex text-center p-3">
-        <h1 class="flex-grow sm:pr-16 text-2xl font-medium title-font text-gray-900">INDO ORGANICS AT GLANCE</h1>
+        <h1 className="flex-grow sm:pr-16 text-2xl font-medium title-font text-gray-900">INDO ORGANICS AT GLANCE</h1>
       </div>
       <div className="flex flex-wrap justify-center">
         <Card

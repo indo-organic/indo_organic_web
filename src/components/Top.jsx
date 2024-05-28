@@ -97,14 +97,14 @@ const Top = () => {
                 />
             </div>
             <div className="flex flex-col sm:flex-row items-center gap-4">
-                <a href="#" className="text-gray-700 hover:text-gray-900 dark:text-gray-500 hover:dark:text-gray-700 text-[13px] flex items-center" onClick={handleEmailClick}>
+                <div className="text-gray-700 hover:text-gray-900 dark:text-gray-500 hover:dark:text-gray-700 text-[13px] flex items-center" onClick={handleEmailClick}>
                     <MdEmail className="mr-1" />
                     info@indoorganics.in
-                </a>
-                <a href="#" className="text-gray-700 hover:text-gray-900 dark:text-gray-500 hover:dark:text-gray-700 text-[13px] flex items-center" onClick={handlePhoneClick}>
+                </div>
+                <div className="text-gray-700 hover:text-gray-900 dark:text-gray-500 hover:dark:text-gray-700 text-[13px] flex items-center" onClick={handlePhoneClick}>
                     <IoIosCall className="mr-1" />
                     + 011-49059099/45500067
-                </a>
+                </div>
             </div>
         </footer>
     )
