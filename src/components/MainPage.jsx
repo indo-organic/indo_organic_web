@@ -1,7 +1,7 @@
 
 import Product from './Products'
 import OurStory from "./OurStory"
-// import IntroVid from "./IntroVid"
+import IntroVid from "./IntroVid"
 // import NewUpdate from "./NewUpdate"
 // import Home_vision_mission from "./Home_vision_mission"
 // import Indo_researchBox from "./Indo_researchBox"
@@ -43,7 +43,7 @@ const MainPage = () => {
       {/* <Home_vision_mission/> */}
       {/* <Quality/> */}
       {/* <HomeVideo/> */}
-      {/* <IntroVid/> */}
+      <IntroVid/>
       {/* <Indo_researchBox/> */}
       {/* <NewUpdate/> */}
       {/* <Team/> */}
