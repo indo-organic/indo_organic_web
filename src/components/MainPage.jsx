@@ -23,6 +23,7 @@ import Catalogue from './Catalogue'
 import Sustain from './Sustain'
 import Crop from './Crop'
 import Weather from './Weather'
+
 const MainPage = () => {
   return (
     <>
@@ -30,6 +31,7 @@ const MainPage = () => {
    
       {/* <Headline /> */}
       {/* <Gallery /> */}
+     
       <OurStory />
       <Weather/>
       <Static/>

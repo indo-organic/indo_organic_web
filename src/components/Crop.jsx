@@ -3,35 +3,31 @@ import '../styles/crop.scss'
 
 const crops = [
   {
-    title: "sugarcane",
-    description: "lorem10 demo text",
-    imageUrl: "https://cdn2.storyasset.link/SZy3NBu3udg2eB4sIldFhYsY1Xt1/Sugarcane-ms-tzeufmrxyw.jpg"
+    title: "Vegetables",
+    description: "demo text here",
+    imageUrl: "https://www.healthyeating.org/images/default-source/home-0.0/nutrition-topics-2.0/general-nutrition-wellness/2-2-2-2foodgroups_vegetables_detailfeature.jpg?sfvrsn=226f1bc7_6"
   },
   {
-    title: "sugarcane",
+    title: "fruits",
     description: "lorem10 demo text",
-    imageUrl: "https://vlsci.com/wp-content/uploads/2022/07/melissa-askew-y4xZxzN754M-unsplash-scaled.jpg"
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPyv4JFGLfaMV99VLNvo8qWPJR7MlV4DdR7w&s"
   },
 
   {
-    title: "sugarcane",
+    title: "Flowers",
     description: "lorem10 demo text",
-    imageUrl: "https://cdn2.storyasset.link/SZy3NBu3udg2eB4sIldFhYsY1Xt1/Sugarcane-ms-tzeufmrxyw.jpg"
+    imageUrl: "https://live-production.wcms.abc-cdn.net.au/0ea672552ce6f69b5d2ed37b659bf8f6?impolicy=wcms_crop_resize&cropH=563&cropW=1000&xPos=0&yPos=0&width=862&height=485"
+  },
+ 
+  {
+    title: "Wheat",
+    description: "lorem10 demo text",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDomxrAZzl5yGc59u9MnC82WgUbxoLg7Kbfw&s"
   },
   {
-    title: "sugarcane",
+    title: "cotton",
     description: "lorem10 demo text",
-    imageUrl: "https://vlsci.com/wp-content/uploads/2022/07/melissa-askew-y4xZxzN754M-unsplash-scaled.jpg"
-  },
-  {
-    title: "sugarcane",
-    description: "lorem10 demo text",
-    imageUrl: "https://cdn2.storyasset.link/SZy3NBu3udg2eB4sIldFhYsY1Xt1/Sugarcane-ms-tzeufmrxyw.jpg"
-  },
-  {
-    title: "sugarcane",
-    description: "lorem10 demo text",
-    imageUrl: "https://vlsci.com/wp-content/uploads/2022/07/melissa-askew-y4xZxzN754M-unsplash-scaled.jpg"
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDhnhqJIj85bgubo4cJR9FeewK6k5WEGyVJg&s"
   },
 ];
 

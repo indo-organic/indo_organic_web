@@ -151,4 +151,66 @@ export default Weather;
 
 
 
+// import React, { useEffect, useState } from 'react';
+// import axios from 'axios';
+
+// const Weather = () => {
+//     const [weather, setWeather] = useState(null);
+//     const [loading, setLoading] = useState(true);
+//     const [error, setError] = useState(null);
+
+//     useEffect(() => {
+//         const fetchData = async () => {
+//             try {
+//                 const response = await axios.get('https://weatherapi-com.p.rapidapi.com/current.json?q=53.1%2C-0.13', {
+//                     headers: {
+//                         'x-rapidapi-key': 'b34be805e2msh6b0d4b477694c4ap16aa88jsn25cf33094219',
+//                         'x-rapidapi-host': 'weatherapi-com.p.rapidapi.com'
+//                     }
+//                 });
+//                 setWeather(response.data);
+//                 setLoading(false);
+//             } catch (error) {
+//                 console.error('Error fetching weather data:', error);
+//                 setError('Error fetching weather data');
+//                 setLoading(false);
+//             }
+//         };
+
+//         fetchData();
+//     }, []);
+
+//     if (loading) return <p>Loading...</p>;
+//     if (error) return <p>{error}</p>;
+
+//     return (
+//         <div>
+//             {weather && (
+//                 <div>
+//                     <h2>Weather Information</h2>
+//                     <p>Location: {weather.location.name}, {weather.location.region}, {weather.location.country}</p>
+//                     <p>Temperature: {weather.current.temp_c}°C</p>
+//                     <p>Condition: {weather.current.condition.text}</p>
+//                     <img src={weather.current.condition.icon} alt="Weather Icon" />
+//                     <p>Wind Speed: {weather.current.wind_kph} kph</p>
+//                     <p>Humidity: {weather.current.humidity}%</p>
+//                 </div>
+//             )}
+//         </div>
+//     );
+// };
+
+// export default Weather;
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -97,7 +97,7 @@ const Contact = () => {
 
       </div>
 
-{/* 
+      {/* 
       <div class="container flex flex-col mx-auto bg-white">
         <div class="w-full draggable">
           <div class="container flex flex-col items-center gap-16 mx-auto my-32">

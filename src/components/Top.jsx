@@ -56,15 +56,12 @@
 // export default Top
 
 
-
-
-
 import { IoIosCall } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
 import { TypeAnimation } from 'react-type-animation';
 
 const Top = () => {
-    const phoneNumber = '01145500067'; 
+    const phoneNumber = '01145500067';
 
     const handlePhoneClick = () => {
         window.location.href = `tel:${phoneNumber}`;
@@ -77,8 +74,8 @@ const Top = () => {
     };
 
     return (
-        <footer className="bg-pink-50 py-2 px-4 shadow-md z-10 flex flex-col sm:flex-row justify-between items-center dark:bg-slate-900 dark:text-white">
-            <div className="text-sm text-black mb-2 sm:mb-0">
+        <div className="bg-green-200 py-3 px-[10rem]  z-10 flex  justify-between lg:items-center ">
+            <div className="text-sm text-black  sm:mb-0">
                 <TypeAnimation
                     sequence={[
                         ' नमस्ते',
@@ -106,7 +103,7 @@ const Top = () => {
                     + 011-49059099/45500067
                 </div>
             </div>
-        </footer>
+        </div>
     )
 }
 
