@@ -73,14 +73,8 @@ const TotalGR = () => {
               <p className='leading-relaxed m-4'>6-10 Kg per acre for sowing or 4-6 Kg
                 per acre on standing crops.
               </p>
-
-
             </div>
-
-
           </div>
-
-
         </div>
       </section>
 

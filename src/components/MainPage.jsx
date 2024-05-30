@@ -14,7 +14,7 @@ import Hightlights from "./Hightlights"
 // import Team from "./Team"
 import Domestic from '../footer/Domestic'
 import News from '../footer/News'
-import BestSeller from './BestSeller'
+
 // import HomeVideo from './HomeVideo'
 import ContactHome from './ContactHome'
 // import Headline from './Headline'
@@ -27,19 +27,17 @@ import Weather from './Weather'
 const MainPage = () => {
   return (
     <>
-   
-   
       {/* <Headline /> */}
       {/* <Gallery /> */}
-     
       <OurStory />
-      <Weather/>
+      {/* <Weather/> */}
       <Static/>
       <Product />
       <RnDforHome />
       {/* <Sustain/> */}
       <Crop/>
-      {/* <BestSeller/> */}
+      
+
       {/* <Hightlights/> */}
       {/* <Trust/> */}
       {/* <Home_vision_mission/> */}

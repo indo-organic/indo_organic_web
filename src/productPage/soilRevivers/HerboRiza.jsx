@@ -16,7 +16,7 @@ const HerboRiza = () => {
       <section className="text-gray-600 body-font overflow-hidden">
         <div className="container px-5 py-24 mx-auto">
           <div className="lg:w-4/5 mx-auto flex flex-wrap">
-           
+
             <div className="h-[460px] rounded-lg  dark:bg-gray-700 mb-4">
               <img className="w-full h-full object-cover" src={herborizaImg} alt="Product Image" />
             </div>
@@ -57,8 +57,6 @@ const HerboRiza = () => {
                 and incorporate in the soil before sowing/transplant. <br /> <br />
                 Standing Crops: Broadcast, the above mixture 25-30
                 days after sowing</p>
-
-
             </div>
 
 

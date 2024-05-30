@@ -40,10 +40,10 @@ const Contact = () => {
 
       </div>
 
-      <div className=" flex flex-col items-center justify-center uppercase py-10 font-sans bg-gray-300">
+      {/* <div className=" flex flex-col items-center justify-center uppercase py-10 font-sans bg-gray-300">
         <h2 className=" text-xl text-green-600 ">COMPANY</h2>
         <h2 className=" text-3xl py-2 font-bold">location </h2>
-      </div>
+      </div> */}
 
       <div className="lg:flex md:text-center md:h-[90vh]  gap-4 w-[100%] lg:h-[50vh] bg-cover bg-fixed bg-center justify-center items-center m-auto"
         style={{ backgroundImage: 'url(https://img.freepik.com/free-vector/white-abstract-background-theme_23-2148827269.jpg)' }}>

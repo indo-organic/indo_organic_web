@@ -65,15 +65,8 @@ const Humimax = () => {
                 spray on nursery bed.
 
               </p>
-
-
-
             </div>
-
-
           </div>
-
-
         </div>
       </section>
 

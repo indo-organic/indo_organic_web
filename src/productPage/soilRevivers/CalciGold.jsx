@@ -40,29 +40,18 @@ const calcigold = () => {
                 Increases water holding capacity in soil.
                 Ca is utilized for continuous cell division and
                 formation.</p>
-
-
-
               <h3 className="text-gray-900 text-2xl title-font font-medium m-3">MODE OF ACTION</h3>
               <p className='leading-relaxed m-4'>Provides Ca ions that can exchange with Na and Mg ions in soil.Thus leading to
                 flocculation of soil particles which promotes better overall structural development in
                 highly dispersed soil.</p>
-
               <h3 className="text-gray-900 text-2xl title-font font-medium m-3">RECOMMENDATIONS</h3>
               <p className='leading-relaxed m-4'>Calci Gold is used in almost all the commercial crops i.e. Sugarcane, Potato, Rice, Wheat,
                 Cotton, Pea, Flower Crops & Medicinal Crops etc. </p>
-
               <h3 className="text-gray-900 text-2xl title-font font-medium m-3">METHOD OF APPLICATION & DOSAGE</h3>
               <p className='leading-relaxed m-4'>50 to 100 kg per acre with or without other fertilizers at the time of field Preparation.
                 It can also be used as a top dressing in growing crops with the dose of 25 to 50 Kg per acre.</p>
-
-
             </div>
-
-
           </div>
-
-
         </div>
       </section>
 
