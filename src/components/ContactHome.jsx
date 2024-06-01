@@ -1,5 +1,3 @@
-// import contactHomeImg from '../assets/contactHome.jpg'
-// import contactHome from '../assets/biostimulantbg.png'
 import '../styles/coHome.scss'
 import { Link } from 'react-router-dom'
 const ContactHome = () => {

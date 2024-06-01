@@ -3,9 +3,6 @@ const TermsConditions = () => {
   return (
     <>
 
-
-
-
       <div className="relative mx-auto  w-full">
         <img className="h-64 w-full object-cover rounded-md object-bottom" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE-M51i4gXsy3P8JGmfOrHhYdDtUb-qJ1SFANzajKeMQffCBpJNh88iEz_SgiL1onBdw&usqp=CAU" alt="Random image" />
         <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>

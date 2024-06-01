@@ -7,51 +7,7 @@ import { Link } from 'react-router-dom'
 const Career = () => {
   return (
     <>
-      {/* <div className="bg-gray-100 min-h-screen py-12 px-4 sm:px-6 lg:px-8 mt-12 ">
-      <div className="max-w-3xl mx-auto">
-        <h2 className="text-3xl font-extrabold text-center text-gray-900 sm:text-4xl">Join Our Team</h2>
-        <p className="mt-4 text-lg text-center text-gray-600">
-          We're passionate about agriculture and innovation. If you share our vision and want to make a difference, explore our current openings and start your journey with us.
-        </p>
-
-        <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3 lg:gap-8">
     
-          <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
-            <div className="px-6 py-4 bg-white">
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Senior Agronomist</h3>
-              <p className="text-sm text-gray-600">Location: Remote</p>
-              <p className="mt-2 text-gray-700">We are seeking an experienced Senior Agronomist to join our team. The ideal candidate will have a deep understanding of crop science and experience working with farmers to improve crop yield and quality.</p>
-            </div>
-            <div className="px-6 pt-4 pb-2 bg-gray-50">
-            <a href="#" className="text-base font-semibold text-indigo-600 hover:text-indigo-500">Not Available &rarr;</a>
-            </div>
-          </div>
-
-          <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
-            <div className="px-6 py-4 bg-white">
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Marketing Manager</h3>
-              <p className="text-sm text-gray-600">Location: Delhi</p>
-              <p className="mt-2 text-gray-700">We are looking for a creative and analytical Marketing Manager to develop and execute marketing strategies to promote our agrochemical products. The ideal candidate will have experience in agricultural marketing.</p>
-            </div>
-            <div className="px-6 pt-4 pb-2 bg-gray-50">
-              <a href="#" className="text-base font-semibold text-indigo-600 hover:text-indigo-500">Not Available &rarr;</a>
-            </div>
-          </div>
-
-          <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
-            <div className="px-6 py-4 bg-white">
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Chemical Engineer</h3>
-              <p className="text-sm text-gray-600">Location: Delhi</p>
-              <p className="mt-2 text-gray-700">We are seeking a Chemical Engineer to support our product development efforts. The ideal candidate will have experience in formulation chemistry and a passion for developing innovative solutions for agriculture.</p>
-            </div>
-            <div className="px-6 pt-4 pb-2 bg-gray-50">
-            <a href="#" className="text-base font-semibold text-indigo-600 hover:text-indigo-500">Not Available &rarr;</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>  */}
-
       <div className="relative mx-auto mt-10 w-full">
         <img className="h-64 w-full object-cover rounded-md object-bottom" src="https://www.idhsustainabletrade.com/uploaded/2017/05/impact-agrochemicals-1440x450-c-default.jpg?x16939&x16939" alt="Random image" />
         <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>

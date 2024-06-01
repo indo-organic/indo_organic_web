@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import KeenSlider from 'keen-slider';
 import 'keen-slider/keen-slider.min.css';
 
-const TestimonialSlider = () => {
+const HomeTestimonial= () => {
   const sliderRef = useRef(null);
   const prevButtonRef = useRef(null);
   const nextButtonRef = useRef(null);
@@ -261,7 +261,7 @@ const TestimonialSlider = () => {
   );
 };
 
-export default TestimonialSlider;
+export default HomeTestimonial;
 
 
 

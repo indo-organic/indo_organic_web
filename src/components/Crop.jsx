@@ -10,24 +10,24 @@ const crops = [
   {
     title: "fruits",
     description: "lorem10 demo text",
-    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPyv4JFGLfaMV99VLNvo8qWPJR7MlV4DdR7w&s"
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR3hizBuSvPUyEHHLmOX0qX7Ha3JKHjYsUbw&s"
   },
 
   {
     title: "Flowers",
     description: "lorem10 demo text",
-    imageUrl: "https://live-production.wcms.abc-cdn.net.au/0ea672552ce6f69b5d2ed37b659bf8f6?impolicy=wcms_crop_resize&cropH=563&cropW=1000&xPos=0&yPos=0&width=862&height=485"
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStl32FH0ypWnPMveAFhA5GKYL8uk37vz9vEQ&s"
   },
  
   {
     title: "Wheat",
     description: "lorem10 demo text",
-    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDomxrAZzl5yGc59u9MnC82WgUbxoLg7Kbfw&s"
+    imageUrl: "https://images.cnbctv18.com/hindicnbctv18/2023/06/wheat-2-1024x576.jpg"
   },
   {
     title: "cotton",
     description: "lorem10 demo text",
-    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDhnhqJIj85bgubo4cJR9FeewK6k5WEGyVJg&s"
+    imageUrl: "https://static.vecteezy.com/system/resources/thumbnails/034/900/294/small_2x/delicate-cotton-fields-ready-to-be-gathered-generative-ai-photo.jpg"
   },
 ];
 
@@ -36,7 +36,7 @@ const Crop = () => {
     <div className="container-crops">
       <h2 className="title">target Crops</h2>
       <p className="description">
-        Indo Organis offers a wide range of products tailored for various crops.
+      Indo Organics provides a diverse array of products designed for different crops.
       </p>
       <div className="crops-slider">
         <div className="slider-wrapper">
@@ -46,7 +46,7 @@ const Crop = () => {
                 <img src={crops.imageUrl} alt={crops.title} className="crops-image" />
                 <div className="crops-info">
                   <div className="crops-title">{crops.title}</div>
-                  <div className="crops-description">{crops.description}</div>
+                  {/* <div className="crops-description">{crops.description}</div> */}
                 </div>
               </div>
             </div>
@@ -58,3 +58,8 @@ const Crop = () => {
 };
 
 export default Crop;
+
+
+
+
+

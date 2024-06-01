@@ -1,7 +1,8 @@
 
-// import rnd2 from '../RnDImg/rnd2.jpg'
+
 import { Link } from "react-router-dom"
-// import staticsbg from '../assets/staticsbg.jpg'
+
+
 
 const RnDforHome = () => {
   return (
@@ -55,12 +56,7 @@ const RnDforHome = () => {
                 <p className="mb-8 text-base text-body-color dark:text-dark-6">
                   Your Partner in Agricultural Excellence and Environmental Stewardship.
                 </p>
-                {/* <Link to='/reseachDev'
-                  href="javascript:void(0)"
-                  className="mb-3 inline-flex h-12 w-full items-center justify-center rounded bg-green-700 px-6 font-medium tracking-wide text-white shadow-md transition hover:bg-green-900 focus:outline-none md:mr-4 md:mb-0 md:w-auto"
-                >
-                  Learn more
-                </Link> */}
+               
                 <Link to='/researchDev' className="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-green-500 rounded-xl group">
                   <span className="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-green-700 rounded group-hover:-mr-4 group-hover:-mt-4">
                     <span classNmae="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
@@ -73,6 +69,9 @@ const RnDforHome = () => {
           </div>
         </div>
       </section>
+
+
+
 
 
 

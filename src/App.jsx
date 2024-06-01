@@ -140,6 +140,7 @@ const App = () => {
           <Route path='/testimonial' element={<Testimonial />} />
           <Route path='/trialProduct' element={<TrialProduct />} />
           <Route path='/faqs' element={<Faqs />} />
+      
 
           {/* insecticide */}
 

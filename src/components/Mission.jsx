@@ -4,9 +4,7 @@ const Mission = () => {
     <>
       <section className="bg-gray-100">
         <div className=" container max-w-xl p-6 mx-auto space-y-12 lg:px-8 lg:max-w-7xl mt-14">
-          {/* <div className='h-[30vh] flex  justify-center items-center bg-gray-700'>
-            <h2 className=" text-white font-bold text-3xl  text-center sm:text-5xl">MISSION</h2>
-          </div> */}
+        
 
 
           <div className="relative mx-auto mt-10 w-full">

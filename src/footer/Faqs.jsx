@@ -43,41 +43,30 @@ const Faqs = () => {
 
 const faqData = [
   {
-    question: 'What is a SAAS platform?',
-    answer: 'SAAS platform is a cloud-based software service that allows users to access and use a variety of tools and functionality.'
+    question: 'what is Agrochemical?',
+    answer: 'Agrochemicals are substances used in agriculture to manage or enhance the growth of crops, control pests, and improve soil fertility. They include a wide range of products such as fertilizers, pesticides, herbicides, fungicides, and insecticides. Agrochemicals play a significant role in modern agriculture by helping farmers increase crop yields, protect plants from diseases and pests, and improve overall farm productivity. However, their use can also raise environmental and health concerns if not properly managed.'
   },
   {
-    question: 'How does billing work?',
-    answer: 'We offer a variety of billing options, including monthly and annual subscription plans, as well as pay-as-you-go pricing for certain services. Payment is typically made through a credit card or other secure online payment method.'
+    question: 'what is Biostimulants?',
+    answer: 'Biostimulants are substances or microorganisms applied to plants, seeds, or the soil to enhance plant growth, development, and stress tolerance. Unlike fertilizers, which provide essential nutrients directly to plants, biostimulants work by promoting natural processes within the plant, such as nutrient uptake, root development, and stress response mechanisms.'
   },
   {
-    question: 'Can I get a refund for my subscription?',
-    answer: 'We offer a 30-day money-back guarantee for most of its subscription plans. If you are not satisfied with your subscription within the first 30 days, you can request a full refund. Refunds for subscriptions that have been active for longer than 30 days may be considered on a case-by-case basis.'
+    question: 'what is Insecticide?',
+    answer: 'An insecticide is a type of pesticide specifically formulated to kill or control insects. These chemicals are used in agriculture, public health, and residential settings to manage insect pests that damage crops, spread diseases, or pose a nuisance to humans and animals. Insecticides work through various mechanisms, including disrupting the nervous system of insects, interfering with their growth and development, or affecting their ability to reproduce. They come in different forms, such as sprays, dusts, baits, granules, or systemic treatments applied to seeds or soil.'
   },
   {
-    question: 'How do I cancel my subscription?',
-    answer: 'To cancel your subscription, you can log in to your account and navigate to the subscription management page. From there, you should be able to cancel your subscription and stop future billing.'
+    question: 'What is Fungicide?',
+    answer: 'A fungicide is a type of pesticide designed to control, prevent, or eradicate fungal diseases in plants. Fungal diseases can cause significant damage to crops, ornamental plants, and trees, leading to yield losses, reduced quality, and even plant death.Fungicides work by inhibiting the growth and reproduction of fungal pathogens or by disrupting key metabolic processes essential for their survival. They come in various forms, including sprays, dusts, liquids, and systemic treatments applied to seeds, soil, or plant foliage.'
+ 
   },
   {
-    question: 'Can I try this platform for free?',
-    answer: 'We offer a free trial of our platform for a limited time. During the trial period, you will have access to a limited set of features and functionality, but you will not be charged.'
+    question: 'What is Herbicide?',
+    answer: ' A herbicide is a type of pesticide specifically formulated to control, suppress, or eliminate unwanted vegetation, commonly referred to as weeds. These chemicals are used in agriculture, forestry, landscaping, and other settings to manage vegetation that competes with crops, disrupts ecosystems, or poses safety hazards. Herbicides work through various mechanisms to interfere with the growth, development, or metabolic processes of plants. They can be selective, targeting specific types of plants while leaving desired crops or vegetation unharmed, or non-selective, affecting a broad range of plant species.'
+ 
   },
-  {
-    question: 'How do I access documentation?',
-    answer: 'Documentation is available on the company\'s website and can be accessed by logging in to your account. The documentation provides detailed information on how to use the platform, as well as code examples and other resources.'
-  },
-  {
-    question: 'How do I contact support?',
-    answer: 'If you need help with the platform or have any other questions, you can contact the company\'s support team by submitting a support request through the website or by emailing support@we.com.'
-  },
-  {
-    question: 'Do you offer any discounts or promotions?',
-    answer: 'We may offer discounts or promotions from time to time. To stay up-to-date on the latest deals and special offers, you can sign up for the company\'s newsletter or follow it on social media.'
-  },
-  {
-    question: 'How do we compare to other similar services?',
-    answer: 'This platform is a highly reliable and feature-rich service that offers a wide range of tools and functionality. It is competitively priced and offers a variety of billing options to suit different needs and budgets.'
-  }
+ 
+  
+  
 ];
 
 export default Faqs;

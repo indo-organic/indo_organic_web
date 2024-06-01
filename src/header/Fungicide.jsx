@@ -32,6 +32,10 @@ const Fungicide = () => {
   return (
     <>
 
+
+
+    
+
       {/* <h1 className="text-3xl font-bold mb-4 text-center  uppercase   bg-gray-800  text-white p-16">Fungicide</h1> */}
       <div className="bg-gray-600">
 
