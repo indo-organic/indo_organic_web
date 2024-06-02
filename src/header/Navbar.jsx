@@ -152,7 +152,7 @@ const Navbar = () => {
                             </a>
                             <ul
                                 className='absolute top-5 max-lg:top-8 left-0 z-50 block space-y-2 shadow-lg bg-white max-h-0 overflow-hidden min-w-[250px] group-hover:opacity-100 group-hover:max-h-[700px] px-6 group-hover:pb-4 group-hover:pt-6 transition-all duration-500'>
-                                <li className='border-b py-3'>
+                                <Link to='/aboutUs' className='border-b py-3'>
                                     <a href='javascript:void(0)'
                                         className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block'>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" className="mr-4 inline-block"
@@ -163,7 +163,7 @@ const Navbar = () => {
                                         </svg>
                                         Our Story
                                     </a>
-                                </li>
+                                </Link>
                                 <li className='border-b py-3'>
                                     <a href='javascript:void(0)'
                                         className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block'>
@@ -307,20 +307,20 @@ const Navbar = () => {
                             </a>
                             <ul
                                 className='absolute top-5 max-lg:top-8 left-0 z-50 block space-y-2 shadow-lg bg-white max-h-0 overflow-hidden min-w-[250px] group-hover:opacity-100 group-hover:max-h-[700px] px-6 group-hover:pb-4 group-hover:pt-6 transition-all duration-500'>
-                                <li className='border-b py-3'>
+                                <Link to='/faqs' className='border-b py-3'>
                                     <a href='javascript:void(0)'
                                         className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block'>
 
                                         Faq's & Knowledge
                                     </a>
-                                </li>
-                                <li className='border-b py-3'>
+                                </Link>
+                                <Link to='/weather' className='border-b py-5'>
                                     <a href='javascript:void(0)'
                                         className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block'>
 
                                         Weather Intelligence
                                     </a>
-                                </li>
+                                </Link>
                                 <li className='border-b py-3'>
                                     <a href='javascript:void(0)'
                                         className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block'>

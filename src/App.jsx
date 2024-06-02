@@ -106,6 +106,7 @@ import Curev from './productPage/protection/Curev'
 import Fungi7 from './productPage/protection/Fungi7'
 import FungiEx from './productPage/protection/FungiEx'
 import Urban3 from './productPage/protection/Urban3'
+import Weather from './components/Weather'
 
 
 const App = () => {
@@ -218,6 +219,8 @@ const App = () => {
           <Route path='/CureV' element={<Curev />} />
           <Route path='/FungiEx' element={<FungiEx />} />
           <Route path='/Urban3' element={<Urban3/>} />
+          <Route path='/weather' element={<Weather/>} />
+
 
         </Routes>
         <Footer />
