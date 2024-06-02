@@ -34,18 +34,10 @@ const MainPage = () => {
       {/* <Trust/> */}
       {/* <Sustain/> */}
       <Crop/>
-      
-
       {/* <Quality/> */}
-     
       <IntroVid/>
-      
-  
-     
       {/* <Catalogue/> */}
       <HomeTestimonial/>
-     
-    
       <ContactHome />
 
   
