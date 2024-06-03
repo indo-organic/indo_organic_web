@@ -1,9 +1,4 @@
 import '../styles/Career.scss'
-
-import { Link } from 'react-router-dom'
-
-
-
 const Career = () => {
   return (
     <>

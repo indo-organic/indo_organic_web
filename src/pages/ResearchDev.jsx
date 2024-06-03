@@ -1,12 +1,9 @@
-// import '../styles/ResearchDev.scss'
-
 
 const ResearchDev = () => {
 
   return (
     <>
-    
-      <div className="flex  gap-4 w-[100%] h-[30rem] bg-cover bg-fixed bg-top justify-center items-center m-auto"
+      <div className="flex  gap-4 w-[100%] h-[20rem] bg-cover bg-fixed bg-top justify-center items-center m-auto"
         style={{ backgroundImage: "url(https://s3-ap-south-1.amazonaws.com/ricedigitals3bucket/AUPortalContent/2020/04/30115809/imgblog231.jpg)" }}>
 
         <div className="absolute inset-0 flex flex-col items-center justify-center">
@@ -16,17 +13,11 @@ const ResearchDev = () => {
             <p>Company  &#9702;</p>
             <p>Research and Dev  &#9702;</p>
           </h2>
-
         </div>
-
       </div>
       <section className="">
         <div className="container max-w-xl p-6 mx-auto space-y-12 lg:px-8 lg:max-w-7xl">
-          {/* <div className="flex flex-col w-[100%] h-[40vh] bg-cover bg-fixed bg-bottom justify-center items-center m-auto"
-            style={{ backgroundImage: `url(${research2})` }}>
-            <p className='text-white text-[3rem] font-bold'>Research and Development</p>
-          </div> */}
-
+       
 
           <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
             <div>
@@ -75,10 +66,7 @@ const ResearchDev = () => {
           </div>
         </div>
       </section>
-        
-
-
-
+      
     </>
   )
 }

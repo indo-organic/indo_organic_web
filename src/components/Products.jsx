@@ -45,7 +45,7 @@ const ProductGrid = () => {
            
           </Link>
 
-          <Link to='/adjuvant' className="w-72 h-[19rem] object-cover bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl ">
+          <Link to='/comboB' className="w-72 h-[19rem] object-cover bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl ">
            
               <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaoPEuW6TOCrAMpUDaID7M6waBiMGk9hKNv_Ygl58hCA&s' alt="Product" className="h-60 w-full rounded-t-xl" />
               <div className="px-4 py-3  w-72">

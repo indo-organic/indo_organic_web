@@ -4,7 +4,7 @@ import ComboB_title from '../../titleImg/Combo-B.png'
 const Combo_b = () => {
   return (
     <>
-      <div className="relative mx-auto mt-10 w-full">
+      <div className="relative mx-auto  w-full">
         <img className="h-64 w-full object-cover rounded-md object-bottom" src="https://www.idhsustainabletrade.com/uploaded/2017/05/impact-agrochemicals-1440x450-c-default.jpg?x16939&x16939" alt="Random image" />
         <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
         <div className="absolute inset-0 flex items-center justify-center">

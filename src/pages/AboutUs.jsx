@@ -1,41 +1,16 @@
-import '../styles/AboutUs.scss'
-import { Link } from 'react-router-dom'
-// import aboutImg1 from '../AboutImg/aboutImg1.jpg'
-// import aboutImg2 from '../AboutImg/aboutImg2.jpg'
-// import aboutImg3 from '../AboutImg/aboutImg3.jpg'
 import aboutImg4 from '../AboutImg/about4.jpg'
-// import video from '../assets/caro.mp4'
 import AboutImg from '../AboutImg/aboutImg3.jpg'
-// import aboutrr from '../AboutImg/about4-removebg-preview-removebg-preview.png'
-// 
-// import contactImg from '../AboutImg/aboutImg3.jpg'
 
 const AboutUs = () => {
   return (
     <>
-      {/* <div className="flex  gap-4 w-[100%] h-[25rem] bg-contain bg-no-repeat bg-fixed bg-bottom justify-center items-center m-auto "
-        style={{ backgroundImage: `url(${AboutImg})` }}>
-
-        <div className="absolute inset-0 flex flex-col items-center justify-center ">
-          <h2 className="text-white text-3xl font-bold uppercase">About</h2>
-          <h2 className="flex gap-4 text-white py-2">
-            <Link to='/'>Home  &#9702;</Link>
-            <p>Company  &#9702;</p>
-            <p className='text-green-700'>About  &#9702;</p>
-          </h2>
-
+      <div className="relative mx-auto  w-full">
+        <img className="h-64 w-full object-cover rounded-md object-bottom" src={AboutImg} alt="Random image" />
+        <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
+        <div className="absolute inset-0 flex items-center justify-center">
+          <h2 className="text-white text-3xl font-bold">INSECTICIDE </h2>
         </div>
-
-      </div> */}
-        <div className="relative mx-auto  w-full">
-          <img className="h-64 w-full object-cover rounded-md object-bottom" src={AboutImg} alt="Random image" />
-          <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
-          <div className="absolute inset-0 flex items-center justify-center">
-            <h2 className="text-white text-3xl font-bold">INSECTICIDE </h2>
-          </div>
-        </div>
-
-     
+      </div>
 
       <div className='flex  justify-center w-[100%] py-10  bg-white  text-black'>
 

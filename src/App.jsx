@@ -7,13 +7,10 @@ import ResearchDev from './pages/ResearchDev'
 import Career from './pages/Career'
 import Journey from './footer/Journey'
 
-import BoardOfDirector from './footer/BoardOfDirector'
 // import News from './footer/News'
 import TermsConditions from './footer/TermsConditions'
 import PrivacyPolicy from './footer/PrivacyPolicy'
 import ReturnPolicy from './footer/ReturnPolicy'
-import Domestic from './footer/Domestic'
-import International from './footer/International'
 import Top from './components/Top'
 import AboutUs from './pages/AboutUs'
 import Faqs from './footer/Faqs'
@@ -128,15 +125,14 @@ const App = () => {
           <Route path='/career' element={<Career />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/journey' element={<Journey />} />
-          <Route path='/BoardOfDirector' element={<BoardOfDirector />} />
+          
           <Route path='/vision' element={<Vision />} />
           <Route path='/mission' element={<Mission />} />
           {/* <Route path='/news' element={<News />} /> */}
           <Route path='/termsCondition' element={<TermsConditions />} />
           <Route path='/privacyPolicy' element={<PrivacyPolicy />} />
           <Route path='/returnPolicy' element={<ReturnPolicy />} />
-          <Route path='/Domestic' element={<Domestic />} />
-          <Route path='/International' element={<International />} />
+      
           <Route path='/testimonial' element={<Testimonial />} />
           {/* <Route path='/trialProduct' element={<TrialProduct />} /> */}
           <Route path='/faqs' element={<Faqs />} />

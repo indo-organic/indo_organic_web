@@ -9,7 +9,6 @@ import Quality from './Quality'
 import Static from "./Static"
 import RnDforHome from "./RnDforHome"
 
-import Domestic from '../footer/Domestic'
 
 
 import ContactHome from './ContactHome'

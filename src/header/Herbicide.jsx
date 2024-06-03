@@ -32,13 +32,13 @@ const HerbiCard = ({ category, name, seeMore, imageSrc, imageAlt, sciName }) => 
 const Herbicide = () => {
   return (
     <>
-      <div className="bg-gray-600">
+      <div className="bg-gray-100">
 
 
         {/* <h1 class="text-3xl font-bold mb-4 text-center  uppercase   bg-gr
       ay-800  text-white p-16">Herbicide</h1> */}
-        <div className="relative mx-auto mt-10 w-full">
-          <img className="h-64 w-full object-cover rounded-md object-bottom" src="https://assets.corteva.com/is/image/Corteva/Enlist-Herbicides-hero-desktop?$herol1_desktop$" alt="Random image" />
+        <div className="relative mx-auto  w-full">
+          <img className="h-64 w-full object-cover rounded-md object-bottom" src="https://www.farmersguide.co.uk/wp-content/uploads/2020/10/black-grass-infestation-copy.jpg" alt="Random image" />
           <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
           <div className="absolute inset-0 flex items-center justify-center">
             <h2 className="text-white text-3xl font-bold">HERBICIDE </h2>

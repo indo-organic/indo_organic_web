@@ -9,8 +9,8 @@ import '../styles/Socia.scss'
 const SocialMedia = () => {
     return (
         <>
-           
-        
+
+
             <div className="fixed top-[40%] right-0 h-full  p-4 z-50 ">
                 <ul className="flex flex-col space-y-4 text-4xl">
                     <li>
@@ -19,18 +19,18 @@ const SocialMedia = () => {
                         </a>
                     </li>
                     <li>
-                    <a href="https://www.linkedin.com/company/indo-organics-pvt-ltd_find_us_here/" target="_blank" className="hover:text-gray-900 text-blue-600">
+                        <a href="https://www.linkedin.com/company/indo-organics-pvt-ltd_find_us_here/" target="_blank" className="hover:text-gray-900 text-blue-600">
                             <FaLinkedin />
                         </a>
                     </li>
                     <li>
-                    <a href="https://www.facebook.com/iolindia/" target="_blank" className="hover:text-gray-900 text-blue-600">
+                        <a href="https://www.facebook.com/iolindia/" target="_blank" className="hover:text-gray-900 text-blue-600">
                             <FaFacebookSquare />
                         </a>
                     </li>
                     {/* Add more social media icons as needed */}
                     <li>
-                    <a href="mailto:info@indoorganics.in" target="_blank" className="hover:text-gray-900 text-green-500">
+                        <a href="mailto:info@indoorganics.in" target="_blank" className="hover:text-gray-900 text-green-500">
                             <MdOutlineMail />
                         </a>
                     </li>
