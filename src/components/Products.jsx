@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import herbicideImg from '../assets/herbicide.png'
+
 import protectionImg from '../productImgicon/protection.png'
 const ProductGrid = () => {
   return (
@@ -25,7 +25,7 @@ const ProductGrid = () => {
           </Link>
           <Link to='/fungicide' className="w-72 h-[19rem] object-cover bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl ">
            
-              <img src='https://www.reagent.co.uk/wp-content/uploads/2023/02/spraying-a-rose-bush-with-a-fungicide.webp' alt="Product" className="h-60 w-full rounded-t-xl" />
+              <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHy0fyOJ1yNdsfeUkTEUbOoYTcsZJ9x7PzVQ&s' alt="Product" className="h-60 w-full rounded-t-xl" />
               <div className="px-4 py-3  w-72">
                 {/* <span className="text-gray-400 mr-3 uppercase text-xs">Agrochemical</span> */}
                 <p className="text-lg font-bold text-black truncate block capitalize text-center ">Fungicide</p>
@@ -36,7 +36,7 @@ const ProductGrid = () => {
 
           <Link to='/herbicide' className="w-72 h-[19rem] object-cover bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl ">
            
-              <img src={herbicideImg} alt="Product" className="h-60 w-full rounded-t-xl" />
+              <img src="https://static.scientificamerican.com/sciam/cache/file/F6C02647-4B66-41FD-978DF41814785D05_source.jpg?w=600" alt="Product" className="h-60 w-full rounded-t-xl" />
               <div className="px-4 py-3  w-72">
                 {/* <span className="text-gray-400 mr-3 uppercase text-xs">Agrochemical</span> */}
                 <p className="text-lg font-bold text-black truncate block capitalize text-center ">Herbicide</p>
