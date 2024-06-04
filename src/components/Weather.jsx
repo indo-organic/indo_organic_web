@@ -76,9 +76,9 @@ const Weather = () => {
   };
 
   return (
-    <div className="antialiased min-h-screen bg-gray-100 flex items-center">
+    <div className="antialiased min-h-[60vh] flex items-center">
       <div className="w-full max-w-sm mx-auto">
-        <div className="bg-white shadow rounded-lg p-5 dark:bg-gray-800 w-full">
+        <div className="bg-gray-200 shadow rounded-lg p-5 dark:bg-gray-800 w-full">
           <h2 className="font-bold text-gray-800 text-lg dark:text-gray-400">{formattedDateDisplay(new Date())}</h2>
           {weatherData ? (
             <div>

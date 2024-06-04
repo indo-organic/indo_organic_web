@@ -32,7 +32,7 @@ const HerbiCard = ({ category, name, seeMore, imageSrc, imageAlt, sciName }) => 
 const Herbicide = () => {
   return (
     <>
-      <div className="bg-gray-100">
+      <div className="bg-white">
 
 
         {/* <h1 class="text-3xl font-bold mb-4 text-center  uppercase   bg-gr
@@ -87,12 +87,12 @@ const Herbicide = () => {
               imageAlt="AUTO32" />
           </Link>
 
-          <Link to='/pitkit'>
+          {/* <Link to='/pitkit'>
             <HerbiCard category="Service" name="PIT-KIT" seeMore="see more" sciName='
 '
-              // imageSrc={emo10Img}
+              imageSrc={}
               imageAlt="PITKIT" />
-          </Link>
+          </Link> */}
 
 
 

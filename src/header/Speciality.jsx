@@ -35,7 +35,7 @@ const Speciality = () => {
     <>
 
 
-      <div className="bg-gray-100 pb-20">
+      <div className="bg-white pb-20">
 
 
         <div className="relative mx-auto  w-full">

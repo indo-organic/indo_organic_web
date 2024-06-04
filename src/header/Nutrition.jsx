@@ -30,7 +30,7 @@ const NutritionCard = ({ category, name, seeMore, imageSrc, imageAlt, sciName })
 const Nutrition = () => {
     return (
         <>
-            <div className="bg-gray-100">
+            <div className="bg-white">
 
                 <div className="relative mx-auto  w-full">
                     <img className="h-64 w-full object-cover rounded-md object-bottom" src="https://dpjh8al9zd3a4.cloudfront.net/image/h:720,w:1800/187279?s=d3fec701" alt="Random image" />

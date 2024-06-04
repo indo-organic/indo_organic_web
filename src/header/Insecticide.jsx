@@ -108,11 +108,11 @@ const Insecticide = () => {
               imageSrc={tropizImg}
               imageAlt="tropiz" />
           </Link>
-          <Link to='/peak'>
+          {/* <Link to='/peak'>
             <InsectCard category="Generic" name="PEAK" seeMore="see more" sciName='Profenofos 40% EC + Cypermethrin 4% EC'
               // imageSrc={rukkaImg}
               imageAlt="peak" />
-          </Link>
+          </Link> */}
           <Link to='/vaidL'>
             <InsectCard category="Generic" name="VAID-L" seeMore="see more" sciName='ACTIVE INGREDIENT: fipronil 5% SC'
               imageSrc={vaidLImg}
