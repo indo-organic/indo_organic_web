@@ -60,7 +60,8 @@ const ResearchDev = () => {
                 </div>
               </div>
             </div>
-            <div aria-hidden="true" className="mt-10 lg:mt-0">
+            {/* this page is getting lg. lift mt-234 enterscrup  */}
+            <div aria-hidden="true" className="mt-10 lg:mt-0    ">
               <img width="600" height="600" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREUyru3TGAWSTKLnDpLjMCvfLcLiIJJKM0f-6s-8ba8w&s" alt="About Us Image" className="mx-auto rounded-lg shadow-lg dark-bg-gray-500" style={{ color: 'transparent' }} />
             </div>
           </div>

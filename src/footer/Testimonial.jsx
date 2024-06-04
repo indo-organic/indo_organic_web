@@ -45,7 +45,6 @@ const Testimonial = () => {
             alt="NextUI Fruit Image with Zoom"
           />
         </div>
-
         <div className="flex justify-center items-center h-screen">
           <img
             className="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl"
@@ -53,7 +52,6 @@ const Testimonial = () => {
             alt="NextUI Fruit Image with Zoom"
           />
         </div>
-
       </div>
 
 

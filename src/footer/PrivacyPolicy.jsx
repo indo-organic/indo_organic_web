@@ -3,7 +3,6 @@ const PrivacyPolicy = () => {
   return (
     <>
 
-
       <div className="relative mx-auto  w-full">
         <img className="h-64 w-full object-cover rounded-md object-bottom" src="https://www.smartstudyintschool.com/wp-content/uploads/2021/04/nomac-privacy-policy-banner.jpg" alt="Random image" />
         <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
@@ -13,10 +12,9 @@ const PrivacyPolicy = () => {
         </div>
       </div>
 
-      <div className="bg-gray-100 flex text-center">
+       <div className="bg-white flex text-center">
 
         <div className="container mx-auto px-4 py-8 my-9 ">
-          {/* <h1 className="text-3xl font-bold mb-6  bg-gray-600 text-white p-16">Privacy & Policy</h1> */}
           <h2 className="text-2xl font-bold mb-2"> Understand Privacy Policy Requirements:</h2>
 
           <p className="mb-4 p-9">
@@ -69,18 +67,9 @@ const PrivacyPolicy = () => {
           <p className="mb-4 p-9">
             If you have specific legal concerns or questions about your privacy policy, consider consulting with a legal professional specializing in privacy law to ensure compliance with relevant regulations and best practices.
           </p>
-
-
-
         </div>
 
-      </div>
-
-
-
-
-
-
+      </div> 
 
 
 

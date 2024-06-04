@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from "react-router-dom"
-
 import comboBImg from '../productPage/adjuvants/comboImg.jpg'
 
 const AgroCard = ({ category, name, seeMore, imageSrc, imageAlt, sciName }) => {
@@ -34,8 +33,6 @@ const Adjuvants = () => {
           <h2 className="text-white text-3xl font-bold">ADJUVANTS</h2>
         </div>
       </div>
-
-
       <div className="p-1 flex flex-wrap items-center justify-center bg-gray-600 h-[70vh]">
         <Link to='/comboB'>
           <AgroCard category="Adjuvant" name="COMBO-B" seeMore="see more" sciName='Organosilicone Based Spray Adjuvant'
@@ -43,11 +40,7 @@ const Adjuvants = () => {
             imageAlt="combob" />
         </Link>
 
-
       </div>
-
-
-
 
 
     </>

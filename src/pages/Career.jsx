@@ -3,7 +3,7 @@ const Career = () => {
   return (
     <>
     
-      <div className="relative mx-auto mt-10 w-full">
+      <div className="relative mx-auto w-full">
         <img className="h-64 w-full object-cover rounded-md object-bottom" src="https://www.idhsustainabletrade.com/uploaded/2017/05/impact-agrochemicals-1440x450-c-default.jpg?x16939&x16939" alt="Random image" />
         <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
         <div className="absolute inset-0 flex items-center justify-center">
@@ -12,11 +12,11 @@ const Career = () => {
       </div>
 
       <div className="container mx-auto px-4 py-8 text-center">
-        <h1 className="text-3xl font-semibold mb-4">Join Our Team at [Your Company Name]</h1>
-        <p className="mb-6">Welcome to the career page of [Your Company Name]! We are excited that you are considering joining our team dedicated to driving innovation in the agrochemical industry. At [Your Company Name], we believe in making a meaningful impact on agriculture, sustainability, and the environment.</p>
+        <h1 className="text-3xl font-semibold mb-4">Join Our Team at INDO ORGANICS</h1>
+        <p className="mb-6">Welcome to the career page of Indo Organics ! We are excited that you are considering joining our team dedicated to driving innovation in the agrochemical industry. At Indo Organics, we believe in making a meaningful impact on agriculture, sustainability, and the environment.</p>
 
         <h2 className="text-xl font-semibold mb-4">Our Mission and Values</h2>
-        <p className="mb-6">[Your Company Name] is committed to providing innovative solutions that empower farmers and contribute to global food security. Our values of integrity, collaboration, innovation, and sustainability guide everything we do.</p>
+        <p className="mb-6">Indo Organics is committed to providing innovative solutions that empower farmers and contribute to global food security. Our values of integrity, collaboration, innovation, and sustainability guide everything we do.</p>
 
         <h2 className="text-xl font-semibold mb-4">Why Work With Us?</h2>
         <ul className="list-disc list-inside mb-6">

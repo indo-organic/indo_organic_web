@@ -35,7 +35,7 @@ const Top = () => {
                     repeat={Infinity}
                 />
             </div>
-            <div className="flex flex-col sm:flex-row items-center gap-4">
+            <div className="flex flex-col sm:flex-row items-center gap-4 cursor-pointer">
                 <div className="text-gray-700 hover:text-gray-900 dark:text-gray-500 hover:dark:text-gray-700 text-[13px] flex items-center" onClick={handleEmailClick}>
                     <MdEmail className="mr-1" />
                     info@indoorganics.in

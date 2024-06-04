@@ -3,17 +3,28 @@ import React from 'react';
 
 const Faqs = () => {
   return (
+
+
+    <>
+      <div className="relative mx-auto  w-full">
+          <img className="h-64 w-full object-cover rounded-md object-bottom" src="https://eos.com/wp-content/uploads/2020/12/green-wheat.jpg.webp" alt="Random image" />
+          <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
+          <div className="absolute inset-0 flex items-center justify-center">
+            <h2 className="text-white text-3xl font-bold">Frequently Ask Questions </h2>
+          </div>
+        </div>
+
     <div className="max-w-screen-xl mx-auto px-5 bg-white min-h-screen">
-      <div className="flex flex-col items-center">
+      {/* <div className="flex flex-col items-center">
         <h2 className="font-bold text-5xl mt-5 tracking-tight">FAQ</h2>
         <p className="text-neutral-500 text-xl mt-3">Frequently asked questions</p>
-      </div>
-      <div className="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8">
+      </div> */}
+      <div className="grid divide-y divide-neutral-200 max-w-xl  mt-8">
         {faqData.map((faq, index) => (
           <div key={index} className="py-5">
             <details className="group">
               <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
-                <span>{faq.question}</span>
+                <span className='text-xl capitalize font-bold'>{faq.question}</span>
                 <span className="transition group-open:rotate-180">
                   <svg
                     fill="none"
@@ -30,7 +41,7 @@ const Faqs = () => {
                   </svg>
                 </span>
               </summary>
-              <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
+              <p className="text-neutral-600 mt-3 group-open:animate-fadeIn text-xl">
                 {faq.answer}
               </p>
             </details>
@@ -38,6 +49,7 @@ const Faqs = () => {
         ))}
       </div>
     </div>
+    </>
   );
 };
 

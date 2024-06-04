@@ -4,6 +4,7 @@ import AboutImg from '../AboutImg/aboutImg3.jpg'
 const AboutUs = () => {
   return (
     <>
+    
       <div className="relative mx-auto  w-full">
         <img className="h-64 w-full object-cover rounded-md object-bottom" src={AboutImg} alt="Random image" />
         <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
@@ -11,13 +12,10 @@ const AboutUs = () => {
           <h2 className="text-white text-3xl font-bold">INSECTICIDE </h2>
         </div>
       </div>
-
       <div className='flex  justify-center w-[100%] py-10  bg-white  text-black'>
-
         <div className="w-[30%]  ">
           <img src={aboutImg4} alt="" />
         </div>
-
         <div className='w-[60%] bg-gray-100'>
           <div className='p-4 py-[3rem]'>
             <p className='py-2 text-3xl text-green-500 font-bold'>WHO WE ARE ?
