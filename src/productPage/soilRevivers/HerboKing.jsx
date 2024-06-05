@@ -65,7 +65,7 @@ const HerboKing = () => {
 
               <h3 className="text-gray-900 text-2xl title-font font-medium m-3"> DOSAGE</h3>
               <p className='leading-relaxed m-4'>10-15 kg per acre.
-</p>
+              </p>
 
 
             </div>

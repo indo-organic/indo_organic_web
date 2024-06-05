@@ -31,8 +31,6 @@ const AllIn = () => {
                 and development and improves resistance to
                 environmental stress. It is designed to provide nutrition
                 and protection to the plant.
-
-
               </p>
               <h3 className="text-gray-900 text-2xl title-font font-medium m-3">BENEFITS</h3>
               <p className='leading-relaxed m-4'> Increases resistance to environmental stress.
@@ -41,9 +39,6 @@ const AllIn = () => {
                 quality.
 
               </p>
-
-
-
               <h3 className="text-gray-900 text-2xl title-font font-medium m-3">MODE OF ACTION</h3>
               <p className='leading-relaxed m-4'>It exhibits a unique mode of action, which mimics the natural
                 systemic activated resistance (SAR) response found in most

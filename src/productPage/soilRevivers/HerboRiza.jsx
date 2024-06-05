@@ -3,8 +3,6 @@ import herboriza_title from '../../titleImg/herboriza.png'
 const HerboRiza = () => {
   return (
     <>
-
-
       <div className="relative mx-auto w-full">
         <img className="h-64 w-full object-cover rounded-md object-bottom" src="https://www.idhsustainabletrade.com/uploaded/2017/05/impact-agrochemicals-1440x450-c-default.jpg?x16939&x16939" alt="Random image" />
         <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
@@ -12,7 +10,6 @@ const HerboRiza = () => {
           <h2 className="text-white text-3xl font-bold uppercase">Soil Revivers</h2>
         </div>
       </div>
-
       <section className="text-gray-600 body-font overflow-hidden">
         <div className="container px-5 py-24 mx-auto">
           <div className="lg:w-4/5 mx-auto flex flex-wrap">
@@ -38,9 +35,6 @@ const HerboRiza = () => {
                 plants.
                 • Effective in overcoming the stress condition like drought, disease incidence
                 and deficiency of nutrients.</p>
-
-
-
               <h3 className="text-gray-900 text-2xl title-font font-medium m-3">MODE OF ACTION</h3>
               <p className='leading-relaxed m-4'>The chelating agents which are present in Herbo-Riza bonds with nutrients
                 in order to provide the best nutrition possible. This process provides many added
@@ -58,11 +52,7 @@ const HerboRiza = () => {
                 Standing Crops: Broadcast, the above mixture 25-30
                 days after sowing</p>
             </div>
-
-
           </div>
-
-
         </div>
       </section>
 

@@ -37,9 +37,6 @@ const HerboKingAdvance = () => {
                 Increases soil fertility. <br />
                 Enhances nutrient uptake from the soil. br
                 Increases resistance to diseases and environmental stress.</p>
-
-
-
               <h3 className="text-gray-900 text-2xl title-font font-medium m-3">MODE OF ACTION</h3>
               <p className='leading-relaxed m-4'>Acts as a natural chelator for microelements and
                 make them easily accessible to plant parts. It
@@ -63,14 +60,8 @@ const HerboKingAdvance = () => {
               <h3 className="text-gray-900 text-2xl title-font font-medium m-3"> DOSAGE</h3>
               <p className='leading-relaxed m-4'>5-10 Kg/acre.
               </p>
-
-
             </div>
-
-
           </div>
-
-
         </div>
       </section>
 

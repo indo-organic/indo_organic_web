@@ -5,9 +5,6 @@ const TimeUp = () => {
   return (
     <>
 
-
-
-
       <h1 className="text-3xl font-bold mb-4  bg-green-600 text-white p-16 text-center">Herbicide</h1>
 
       <section className="text-gray-600 body-font overflow-hidden">

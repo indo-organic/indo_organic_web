@@ -59,19 +59,13 @@ const Urban3 = () => {
               <p className='leading-relaxed m-4'>It is used in all types of field crops.
               </p>
 
-
-
-
               <h3 className="text-gray-900 text-2xl title-font font-medium m-3">METHOD OF APPLICATION & DOSAGE</h3>
               <p className='leading-relaxed m-4'>
                 Mix the recommended quantity i.e 150-200 ml/acre thoroughly
                 in sufficient amount of water and spray on both the sides of
                 the leaves/affected areas.
 
-
               </p>
-
-
 
             </div>
 

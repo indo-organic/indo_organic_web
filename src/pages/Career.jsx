@@ -61,12 +61,6 @@ const Career = () => {
         <p>If you have any questions or inquiries about career opportunities at [Your Company Name], please don't hesitate to contact our HR team at [Contact Email] or [Contact Phone Number].</p>
       </div>
 
-
-
-
-
-
-
     </>
   )
 }

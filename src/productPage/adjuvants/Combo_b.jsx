@@ -52,7 +52,7 @@ const Combo_b = () => {
 
 
         </div>
-      </section> */}
+      </section>  */}
 
 
 
@@ -99,11 +99,22 @@ const Combo_b = () => {
                 <p className='leading-relaxed ml-14'>- 1ml per 2-3 ltr of water/spray solution. (75ml/acre)</p>
 
               </div>
-              
+
             </div>
           </div>
+
+       
         </div>
+
       </div>
+
+
+
+
+
+
+
+
 
 
 

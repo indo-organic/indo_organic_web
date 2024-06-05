@@ -61,18 +61,11 @@ const FungiEx = () => {
               <h3 className="text-gray-900 text-2xl title-font font-medium m-3">TARGET PESTS & DISEASES</h3>
               <p className='leading-relaxed m-4'>Root and collar rot, Fruit rot, Phytophthora, fusarium wilt, Anthracnose, and Koleroga. Along
                 with these, It can also control downy mildew very effectively.
-
-
-
               </p>
-
-
               <h3 className="text-gray-900 text-2xl title-font font-medium m-3">METHOD OF APPLICATION & DOSAGE</h3>
               <p className='leading-relaxed m-4'>Shake well before use. Dilute 3 ml of Fungi-Ex in one litre of
                 water & spray. Repeat the spray once in every 7-10 days.
                 Ÿ 400 ml. per acre.
-
-
               </p>
 
 
