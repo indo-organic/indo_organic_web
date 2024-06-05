@@ -38,9 +38,6 @@ const MainPage = () => {
       {/* <Catalogue/> */}
       <HomeTestimonial/>
       <ContactHome />
-
-  
-
     </>
 
   )
