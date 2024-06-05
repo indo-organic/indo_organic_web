@@ -34,7 +34,7 @@ const MainPage = () => {
       {/* <Sustain/> */}
       <Crop/>
       {/* <Quality/> */}
-      <IntroVid/>
+      {/* <IntroVid/> */}
       {/* <Catalogue/> */}
       <HomeTestimonial/>
       <ContactHome />
