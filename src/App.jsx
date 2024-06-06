@@ -6,7 +6,6 @@ import Contact from './pages/Contact'
 import ResearchDev from './pages/ResearchDev'
 import Career from './pages/Career'
 import Journey from './footer/Journey'
-
 // import News from './footer/News'
 import TermsConditions from './footer/TermsConditions'
 import PrivacyPolicy from './footer/PrivacyPolicy'
@@ -16,16 +15,12 @@ import AboutUs from './pages/AboutUs'
 import Faqs from './footer/Faqs'
 import Testimonial from './footer/Testimonial'
 // import TrialProduct from './footer/TrialProduct'
-
-
 import Vision from './components/Vision'
 import Mission from './components/Mission'
-
 import Adjuvants from './header/Adjuvants'
 import OrganicRange from './header/OrganicRange'
 import Speciality from './header/Speciality'
 import Agrochemical from './header/Agrochemical'
-
 // insecticide
 import Insecticide from './header/Insecticide'
 import Rukka from './productPage/insecticide/Rukka'
@@ -41,8 +36,6 @@ import Grit40 from './productPage/insecticide/Grit40'
 import Tropiz from './productPage/insecticide/Tropiz'
 import Peak from './productPage/insecticide/Peak'
 import Vaid_L from './productPage/insecticide/Vaid_L'
-
-
 //fungicide
 import Fungicide from './header/Fungicide'
 import IndoPrime from './productPage/fungicide/IndoPrime'
@@ -52,9 +45,7 @@ import TangoPlus from './productPage/fungicide/TangoPlus'
 import Tebnol from './productPage/fungicide/Tebnol'
 import Tringo from './productPage/fungicide/Tringo'
 import Valino from './productPage/fungicide/Valino'
-
 //  herbicide
-
 import Herbicide from './header/Herbicide'
 import Auto32 from './productPage/herbicide/Auto32'
 import Cutnip from './productPage/herbicide/Cutnip'
@@ -63,23 +54,14 @@ import Nirol from './productPage/herbicide/Nirol'
 import PitKit from './productPage/herbicide/PitKit'
 import Proto50 from './productPage/herbicide/Proto50'
 import TimeUp from './productPage/herbicide/TimeUp'
-
-
-
 // Adjuvants
 import Combo_b from './productPage/adjuvants/Combo_b'
 import SocialMedia from './components/SocialMedia'
-
-
-
-
 //  biostimulant
 //  soil revivers
 import Soilrevivers from './header/Soilrevivers'
 import CalciGold from './productPage/soilRevivers/CalciGold'
-
 import Calcigoldplus from './productPage/soilRevivers/Calcigoldplus'
-
 import HerboKing from './productPage/soilRevivers/HerboKing'
 import HerboKingAdvance from './productPage/soilRevivers/HerboKingAdvance'
 import HerboRiza from './productPage/soilRevivers/HerboRiza'

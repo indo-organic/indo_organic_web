@@ -4,12 +4,10 @@ const OurStory = () => {
   return (
     <>
       <div className='bg-gray-50 h-[889h]' >
-
         <div className=" relative flex items-center justify-center overflow-hidden bg-whitesmoke z-10">
           <div className="relative mx-auto h-full px-4 pb-20 md:pb-10 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8">
             <div className="flex flex-col items-center justify-between lg:flex-row py-16">
               <div className="relative">
-
                 <div className="lg:max-w-xl lg:pr-5 relative z-40">
                   <p className="flex  uppercase text-xl text-black font-sans">About Us</p>
                   <h2 className="mb-6 max-w-lg text-5xl font-light leading-snug tracking-tight text-g1 sm:text-7xl sm:leading-snug text-black">
@@ -18,7 +16,6 @@ const OurStory = () => {
                   </h2>
                   <p className="text-base  text-black font-serif ">Indoorganics Pvt Ltd. (IOL) is a prominent manufacturer, marketer, and exporter of agricultural inputs. Our product range includes non-organic pesticides (agrochemicals) and a variety of organic products, particularly bio-stimulants, biological solutions, plant nutrients, and fertilizers. For many years, we have been dedicated to serving the farming community with our high-quality crop protection and crop nutrition products.</p>
                   <div className="mt-10 flex flex-col items-center md:flex-row">
-                 
                     <Link to='/aboutUs' className="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-green-500 rounded-xl group">
                       <span className="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-green-700 rounded group-hover:-mr-4 group-hover:-mt-4">
                         <span className="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
