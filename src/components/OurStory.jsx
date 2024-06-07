@@ -3,7 +3,7 @@ import homeResearch from '../assets/homeResearchV.mp4'
 const OurStory = () => {
   return (
     <>
-      <div className='bg-gray-50 h-[889h]' >
+      <div className='bg-gray-100 h-[38rem] ' >
         <div className=" relative flex items-center justify-center overflow-hidden bg-whitesmoke z-10">
           <div className="relative mx-auto h-full px-4 pb-20 md:pb-10 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8">
             <div className="flex flex-col items-center justify-between lg:flex-row py-16">

@@ -25,6 +25,7 @@ const crops = [
     imageUrl: "https://images.cnbctv18.com/hindicnbctv18/2023/06/wheat-2-1024x576.jpg"
   },
   {
+    
     title: "cotton",
     description: "lorem10 demo text",
     imageUrl: "https://static.vecteezy.com/system/resources/thumbnails/034/900/294/small_2x/delicate-cotton-fields-ready-to-be-gathered-generative-ai-photo.jpg"
