@@ -1,11 +1,8 @@
-
 const Mission = () => {
   return (
     <>
       <section className="bg-gray-100">
         <div className=" container max-w-xl p-6 mx-auto space-y-12 lg:px-8 lg:max-w-7xl mt-14">
-        
-
 
           <div className="relative mx-auto mt-10 w-full">
             <img className="h-64 w-full object-cover rounded-md" src='https://www.strategy-business.com/media/image/44639082_thumb6_1180x670.jpg' alt="Random image" />
@@ -14,7 +11,6 @@ const Mission = () => {
               <h2 className="text-white text-3xl font-bold">Mission</h2>
             </div>
           </div>
-
 
           <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
             <div>

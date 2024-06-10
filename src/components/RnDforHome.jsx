@@ -7,7 +7,6 @@ import { Link } from "react-router-dom"
 const RnDforHome = () => {
   return (
     <>
-
       <section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-gray-100 min-h-[70vh]">
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center justify-between -mx-4">
@@ -36,7 +35,6 @@ const RnDforHome = () => {
                       alt=""
                       className="w-full rounded-2xl"
                     />
-
                   </div>
                 </div>
               </div>
@@ -69,13 +67,6 @@ const RnDforHome = () => {
           </div>
         </div>
       </section>
-
-
-
-
-
-
-
 
 
     </>

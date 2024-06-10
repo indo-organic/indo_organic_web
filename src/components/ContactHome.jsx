@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 const ContactHome = () => {
     return (
         <>
-
             <section className="flex  gap-4 w-[100%] min-h-[20rem] bg-cover bg-fixed bg-bottom justify-center items-center m-auto "
                 style={{ backgroundImage: 'url(https://www.deere.co.in/assets/images/region-1/industries/agriculture/in_agriculture_hero_1366x347.jpg)' }}>
                 <div className="w-[80%] h-[20rem]  flex flex-col items-center justify-center gap-5 uppercase font-serif">
@@ -16,12 +15,7 @@ const ContactHome = () => {
                         <span className="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white">Contact us</span>
                     </Link>
                 </div>
-
             </section>
-
-
-
-
         </>
     )
 }
