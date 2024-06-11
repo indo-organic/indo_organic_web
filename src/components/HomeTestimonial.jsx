@@ -58,7 +58,6 @@ const HomeTestimonial= () => {
               </h2>
               <p className="mt-4 text-gray-700">
                 Success Stories
-
               </p>
               <div className="hidden lg:mt-8 lg:flex lg:gap-4">
                 <button

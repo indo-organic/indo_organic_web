@@ -6,24 +6,23 @@ import curevImg from  '../product_image/curev.png'
 import urbanImg from '../product_image/urban3.png'
 const ProtCard = ({ category, name, seeMore, imageSrc, imageAlt, sciName }) => {
   return (
-    <div className="h-[29rem] w-[30rem] flex-shrink-0 m-6 relative overflow-hidden bg-gray-200 rounded-lg max-w-xs shadow-lg group">
+    <div className="h-[18rem] w-[15rem] flex-shrink-0 m-6 relative overflow-hidden bg-green-800 rounded-lg max-w-xs shadow-lg group">
 
-      <div className="relative pt-12 px-12  flex items-center justify-center group-hover:scale-110 transition-transform">
-        <div className="block absolute w-52 h-48  bottom-0 left-0 -mb-24 ml-3"
-          style={{ background: 'radial-gradient(black, transparent 60%)', transform: 'rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1)', opacity: 0.2 }}>
-        </div>
+            <div className="relative pt-12 px-12  flex items-center justify-center group-hover:scale-110 transition-transform">
+                <div className="block absolute w-52 h-48  bottom-0 left-0 -mb-24 ml-3"
+                    style={{ background: 'radial-gradient(black, transparent 60%)', transform: 'rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1)', opacity: 0.2 }}>
+                </div>
 
-        <img className="relative  h-[17rem]" src={imageSrc} alt={imageAlt} />
-      </div>
-      <div className="relative text-black px-6 pb-6 mt-6">
-        <span className="block opacity-75 -mb-1">{category}</span>
-        <div className="flex justify-between">
-          <span className="block font-semibold text-xl uppercase" >{name}</span>
-          <span className=" bg-gray-600 rounded-full text-white text-xs font-bold px-3 py-2 leading-none flex items-center">{seeMore}</span>
+                <img className="relative  h-[10rem]" src={imageSrc} alt={imageAlt} />
+            </div>
+            <div className="relative text-black px-6 pb-10 mt-6">
+
+                <div className="flex justify-center items-center">
+
+                    <span className="opacity-75 uppercase  text-white ">{name}</span>
+                </div>
+            </div>
         </div>
-        <span className="opacity-75 -mb-1">{sciName}</span>
-      </div>
-    </div>
   );
 };
 const Protection = () => {

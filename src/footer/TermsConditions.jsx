@@ -14,7 +14,7 @@ const TermsConditions = () => {
 
       <div className="bg-gray-100 flex text-center flex-col">
         <div className="container mx-auto px-4 py-8 my-9">
-          {/* <h1 className="text-3xl font-bold mb-4  bg-gray-600 text-white p-16">Terms and Conditions</h1> */}
+        
           <h2 className="text-2xl font-bold mb-2"> Introduction:</h2>
 
           <p className="mb-4 p-9">

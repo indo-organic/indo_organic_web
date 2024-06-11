@@ -4,8 +4,7 @@ import OurStory from "./OurStory"
 import IntroVid from "./IntroVid"
 
 import Gallery from "./Gallery"
-import Trust from "./Trust"
-import Quality from './Quality'
+
 import Static from "./Static"
 import RnDforHome from "./RnDforHome"
 
@@ -30,10 +29,10 @@ const MainPage = () => {
       {/* <Static/> */}
       <Product />
       <RnDforHome />
-      {/* <Trust/> */}
+     
       {/* <Sustain/> */}
       <Crop/>
-      {/* <Quality/> */}
+   
       {/* <IntroVid/> */}
       {/* <Catalogue/> */}
       <HomeTestimonial/>

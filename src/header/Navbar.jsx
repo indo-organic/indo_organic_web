@@ -1,71 +1,71 @@
 
 
-// import React, { useState } from "react";
-// import '../styles/Navbar.scss';
-// import { Link } from "react-router-dom";
-// import logo from "../assets/logo.jpg";
+// // import React, { useState } from "react";
+// // import '../styles/Navbar.scss';
+// // import { Link } from "react-router-dom";
+// // import logo from "../assets/logo.jpg";
 
-// function Navbar() {
-//     const [dropdown1Open, setDropdown1Open] = useState(false);
+// // function Navbar() {
+// //     const [dropdown1Open, setDropdown1Open] = useState(false);
 
-//     const toggleDropdown1 = () => {
-//         setDropdown1Open(!dropdown1Open);
-//     };
-
-
-//     const [isOpen, setIsOpen] = useState(false);
-
-//     const toggleNavbar = () => {
-//         setIsOpen(!isOpen);
-//     };
-
-//     return (
-//         <nav className="navbar">
-//             <div className="nav_left">
-//                 <Link to='/' className=''>
-//                     <img src={logo} alt="" />
-
-//                 </Link>
-//             </div>
-//             <div className="nav_right">
-
-//                 <ul className="nav_link_box">
-//                     <Link to='/' className='nav_links'>
-//                         Home
-//                     </Link>
-//                     <Link to='/aboutUs' className='nav_links'>company</Link>
-
-//                     <Link className="dropdown">
-//                         <Link to='' onClick={toggleDropdown1} className='nav_links'>Product & Services</Link>
-//                         {dropdown1Open && (
-//                             <ul className="dropdown-menu">
-//                                 <Link to='/agrochemical' className='drop_links'>Agrochemical</Link>
-//                                 <Link to='/adjuvants' className='drop_links'>adjuvants</Link>
-//                                 <Link to='/organicRange' className='drop_links'>Organic Range</Link>
-//                                 <Link to='/speciality' className='drop_links'>IOL speciality</Link>
-//                             </ul>
-//                         )}
-//                     </Link>
-
-//                     <Link to='/researchDev' className='nav_links'>Research & Development</Link>
-
-//                     <Link to='/contact' className='nav_links'>Contact us</Link>
-//                 </ul>
-
-//             </div>
-//         </nav>
+// //     const toggleDropdown1 = () => {
+// //         setDropdown1Open(!dropdown1Open);
+// //     };
 
 
+// //     const [isOpen, setIsOpen] = useState(false);
 
-//     );
-// }
+// //     const toggleNavbar = () => {
+// //         setIsOpen(!isOpen);
+// //     };
 
-// export default Navbar;
+// //     return (
+// //         <nav className="navbar">
+// //             <div className="nav_left">
+// //                 <Link to='/' className=''>
+// //                     <img src={logo} alt="" />
+
+// //                 </Link>
+// //             </div>
+// //             <div className="nav_right">
+
+// //                 <ul className="nav_link_box">
+// //                     <Link to='/' className='nav_links'>
+// //                         Home
+// //                     </Link>
+// //                     <Link to='/aboutUs' className='nav_links'>company</Link>
+
+// //                     <Link className="dropdown">
+// //                         <Link to='' onClick={toggleDropdown1} className='nav_links'>Product & Services</Link>
+// //                         {dropdown1Open && (
+// //                             <ul className="dropdown-menu">
+// //                                 <Link to='/agrochemical' className='drop_links'>Agrochemical</Link>
+// //                                 <Link to='/adjuvants' className='drop_links'>adjuvants</Link>
+// //                                 <Link to='/organicRange' className='drop_links'>Organic Range</Link>
+// //                                 <Link to='/speciality' className='drop_links'>IOL speciality</Link>
+// //                             </ul>
+// //                         )}
+// //                     </Link>
+
+// //                     <Link to='/researchDev' className='nav_links'>Research & Development</Link>
+
+// //                     <Link to='/contact' className='nav_links'>Contact us</Link>
+// //                 </ul>
+
+// //             </div>
+// //         </nav>
 
 
 
+// //     );
+// // }
 
-//  nav 2
+// // export default Navbar;
+
+
+
+
+// //  nav 2
 
 import React from 'react'
 import logo from "../assets/logo2.png";

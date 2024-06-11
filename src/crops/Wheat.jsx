@@ -1,12 +1,51 @@
+
+// import { Link } from 'react-router-dom';
+
+// import rukka from '../prod_img/rukka.jpg'
+// import React from 'react'
+
+// const Wheat = () => {
+//   return (
+
+
+//     <>
+//       <div className="relative mx-auto  w-full">
+//         <img className="h-64 w-full object-cover rounded-md object-center" src='https://eu-images.contentstack.com/v3/assets/bltdd43779342bd9107/blt3d3c0e0a584c53e0/638f35b14a87af137c4c4ba9/Getty_20wheat_20kernels_20and_20heads_0.jpg?width=850&auto=webp&quality=95&format=jpg&disable=upscale' alt="Random image" />
+//         <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
+//         <div className="absolute inset-0 flex items-center justify-center">
+//           <h2 className="text-white text-3xl font-bold">Wheat </h2>
+//         </div>
+//       </div>
+
+
+
+
+      
+
+
+
+
+
+//     </>
+//   )
+// }
+
+// export default Wheat
+
+
+
+
+
+
 import { Link } from "react-router-dom";
 import amigoImg from '../product_image/amigo.png'
 import indoMagicImg from '../product_image/indomagic.png'
 import helperLImg from '../product_image/helperL.png'
 import fixCImg from '../product_image/fixC.png'
 import autoMotoImg from '../product_image/autoMoto.png'
-const NutritionCard = ({ name, imageSrc, imageAlt }) => {
+const NutritionCard = ({  name,imageSrc, imageAlt, }) => {
     return (
-        <div className="h-[18rem] w-[15rem] flex-shrink-0 m-6 relative overflow-hidden bg-green-800 rounded-lg max-w-xs shadow-lg group">
+        <div className="h-[18rem] w-[15rem] flex-shrink-0 m-6 relative overflow-hidden bg-gray-200 rounded-lg max-w-xs shadow-lg group">
 
             <div className="relative pt-12 px-12  flex items-center justify-center group-hover:scale-110 transition-transform">
                 <div className="block absolute w-52 h-48  bottom-0 left-0 -mb-24 ml-3"
@@ -16,12 +55,12 @@ const NutritionCard = ({ name, imageSrc, imageAlt }) => {
                 <img className="relative  h-[10rem]" src={imageSrc} alt={imageAlt} />
             </div>
             <div className="relative text-black px-6 pb-10 mt-6">
-
+      
                 <div className="flex justify-center items-center">
-
-                    <span className="opacity-75 uppercase  text-white ">{name}</span>
+            
+                <span className="opacity-75 uppercase  ">{name}</span>
                 </div>
-            </div>
+            </div> 
         </div>
     );
 };
@@ -29,7 +68,7 @@ const NutritionCard = ({ name, imageSrc, imageAlt }) => {
 const Nutrition = () => {
     return (
         <>
-            <div className="bg-gray-200">
+            <div className="bg-white">
 
                 <div className="relative mx-auto  w-full">
                     <img className="h-64 w-full object-cover rounded-md object-bottom" src="https://dpjh8al9zd3a4.cloudfront.net/image/h:720,w:1800/187279?s=d3fec701" alt="Random image" />
@@ -74,19 +113,6 @@ const Nutrition = () => {
                             imageAlt="fix-c" />
                     </Link>
 
-
-                    {/* <Link to='/Bloomflower'>
-                        <NutritionCard category="FOCUS" name="Bloom-Flower" seeMore="see more" sciName='---------------'
-                            // imageSrc={amigoImg}
-
-                            imageAlt="bloom flower" />
-                    </Link> */}
-
-
-
-
-
-
                 </div>
             </div>
 
@@ -96,3 +122,4 @@ const Nutrition = () => {
 }
 
 export default Nutrition
+

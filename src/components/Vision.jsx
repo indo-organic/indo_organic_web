@@ -4,9 +4,7 @@ const Vision = () => {
     <>
       <section className="bg-gray-100">
         <div className="container max-w-xl p-6 mx-auto space-y-12 lg:px-8 lg:max-w-7xl mt-14">
-          {/* <div className='h-[30vh] flex  justify-center items-center bg-gray-700'>
-      <h2 className=" text-white font-bold text-3xl  text-center sm:text-5xl">VISION</h2>
-    </div> */}
+         
           <div className="relative mx-auto mt-10 w-full">
             <img className="h-64 w-full object-cover rounded-md object-bottom" src="https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Ae03611ae-8edd-457f-aa4d-73c591a75ee8?source=next-article&fit=scale-down&quality=highest&width=1440&dpr=1" alt="Random image" />
             <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
@@ -14,10 +12,7 @@ const Vision = () => {
               <h2 className="text-white text-3xl font-bold">vision</h2>
             </div>
           </div> 
-
-
-
-
+          
           <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
             <div>
               <div className="mt-4 space-y-12">

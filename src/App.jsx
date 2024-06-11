@@ -5,7 +5,7 @@ import Home from './pages/Home'
 import Contact from './pages/Contact'
 import ResearchDev from './pages/ResearchDev'
 import Career from './pages/Career'
-import Journey from './footer/Journey'
+
 // import News from './footer/News'
 import TermsConditions from './footer/TermsConditions'
 import PrivacyPolicy from './footer/PrivacyPolicy'
@@ -88,11 +88,23 @@ import Urban3 from './productPage/protection/Urban3'
 import Weather from './components/Weather'
 
 
+// crops
+
+import Wheat from './crops/Wheat'
+import Sugarcane from './crops/Sugarcane'
+import Soyabean from './crops/Soyabean'
+import Paddy from './crops/Paddy'
+import Flowers from './crops/Flower'
+import Fruits from './crops/Fruits'
+import Vegetables from './crops/Vegetables'
+import Pulses from './crops/Pulses'
+
+
 const App = () => {
   return (
     <>
       <Router>
-        <Top />
+        {/* <Top /> */}
         <Navbar />
         <SocialMedia />
 
@@ -106,7 +118,7 @@ const App = () => {
           <Route path='/researchDev' element={<ResearchDev />} />
           <Route path='/career' element={<Career />} />
           <Route path='/contact' element={<Contact />} />
-          <Route path='/journey' element={<Journey />} />
+        
           
           <Route path='/vision' element={<Vision />} />
           <Route path='/mission' element={<Mission />} />
@@ -198,6 +210,24 @@ const App = () => {
           <Route path='/FungiEx' element={<FungiEx />} />
           <Route path='/Urban3' element={<Urban3/>} />
           <Route path='/weather' element={<Weather/>} />
+
+            {/* crops */}
+
+          <Route path='/wheat' element={<Wheat/>} />
+          <Route path='/sugarcane' element={<Sugarcane/>} />
+          <Route path='/soyabean' element={<Soyabean/>} />
+          <Route path='/paddy' element={<Paddy/>} />
+
+          <Route path='/flowers' element={<Flowers/>} />
+          <Route path='/fruits' element={<Fruits/>} />
+          <Route path='/vegetables' element={<Vegetables/>} />
+          <Route path='/pulses' element={<Pulses/>} />
+         
+
+
+
+
+
 
 
         </Routes>

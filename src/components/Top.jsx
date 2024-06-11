@@ -16,8 +16,9 @@ const Top = () => {
     };
 
     return (
-        <div className="bg-green-50 py-3 px-[10rem]  z-10 flex  justify-between lg:items-center ">
-            <div className="text-sm text-black  sm:mb-0">
+        
+        <div className="bg-green-100 py-3 px-[10rem]  z-10 flex  justify-between lg:items-center ">
+            <div className="text-sm font-bold text-black  sm:mb-0">
                 <TypeAnimation
                     sequence={[
                         ' नमस्ते',
@@ -35,7 +36,7 @@ const Top = () => {
                     repeat={Infinity}
                 />
             </div>
-            <div className="flex flex-col sm:flex-row items-center gap-4 cursor-pointer">
+            <div className="flex flex-col sm:flex-row items-center gap-4 cursor-pointer font-bold">
                 <div className="text-gray-700 hover:text-gray-900 dark:text-gray-500 hover:dark:text-gray-700 text-[13px] flex items-center" onClick={handleEmailClick}>
                     <MdEmail className="mr-1" />
                     info@indoorganics.in

@@ -33,8 +33,6 @@ const PrivacyPolicy = () => {
             If you're unsure where to start, you can use online privacy policy generators to generate a template based on your inputs. However, it's essential to review and customize the generated content to ensure it accurately reflects your data practices.
           </p>
 
-
-
           <h2 className="text-2xl font-bold mb-2">Create a New Page on Your Website:</h2>
 
           <p className="mb-4 p-9">
