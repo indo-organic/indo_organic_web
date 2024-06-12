@@ -14,30 +14,30 @@ import vaidLImg from '../product_image/vaidL.png'
 
 const InsectCard = ({ category, name, seeMore, imageSrc, imageAlt, sciName }) => {
   return (
-    <div className="h-[18rem] w-[15rem] flex-shrink-0 m-6 relative overflow-hidden bg-green-800 rounded-lg max-w-xs shadow-lg group">
+    <div className="h-[18rem] w-[15rem] flex-shrink-0 m-6 relative overflow-hidden bg-green-200 rounded-lg max-w-xs shadow-lg group">
 
     <div className="relative pt-12 px-12  flex items-center justify-center group-hover:scale-110 transition-transform">
-        <div className="block absolute w-52 h-48  bottom-0 left-0 -mb-24 ml-3"
-            style={{ background: 'radial-gradient(black, transparent 60%)', transform: 'rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1)', opacity: 0.2 }}>
-        </div>
+      <div className="block absolute w-52 h-48  bottom-0 left-0 -mb-24 ml-3"
+        style={{ background: 'radial-gradient(black, transparent 60%)', transform: 'rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1)', opacity: 0.2 }}>
+      </div>
 
-        <img className="relative  h-[10rem]" src={imageSrc} alt={imageAlt} />
+      <img className="relative  h-[10rem]" src={imageSrc} alt={imageAlt} />
     </div>
     <div className="relative text-black px-6 pb-10 mt-6">
 
-        <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center">
 
-            <span className="opacity-75 uppercase  text-white ">{name}</span>
-        </div>
+        <span className="opacity-75 uppercase font-bold text-black ">{name}</span>
+      </div>
     </div>
-</div>
+  </div>
   );
 };
 const Insecticide = () => {
   return (
     <>
 
-      <div className="">
+      <div className="bg-gray-200">
         {/* <h1 className="text-3xl font-bold mb-4 text-center  uppercase   bg-gray-800  text-white p-16">insecticide</h1> */}
         <div className="relative mx-auto  w-full">
           <img className="h-64 w-full object-cover rounded-md object-bottom" src="https://img.freepik.com/free-vector/different-insects-collection-isolated-white-background_1308-53120.jpg" alt="Random image" />

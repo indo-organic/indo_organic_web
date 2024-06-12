@@ -77,6 +77,7 @@
 
 import demoImg from '../assets/dam.png'
 import { Link } from 'react-router-dom';
+import cropImg from '../AboutImg/cropImg.png'
 
 import protectionImg from '../productImgicon/protection.png'
 const Crop = () => {
@@ -92,7 +93,7 @@ const Crop = () => {
 
 
                 <div  className="flex flex-col  gap-4 w-[100%] min-h-[50rem] bg-cover bg-fixed bg-center justify-center items-center m-auto "
-          style={{ backgroundImage: 'url(https://media.istockphoto.com/id/133543924/photo/wheat-seed-heads-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=jBW7OB4Y5TxNk5zKMzT2JYCIT_2U1m4CyXCYlJlAbpU=)' }}>
+           style={{ backgroundImage: `url(${cropImg})` }}>
 
                 
 

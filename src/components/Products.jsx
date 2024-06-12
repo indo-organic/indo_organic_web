@@ -5,7 +5,7 @@ import protectionImg from '../productImgicon/protection.png'
 const Products = () => {
   return (
     <>
-      <div className="min-h-[100vh] pt-2 pb-5 ">
+      <div className="min-h-[100vh] pt-2 pb-5">
         <div className="text-center pt-[2rem] ">
           <h1 className="font-[900] text-5xl mb-1 text-green-800">Products We Offer</h1>
         </div>
@@ -16,42 +16,31 @@ const Products = () => {
 
             <img src='https://i.guim.co.uk/img/media/de2022c9550a0070986a904c3438a3064abe8d70/0_62_2480_1488/master/2480.jpg?width=465&dpr=1&s=none' alt="Product" className="h-40 w-full rounded-t-xl" />
             <div className="">
-
               <p className="text-lg font-bold text-black truncate block capitalize text-center ">Insecticide</p>
-
             </div>
-
           </Link>
 
-          <Link to='/fungicide' className="w-[12rem] h-[12rem] object-cover bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl ">
 
+          <Link to='/fungicide' className="w-[12rem] h-[12rem] object-cover bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl ">
             <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHy0fyOJ1yNdsfeUkTEUbOoYTcsZJ9x7PzVQ&s' alt="Product" className="h-40 w-full rounded-t-xl" />
             <div className="">
-             
               <p className="text-lg font-bold text-black truncate block capitalize text-center ">Fungicide</p>
-
             </div>
-
           </Link>
 
           <Link to='/herbicide' className="w-[12rem] h-[12rem] object-cover bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl ">
 
             <img src="https://static.scientificamerican.com/sciam/cache/file/F6C02647-4B66-41FD-978DF41814785D05_source.jpg?w=600" alt="Product" className="h-40 w-full  rounded-t-xl" />
             <div className="">
-              
               <p className="text-lg font-bold text-black truncate block capitalize text-center ">Herbicide</p>
-
             </div>
-
           </Link>
 
           <Link to='/comboB' className="w-[12rem] h-[12rem] object-cover bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl ">
 
             <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaoPEuW6TOCrAMpUDaID7M6waBiMGk9hKNv_Ygl58hCA&s' alt="Product" className="h-40 w-full rounded-t-xl" />
             <div className="">
-             
               <p className="text-lg font-bold text-black truncate block capitalize text-center ">Adjuvant</p>
-
             </div>
 
           </Link>
