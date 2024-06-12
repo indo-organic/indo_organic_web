@@ -9,7 +9,7 @@ const AboutUs = () => {
         <img className="h-64 w-full object-cover rounded-md object-bottom" src={AboutImg} alt="Random image" />
         <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
         <div className="absolute inset-0 flex items-center justify-center">
-          <h2 className="text-white text-3xl font-bold">INSECTICIDE </h2>
+          <h2 className="text-white text-3xl font-bold">ABOUT </h2>
         </div>
       </div>
       <div className='flex  justify-center w-[100%] py-10  bg-white  text-black'>

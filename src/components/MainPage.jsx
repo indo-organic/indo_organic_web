@@ -24,14 +24,14 @@ const MainPage = () => {
     <>
       {/* <Gallery /> */}
       <OurStory />
+      <Crop/>
       {/* <Weather/> */}
       <Headline />
       {/* <Static/> */}
-      <Product />
+      {/* <Product /> */}
       <RnDforHome />
      
       {/* <Sustain/> */}
-      <Crop/>
    
       {/* <IntroVid/> */}
       {/* <Catalogue/> */}
