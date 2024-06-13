@@ -4,21 +4,21 @@ const Alaska = () => {
   return (
     <>
     <h1 className="text-3xl font-bold mb-4  bg-green-600 text-white p-16 text-center">Insecticide</h1>
-    
+
 
       <section className="text-gray-600 body-font overflow-hidden">
         <div className="container px-5 py-24 mx-auto">
           <div className="lg:w-4/5 mx-auto flex flex-wrap">
-            {/* <img alt="ecommerce" className="lg:w-1/2 w-full lg:h-auto h-64 sm:h-1 object-cover object-center rounded" src={alaskaImg} /> */}
+
             <div className="h-[460px] rounded-lg  dark:bg-gray-700 mb-4">
               <img className="w-full h-full object-cover" src={alaskaImg} alt="Product Image" />
             </div>
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-              {/* <h2 className="text-sm title-font text-gray-500 tracking-widest">Alaska<sup>TM</sup></h2> */}
+
               <h2 className="text-sm title-font text-gray-500 tracking-widest">
                 <img src={alaskaImg_title} alt="" className='w-72 my-4' />
               </h2>
-              {/* <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">Profenofos 40% EC + Cypermethrin 4% EC</h1> */}
+
               <p className="leading-relaxed">ALASKA is used to control Bollworms (pink and spotted), whitefly,
                 Stem Borer, Leaf Folder, Hispa, Green leaf hopper, Brown plant
                 hopper, White back plant hopper, Girdle beetle, Leaf miners, Shoot &
@@ -95,12 +95,14 @@ const Alaska = () => {
         </div>
       </section>
 
-     
-
-
 
     </>
   )
 }
 
 export default Alaska
+
+
+
+
+

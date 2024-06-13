@@ -10,7 +10,7 @@ import Career from './pages/Career'
 import TermsConditions from './footer/TermsConditions'
 import PrivacyPolicy from './footer/PrivacyPolicy'
 import ReturnPolicy from './footer/ReturnPolicy'
-import Top from './components/Top'
+// import Top from './components/Top'
 import AboutUs from './pages/AboutUs'
 import Faqs from './footer/Faqs'
 import Testimonial from './footer/Testimonial'
@@ -198,7 +198,7 @@ const App = () => {
           <Route path='/Amigo' element={<Amigo />} />
           <Route path='/AutoMoto' element={<AutoMoto />} />
           <Route path='/BloomFlower' element={<BloomFlower />} />
-          <Route path='/FixC' element={<FixC />} />
+          <Route path='/FixC' element={<FixC/>} />
           <Route path='/HelperL' element={<HelperL />} />
           <Route path='/IndoMagic' element={<IndoMagic />} />
 
@@ -223,13 +223,6 @@ const App = () => {
           <Route path='/vegetables' element={<Vegetables/>} />
           <Route path='/pulses' element={<Pulses/>} />
          
-
-
-
-
-
-
-
         </Routes>
         <Footer />
       </Router>

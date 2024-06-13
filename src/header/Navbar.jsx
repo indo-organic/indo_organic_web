@@ -64,7 +64,6 @@
 
 
 
-
 // //  nav 2
 
 import React from 'react'
@@ -80,12 +79,12 @@ const Navbar = () => {
             <section
                 className='flex items-center flex-wrap lg:justify-center gap-4 py-3 sm:px-10 px-4 border-gray-200 border-b min-h-[75px]'>
 
-               
 
-                <a href="" className="shrink-0">
+
+                <div className="shrink-0">
                     <img src={logo} alt="logo"
-                    className='md:w-[160px] w-36' />
-                </a>
+                        className='md:w-[160px] w-36' />
+                </div>
 
 
                 <div className="lg:absolute lg:right-10 flex items-center ml-auto space-x-8">
@@ -123,168 +122,175 @@ const Navbar = () => {
 
                     <ul
                         className='lg:flex lg:gap-x-10 max-lg:space-y-3 max-lg:fixed max-lg:bg-white max-lg:w-2/3 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-4 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50'>
-                        <li className='max-lg:border-b max-lg:pb-4 px-3 lg:hidden'>
-                            <a href=""><img src="https://readymadeui.com/readymadeui.svg" alt="logo" className='w-36' />
+                        {/* <li className='max-lg:border-b max-lg:pb-4 px-3 lg:hidden'>
+                            <a href=""><img src="" alt="logo" className='w-36' />
                             </a>
-                        </li>
-                        <Link to='/' className='max-lg:border-b max-lg:px-3 max-lg:py-3'><a href=''
-                            className='hover:text-[#007bff] text-[#007bff] font-semibold block text-[16px]'>Home</a>
+                        </li> */}
+                        <Link to='/' className='max-lg:border-b max-lg:px-3 max-lg:py-3'><div
+                            className='hover:text-[#007bff] text-[#007bff] font-semibold block text-[16px]'>Home</div>
                         </Link>
 
 
 
                         <li className='group max-lg:border-b max-lg:px-3 max-lg:py-3 relative'>
-                            <a href=''
+                            <div
                                 className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block'>Company
-                            </a>
+                            </div>
                             <ul
-                                className='absolute top-5 max-lg:top-8 left-0 z-50 block space-y-2 shadow-lg bg-white max-h-0 overflow-hidden min-w-[250px] group-hover:opacity-100 group-hover:max-h-[700px] px-6 group-hover:pb-4 group-hover:pt-6 transition-all duration-500'>
-                                <Link to='/aboutUs' className='border-b py-3'>
-                                    <a href=''
-                                        className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block'>
-                                      
+                                className='absolute top-5 max-lg:top-8 left-0 z-50 block space-y-2 shadow-lg bg-white max-h-0 overflow-hidden min-w-[250px] group-hover:opacity-100 group-hover:max-h-[700px] px-6 group-hover:pb-4 group-hover:pt-6 transition-all duration-500 '>
+                                <Link to='/aboutUs' className='border-b py-3 '>
+                                    <div
+                                        className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block pb-3'>
+
                                         Our Story
-                                    </a>
+                                    </div>
                                 </Link>
-                                <li className='border-b py-3'>
-                                    <a href=''
-                                        className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block'>
-                                       
+                                <Link to='' className='border-b py-3'>
+                                    <div
+                                        className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block pb-3'>
+
                                         Vision & Values
-                                    </a>
-                                </li>
-                                <li className='border-b py-3'>
-                                    <a href=''
-                                        className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block'>
+                                    </div>
+                                </Link>
+                                <Link className='border-b py-3'>
+                                    <div
+                                        className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block pb-3'>
 
                                         Leadership Insights
-                                    </a>
-                                </li>
-                                <li className='border-b py-3'>
-                                    <a href=''
-                                        className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block'>
+                                    </div>
+                                </Link>
+                                <Link className='border-b py-3'>
+                                    <div
+                                        className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block pb-3'>
 
                                         Milestones & Achievements
-                                    </a>
-                                </li>
+                                    </div>
+                                </Link>
                             </ul>
                         </li>
 
                         <li className='group max-lg:border-b max-lg:px-3 max-lg:py-3 relative'>
-                            <a href=''
+                            <div
                                 className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block'>Products & Solution
-                            </a>
+                            </div>
                             <ul
                                 className='absolute top-5 max-lg:top-8 left-0 z-50 block space-y-2 shadow-lg bg-white max-h-0 overflow-hidden min-w-[250px] group-hover:opacity-100 group-hover:max-h-[700px] px-6 group-hover:pb-4 group-hover:pt-6 transition-all duration-500'>
                                 <Link to='/insecticide' className='border-b py-3'>
-                                    <a href=''
+                                    <div
                                         className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block py-2'>
 
                                         Insecticide
-                                    </a>
+                                    </div>
                                 </Link>
                                 <Link to='/fungicide' className='border-b py-3'>
-                                    <a href=''
+                                    <div
                                         className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block py-2'>
 
                                         Fungicide
-                                    </a>
+                                    </div>
                                 </Link>
                                 <Link to='/herbicide' className='border-b py-3'>
-                                    <a href=''
+                                    <div
                                         className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block py-2'>
 
                                         Herbicide
-                                    </a>
+                                    </div>
                                 </Link>
                                 <Link to='/comboB' className='border-b py-3'>
-                                    <a href=''
+                                    <div
                                         className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block py-2'>
 
                                         Adjuvant
-                                    </a>
+                                    </div>
                                 </Link>
                                 <Link to='/soilrevivers' className='border-b py-3'>
-                                    <a href=''
+                                    <div
                                         className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block  py-2'>
 
                                         Soil Revivers
-                                    </a>
+                                    </div>
                                 </Link>
                                 <Link to='/Nutrition' className='border-b py-3'>
-                                    <a href=''
+                                    <div
                                         className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block py-2'>
 
                                         PGRs/Nutrition
-                                    </a>
+                                    </div>
                                 </Link>
                                 <Link to='/protection' className='border-b py-3'>
-                                    <a href=''
+                                    <div
                                         className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block py-2'>
 
                                         Protection
-                                    </a>
+                                    </div>
                                 </Link>
                             </ul>
                         </li>
 
+
+
+
+
                         <li className='group max-lg:border-b max-lg:px-3 max-lg:py-3 relative'>
-                            <a href=''
-                                className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block'>Our Expertise
-                            </a>
+                            <div
+                                className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block pb-3'>Our Expertise
+                            </div>
                             <ul
                                 className='absolute top-5 max-lg:top-8 left-0 z-50 block space-y-2 shadow-lg bg-white max-h-0 overflow-hidden min-w-[250px] group-hover:opacity-100 group-hover:max-h-[700px] px-6 group-hover:pb-4 group-hover:pt-6 transition-all duration-500'>
-                                <li className='border-b py-3'>
-                                    <a href=''
-                                        className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block'>
+                                <Link to='' className='border-b py-3'>
+                                    <div
+                                        className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block pb-3'>
 
                                         Agri-Innovations
-                                    </a>
-                                </li>
-                                <li className='border-b py-3'>
-                                    <a href=''
-                                        className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block'>
+                                    </div>
+                                </Link>
+                                <Link className='border-b py-3'>
+                                    <div
+                                        className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block pb-3'>
 
                                         Industry Analysis
-                                    </a>
-                                </li>
-                                <li className='border-b py-3'>
-                                    <a href=''
-                                        className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block'>
+                                    </div>
+                                </Link>
+                                <Link to='' className='border-b py-3'>
+                                    <div
+                                        className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block pb-3'>
 
                                         Sustainable Practices
-                                    </a>
-                                </li>
-                                <li className='border-b py-3'>
-                                    <a href=''
+                                    </div>
+                                </Link>
+                                <Link to='' className='border-b py-3'>
+                                    <div
                                         className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block'>
 
                                         Technology Intergration
-                                    </a>
-                                </li>
+                                    </div>
+                                </Link>
                             </ul>
                         </li>
 
 
                         <li className='group max-lg:border-b max-lg:px-3 max-lg:py-3 relative'>
-                            <a href=''
+                            <div
                                 className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block'>Resources
-                            </a>
+                            </div>
+
                             <ul
                                 className='absolute top-5 max-lg:top-8 left-0 z-50 block space-y-2 shadow-lg bg-white max-h-0 overflow-hidden min-w-[250px] group-hover:opacity-100 group-hover:max-h-[700px] px-6 group-hover:pb-4 group-hover:pt-6 transition-all duration-500'>
+
+
                                 <Link to='/faqs' className='border-b py-3'>
-                                    <a href=''
+                                    <div
                                         className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block py-3'>
 
                                         Faq's & Knowledge
-                                    </a>
+                                    </div>
                                 </Link>
                                 <Link to='/weather' className='border-b py-5'>
-                                    <a href=''
+                                    <div
                                         className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block py-3'>
 
                                         Weather Intelligence
-                                    </a>
+                                    </div>
                                 </Link>
 
                             </ul>
@@ -292,20 +298,29 @@ const Navbar = () => {
 
 
 
-                        <Link to='/contact' className='max-lg:border-b max-lg:px-3 max-lg:py-3'><a href=''
-                            className='hover:text-[#007bff] text-gray-600 font-semibold text-[15px] block'>contact us</a></Link>
+                        <Link to='/contact' className='max-lg:border-b max-lg:px-3 max-lg:py-3'><div
+                            className='hover:text-[#007bff] text-gray-600 font-semibold text-[15px] block'>contact us</div></Link>
                     </ul>
                 </div>
+
+
                 <div id="toggleOpen" className='flex ml-auto lg:hidden'>
                     <button>
                         <svg className="w-7 h-7" fill="#000" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                             <path fillRule="evenodd"
                                 d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                               clipRule="evenodd"></path>
+                                clipRule="evenodd"></path>
                         </svg>
                     </button>
                 </div>
+
+
+
+
             </div>
+
+
+
         </header>
     )
 }
