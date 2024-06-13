@@ -1,11 +1,11 @@
 
-import Product from './Products'
+// import Product from './Products'
 import OurStory from "./OurStory"
-import IntroVid from "./IntroVid"
+// import IntroVid from "./IntroVid"
 
-import Gallery from "./Gallery"
+// import Gallery from "./Gallery"
 
-import Static from "./Static"
+// import Static from "./Static"
 import RnDforHome from "./RnDforHome"
 
 
