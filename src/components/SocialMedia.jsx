@@ -9,8 +9,6 @@ import '../styles/Socia.scss'
 const SocialMedia = () => {
     return (
         <>
-
-
             <div className="fixed top-[40%] right-0 h-full  p-4 z-50 ">
                 <ul className="flex flex-col space-y-4 text-4xl">
                     <li>

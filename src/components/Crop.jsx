@@ -1,10 +1,7 @@
 
-
-
 import demoImg from '../assets/dam.png'
 import { Link } from 'react-router-dom';
 import cropImg from '../AboutImg/cropImg.png'
-
 import protectionImg from '../productImgicon/protection.png'
 const Crop = () => {
   return (
