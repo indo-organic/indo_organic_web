@@ -99,6 +99,11 @@ import Fruits from './crops/Fruits'
 import Vegetables from './crops/Vegetables'
 import Pulses from './crops/Pulses'
 
+import Wheat_insect from './crops/wheat/Wheat_insect'
+import Wheat_nutrition from './crops/wheat/Wheat_nutrition'
+import Wheat_herbs from './crops/wheat/Wheat_herbs'
+import Wheat_protection from './crops/wheat/Wheat_protection'
+
 
 const App = () => {
   return (
@@ -222,6 +227,15 @@ const App = () => {
           <Route path='/fruits' element={<Fruits/>} />
           <Route path='/vegetables' element={<Vegetables/>} />
           <Route path='/pulses' element={<Pulses/>} />
+
+
+          <Route path='/wheat_insect' element={<Wheat_insect/>} />
+          <Route path='/wheat_nutrition' element ={<Wheat_nutrition/>}/>
+          <Route path='/wheat_herbs'  element={<Wheat_herbs/>} />
+          <Route path='/Wheat_protection'  element={<Wheat_protection/>} />
+
+
+          
          
         </Routes>
         <Footer />

@@ -75,7 +75,7 @@ import { FaRegNewspaper } from "react-icons/fa6";
 
 const Navbar = () => {
     return (
-        <header className='shadow-md bg-gray-50 font-[sans-serif] tracking-wide sticky top-0 w-full  z-50 h-[8rem] '>
+        <header className='shadow-md bg-gray-50 font-[sans-serif] tracking-wide sticky top-0 w-full  z-50 h-[rem] '>
             <section
                 className='flex items-center flex-wrap lg:justify-center gap-4 py-3 sm:px-10 px-4 border-gray-200 border-b min-h-[75px]'>
 
@@ -105,7 +105,7 @@ const Navbar = () => {
                 </div>
             </section>
 
-            <div className='flex flex-wrap justify-center px-10 py-3 relative'>
+            <div className='flex flex-wrap justify-center px-10  relative '>
 
                 <div id="collapseMenu"
                     className='max-lg:hidden lg:!block max-lg:before:fixed max-lg:before:bg-black max-lg:before:opacity-40 max-lg:before:inset-0 max-lg:before:z-50'>

@@ -12,7 +12,7 @@ import grit40Img from '../product_image/grit40.png'
 import tropizImg from '../product_image/tropiz.png'
 import vaidLImg from '../product_image/vaidL.png'
 
-const InsectCard = ({ category, name, seeMore, imageSrc, imageAlt, sciName }) => {
+const InsectCard = ({ name, imageSrc, imageAlt}) => {
   return (
     <div className="h-[18rem] w-[15rem] flex-shrink-0 m-6 relative overflow-hidden bg-green-200 rounded-lg max-w-xs shadow-lg group">
 
