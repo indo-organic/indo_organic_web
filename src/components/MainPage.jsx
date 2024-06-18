@@ -1,5 +1,5 @@
 
-// import Product from './Products'
+import Product from './Products'
 import OurStory from "./OurStory"
 // import IntroVid from "./IntroVid"
 
@@ -23,20 +23,20 @@ const MainPage = () => {
   return (
     <>
       {/* <Gallery /> */}
-      <OurStory />
+      {/* <OurStory /> */}
       <Crop/>
       {/* <Weather/> */}
-      <Headline />
+      {/* <Headline /> */}
       {/* <Static/> */}
       {/* <Product /> */}
-      <RnDforHome />
+      {/* <RnDforHome /> */}
      
       {/* <Sustain/> */}
    
       {/* <IntroVid/> */}
       {/* <Catalogue/> */}
-      <HomeTestimonial/>
-      <ContactHome />
+      {/* <HomeTestimonial/> */}
+      {/* <ContactHome /> */}
     </>
 
   )
