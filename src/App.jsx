@@ -16,7 +16,6 @@ import Faqs from './footer/Faqs'
 import Testimonial from './footer/Testimonial'
 // import TrialProduct from './footer/TrialProduct'
 import Vision from './components/Vision'
-import Mission from './components/Mission'
 import Adjuvants from './header/Adjuvants'
 import OrganicRange from './header/OrganicRange'
 import Speciality from './header/Speciality'
@@ -109,7 +108,7 @@ const App = () => {
   return (
     <>
       <Router>
-        {/* <Top /> */}
+        <Top />
         <Navbar />
         <SocialMedia />
 
@@ -126,7 +125,7 @@ const App = () => {
         
           
           <Route path='/vision' element={<Vision />} />
-          <Route path='/mission' element={<Mission />} />
+          
           {/* <Route path='/news' element={<News />} /> */}
           <Route path='/termsCondition' element={<TermsConditions />} />
           <Route path='/privacyPolicy' element={<PrivacyPolicy />} />
@@ -153,6 +152,7 @@ const App = () => {
           <Route path='/tropiz' element={<Tropiz />} />
           <Route path='/peak' element={<Peak />} />
           <Route path='/vaid_l' element={<Vaid_L />} />
+         
 
 
           {/* fungicide */}

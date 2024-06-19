@@ -1,5 +1,7 @@
+
 import { Link } from 'react-router-dom'
-import homeResearch from '../assets/homeResearchV.mp4'
+//  import homeResearch from '../assets/homeResearchV.mp4'
+import homeResearch from '../assets/aboutVid.mp4'
 const OurStory = () => {
   return (
     <>
@@ -31,7 +33,6 @@ const OurStory = () => {
                 </div>
               </div>
               <div className="relative hidden lg:ml-32 lg:block lg:w-1/2 ">
-
                 <div className="abg-orange-400 mx-auto w-fit overflow-hidden rounded-[1rem] rounded-br-none rounded-tl-none ">
                   <video src={homeResearch} loop autoPlay muted></video>
                 </div>
@@ -40,19 +41,16 @@ const OurStory = () => {
           </div>
         </div>
       </div>
-
-
-
-
-
-
-
-
     </>
   )
 }
 
 export default OurStory
+
+
+
+
+
 
 
 

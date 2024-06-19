@@ -7,6 +7,7 @@ import OurStory from "./OurStory"
 
 // import Static from "./Static"
 import RnDforHome from "./RnDforHome"
+import News from './News'
 
 
 
@@ -23,19 +24,20 @@ const MainPage = () => {
   return (
     <>
       {/* <Gallery /> */}
-      {/* <OurStory /> */}
+      <OurStory />
       <Crop/>
       {/* <Weather/> */}
-      {/* <Headline /> */}
+      <Headline />
       {/* <Static/> */}
       {/* <Product /> */}
-      {/* <RnDforHome /> */}
+      <RnDforHome />
      
       {/* <Sustain/> */}
    
       {/* <IntroVid/> */}
       {/* <Catalogue/> */}
       {/* <HomeTestimonial/> */}
+      <News/>
       {/* <ContactHome /> */}
     </>
 

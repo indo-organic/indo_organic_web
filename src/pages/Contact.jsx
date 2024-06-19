@@ -80,8 +80,8 @@ const Contact = () => {
       </div>
 
 
-      
-{/* <div className="p-4 sm:p-8 md:p-16 mt-20">
+
+      {/* <div className="p-4 sm:p-8 md:p-16 mt-20">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
 

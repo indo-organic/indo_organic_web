@@ -81,12 +81,12 @@ const Navbar = () => {
                         <TiWeatherPartlySunny className="text-2xl cursor-pointer fill-[#333] hover:fill-[#007bff] inline-block" />
 
                     </span> */}
-                    <div className="inline-block cursor-pointer border-gray-300">
+                    {/* <div className="inline-block cursor-pointer border-gray-300">
                         <a href="https://krishijagran.com/" target='blank'>
                             <FaRegNewspaper className="text-2xl cursor-pointer fill-[#333] hover:fill-[#007bff] inline-block" />
                         </a>
 
-                    </div>
+                    </div> */}
                 </div>
             </section>
 

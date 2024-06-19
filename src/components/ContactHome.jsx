@@ -4,7 +4,7 @@ const ContactHome = () => {
     return (
         <>
             <section className="flex  gap-4 w-[100%] min-h-[20rem] bg-cover bg-fixed bg-bottom justify-center items-center m-auto "
-                style={{ backgroundImage: 'url(https://www.deere.co.in/assets/images/region-1/industries/agriculture/in_agriculture_hero_1366x347.jpg)' }}>
+                style={{ backgroundImage: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Dua1CFucji-yh9iNkaTYlh17WcnQpkt3mg&s)' }}>
                 <div className="w-[80%] h-[20rem]  flex flex-col items-center justify-center gap-5 uppercase font-serif">
                     <p className='text-white text-[3rem] font-[900]'>grow with us, thrive tomorrow</p>
                     <Link to='/contact' className="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-green-500 rounded-xl group">
