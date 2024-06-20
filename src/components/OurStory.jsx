@@ -151,6 +151,7 @@ const OurStory = () => {
     <section className='bg-gray-100'>
       <div className="px-8 py-[4.5rem] mx-auto md:px-12 lg:px-32 max-w-screen-xl flex flex-col lg:h-[100%]justify-center">
         <div className="flex flex-col">
+
           <div className="prose text-gray-500 prose-sm prose-headings:font-normal prose-headings:text-xl">
             <div>
               <h1>Indo Organics Pvt. Ltd</h1>
@@ -249,6 +250,7 @@ const OurStory = () => {
                   </div>
                 </div>
               </div>
+              
               <div className="h-full md:order-first">
                 {/* <img
                   src="https://thefactfactor.com/wp-content/uploads/2019/07/Crops.png"
@@ -355,11 +357,12 @@ const OurStory = () => {
                       <path d="M4.2 7.5v.01"></path>
                       <path d="M10 11v2a2 2 0 1 0 4 0v-2a2 2 0 1 0 -4 0z"></path>
                     </svg>
+                    
                     <span className="text-gray-950 font-medium text-sm">Collaboration and Cross-disciplinary Approaches</span>
                   </div>
                 </div>
               </div>
-              <div className="h-full">
+              <div className="h-full" >
                 <img
                   src="https://www.tata.com/content/dam/tata/images/newsroom/community/desktop/sustainable_farming_tata_trusts_secondary3_desktop_753.jpg"
                   alt="#_"

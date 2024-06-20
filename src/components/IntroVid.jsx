@@ -10,7 +10,7 @@ const IntroVid = () => {
   <div className="absolute inset-0">
    
 
-    <video src={video} autoPlay muted loop classNameName='object-cover object-center w-full h-full'></video>
+    <video src={video} autoPlay muted loop className='object-cover object-center w-full h-full'></video>
     <div className="absolute inset-0 bg-black opacity-50"></div>
   </div>
   
