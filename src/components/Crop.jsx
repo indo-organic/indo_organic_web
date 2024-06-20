@@ -10,12 +10,12 @@ const Crop = () => {
         style={{ backgroundImage: `url(${cropImg})` }}>
 
         <div className="text-center pt-[2rem] ">
-          <h1 className="font-[900] text-5xl mb-1 text-green-800">Category-specific Products</h1>
+          <h1 className="font-[400] text-5xl mb-1 ">Category-specific Products</h1>
 
         </div>
 
         <section id="Projects"
-          className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-6 md:grid-cols-2  justify-items-center justify-center gap-y-20 gap-x-10 mt-10 mb-5">
+          className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2  justify-items-center justify-center gap-y-20 gap-x-10 mt-10 mb-5">
 
           <Link to='/wheat' className="w-[12rem] h-[12rem] object-cover bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl  ">
 
@@ -61,6 +61,11 @@ const Crop = () => {
 
           </Link>
 
+
+        </section>
+
+        <section id="Projects"
+          className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-10 mt-10 mb-5">
           <Link to='/flowers' className="w-[12rem] h-[12rem] object-cover bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl  ">
 
             <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStl32FH0ypWnPMveAFhA5GKYL8uk37vz9vEQ&s' alt="Product" className="h-40 w-full rounded-t-xl" />
@@ -82,11 +87,6 @@ const Crop = () => {
             </div>
 
           </Link>
-        </section>
-
-        <section id="Projects"
-          className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-10 mt-10 mb-5">
-
 
 
           <Link to='/vegetables' className="w-[12rem] h-[12rem] object-cover bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl ">

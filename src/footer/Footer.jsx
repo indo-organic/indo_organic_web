@@ -12,15 +12,15 @@ const Footer = () => {
               <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">indo organics</span>
             </Link>
             <div className="mt-6 lg:max-w-sm">
-              <p className="text-sm text-gray-800">
+              <p className="text-md  text-gray-800">
                 At Indo Organics, we are dedicated to providing high-quality agrochemical solutions to enhance your farming practices.
               </p>
-              <p className="mt-4 text-sm text-gray-800">
+              <p className="mt-4 text-md  text-gray-800">
                 Our commitment to innovation and sustainability helps you achieve healthier crops and higher yields while protecting the environment. Join us in cultivating a greener future.
               </p>
             </div>
           </div>
-          <div className="space-y-2 text-sm">
+          <div className="space-y-2 text-md">
             <p className="text-base font-bold tracking-wide text-gray-900">Contacts</p>
             <div className="flex">
               <p className="mr-1 text-gray-800">Phone:</p>

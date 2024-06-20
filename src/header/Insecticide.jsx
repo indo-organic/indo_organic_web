@@ -12,9 +12,10 @@ import grit40Img from '../product_image/grit40.png'
 import tropizImg from '../product_image/tropiz.png'
 import vaidLImg from '../product_image/vaidL.png'
 
+import bgAbout from '../AboutImg/bgAbout.jpg'
 const InsectCard = ({ name, imageSrc, imageAlt}) => {
   return (
-    <div className="h-[18rem] w-[15rem] flex-shrink-0 m-6 relative overflow-hidden bg-green-200 rounded-lg max-w-xs shadow-lg group">
+    <div className="h-[18rem] w-[15rem] flex-shrink-0 m-6 relative overflow-hidden bg-white rounded-lg max-w-xs shadow-lg group">
 
     <div className="relative pt-12 px-12  flex items-center justify-center group-hover:scale-110 transition-transform">
       <div className="block absolute w-52 h-48  bottom-0 left-0 -mb-24 ml-3"
@@ -37,7 +38,8 @@ const Insecticide = () => {
   return (
     <>
 
-      <div className="bg-gray-200">
+      <div className="flex flex-col  gap-4 w-[100%] h-[100%] bg-cover bg-fixed bg-bottom justify-center items-center m-auto "
+        style={{ backgroundImage: `url(${bgAbout})` }}>
         {/* <h1 className="text-3xl font-bold mb-4 text-center  uppercase   bg-gray-800  text-white p-16">insecticide</h1> */}
         <div className="relative mx-auto  w-full">
           <img className="h-64 w-full object-cover rounded-md object-bottom" src="https://img.freepik.com/free-vector/different-insects-collection-isolated-white-background_1308-53120.jpg" alt="Random image" />

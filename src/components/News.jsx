@@ -1,14 +1,14 @@
 
-
 const News = () => {
     return (
         <>
+
 
             <div className="flex flex-col  gap-4 w-[100%] min-h-[50rem] bg-cover bg-fixed bg-center justify-center items-center m-auto "
                 style={{ backgroundImage: 'url(https://img.freepik.com/free-vector/abstract-background-with-squares_23-2148995948.jpg)' }}>
 
                 <div className="text-center pt-[2rem] ">
-                    <h1 className="font-[900] text-4xl mb-1 text-green-700">Headlines & Articles</h1>
+                    <h1 className="font-[400] text-5xl mb-1 ">Headlines & Articles</h1>
 
                 </div>
 
@@ -124,7 +124,9 @@ const News = () => {
 
 
 
-            </div>
+            </div> 
+
+
 
 
         </>

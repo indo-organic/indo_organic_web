@@ -1,7 +1,7 @@
 
 import Product from './Products'
 import OurStory from "./OurStory"
-// import IntroVid from "./IntroVid"
+import IntroVid from "./IntroVid"
 
 // import Gallery from "./Gallery"
 
@@ -19,6 +19,7 @@ import Sustain from './Sustain'
 import Crop from './Crop'
 import Weather from './Weather'
 import HomeTestimonial from './HomeTestimonial'
+import ResearchLogo from './ResearchLogo'
 
 const MainPage = () => {
   return (
@@ -27,18 +28,20 @@ const MainPage = () => {
       <OurStory />
       <Crop/>
       {/* <Weather/> */}
-      <Headline />
+      {/* <Headline /> */}
       {/* <Static/> */}
       {/* <Product /> */}
-      <RnDforHome />
+      {/* <RnDforHome /> */}
      
       {/* <Sustain/> */}
    
-      {/* <IntroVid/> */}
       {/* <Catalogue/> */}
       {/* <HomeTestimonial/> */}
+      <ResearchLogo/>
+
       <News/>
       {/* <ContactHome /> */}
+      <IntroVid/>
     </>
 
   )

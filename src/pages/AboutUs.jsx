@@ -1,19 +1,14 @@
+
 import aboutImg4 from '../AboutImg/about4.jpg'
 import AboutImg from '../AboutImg/aboutImg3.jpg'
 import { Link } from 'react-router-dom'
-// import aboutImgforpage from '../AboutImg/aboutImgforpage.png'
+
 
 const AboutUs = () => {
   return (
     <>
 
-      {/* <div className="relative mx-auto  w-full">
-        <img className="h-64 w-full object-cover rounded-md object-bottom" src={AboutImg} alt="about image" />
-        <div className="absolute inset-0 bg-gray-700 opacity-50 rounded-md"></div>
-        <div className="absolute inset-0 flex items-center justify-center">
-          <h2 className="text-white text-3xl font-bold">ABOUT </h2>
-        </div>
-      </div> */}
+      
 
       <div className="flex  gap-4 w-[100%] h-[15rem] bg-cover bg-fixed bg-bottom justify-center items-center m-auto "
         style={{ backgroundImage: `url(${AboutImg})` }}>
@@ -31,15 +26,6 @@ const AboutUs = () => {
       </div>
 
 
-
-
-
-
-
-    {/* <div  className="flex flex-col  gap-4 w-[100%] min-h-[50rem] bg-cover bg-fixed bg-center justify-center items-center m-auto "
-        style={{ backgroundImage: `url(${aboutImgforpage})` }}>
-
-</div> */}
 
       <div className='flex  justify-center w-[100%] py-10    text-black'>
         <div className="w-[30%] bg-green-100  flex items-center justify-center ">
@@ -80,3 +66,5 @@ const AboutUs = () => {
 }
 
 export default AboutUs
+
+
