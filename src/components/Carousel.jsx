@@ -1,34 +1,137 @@
 
-import caro1 from '../AboutImg/caro1.png'
-import caro2 from '../AboutImg/caro2.png'
-import caro3 from '../AboutImg/caro3.png'
-// import caro4 from '../AboutImg/caro4.png'
-// import caro5 from '../AboutImg/caro5.jpg'
-// import caro7 from '../AboutImg/caro7.png'
-// import caro8 from '../AboutImg/caro8.mp4'
+// import caro1 from '../AboutImg/caro1.png'
+// import caro2 from '../AboutImg/caro2.png'
+// import caro3 from '../AboutImg/caro3.png'
+// // import caro4 from '../AboutImg/caro4.png'
+// // import caro5 from '../AboutImg/caro5.jpg'
+// // import caro7 from '../AboutImg/caro7.png'
+// // import caro8 from '../AboutImg/caro8.mp4'
 
 
-import { MDBCarousel, MDBCarouselItem} from 'mdb-react-ui-kit';
+// import { MDBCarousel, MDBCarouselItem} from 'mdb-react-ui-kit';
+
+// const Carousel = () => {
+//   return (
+//     <MDBCarousel showControls showIndicators className='w-full '>
+
+//       <MDBCarouselItem itemId={1}>
+//         <img src={caro1} className='d-block w-100 ' alt='...' />
+//       </MDBCarouselItem>
+
+//       <MDBCarouselItem itemId={2}>
+//         <img src={caro2} className='d-block w-100 ' alt='...' />
+//       </MDBCarouselItem>
+
+//       <MDBCarouselItem itemId={3}>
+//         <img src={caro3} className='d-block w-100' alt='...' />
+//         {/* <video src={caro8} className='d-block w-100'  autoPlay loop></video> */}
+//       </MDBCarouselItem>
+
+//     </MDBCarousel>
+
+//   )
+// }
+
+// export default Carousel
+
+
+
+
+
+import homeResearch from '../assets/aboutVid.mp4'
 
 const Carousel = () => {
   return (
-    <MDBCarousel showControls showIndicators className='w-full '>
+    <>
+      <section className="w-[100%] h-[100vh]   flex items-center justify-center drop-shadow-md">
+        <div className="w-[95%] h-[90%] bg-gray-200 rounded-lg flex items-center">
+          <div className="w-[50%] h-[70vh]  flex flex-col pl-6 justify-around">
+            <div className="text-7xl font-serif text-bold">
 
-      <MDBCarouselItem itemId={1}>
-        <img src={caro1} className='d-block w-100 ' alt='...' />
-      </MDBCarouselItem>
+              <h4>Welcome to</h4>
+              <h3>Indo Organics Pvt. Ltd.</h3>
+            </div>
+            <div>
+              <p className="pl-3 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque temporibus est numquam similique asperiores in voluptatum veritatis omnis modi ratione?</p>
+            </div>
+            <div>
+              <button className="pl-3">Contact us</button>
+            </div>
+          </div>
+          <div className="w-[50%] h-[70vh] flex items-center">
 
-      <MDBCarouselItem itemId={2}>
-        <img src={caro2} className='d-block w-100 ' alt='...' />
-      </MDBCarouselItem>
+            <video src={homeResearch} autoPlay loop className='h-[100%]'></video>
+          </div>
 
-      <MDBCarouselItem itemId={3}>
-        <img src={caro3} className='d-block w-100' alt='...' />
-        {/* <video src={caro8} className='d-block w-100'  autoPlay loop></video> */}
-      </MDBCarouselItem>
 
-    </MDBCarousel>
 
+
+        </div>
+
+      </section>
+
+      <section className="w-[100%] h-[100vh]  flex flex-col  items-center justify-center ">
+
+
+
+        <div className="w-[95%] h-[98%] bg-yello-400  flex rounded-lg  flex-col ">
+
+          <div className=" w-[100%] h-[50%]  flex">
+            <div className="w-[50%] h-[100%] flex flex-col items-start pl-6  justify-around">
+              <p className="pl-3 text-3xl">About us</p>
+              <h2 className="pl-3 text-6xl text-bold">Quality is never by chance</h2>
+              <p className="p-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure cum nam odit doloremque ullam dolore beatae est quis saepe dolorem?</p>
+            </div>
+
+            <div className="w-[50%] h-[100%]  flex items-center justify-end gap-10  ">
+              <div className="w-[45%] h-[96%] bg-slate-200 drop-shadow-md rounded-lg flex flex-col justify-around  pl-2">
+                <p className="text-5xl font-serif font-light pl-3">/1</p>
+                <h2 className="p-3 text-2xl">Lorem ipsum dolor sit amet consectetur.</h2>
+              </div>
+              <div className="w-[45%] h-[96%] bg-blue-900 text-white drop-shadow-md rounded-lg flex flex-col justify-around  pl-2">
+                <p className="text-5xl font-serif font-light pl-3">/2</p>
+                <h2 className="p-3 text-3xl">Lorem ipsum dolor sit amet consectetur.</h2>
+              </div>
+            </div>
+
+
+          </div>
+
+
+          <div className=" w-[100%] h-[50%]    flex">
+            
+
+            <div className="w-[50%] h-[100%]  flex items-center justify-start gap-10  ">
+              <div className="w-[45%] h-[96%] bg-slate-200 drop-shadow-md rounded-lg flex flex-col justify-around  pl-2">
+                <p className="text-5xl font-serif font-light pl-3">/3</p>
+                
+                <h2 className="p-3 text-3xl">Lorem ipsum dolor sit amet consectetur.</h2>
+              </div>
+              <div className="w-[45%] h-[96%] bg-blue-900 text-white drop-shadow-md rounded-lg flex flex-col justify-around  pl-2">
+                <p className="text-5xl font-serif font-light pl-3">/4</p>
+                <h2 className="p-3 text-3xl">Lorem ipsum dolor sit amet consectetur.</h2>
+              </div>
+            </div>
+
+            <div className="w-[52%] h-[100%] flex flex-col  pl-6  justify-center items-end ">
+              <div className="w-[97%] h-[96%] bg-green-500 rounded-lg overflow-hidden">
+                <video src={homeResearch} className='w-full h-[100%] ' autoplay loop></video>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+
+
+
+
+
+      </section>
+
+
+    </>
   )
 }
 
@@ -47,66 +150,6 @@ export default Carousel
 
 
 
-
-
-// Carousel.js
-// import React, { useState, useEffect } from 'react';
-
-// const Carousel = ({ images, autoSlide = true, autoSlideInterval = 3000 }) => {
-//   const [currentIndex, setCurrentIndex] = useState(0);
-
-//   const prevSlide = () => {
-//     const newIndex = currentIndex === 0 ? images.length - 1 : currentIndex - 1;
-//     setCurrentIndex(newIndex);
-//   };
-
-//   const nextSlide = () => {
-//     const newIndex = currentIndex === images.length - 1 ? 0 : currentIndex + 1;
-//     setCurrentIndex(newIndex);
-//   };
-
-//   useEffect(() => {
-//     if (!autoSlide) return;
-//     const slideInterval = setInterval(nextSlide, autoSlideInterval);
-//     return () => clearInterval(slideInterval);
-//   }, [currentIndex, autoSlide, autoSlideInterval]);
-
-//   return (
-//     <div className="relative w-full max-w-4xl mx-auto overflow-hidden rounded-lg shadow-lg">
-//       <div
-//         className="flex transition-transform duration-500 ease-in-out"
-//         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-//       >
-//         {images.map((image, index) => (
-//           <img key={index} src={image} alt={`Slide ${index}`} className="w-full flex-shrink-0" />
-//         ))}
-//       </div>
-//       <button
-//         onClick={prevSlide}
-//         className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full focus:outline-none"
-//       >
-//         &#10094;
-//       </button>
-//       <button
-//         onClick={nextSlide}
-//         className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full focus:outline-none"
-//       >
-//         &#10095;
-//       </button>
-//       <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
-//         {images.map((_, index) => (
-//           <button
-//             key={index}
-//             onClick={() => setCurrentIndex(index)}
-//             className={`w-3 h-3 rounded-full ${currentIndex === index ? 'bg-white' : 'bg-gray-400'}`}
-//           ></button>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Carousel;
 
 
 

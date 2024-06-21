@@ -63,7 +63,9 @@ import { FaRegNewspaper } from "react-icons/fa6";
 
 const Navbar = () => {
     return (
-        <header className='shadow-md bg-gray-50 font-[sans-serif] tracking-wide sticky top-0 w-full  z-50 h-[rem] '>
+        <section className="w-[100%] flex justify-center items-center mt-4 ">
+    
+        <header className='shadow-md bg-gray-100 font-[sans-serif] tracking-wide sticky top-0 w-[95%] h-[7rem]  z-50 '>
             <section
                 className='flex items-center flex-wrap lg:justify-center gap-4 py-3 sm:px-10 px-4 border-gray-200 border-b min-h-[75px]'>
 
@@ -75,19 +77,7 @@ const Navbar = () => {
                 </div>
 
 
-                <div className="lg:absolute lg:right-10 flex items-center ml-auto space-x-8">
-
-                    {/* <span className="relative">
-                        <TiWeatherPartlySunny className="text-2xl cursor-pointer fill-[#333] hover:fill-[#007bff] inline-block" />
-
-                    </span> */}
-                    {/* <div className="inline-block cursor-pointer border-gray-300">
-                        <a href="https://krishijagran.com/" target='blank'>
-                            <FaRegNewspaper className="text-2xl cursor-pointer fill-[#333] hover:fill-[#007bff] inline-block" />
-                        </a>
-
-                    </div> */}
-                </div>
+        
             </section>
 
             <div className='flex flex-wrap justify-center px-10  relative '>
@@ -305,9 +295,8 @@ const Navbar = () => {
 
             </div>
 
-
-
         </header>
+        </section>
     )
 }
 

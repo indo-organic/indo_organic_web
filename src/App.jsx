@@ -108,9 +108,9 @@ const App = () => {
   return (
     <>
       <Router>
-        <Top />
+        {/* <Top /> */}
         <Navbar />
-        <SocialMedia />
+        {/* <SocialMedia /> */}
 
         <Routes>
           <Route path='/' exact  element={<Home />} />

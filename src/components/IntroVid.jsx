@@ -4,10 +4,10 @@ import video from '../assets/introVideo.mp4'
 const IntroVid = () => {
   return (
     <>
-     
 
-<div className="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen text-white overflow-hidden">
-  <div className="absolute inset-0">
+
+      {/* <div className="relative bg-gradient-to-r flex items-center justify-center from-purple-600 to-blue-600 h-screen text-white overflow-hidden">
+  <div className="absolute inset-0 w-[95%]">
    
 
     <video src={video} autoPlay muted loop className='object-cover object-center w-full h-full'></video>
@@ -19,9 +19,16 @@ const IntroVid = () => {
     <p className="text-lg text-gray-300 mb-8">To know more About us you can </p>
     <Link to='/contact' className="bg-blue-400 text-white hover:bg-blue-600 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">contact us</Link>
   </div>
-</div>
+</div> */}
 
-      
+
+      <div className='w-[100%] h-[100vh]  flex items-center justify-center '>
+        <video src={video} autoPlay muted loop className='object-cover object-center w-[95%] h-full rounded-lg'></video>
+
+
+
+      </div>
+
     </>
   )
 }

@@ -25,8 +25,9 @@ const MainPage = () => {
   return (
     <>
       {/* <Gallery /> */}
-      <OurStory />
+      {/* <OurStory /> */}
       <Crop/>
+      <IntroVid/>
       {/* <Weather/> */}
       {/* <Headline /> */}
       {/* <Static/> */}
@@ -37,11 +38,10 @@ const MainPage = () => {
    
       {/* <Catalogue/> */}
       {/* <HomeTestimonial/> */}
-      <ResearchLogo/>
+      {/* <ResearchLogo/> */}
 
       <News/>
       {/* <ContactHome /> */}
-      <IntroVid/>
     </>
 
   )
