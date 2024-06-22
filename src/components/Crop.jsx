@@ -113,6 +113,74 @@ const Crop = () => {
         </section>
       </div>
 
+
+
+
+      {/* <section className='className="w-[100%] h-[150%]  mt-10  flex items-center justify-center drop-shadow-md'>
+
+        <div className="w-[95%] h-[130%]  flex flex-col items-center gap-4 ">
+          <div className='w-[100%] h-[60vh]  rounded-lg'>
+            <div className='w-[100%] h-[30vh]  text-3xl pl-3 font-sans flex items-center'>Category-specific Products</div>
+            <div className='w-[100%] h-[50vh] flex items-center justify-end gap-5' >
+              <div className='w-[15%] h-[35vh] bg-gray-200 rounded-lg flex flex-col  items-center'>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-01ctyaT5nl-FEx3MpwXdYnNMAF6nqjm9Vw&s" className='h-[45vh] rounded-lg' alt="" />
+                <p>Wheat</p>
+              </div>
+              <div className='w-[15%] h-[35vh] bg-gray-200 rounded-lg flex flex-col  items-center'>
+                <img src="https://5.imimg.com/data5/SELLER/Default/2023/5/307051034/PZ/UQ/XL/152664826/paddy.jpg" className='h-[45vh] rounded-lg' alt="" />
+                <p>Paddy</p>
+              </div>
+              <div className='w-[15%] h-[35vh] bg-gray-200 rounded-lg flex flex-col  items-center'>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpJzpo81lfSabh0tdoUeD0NYMPd0XJbxS5zg&s" className='h-[45vh] rounded-lg' alt="" />
+                <p>Sugarcane</p>
+              </div>
+              <div className='w-[15%] h-[35vh] bg-gray-200 rounded-lg flex flex-col  items-center'>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1ur45AY0N_VT40CoMMZ9mKuQ9YorJPVlXTA&s" className='h-[45vh] rounded-lg' alt="" />
+                <p>Soyabean</p>
+              </div>
+            </div>
+
+          </div>
+
+
+
+          <div className='w-[100%] h-[60vh]  '>
+          <div className='w-[100%] h-[50vh] flex  justify-start gap-5' >
+              <div className='w-[15%] h-[35vh] bg-gray-200 rounded-lg flex flex-col  items-center'>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-01ctyaT5nl-FEx3MpwXdYnNMAF6nqjm9Vw&s" className='h-[45vh] rounded-lg' alt="" />
+                <p>Wheat</p>
+              </div>
+              <div className='w-[15%] h-[35vh] bg-gray-200 rounded-lg flex flex-col  items-center'>
+                <img src="https://5.imimg.com/data5/SELLER/Default/2023/5/307051034/PZ/UQ/XL/152664826/paddy.jpg" className='h-[45vh] rounded-lg' alt="" />
+                <p>Paddy</p>
+              </div>
+              <div className='w-[15%] h-[35vh] bg-gray-200 rounded-lg flex flex-col  items-center'>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpJzpo81lfSabh0tdoUeD0NYMPd0XJbxS5zg&s" className='h-[45vh] rounded-lg' alt="" />
+                <p>Sugarcane</p>
+              </div>
+              <div className='w-[15%] h-[35vh] bg-gray-200 rounded-lg flex flex-col  items-center'>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1ur45AY0N_VT40CoMMZ9mKuQ9YorJPVlXTA&s" className='h-[45vh] rounded-lg' alt="" />
+                <p>Soyabean</p>
+              </div>
+            </div>
+             </div>
+
+
+        </div>
+
+
+
+      </section> */}
+
+
+
+     
+
+
+
+
+
+
     </>
   )
 }

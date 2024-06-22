@@ -9,8 +9,6 @@ import IntroVid from "./IntroVid"
 import RnDforHome from "./RnDforHome"
 import News from './News'
 
-
-
 import ContactHome from './ContactHome'
 import Headline from './Headline'
 
@@ -27,6 +25,8 @@ const MainPage = () => {
       {/* <Gallery /> */}
       {/* <OurStory /> */}
       <Crop/>
+      <ResearchLogo/>
+      {/* <HomeTestimonial/> */}
       <IntroVid/>
       {/* <Weather/> */}
       {/* <Headline /> */}
@@ -37,8 +37,7 @@ const MainPage = () => {
       {/* <Sustain/> */}
    
       {/* <Catalogue/> */}
-      {/* <HomeTestimonial/> */}
-      {/* <ResearchLogo/> */}
+   
 
       <News/>
       {/* <ContactHome /> */}

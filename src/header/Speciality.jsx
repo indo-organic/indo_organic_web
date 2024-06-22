@@ -9,7 +9,7 @@ import fungiexImg from '../product_image/fungiEXs.png'
 import indomagicImg from '../product_image/indomagic.png'
 import  helperLImg from '../product_image/helperL.png'
 import { Link } from "react-router-dom";
-import biostimulantbg from '../assets/biostimulantbg.png'
+// import biostimulantbg from '../assets/biostimulantbg.png'
 const BioCard = ({ category, name, seeMore, imageSrc, imageAlt, sciName }) => {
   return (
     <div className="bg-gray-200">
@@ -83,7 +83,7 @@ const Speciality = () => {
 
 
         <div className="relative mx-auto  w-full">
-          <img className="h-64 w-full object-cover rounded-md object-center" src={biostimulantbg} alt="Random image" />
+          {/* <img className="h-64 w-full object-cover rounded-md object-center" src={biostimulantbg} alt="Random image" /> */}
           <div className="absolute inset-0 bg-gray-900 opacity-50 rounded-md"></div>
           <div className="absolute inset-0 flex items-center justify-center">
             <h2 className="text-white text-3xl font-bold">BIOSTIMULANT</h2>
