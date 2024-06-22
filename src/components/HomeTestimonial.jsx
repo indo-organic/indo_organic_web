@@ -283,11 +283,6 @@ const HomeTestimonial = () => {
 
 
       </div>
-
-
-
-
-
     </section>
   )
 }
