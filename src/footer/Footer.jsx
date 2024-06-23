@@ -1,9 +1,16 @@
 
 import { Link } from 'react-router-dom'
 import favicon from '../productImgicon/favicon.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import React, { useEffect } from 'react';
 const Footer = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
-    <div className="bg-gray-200 w-[95%] mx-auto rounded-lg ">
+    <div className="bg-gray-200 w-[95%] mx-auto rounded-lg " data-aos="fade-up"
+    data-aos-duration="3000">
       <div className=" px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 b">
         <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
           <div className="sm:col-span-2">

@@ -1,7 +1,13 @@
 import '../styles/IntroVid.scss'
 import { Link } from 'react-router-dom'
 import video from '../assets/introVideo.mp4'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import React, { useEffect } from 'react';
 const IntroVid = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
     <>
 
@@ -22,7 +28,7 @@ const IntroVid = () => {
 </div> */}
 
 
-      <div className='w-[100%] h-[100vh]  flex items-center justify-center '>
+      <div className='w-[100%] h-[100vh]  flex items-center justify-center 'data-aos="zoom-in">
         <video src={video} autoPlay muted loop className='object-cover object-center w-[95%] h-full rounded-lg'></video>
 
 

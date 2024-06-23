@@ -2,14 +2,20 @@
 import { Link } from 'react-router-dom'
   // import homeResearch from '../assets/homeResearchV.mp4'
 import homeResearch from '../assets/aboutVid.mp4'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import React, { useEffect } from 'react';
 const OurStory = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
     <>
-      <div className='bg-gray-100 h-[38rem] ' >
+      <div className=' h-[38rem] ' >
         <div className=" relative flex items-center justify-center overflow-hidden bg-whitesmoke z-10">
           <div className="relative mx-auto h-full px-4 pb-20 md:pb-10 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8">
             <div className="flex flex-col items-center justify-between lg:flex-row py-16">
-              <div className="relative">
+              <div className="relative" data-aos="zoom-out-up">
                 <div className="lg:max-w-xl lg:pr-5 relative z-40">
                   <p className="flex  uppercase text-xl text-black font-sans">About Us</p>
                   <h2 className="mb-6 max-w-lg text-5xl font-light leading-snug tracking-tight text-g1 sm:text-7xl sm:leading-snug text-black">
@@ -32,7 +38,7 @@ const OurStory = () => {
                   </div>
                 </div>
               </div>
-              <div className="relative hidden lg:ml-32 lg:block lg:w-1/2 ">
+              <div className="relative hidden lg:ml-32 lg:block lg:w-1/2 " data-aos="zoom-in">
                 <div className="abg-orange-400 mx-auto w-fit overflow-hidden rounded-[1rem] rounded-br-none rounded-tl-none ">
                   <video src={homeResearch} loop autoPlay muted></video>
                 </div>
@@ -50,96 +56,7 @@ export default OurStory
 
 
 
-// import { Link } from "react-router-dom"
 
-// const OurStory = () => {
-//   return (
-//     <div className="h-screen dark:bg-gray-800">
-
-//     <div
-//       className="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
-//       <div className="col-span-2 mb-8">
-//         <p className="text-lg font-medium text-purple-500 dark:text-purple-500">About Us</p>
-//         <h2 className="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white">
-//         Quality is never by Chance</h2>
-//         <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">Welcome to Indo Organics, your trusted partner in sustainable agrochemical solutions. Founded with a vision to revolutionize the agricultural industry, Indo Organics is committed to providing eco-friendly and innovative products that enhance crop yield, protect the environment, and support farmers worldwide.</p>
-//         <div className="pt-6 mt-6 space-y-4 border-t border-gray-200 dark:border-gray-700">
-//           <div>
-//             <Link to='aboutUs'
-//               className="inline-flex items-center text-base font-medium text-purple-500 hover:text-purple-800 dark:text-purple-500 dark:hover:text-purple-700">
-//               Know more about us
-//               <svg className="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20"
-//                 xmlns="http://www.w3.org/2000/svg">
-//                 <path fill-rule="evenodd"
-//                   d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-//                   clip-rule="evenodd"></path>
-//               </svg>
-//             </Link>
-//           </div>
-//           <div>
-//             <Link to='/contact'
-//               className="inline-flex items-center text-base font-medium text-purple-500 hover:text-purple-800 dark:text-purple-500 dark:hover:text-purple-700">
-//               Contact us
-//               <svg className="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20"
-//                 xmlns="http://www.w3.org/2000/svg">
-//                 <path fill-rule="evenodd"
-//                   d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-//                   clip-rule="evenodd"></path>
-//               </svg>
-//             </Link>
-//           </div>
-//         </div>
-//       </div>
-//       <div className="col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0">
-//         <div>
-//           <svg className="w-10 h-10 mb-2 text-purple-500 md:w-12 md:h-12 dark:text-purple-500" fill="currentColor"
-//             viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-//             <path fill-rule="evenodd"
-//               d="M2 5a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm14 1a1 1 0 11-2 0 1 1 0 012 0zM2 13a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2v-2zm14 1a1 1 0 11-2 0 1 1 0 012 0z"
-//               clip-rule="evenodd"></path>
-//           </svg>
-//           <h3 className="mb-2 text-2xl font-bold dark:text-white">60+ Products</h3>
-//           <p className="font-light text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, laboriosam.</p>
-//         </div>
-//         <div>
-//           <svg className="w-10 h-10 mb-2 text-purple-500 md:w-12 md:h-12 dark:text-purple-500" fill="currentColor"
-//             viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-//             <path
-//               d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z">
-//             </path>
-//           </svg>
-//           <h3 className="mb-2 text-2xl font-bold dark:text-white">600M+ Users</h3>
-//           <p className="font-light text-gray-500 dark:text-gray-400">Trusted by over 600 milion users around the world
-//           </p>
-//         </div>
-//         <div>
-//           <svg className="w-10 h-10 mb-2 text-purple-500 md:w-12 md:h-12 dark:text-purple-500" fill="currentColor"
-//             viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-//             <path fill-rule="evenodd"
-//               d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z"
-//               clip-rule="evenodd"></path>
-//           </svg>
-//           <h3 className="mb-2 text-2xl font-bold dark:text-white">100+ countries</h3>
-//           <p className="font-light text-gray-500 dark:text-gray-400">Have used Landwind to create functional websites
-//           </p>
-//         </div>
-//         <div>
-//           <svg className="w-10 h-10 mb-2 text-purple-500 md:w-12 md:h-12 dark:text-purple-500" fill="currentColor"
-//             viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-//             <path
-//               d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z">
-//             </path>
-//           </svg>
-//           <h3 className="mb-2 text-2xl font-bold dark:text-white">5+ Million</h3>
-//           <p className="font-light text-gray-500 dark:text-gray-400">Transactions per day</p>
-//         </div>
-//       </div>
-//     </div>
-//     </div>
-//   )
-// }
-
-// export default OurStory
 
 
 

@@ -57,15 +57,15 @@
 import React from 'react'
 import logo from "../assets/logo2.png";
 import { Link } from 'react-router-dom'
-// import { TiWeatherPartlySunny } from "react-icons/ti";
+import { TiWeatherPartlySunny } from "react-icons/ti";
 import { FaRegNewspaper } from "react-icons/fa6";
 
 
 const Navbar = () => {
     return (
-        <section className="w-[100%] flex justify-center items-center mt-4 ">
+        <section className="w-[100%] flex justify-center items-center  ">
     
-        <header className='shadow-md bg-gray-100 font-[sans-serif] tracking-wide sticky top-0 w-[95%] h-[7rem]  z-50 '>
+        <header className='shadow-md bg-gray-100 font-[sans-serif] tracking-wide sticky top-0 w-[100%] h-[7rem]  z-50 '>
             <section
                 className='flex items-center flex-wrap lg:justify-center gap-4 py-3 sm:px-10 px-4 border-gray-200 border-b min-h-[75px]'>
 
@@ -73,7 +73,7 @@ const Navbar = () => {
 
                 <div className="shrink-0">
                     <img src={logo} alt="logo"
-                        className='md:w-[160px] w-36' />
+                        className='md:w-[130px] w-32' />
                 </div>
 
 
@@ -102,7 +102,7 @@ const Navbar = () => {
                             </a>
                         </li> */}
                         <Link to='/' className='max-lg:border-b max-lg:px-3 max-lg:py-3'><div
-                            className='hover:text-[#007bff] text-[#007bff] font-semibold block text-[16px]'>Home</div>
+                            className='hover:text-[#007bff] text-[#007bff] font-semibold block text-[15px]'>Home</div>
                         </Link>
 
 

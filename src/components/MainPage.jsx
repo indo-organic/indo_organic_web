@@ -3,7 +3,6 @@ import Product from './Products'
 import OurStory from "./OurStory"
 import IntroVid from "./IntroVid"
 
-// import Gallery from "./Gallery"
 
 // import Static from "./Static"
 import RnDforHome from "./RnDforHome"
@@ -19,13 +18,18 @@ import Weather from './Weather'
 import HomeTestimonial from './HomeTestimonial'
 import ResearchLogo from './ResearchLogo'
 
+
+
 const MainPage = () => {
+ 
   return (
     <>
-      {/* <Gallery /> */}
-      {/* <OurStory /> */}
-      <Crop/>
-      <ResearchLogo/>
+    
+
+  
+      <OurStory />
+      <Crop />
+      {/* <ResearchLogo    /> */}
       {/* <HomeTestimonial/> */}
       <IntroVid/>
       {/* <Weather/> */}
@@ -41,6 +45,7 @@ const MainPage = () => {
 
       <News/>
       {/* <ContactHome /> */}
+      
     </>
 
   )
