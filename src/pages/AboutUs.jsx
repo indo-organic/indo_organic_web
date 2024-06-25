@@ -15,7 +15,7 @@ const AboutUs = () => {
 
       
 
-      <div className="flex  gap-4 w-[96%] rounded-lg h-[15rem] bg-cover bg-fixed bg-bottom justify-center items-center m-auto "
+      <div className="flex  gap-4 w-[100%] h-[15rem] bg-cover bg-fixed bg-bottom justify-center items-center m-auto "
         style={{ backgroundImage: `url(${AboutImg})` }} data-aos="zoom-in">
 
         <div className=" flex flex-col items-center justify-center ">

@@ -61,6 +61,8 @@ export default OurStory
 
 
 // import React from 'react'
+// import auntyKey from '../AboutImg/auntyKey.png'
+
 
 // const OurStory = () => {
 //   return (
@@ -168,13 +170,13 @@ export default OurStory
 //                 </div>
 //               </div>
               
-//               <div className="h-full md:order-first">
-//                 {/* <img
-//                   src="https://thefactfactor.com/wp-content/uploads/2019/07/Crops.png"
+//               <div className="h-full md:order-first bg-red-800">
+//                 <img
+//                   src={auntyKey}
 //                   alt="#_"
-//                   className="bg-gray-200 shadow-box shadow-gray-500/30 overflow-hidden aspect-square w-full h-full object-cover object-center"
-//                 /> */}
-//                 <video className='bg-gray-200 shadow-box shadow-gray-500/30 overflow-hidden aspect-square w-full h-full object-cover object-center' src={homeResearch} loop autoPlay muted></video>
+//                   className="bg-gray-200 shadow-box shadow-gray-500/30 overflow-hidden aspect-square  w-[10rem] object-cover object-center"
+//                 />
+//                 {/* <video className='bg-gray-200 shadow-box shadow-gray-500/30 overflow-hidden aspect-square w-full h-full object-cover object-center' src={homeResearch} loop autoPlay muted></video> */}
 //               </div>
 //             </div>
 //             <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-24 items-center md:flex-row-reverse">

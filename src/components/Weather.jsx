@@ -162,11 +162,11 @@ const Weather = () => {
 
 
       <section className="w-[100%] h-[100vh]  flex flex-col  items-center justify-center ">
-        <div className="w-[95%] h-[98%] bg-yellow-400  flex  rounded-lg  flex-col ">
+        <div className="w-[95%] h-[98%] bg-yellow-200  flex justify-center items-center  rounded-lg  flex-col ">
 
-    
 
-          <iframe className='w-[100%] h-[100vh]' src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=default&metricTemp=default&metricWind=default&zoom=5&overlay=wind&product=ecmwf&level=surface&lat=28.654&lon=77.237" frameborder="0"></iframe>
+
+          <iframe className='w-[80%] h-[80vh]' src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=default&metricTemp=default&metricWind=default&zoom=5&overlay=wind&product=ecmwf&level=surface&lat=28.654&lon=77.237" frameborder="0"></iframe>
         </div>
 
       </section>

@@ -78,7 +78,7 @@ import IndoMagic from './productPage/nutritions/IndoMagic'
 
 
 //  protection
-import Protection from './header/Protection' 
+import Protection from './header/Protection'
 import AllIn from './productPage/protection/AllIn'
 import Curev from './productPage/protection/Curev'
 import Fungi7 from './productPage/protection/Fungi7'
@@ -103,143 +103,162 @@ import Wheat_nutrition from './crops/wheat/Wheat_nutrition'
 import Wheat_herbs from './crops/wheat/Wheat_herbs'
 import Wheat_protection from './crops/wheat/Wheat_protection'
 
-
+import  Profile from './components/Profile'
+import { useState, useEffect } from 'react'
 const App = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    
+    setTimeout(() => {
+      setLoading(false); 
+    }, 3000); 
+  }, []);
   return (
     <>
-      <Router>
-        {/* <Top /> */}
-        <Navbar />
-        {/* <SocialMedia /> */}
 
-        <Routes>
-          <Route path='/' exact  element={<Home />} />
-          <Route path='/agrochemical' element={<Agrochemical />} />
-          <Route path='/organicRange' element={<OrganicRange />} />
-          <Route path='/speciality' element={<Speciality />} />
-          <Route path='/adjuvants' element={<Adjuvants />} />
-          <Route path='/aboutUs' element={<AboutUs />} />
-          <Route path='/researchDev' element={<ResearchDev />} />
-          <Route path='/career' element={<Career />} />
-          <Route path='/contact' element={<Contact />} />
-        
-          
-          <Route path='/vision' element={<Vision />} />
-          
-          {/* <Route path='/news' element={<News />} /> */}
-          <Route path='/termsCondition' element={<TermsConditions />} />
-          <Route path='/privacyPolicy' element={<PrivacyPolicy />} />
-          <Route path='/returnPolicy' element={<ReturnPolicy />} />
-      
-          <Route path='/testimonial' element={<Testimonial />} />
-          {/* <Route path='/trialProduct' element={<TrialProduct />} /> */}
-          <Route path='/faqs' element={<Faqs />} />
-      
+      <div className="">
+        {loading ? (
+          <Profile />
+        ) : (
 
-          {/* insecticide */}
+          <Router>
+            {/* <Top /> */}
+            <Navbar />
+            <SocialMedia />
 
-          <Route path='/insecticide' element={< Insecticide />} />
-          <Route path='/rukka' element={<Rukka />} />
-          <Route path='/alaska' element={<Alaska />} />
-          <Route path='/cyphorus' element={<Cyphorus />} />
-          <Route path='/indoxam' element={<Indoxam />} />
-          <Route path='/vaid' element={<Vaid />} />
-          <Route path='/fiprosix' element={<FiproSix />} />
-          <Route path='/dhamaal' element={<Dhamaal />} />
-          <Route path='/emanate' element={<Emanate />} />
-          <Route path='/thypo' element={<Thypo />} />
-          <Route path='/grit40' element={<Grit40 />} />
-          <Route path='/tropiz' element={<Tropiz />} />
-          <Route path='/peak' element={<Peak />} />
-          <Route path='/vaid_l' element={<Vaid_L />} />
-         
+            <Routes>
+              <Route path='/' exact element={<Home />} />
+              <Route path='/agrochemical' element={<Agrochemical />} />
+              <Route path='/organicRange' element={<OrganicRange />} />
+              <Route path='/speciality' element={<Speciality />} />
+              <Route path='/adjuvants' element={<Adjuvants />} />
+              <Route path='/aboutUs' element={<AboutUs />} />
+              <Route path='/researchDev' element={<ResearchDev />} />
+              <Route path='/career' element={<Career />} />
+              <Route path='/contact' element={<Contact />} />
 
 
-          {/* fungicide */}
-          
-          <Route path='/fungicide' element={<Fungicide />} />
-          <Route path='/IndoPrime' element={<IndoPrime />} />
-          <Route path='/demo70' element={<Demo70 />} />
-          <Route path='/sulphie' element={<Sulphie />} />
-          <Route path='/tangoPlus' element={<TangoPlus />} />
-          <Route path='/tebnol' element={<Tebnol />} />
-          <Route path='/tringo' element={<Tringo />} />
-          <Route path='/valino' element={<Valino />} />
+              <Route path='/vision' element={<Vision />} />
 
-          {/* herbicide */}
+              {/* <Route path='/news' element={<News />} /> */}
+              <Route path='/termsCondition' element={<TermsConditions />} />
+              <Route path='/privacyPolicy' element={<PrivacyPolicy />} />
+              <Route path='/returnPolicy' element={<ReturnPolicy />} />
 
-          <Route path='/herbicide' element={<Herbicide />} />
-
-          <Route path='/auto32' element={<Auto32 />} />
-          <Route path='/cutnip' element={<Cutnip />} />
-          <Route path='/emo10' element={<Emo10 />} />
-          <Route path='/nirol' element={<Nirol />} />
-          <Route path='/pitKit' element={<PitKit />} />
-          <Route path='/proto50' element={<Proto50 />} />
-          <Route path='/timeUp' element={<TimeUp />} />
+              <Route path='/testimonial' element={<Testimonial />} />
+              {/* <Route path='/trialProduct' element={<TrialProduct />} /> */}
+              <Route path='/faqs' element={<Faqs />} />
 
 
-          {/* adjuvants */}
-          <Route path='/comboB' element={<Combo_b />} />
+              {/* insecticide */}
+
+              <Route path='/insecticide' element={< Insecticide />} />
+              <Route path='/rukka' element={<Rukka />} />
+              <Route path='/alaska' element={<Alaska />} />
+              <Route path='/cyphorus' element={<Cyphorus />} />
+              <Route path='/indoxam' element={<Indoxam />} />
+              <Route path='/vaid' element={<Vaid />} />
+              <Route path='/fiprosix' element={<FiproSix />} />
+              <Route path='/dhamaal' element={<Dhamaal />} />
+              <Route path='/emanate' element={<Emanate />} />
+              <Route path='/thypo' element={<Thypo />} />
+              <Route path='/grit40' element={<Grit40 />} />
+              <Route path='/tropiz' element={<Tropiz />} />
+              <Route path='/peak' element={<Peak />} />
+              <Route path='/vaid_l' element={<Vaid_L />} />
 
 
 
+              {/* fungicide */}
 
-          {/* biostimulant  */}
+              <Route path='/fungicide' element={<Fungicide />} />
+              <Route path='/IndoPrime' element={<IndoPrime />} />
+              <Route path='/demo70' element={<Demo70 />} />
+              <Route path='/sulphie' element={<Sulphie />} />
+              <Route path='/tangoPlus' element={<TangoPlus />} />
+              <Route path='/tebnol' element={<Tebnol />} />
+              <Route path='/tringo' element={<Tringo />} />
+              <Route path='/valino' element={<Valino />} />
 
-          {/* soil reviver */}
-          <Route path='/soilrevivers' element={<Soilrevivers />} />
-          <Route path='/CalciGold' element={<CalciGold />} />
-          <Route path='/CalciGoldPlus' element={<Calcigoldplus />} />
-          <Route path='/HerboKing' element={<HerboKing />} />
-          <Route path='/HerboKingAdvance' element={<HerboKingAdvance />} />
-          <Route path='/HerboRize' element={<HerboRiza />} />
-          <Route path='/Humimax' element={<Humimax />} />
-          <Route path='/TotalGR' element={<TotalGR />} />
-          <Route path='/TotalGRAdvance' element={<TotalGRAdvance />} />
+              {/* herbicide */}
 
-          {/* Nutrition */}
-          <Route path='/Nutrition' element={<Nutrition />} />
-          <Route path='/Amigo' element={<Amigo />} />
-          <Route path='/AutoMoto' element={<AutoMoto />} />
-          <Route path='/BloomFlower' element={<BloomFlower />} />
-          <Route path='/FixC' element={<FixC/>} />
-          <Route path='/HelperL' element={<HelperL />} />
-          <Route path='/IndoMagic' element={<IndoMagic />} />
+              <Route path='/herbicide' element={<Herbicide />} />
 
-          {/* Protection */}
-          <Route path='/Protection' element={<Protection />} />
-          <Route path='/AllIn' element={<AllIn />} />
-          <Route path='/Fungi7' element={<Fungi7 />} />
-          <Route path='/CureV' element={<Curev />} />
-          <Route path='/FungiEx' element={<FungiEx />} />
-          <Route path='/Urban3' element={<Urban3/>} />
-          <Route path='/weather' element={<Weather/>} />
-
-            {/* crops */}
-
-          <Route path='/wheat' element={<Wheat/>} />
-          <Route path='/sugarcane' element={<Sugarcane/>} />
-          <Route path='/soyabean' element={<Soyabean/>} />
-          <Route path='/paddy' element={<Paddy/>} />
-
-          <Route path='/flowers' element={<Flowers/>} />
-          <Route path='/fruits' element={<Fruits/>} />
-          <Route path='/vegetables' element={<Vegetables/>} />
-          <Route path='/pulses' element={<Pulses/>} />
+              <Route path='/auto32' element={<Auto32 />} />
+              <Route path='/cutnip' element={<Cutnip />} />
+              <Route path='/emo10' element={<Emo10 />} />
+              <Route path='/nirol' element={<Nirol />} />
+              <Route path='/pitKit' element={<PitKit />} />
+              <Route path='/proto50' element={<Proto50 />} />
+              <Route path='/timeUp' element={<TimeUp />} />
 
 
-          <Route path='/wheat_insect' element={<Wheat_insect/>} />
-          <Route path='/wheat_nutrition' element ={<Wheat_nutrition/>}/>
-          <Route path='/wheat_herbs'  element={<Wheat_herbs/>} />
-          <Route path='/Wheat_protection'  element={<Wheat_protection/>} />
+              {/* adjuvants */}
+              <Route path='/comboB' element={<Combo_b />} />
 
 
-          
-         
-        </Routes>
-        <Footer />
-      </Router>
+
+
+              {/* biostimulant  */}
+
+              {/* soil reviver */}
+              <Route path='/soilrevivers' element={<Soilrevivers />} />
+              <Route path='/CalciGold' element={<CalciGold />} />
+              <Route path='/CalciGoldPlus' element={<Calcigoldplus />} />
+              <Route path='/HerboKing' element={<HerboKing />} />
+              <Route path='/HerboKingAdvance' element={<HerboKingAdvance />} />
+              <Route path='/HerboRize' element={<HerboRiza />} />
+              <Route path='/Humimax' element={<Humimax />} />
+              <Route path='/TotalGR' element={<TotalGR />} />
+              <Route path='/TotalGRAdvance' element={<TotalGRAdvance />} />
+
+              {/* Nutrition */}
+              <Route path='/Nutrition' element={<Nutrition />} />
+              <Route path='/Amigo' element={<Amigo />} />
+              <Route path='/AutoMoto' element={<AutoMoto />} />
+              <Route path='/BloomFlower' element={<BloomFlower />} />
+              <Route path='/FixC' element={<FixC />} />
+              <Route path='/HelperL' element={<HelperL />} />
+              <Route path='/IndoMagic' element={<IndoMagic />} />
+
+              {/* Protection */}
+              <Route path='/Protection' element={<Protection />} />
+              <Route path='/AllIn' element={<AllIn />} />
+              <Route path='/Fungi7' element={<Fungi7 />} />
+              <Route path='/CureV' element={<Curev />} />
+              <Route path='/FungiEx' element={<FungiEx />} />
+              <Route path='/Urban3' element={<Urban3 />} />
+              <Route path='/weather' element={<Weather />} />
+
+              {/* crops */}
+
+              <Route path='/wheat' element={<Wheat />} />
+              <Route path='/sugarcane' element={<Sugarcane />} />
+              <Route path='/soyabean' element={<Soyabean />} />
+              <Route path='/paddy' element={<Paddy />} />
+
+              <Route path='/flowers' element={<Flowers />} />
+              <Route path='/fruits' element={<Fruits />} />
+              <Route path='/vegetables' element={<Vegetables />} />
+              <Route path='/pulses' element={<Pulses />} />
+
+
+              <Route path='/wheat_insect' element={<Wheat_insect />} />
+              <Route path='/wheat_nutrition' element={<Wheat_nutrition />} />
+              <Route path='/wheat_herbs' element={<Wheat_herbs />} />
+              <Route path='/Wheat_protection' element={<Wheat_protection />} />
+
+
+
+
+            </Routes>
+            <Footer />
+          </Router>
+        )}
+      </div>
+
+
 
 
 
