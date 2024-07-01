@@ -9,7 +9,7 @@ const Footer = () => {
     AOS.init({ duration: 1000 });
   }, []);
   return (
-    <div className="bg-gray-200 w-[95%] mx-auto rounded-lg " data-aos="fade-up"
+    <div className="bg-gray-200 w-[100%] mx-auto "
     data-aos-duration="3000">
       <div className=" px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 b">
         <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">

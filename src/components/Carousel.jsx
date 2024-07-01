@@ -8,31 +8,31 @@ import caro3 from '../AboutImg/caro3.png'
 // import caro8 from '../AboutImg/caro8.mp4'
 
 
-import { MDBCarousel, MDBCarouselItem} from 'mdb-react-ui-kit';
+// import { MDBCarousel, MDBCarouselItem} from 'mdb-react-ui-kit';
 
-const Carousel = () => {
-  return (
-    <MDBCarousel showControls showIndicators className='w-full '>
+// const Carousel = () => {
+//   return (
+//     <MDBCarousel showControls showIndicators className='w-full '>
 
-      <MDBCarouselItem itemId={1}>
-        <img src={caro1} className='d-block w-100 ' alt='...' />
-      </MDBCarouselItem>
+//       <MDBCarouselItem itemId={1}>
+//         <img src={caro1} className='d-block w-100 ' alt='...' />
+//       </MDBCarouselItem>
 
-      <MDBCarouselItem itemId={2}>
-        <img src={caro2} className='d-block w-100 ' alt='...' />
-      </MDBCarouselItem>
+//       <MDBCarouselItem itemId={2}>
+//         <img src={caro2} className='d-block w-100 ' alt='...' />
+//       </MDBCarouselItem>
 
-      <MDBCarouselItem itemId={3}>
-        <img src={caro3} className='d-block w-100' alt='...' />
-        {/* <video src={caro8} className='d-block w-100'  autoPlay loop></video> */}
-      </MDBCarouselItem>
+//       <MDBCarouselItem itemId={3}>
+//         <img src={caro3} className='d-block w-100' alt='...' />
+//         {/* <video src={caro8} className='d-block w-100'  autoPlay loop></video> */}
+//       </MDBCarouselItem>
 
-    </MDBCarousel>
+//     </MDBCarousel>
 
-  )
-}
+//   )
+// }
 
-export default Carousel;
+// export default Carousel;
 
 
 
@@ -42,7 +42,7 @@ export default Carousel;
 
 
 // import homeResearch from '../assets/aboutVid.mp4'
-// import auntyKey from '../AboutImg/auntyKey.png'
+import auntyKey from '../AboutImg/auntyKey.png'
 // import AOS from 'aos';
 // import 'aos/dist/aos.css';
 // import React, { useEffect } from 'react';
@@ -71,20 +71,9 @@ export default Carousel;
 //           {/* <video src={homeResearch} className='h-[100%] w-[100%] object-cover rounded-lg' loop autoPlay ></video> */}
 
 
-
-
-
 //         </div>
 
 //       </section>
-
-
-
-
-
-
-
-
 //     </>
 //   )
 // }
@@ -94,7 +83,19 @@ export default Carousel;
 
 
 
+import '../styles/Carousel.scss'
+const Carousel = () => {
+  return (
+    <div className="carousel">
+      <div className="carousel_box">
+        <p className='text-white'>i am here</p>
+        <img src={auntyKey} alt="" />
+      </div>
+    </div>
+  )
+}
 
+export default Carousel
 
 
 
@@ -137,6 +138,11 @@ export default Carousel;
 // }
 
 // export default Carousel2;
+
+
+
+
+
 
 
 

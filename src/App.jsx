@@ -105,6 +105,8 @@ import Wheat_protection from './crops/wheat/Wheat_protection'
 
 import  Profile from './components/Profile'
 import { useState, useEffect } from 'react'
+
+
 const App = () => {
   const [loading, setLoading] = useState(true);
 
@@ -123,7 +125,7 @@ const App = () => {
         ) : (
 
           <Router>
-            {/* <Top /> */}
+            <Top />
             <Navbar />
             <SocialMedia />
 

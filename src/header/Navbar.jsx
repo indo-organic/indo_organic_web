@@ -102,27 +102,27 @@ const Navbar = () => {
                             </a>
                         </li> */}
                         <Link to='/' className='max-lg:border-b max-lg:px-3 max-lg:py-3'><div
-                            className='hover:text-[#007bff] text-[#007bff] font-semibold block text-[15px]'>Home</div>
+                            className='hover:text-blue-950 text-blue-900 font-semibold block text-[15px]'>Home</div>
                         </Link>
 
 
 
                         <li className='group max-lg:border-b max-lg:px-3 max-lg:py-3 relative'>
                             <div
-                                className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block'>Company
+                                className='hover:text-blue-900 hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block'>Company
                             </div>
                             <ul
                                 className='absolute top-5 max-lg:top-8 left-0 z-50 block space-y-2 shadow-lg bg-white max-h-0 overflow-hidden min-w-[250px] group-hover:opacity-100 group-hover:max-h-[700px] px-6 group-hover:pb-4 group-hover:pt-6 transition-all duration-500 '>
                                 <Link to='/aboutUs' className='border-b py-3 '>
                                     <div
-                                        className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block pb-3'>
+                                        className='hover:text-blue-900 hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block pb-3'>
 
                                         Our Story
                                     </div>
                                 </Link>
                                 <Link to='/vision' className='border-b py-3'>
                                     <div
-                                        className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block pb-3'>
+                                        className='hover:text-blue-900 hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block pb-3'>
 
                                         Vision & Mission
                                     </div>
@@ -146,55 +146,55 @@ const Navbar = () => {
 
                         <li className='group max-lg:border-b max-lg:px-3 max-lg:py-3 relative'>
                             <div
-                                className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block'>Products & Solution
+                                className='hover:text-blue-900 hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block'>Products & Solution
                             </div>
                             <ul
                                 className='absolute top-5 max-lg:top-8 left-0 z-50 block space-y-2 shadow-lg bg-white max-h-0 overflow-hidden min-w-[250px] group-hover:opacity-100 group-hover:max-h-[700px] px-6 group-hover:pb-4 group-hover:pt-6 transition-all duration-500'>
                                 <Link to='/insecticide' className='border-b py-3'>
                                     <div
-                                        className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block py-2'>
+                                        className='hover:text-blue-900 hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block py-2'>
 
                                         Insecticide
                                     </div>
                                 </Link>
                                 <Link to='/fungicide' className='border-b py-3'>
                                     <div
-                                        className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block py-2'>
+                                        className='hover:text-blue-900 hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block py-2'>
 
                                         Fungicide
                                     </div>
                                 </Link>
                                 <Link to='/herbicide' className='border-b py-3'>
                                     <div
-                                        className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block py-2'>
+                                        className='hover:text-blue-900 hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block py-2'>
 
                                         Herbicide
                                     </div>
                                 </Link>
                                 <Link to='/comboB' className='border-b py-3'>
                                     <div
-                                        className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block py-2'>
+                                        className='hover:text-blue-900 hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block py-2'>
 
                                         Adjuvant
                                     </div>
                                 </Link>
                                 <Link to='/soilrevivers' className='border-b py-3'>
                                     <div
-                                        className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block  py-2'>
+                                        className='hover:text-blue-900 hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block  py-2'>
 
                                         Soil Revivers
                                     </div>
                                 </Link>
                                 <Link to='/Nutrition' className='border-b py-3'>
                                     <div
-                                        className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block py-2'>
+                                        className='hover:text-blue-900 hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block py-2'>
 
                                         PGRs/Nutrition
                                     </div>
                                 </Link>
                                 <Link to='/protection' className='border-b py-3'>
                                     <div
-                                        className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block py-2'>
+                                        className='hover:text-blue-900 hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block py-2'>
 
                                         Protection
                                     </div>
@@ -208,7 +208,7 @@ const Navbar = () => {
 
                         <li className='group max-lg:border-b max-lg:px-3 max-lg:py-3 relative'>
                             <Link to='/researchDev'
-                                className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block pb-3'>
+                                className='hover:text-blue-900 hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block pb-3'>
                                     Research and development
                             </Link>
                             {/* <ul
@@ -247,7 +247,7 @@ const Navbar = () => {
 
                         <li className='group max-lg:border-b max-lg:px-3 max-lg:py-3 relative'>
                             <div
-                                className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block'>Resources
+                                className='hover:text-blue-900 hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block'>Resources
                             </div>
 
                             <ul
@@ -256,14 +256,14 @@ const Navbar = () => {
 
                                 <Link to='/faqs' className='border-b py-3'>
                                     <div
-                                        className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block py-3'>
+                                        className='hover:text-blue-900 hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block py-3'>
 
                                         Faq's & Knowledge
                                     </div>
                                 </Link>
                                 <Link to='/weather' className='border-b py-5'>
                                     <div
-                                        className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block py-3'>
+                                        className='hover:text-blue-900 hover:fill-[#007bff] text-gray-600 font-semibold text-[15px] block py-3'>
 
                                         Weather Intelligence
                                     </div>
@@ -275,7 +275,7 @@ const Navbar = () => {
 
 
                         <Link to='/contact' className='max-lg:border-b max-lg:px-3 max-lg:py-3'><div
-                            className='hover:text-[#007bff] text-gray-600 font-semibold text-[15px] block'>contact us</div></Link>
+                            className='hover:text-blue-900 text-gray-600 font-semibold text-[15px] block'>contact us</div></Link>
                     </ul>
                 </div>
 
@@ -301,8 +301,6 @@ const Navbar = () => {
 }
 
 export default Navbar
-
-
 
 
 
