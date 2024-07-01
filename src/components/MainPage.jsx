@@ -31,12 +31,12 @@ const MainPage = () => {
       <Crop />
       {/* <ResearchLogo    /> */}
       {/* <HomeTestimonial/> */}
-      <IntroVid/>
+      <Headline />
+      {/* <IntroVid/> */}
       {/* <Weather/> */}
-      {/* <Headline /> */}
       {/* <Static/> */}
       {/* <Product /> */}
-      {/* <RnDforHome /> */}
+      <RnDforHome />
      
       {/* <Sustain/> */}
    
@@ -44,7 +44,7 @@ const MainPage = () => {
    
 
       <News/>
-      {/* <ContactHome /> */}
+      <ContactHome />
       
     </>
 

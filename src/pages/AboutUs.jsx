@@ -34,25 +34,34 @@ const AboutUs = () => {
             <div className="flex  gap-4 w-[100%] min-h-[38rem] bg-cover bg-no-repeat bg-fixed bg-center  "
                 style={{ backgroundImage: 'url("https://img.freepik.com/premium-photo/plant-white-pot-sits-wooden-table_445983-19213.jpg")' }}>
 
-                <div className='flex  justify-center w-[100%] py-1  text-black'>
+<div className='flex  justify-center w-[100%] py-1  text-black'>
 
-                    <div className='w-[90%] '>
-                       
-                        <div className='p-4 py-[3rem]' data-aos="fade-left">
-                            <p className='py-2 text-3xl text-blue-900 font-bold'>About Indo Organics </p>
-                            <p className='pt-3'></p>
-                            <p className='pt-3'></p>
-                            <p className='pt-3'></p>
-                            <p className='pt-3'></p>
-                        </div>
+<div className='w-[90%] '>
+    <div className='p-4 py-[3rem]' data-aos="fade-down-left">
+        <p className='py-2 text-3xl text-blue-900 font-bold'>WHO WE ARE ?
+        </p>
+        <p className='py-1 ' >&#9702; Established in 2010 in association with Indogulf Cropsciences PTY, LTD, Australia.</p>
+        <p className='pt-3' >&#9702; One of the leading players in the Indian crop industry. We are pioneers in Biostimulants and safe agricultural inputs</p>
+        <p className='pt-3  ' >&#9702; Focuses on manufacturing and marketing of Green Technology based Plant health and Nutritional Products.</p>
+        <p className='pt-3 ' >&#9702; Has introduced a mix of organic products range including plant nutrients, Biostimulants, crop boosters and
+            energizers.</p>
+        <p className='pt-3 ' >&#9702; Has developed Product matrix as per the stage of the crop focusing on the farmers to get a better yield of a quality
+            product.</p>
 
-                        <div className='p-4 py-[3rem]' data-aos="fade-left">
-                            <p className='py-2 text-3xl text-blue-900 font-bold'>Our Mission</p>
-                            <p className='pt-3  ' >At Indo Organics, our mission is to empower farmers with cutting-edge agrochemical solutions that boost crop yield, improve quality, and promote sustainable farming practices. We are committed to fostering a healthier and more productive agricultural ecosystem by offering products that are not only effective but also environmentally responsible.</p>
-                        </div>
-                    </div>
-                </div>
+    </div>
 
+    <div className='p-4 py-[3rem]' data-aos="fade-left">
+        <p className='py-2 text-3xl text-blue-900 font-bold'>PHILOSOPHY
+        </p>
+        <p className='text-l  font-bold'>Key- A Symbol of Our Promise</p>
+        <p className='py-1 '>&#9702; Our mascot is small Key which we believe is Key to Success</p>
+        <p className='pt-3'>&#9702; For us Key is nothing but attitude, which is embedded in all its positivity among our team members and our way of doing business</p>
+        <p className='pt-3 ' >&#9702; The attitude to create possibilities of success and growth for all associated with our company.
+        </p>
+        <p className='pt-3 ' >&#9702; This is the Key to growth which will be the differentiation.</p>
+    </div>
+</div>
+</div>
 
 
 
@@ -62,34 +71,7 @@ const AboutUs = () => {
 
 
 
-            {/* <div className='flex  justify-center w-[100%] py-1  text-black'>
-
-                    <div className='w-[90%] '>
-                        <div className='p-4 py-[3rem]' data-aos="fade-down-left">
-                            <p className='py-2 text-3xl text-blue-900 font-bold'>WHO WE ARE ?
-                            </p>
-                            <p className='py-1 ' >&#9702; Established in 2010 in association with Indogulf Cropsciences PTY, LTD, Australia.</p>
-                            <p className='pt-3' >&#9702; One of the leading players in the Indian crop industry. We are pioneers in Biostimulants and safe agricultural inputs</p>
-                            <p className='pt-3  ' >&#9702; Focuses on manufacturing and marketing of Green Technology based Plant health and Nutritional Products.</p>
-                            <p className='pt-3 ' >&#9702; Has introduced a mix of organic products range including plant nutrients, Biostimulants, crop boosters and
-                                energizers.</p>
-                            <p className='pt-3 ' >&#9702; Has developed Product matrix as per the stage of the crop focusing on the farmers to get a better yield of a quality
-                                product.</p>
-
-                        </div>
-
-                        <div className='p-4 py-[3rem]' data-aos="fade-left">
-                            <p className='py-2 text-3xl text-blue-900 font-bold'>PHILOSOPHY
-                            </p>
-                            <p className='text-l  font-bold'>Key- A Symbol of Our Promise</p>
-                            <p className='py-1 '>&#9702; Our mascot is small Key which we believe is Key to Success</p>
-                            <p className='pt-3'>&#9702; For us Key is nothing but attitude, which is embedded in all its positivity among our team members and our way of doing business</p>
-                            <p className='pt-3 ' >&#9702; The attitude to create possibilities of success and growth for all associated with our company.
-                            </p>
-                            <p className='pt-3 ' >&#9702; This is the Key to growth which will be the differentiation.</p>
-                        </div>
-                    </div>
-                </div> */}
+           
 
 
 
